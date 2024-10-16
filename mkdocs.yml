@@ -1,0 +1,9 @@
+site_name: HBCD
+theme: readthedocs
+plugins:
+  - search
+docs_dir: docs
+nav:
+  - Siemens Protocols: siemens.md
+  - GE Protocols: ge.md
+
