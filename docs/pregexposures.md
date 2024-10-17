@@ -1,6 +1,7 @@
-# Pregnancy and exposures
+# Pregnancy and Exposures
 
 ## Pregnancy health
+### Overview
 **Full Name**: Pregnancy health  
 **Acronym/Brief Name**: Healthhx  
 **Construct**: Pre-pregnancy and pregnancy health  
@@ -27,6 +28,7 @@
 * No issues found
 
 ## Pregnancy health - Vaccines
+### Overview
 **Full Name**: Pregnancy health- vaccines  
 **Acronym/Brief Name**: Exp I vacc  
 **Construct**: Vaccines in pregnancy  
@@ -53,6 +55,7 @@
 * No issues found
 
 ## Pregnancy health - Illness
+### Overview
 **Full Name**: Pregnancy health- illness  
 **Acronym/Brief Name**: Exp I illness  
 **Construct**: Illness in pregnancy  
@@ -79,6 +82,7 @@
 * Illnesses are captured either from ICD codes (from BioPortal ICD) or symptom codes (from World Health Organization), which were at times difficult for the participant to name or the RA to correctly find in the ICD or symptom database.
 
 ## Pregnancy health - ER/Hospitalizations
+### Overview
 **Full Name**: Pregnancy health- ER/hospitalizations  
 **Acronym/Brief Name**: Exp I ERhosp  
 **Construct**: ER visit or hospitalization in pregnancy  
@@ -102,9 +106,10 @@
 **Common Issues Identified**: None
 
 ### Potential Issues Flagged by Subject Matter Experts
-* Reasons for ER visit or hospitalization are captured from ICD codes (from BioPortal ICD), which were at times difficult for the participant to name or the RA to correctly find in the ICD database. This was particularly apparent for use of the ER for normal care (no diagnosis) or false alarms (e.g. thought water broke but it did not), resulting in the use of ‘don’t know’.
+* Reasons for ER visit or hospitalization are captured from ICD codes (from BioPortal ICD), which were at times difficult for the participant to name or the RA to correctly find in the ICD database. This was particularly apparent for use of the ER for normal care (no diagnosis) or false alarms (e.g. thought water broke but it did not), resulting in the use of ‘don’t know.’
 
 ## Pregnancy health- Chronic Conditions 
+### Overview
 **Full Name**: Pregnancy health- chronic conditions  
 **Acronym/Brief Name**: Exp I chroncond  
 **Construct**: chronic conditions and sexually transmitted infections in pregnancy  
@@ -131,6 +136,7 @@
 * No issues found
 
 ## Pregnancy health - Medications
+### Overview
 **Full Name**: Pregnancy health- medications  
 **Acronym/Brief Name**: Exp I Meds  
 **Construct**: prescription and over the counter medications in pregnancy  
@@ -157,6 +163,7 @@
 * Medication was queried from the RxNORM database. Reasons for medication use are captured from ICD codes (from BioPortal ICD), which were at times difficult for the participant to name or the RA to correctly find in the ICD database. This was apparent with aspirin used for preeclampsia, as there was not an option for coding preventive use. Aspirin was specifically moved to the prenatal vitamin section a few months into the study. Additionally, medications used PRN were difficult for the participant to report. Finally, although not asked, some medications were coded with the dose in the database, although this was not asked and should not be used.
 
 ## Pregnancy health- V2 (end of pregnancy)
+### Overview
 **Full Name**: Pregnancy health- V2 (end of pregnancy)  
 **Acronym/Brief Name**: Healthv2 Preg  
 **Construct**: updates information between enrollment and delivery  
@@ -183,6 +190,7 @@
 * Same issues identified at V1 (difficulty with ICD codes (from BioPortal ICD) and medication names (from RxNORM)) apply to this visit as well.
 
 ## Infant health- V2
+### Overview
 **Full Name**: Infant health- V2   
 **Acronym/Brief Name**: Healthv2 Inf  
 **Construct**: Delivery and birth outcomes   
@@ -209,6 +217,7 @@
 * Same issues identified at V1 for medications (difficulty with ICD codes (from BioPortal ICD) and medication names (from RxNORM)) apply to this visit as well.
 
 ## Personal and Family Psychiatric History 
+### Overview
 **Full Name**: Personal and family psychiatric history   
 **Acronym/Brief Name**: FAM MH  
 **Construct**: Personal and family mental health   
@@ -229,7 +238,7 @@
 **Respondent:** pregnant person
 
 ### Data Collection
-**Visits Administered and corresponding age range of administration**:  V1 (pregnancy)
+**Visits Administered and corresponding age range of administration**: V1 (pregnancy)
 **Estimated length of time for completion**: 5 minutes
 
 ### Quality Control (QC) Processes
@@ -243,6 +252,7 @@
 From FHAM items for Antisocial Personality Disorder and Undifferentiated Psychiatric Disorder were not included.
 
 ## APA 1/2
+### Overview
 **Full Name**: DSM-5 Self-Rated Level 1 and Level 2 (version 8a) Cross-Cutting Symptom Measure—Adult   
 **Acronym/Brief Name**: APA 1/2  
 **Construct**: Mental health   
@@ -292,6 +302,7 @@ When symptoms were reported for Level 1, the participant answered several subseq
   * APA depression (from 'I felt worthless' to 'I felt that nothing could cheer me up'), raw score greater than 32
 
 ## NSESSS—PTSD and NSESSS—Acute Stress Disorder
+### Overview
 **Full Name**: Severity of Posttraumatic/Acute Stress Symptoms- National Stressful Events Survey PTSD Short Scale (NSESSS) and National Stressful Events Survey Acute Stress Disorder Short Scale (NSESSS)  
 **Acronym/Brief Name**: NSESSS—PTSD and NSESSS—Acute Stress Disorder  
 **Construct**: PTSD/acute stress disorder symptom severity  
@@ -333,6 +344,7 @@ Please note that scores on these scales will not differentiate between symptoms 
 * No issues found
 
 ## The Edinburgh Postnatal Depression Scale 
+### Overview
 **Full Name**: The Edinburgh Postnatal Depression Scale   
 **Acronym/Brief Name**: EPDS  
 **Construct**: Pregnancy/postnatal depression  
@@ -369,7 +381,8 @@ Note: the following scores on the EPDS triggered a clinical alert for study staf
 * EPDS suicide ('The thought of harming myself has occurred to me'), score greater than 1  
   * EPDS depression, overall score greater than 11
 
-## ASSIST V1 
+## ASSIST V1
+### Overview
 **Full Name**: NIDA-modified Alcohol, Smoking and Substance Involvement Screening Test (ASSIST) V2.0  
 **Acronym/Brief Name**: ASSIST V1  
 **Construct**: Substance use before and during pregnancy  

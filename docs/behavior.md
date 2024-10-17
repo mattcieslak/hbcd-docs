@@ -1,6 +1,7 @@
 # Behavior/Caregiver Child Interaction
 
 ## IBQ-R (VSF)+BI
+### Overview
 The Infant Behavior Questionnaire-Revised (Very Short Form \+ BI) is designed to measure infant’s temperamental reactivity and regulation. The IBQ-R (VSF)+BI is adapted from the well validated IBQ-R Very Short Form, with additional items reflecting Behavioral Inhibition from the long form of the IBQ-R.
 
 **Full Name**: Infant Behavior Questionnaire – Revised Very Short Form \+ Behavior Inhibition  
@@ -52,8 +53,7 @@ Scale scores for the Infant Behavior Questionnaire – Revised – Very Short Fo
 For example, given a sum of 47 for a scale of 12 items, with one item receiving no response, two items marked "does not apply," and 9 items receiving a numerical response, the sum of 47 would be divided by 9 to yield a mean of 5.22 for the scale score. Items with an “R” are reverse scored and already implemented in the HBCD scoring algorithm.
 
 ### Quality Control (QC) Processes
-**QC Procedures**
-
+**QC Procedures**<br>
 - Examine the range of the child’s age to ensure that it falls in the age range 3 to 18 months
 - Examine missingness. Count the number of items answered for each participant
 - Calculate sum scores and means applying appropriate rules to account formissing data
@@ -64,15 +64,13 @@ For example, given a sum of 47 for a scale of 12 items, with one item receiving 
 Scoring not accurately applied to observations with missing responses and incorrect administration ages, missing data patterns that may be site specific.
 
 ### Potential Issues Flagged by Subject Matter Experts
-
 Subject matter experts identified no potential issues with IBQ
 
 ### Additional Information
-
 [Mary Rothbart's Temperament Questionnaires](https://research.bowdoin.edu/rothbart-temperament-questionnaires)
 
-
 ## MAPS-TL
+### Overview
 **Full Name**: Multidimensional Assessment Profiles \- Temper Loss scale.  
 **Acronym/Brief Name**: MAPS-TL  
 **Construct**: Irritability  
@@ -121,10 +119,10 @@ Krogh-Jespersen, S., Kaat, A. J., Petitclerc, A., Perlman, S. B., Briggs-Gowan, 
 Prorated scoring not applied to observations with missing responses. Incorrect ages.
 
 ### Potential Issues Flagged by Subject Matter Experts
-
 **MAPS-TL**: The missingness rule not being correctly implemented leads to incorrect scores. Measure administration has a strict age cutoff. Age auto-generation needs to be fixed so that QC can ensure the measure is being administered to correct target population.
 
 ## ecPROMIS Child-Caregiver Interaction
+### Overview
 **Full Name**: Early Childhood Patient-Reported Outcome Measurement Information System Child/Caregiver Relationship Scale.
 **Acronym/Brief Name**: ecPROMIS Child-Caregiver Interaction  
 **Construct**: Relationships
@@ -163,7 +161,6 @@ Sum scores are computed by the following method:
 **Estimated length of time for completion**: 1-2 minutes
 
 ### Quality Control (QC) Processes
-
 **QC Procedures**   
   * Examine the range of the child’s age to ensure that it falls in the age range 3 to 9 months  
   * Examine missingness. Count the number of items answered for each participant  
@@ -178,10 +175,8 @@ Prorated scoring not applied to observations with missing responses. Incorrect a
 **ecPROMIS**: The missingness rule not being correctly implemented leads to incorrect scores. Measure administration has a strict age cutoff. Age auto-generation needs to be fixed so that QC can ensure the measure is being administered to the correct target population.
 
 ### Additional Information
-**Relevant Documents** 
-
+**Relevant Documents**<br>
   * HealthMeasures, the creators of ecPROMIS have an Assessment Center API that translates sum scores into T-scores (see Links to Resources). When administered in REDCap, sum scores can be auto-calculated, and trigger an API call to obtain corresponding T-scores. Higher T-scores represent more of the phenomenon being measured. In this case, higher T-scores indicate increased child/caregiver interaction. 
 
 **Links to Resources** 
-
   * Assessment Center API: [https://www.healthmeasures.net/index.php?option=com\_content\&view=category\&layout=blog\&id=190\&Itemid=1214](https://www.healthmeasures.net/index.php?option=com_content&view=category&layout=blog&id=190&Itemid=1214)   

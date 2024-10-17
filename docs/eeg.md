@@ -1,6 +1,7 @@
 # EEG
 
 ## Video Resting State
+### Overview
 **Full Name**: Video Resting State  
 **Acronym/Brief Name**: RS  
 **Construct**: The Video Resting State (v.11.29.23) task provides information about neural oscillations measured in EEG power across the scalp. Developmental changes in oscillatory activity reflect underlying developing large scale neural networks associated with early self-regulatory, cognitive, and affective processes and developmental outcomes (Gabard-Durnam et al., 2019; E. J. Jones et al., 2020; Whedon et al., 2020). The metrics derived from the resting EEG signal include power across the frequency spectrum (Gabard-Durnam et al., 2019\) and relative power between different scalp locations (Davidson & Fox, 1982). See Fox et al. (2024) for more information about the RS.   
@@ -63,6 +64,7 @@ Whedon, M., Perry, N.B., & Bell, M.A. (2020). Relations between frontal EEG matu
 The Resting State Task (v.11.29.23) provides assessment of large-scale neural networks in infancy and early childhood. It includes thorough QC procedures to ensure data accuracy and integrity.
 
 ## EEG Faces Task
+### Overview
 **Full Name**: Faces task  
 **Acronym/Brief Name**: Face  
 **Construct**: The Faces task (v.11.29.23) assesses child and infant face processing abilities as well as the underlying neural activity supporting face and object processing. ERPs are computed as a function of repeated presentation of faces and objects. The ERPs index different stages of processing including attention, perception, categorization, individuation and memory. The ERP components elicited by the Faces task are the P1, N290, and P400 components. See Fox et al (2024) for additional information on the rationale for task/stimulus development and ERP findings from pilot data.   
@@ -124,6 +126,7 @@ Scherf, K.S., & Scott, L.S. (2012). Connecting developmental trajectories: Biase
 The Face task (v.11.29.23) is used to assess neural activity supporting face and object processing. It assesses child and infant face processing development including attention, perception, categorization, individuation and memory. The measure includes rigorous QC procedures to ensure data integrity and reliability.
 
 ## EEG Auditory Mismatch Negativity Task
+### Overview
 **Full Name**: Auditory Mismatch Negativity Task  
 **Acronym/Brief Name**: MMN  
 **Construct**: The Auditory mismatch negativity (MMN) Task (v.11.29.23) facilitates examining auditory evoked potentials and habituation/dishabituation to auditory stimuli. The MMN captures differences in neural responses to standard (“ba”) and deviant (“da”) stimuli.  From this task the MMN difference wave is computed, which is also known as the Mismatch Response (MMR). The amplitude/latency of this difference wave has been linked to language (Choudhury & Benasich, 2011), temperament/personality (Gurrera et al., 2001; Marshall et al., 2009), internalizing problems (Reeb-Sutherland et al., 2009), externalizing/attention problems (Gumenyuk et al., 2005), and disorders including autism (Lepistö et al., 2005; Schwartz et al., 2018\) and reading ability/dyslexia (Leppänen et al., 2010; Norton, Beach, et al., 2021). See Fox et al. (2024) for more information about the MMN task.   
@@ -196,6 +199,7 @@ Schwartz, S., Shinn-Cunningham, B., & Tager-Flusberg, H. (2018). Meta-analysis a
 The Auditory Mismatch Negativity task (v.11.29.23) provides an assessment of the precursors of infant and child language development. It includes thorough QC procedures to ensure data accuracy and integrity.
 
 ## EEG Visual Evoked Potential Task
+### Overview
 **Full Name**: Visual Evoked Potential Task  
 **Acronym/Brief Name**: VEP  
 **Construct**: The Visual Evoked Potential Task (VEP) (v.11.29.23) measures cortical responses to flashing checkerboard visual stimuli. VEP amplitude and latency decreases with age during the first three years of life. The VEP has been associated with concurrent and later developmental outcomes as a function of prenatal substance exposures (Margolis et al., 2024), early visual enrichment or deprivation (Jensen et al., 2019), vision system maturation (Lippé et al., 2009), neurodevelopmental disorders (e.g., ASD and ADHD; Cremone- Caira et al., 2023; Nazhvani et al., 2013), and reading and learning disabilities (Shandiz et al., 2017). The morphology of the VEP likely reflects varying degrees of synaptic efficiency and as such, can be used as a readout of general cortical function. The task elicits a VEP response in the occipital area (Oz), consisting of the, N1 (first negative peak), P1 (first positive peak), and N2 (second negative peak) components. See Fox et al. (2024) for more information about the VEP task.  
