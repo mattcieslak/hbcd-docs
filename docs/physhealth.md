@@ -1,4 +1,4 @@
-# Physical Health
+# Physical Health:
 
 ## Food Insecurity
 **Full Name**: 2-item Food Insecurity   
@@ -23,8 +23,7 @@ Hager ER, Quigg AM, Black MM, Coleman SM, Heeren T, Rose-Jacobs R, Cook JT, Etti
 **Estimated length of time for completion**: 1 minute
 
 ### Quality Control (QC) Processes
-**QC Procedures**   
-Monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. 
+**QC Procedures**: Monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency.<br>
 **Common Issues Identified**: None
 
 ### Potential Issues Flagged by Subject Matter Experts

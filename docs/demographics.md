@@ -1,6 +1,6 @@
 # Demographics
 
-Description taken from [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www.sciencedirect.com/science/article/pii/S1878929324000902) (p. 2-4): 
+From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www.sciencedirect.com/science/article/pii/S1878929324000902) (p. 2-4): 
 
 > The HBCD Demographics survey was designed to collect social and economic information including race, ethnicity, nativity, income, maternal education, and occupation, as well as to characterize gender identity, sexual orientation, relationship status, primary residence, and household composition. The household composition matrix asks for details on all household members including age, gender, relationship to the child, relationship to the primary caregiver, and time spent caring for the child. Participants and families who endorse no primary residence, or that they are living in a shelter or treatment facility, are not asked to complete the household matrix. The survey includes a limited set of questions on the child’s “other biological parent” (i.e., race, ethnicity, nativity, education, occupation), provided the respondent endorsed an item indicating that they could answer this set of questions. Although there are no direct questions about the primary caregiver’s spouse/partner in the demographics, details of this relationship can be found within the household composition roster. The questions on Occupation ask for detailed information about exposures to environmental toxicants.    
 
@@ -15,8 +15,11 @@ Description taken from [Cioffredi et al, *Developmental Cognitive Neuroscience,*
 ## Publications and References
 Cioffredi, L.A., Yerby, L.G., Burris, H.H., Cole, K.M., Engel, S.M., Murray, T.M., Slopen, N., Volk, H.E. and Acheson, A., 2024\. Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD). Developmental Cognitive Neuroscience, 69, p.101429.
 
+### Scoring Algorithms
+**UNDER CONSTRUCTION**
+
 ## Implementation Details
-**Method of Administration**: RA administered in person
+**Method of Administration**: RA administered in person     
 **REDCap Form Name**: N/A  
 **Pilot Data Dictionary**:   
 **Spanish Translation**:   
@@ -28,15 +31,8 @@ Cioffredi, L.A., Yerby, L.G., Burris, H.H., Cole, K.M., Engel, S.M., Murray, T.M
 **Estimated length of time for completion**: 10 minutes
 
 ## Quality Control (QC) Processes
-**QC Procedures**   
-QC procedures included monitoring the data dashboard for variable missingness and data consistency. 
-
-**Common Issues Identified**    
-High missing on income (although in line with expectations)
+**QC Procedures**: QC procedures included monitoring the data dashboard for variable missingness and data consistency.<br>
+**Common Issues Identified**: High missing on income (although in line with expectations)
 
 ## Potential Issues Flagged by Subject Matter Experts
 **Measure Name**: We learned through RA reports that some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g., options did not capture identity) and occupation (i.e., imperfect option for job type and number of hours). 
-
-## Additional Information
-**Upload the scoring algorithms used for any calculated scores or summary scores as well as the look up tables and any norming used.** 
-Needs to be updated once the WG confirms whether we can include a created race and ethnicity variable (in contact with data scientists on this topic)
