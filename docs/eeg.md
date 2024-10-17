@@ -1,17 +1,15 @@
----
-title: "EEG"
----
+# EEG
 
-# Measure Overview: Video Resting State
+## Video Resting State
 **Full Name**: Video Resting State  
 **Acronym/Brief Name**: RS  
 **Construct**: The Video Resting State (v.11.29.23) task provides information about neural oscillations measured in EEG power across the scalp. Developmental changes in oscillatory activity reflect underlying developing large scale neural networks associated with early self-regulatory, cognitive, and affective processes and developmental outcomes (Gabard-Durnam et al., 2019; E. J. Jones et al., 2020; Whedon et al., 2020). The metrics derived from the resting EEG signal include power across the frequency spectrum (Gabard-Durnam et al., 2019\) and relative power between different scalp locations (Davidson & Fox, 1982). See Fox et al. (2024) for more information about the RS.   
 **Description**:    
 In V03, a silent video plays with a variety of colorful and abstract toys and visuals on screen. The child watches the video for the duration of the task.
-![](assets/eeg-RS-V03-tmp.png)
+![](images/eeg-RS-V03-tmp.png)
 
 In V04/6, a silent video plays with a variety of marble run and construction visuals on screen. The child watches the video for the duration of the task.    
-![](assets/eeg-RS-V04-tmp.png)
+![](images/eeg-RS-V04-tmp.png)
 
 **Summary**: The Resting State Task (v.11.29.23) provides assessment of the development of large scale neural networks during infancy and early childhood.
 
@@ -26,7 +24,7 @@ Jones, E.J. H., Goodwin, A., Orekhova, E., Charman, T., Dawson, G., Webb, S.J., 
 
 Whedon, M., Perry, N.B., & Bell, M.A. (2020). Relations between frontal EEG maturation and inhibitory control in preschool in the prediction of children’s early academic skills. Brain and Cognition, 145, 105636. [https://doi.org/10.1016/j.bandc.2020.105636](https://doi.org/10.1016/j.bandc.2020.105636) 
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: RA administered in person  
 **REDCap Form Name**: NA  
 **Pilot Data Dictionary**: NA  
@@ -34,14 +32,14 @@ Whedon, M., Perry, N.B., & Bell, M.A. (2020). Relations between frontal EEG matu
 **Child Specific/Unspecific Form**: Child Specific  
 **Respondent**: NA
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**:  
   * V03: 3-9 months  
   * V04: 9-15 months  
   * V06: 15-48 months  
 **Estimated length of time for completion**: Approximately 3 minutes
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures** 
   * Data are cleaned and preprocessed using the Maryland Analysis of Developmental EEG (MADE) pipeline (Debnath et al., 2019).   
   * Ongoing QC monitoring via LORIS dashboard  
@@ -52,27 +50,26 @@ Whedon, M., Perry, N.B., & Bell, M.A. (2020). Relations between frontal EEG matu
 **Common Issues Identified**  
   * Irregular application of EEG sensors 
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 * Change in video content between V03 \- V04/6
 
-## Additional Information
+### Additional Information
 **Relevant Documents**: HBCD E-Prime Task Manual, Official EEG Acquisition Manual  
 **Links to Resources**:  
   * [E-Prime manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)  
   * [EEG Acquisition Manual](https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing)
 
-## Summary
+### Summary
 The Resting State Task (v.11.29.23) provides assessment of large-scale neural networks in infancy and early childhood. It includes thorough QC procedures to ensure data accuracy and integrity.
 
-# Measure Overview: EEG Faces Task
+## EEG Faces Task
 **Full Name**: Faces task  
 **Acronym/Brief Name**: Face  
 **Construct**: The Faces task (v.11.29.23) assesses child and infant face processing abilities as well as the underlying neural activity supporting face and object processing. ERPs are computed as a function of repeated presentation of faces and objects. The ERPs index different stages of processing including attention, perception, categorization, individuation and memory. The ERP components elicited by the Faces task are the P1, N290, and P400 components. See Fox et al (2024) for additional information on the rationale for task/stimulus development and ERP findings from pilot data.   
 **Description**: The task consists of 2 blocks: 50 trials of upright faces & 50 trials of inverted faces and 50 trials of upright faces & 50 trials of objects. If the child loses attention, an attention getter may be played to bring the child’s focus back to the task. 
 
 **Face task images (Face vs. Object)**
-
-![](assets/eeg-facetask-tmp.png)
+![](images/eeg-facetask-tmp.png)
 
 **Face task schematic (Face vs. Object)**
 
@@ -87,7 +84,7 @@ Markant, J., & Scott, L. S. (2018). Attention and Perceptual Learning Interact i
 
 Scherf, K.S., & Scott, L.S. (2012). Connecting developmental trajectories: Biases in face processing from infancy to adulthood. *Developmental Psychobiology*, *54*(6), 643–663. [https://doi.org/10.1002/dev.21013](https://doi.org/10.1002/dev.21013)
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: RA administered in person  
 **REDCap Form Name**: NA  
 **Pilot Data Dictionary**: NA  
@@ -95,14 +92,14 @@ Scherf, K.S., & Scott, L.S. (2012). Connecting developmental trajectories: Biase
 **Child Specific/Unspecific Form**: Child Specific  
 **Respondent**: NA
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**:  
   * V03: 3-9 months  
   * V04: 9-15 months  
   * V06: 15-48 months  
 **Estimated length of time for completion**: Approximately 5 minutes
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures**:  
   * Data are cleaned and preprocessed using the Maryland Analysis of Developmental EEG (MADE) pipeline (Debnath et al., 2019\)  
   * Ongoing QC monitoring via LORIS dashboard  
@@ -114,19 +111,19 @@ Scherf, K.S., & Scott, L.S. (2012). Connecting developmental trajectories: Biase
   * Irregular application of EEG sensors   
   * Missing stimulus flags
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 * No issues found
 
-## Additional Information
+### Additional Information
 **Relevant Documents**: HBCD E-Prime Task Manual, Official EEG Acquisition Manual  
 **Links to Resources**:  
   * [E-Prime manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)  
   * [EEG Acquisition Manual](https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing)
 
-## Summary
+### Summary
 The Face task (v.11.29.23) is used to assess neural activity supporting face and object processing. It assesses child and infant face processing development including attention, perception, categorization, individuation and memory. The measure includes rigorous QC procedures to ensure data integrity and reliability.
 
-# Measure Overview: EEG Auditory Mismatch Negativity Task
+## EEG Auditory Mismatch Negativity Task
 **Full Name**: Auditory Mismatch Negativity Task  
 **Acronym/Brief Name**: MMN  
 **Construct**: The Auditory mismatch negativity (MMN) Task (v.11.29.23) facilitates examining auditory evoked potentials and habituation/dishabituation to auditory stimuli. The MMN captures differences in neural responses to standard (“ba”) and deviant (“da”) stimuli.  From this task the MMN difference wave is computed, which is also known as the Mismatch Response (MMR). The amplitude/latency of this difference wave has been linked to language (Choudhury & Benasich, 2011), temperament/personality (Gurrera et al., 2001; Marshall et al., 2009), internalizing problems (Reeb-Sutherland et al., 2009), externalizing/attention problems (Gumenyuk et al., 2005), and disorders including autism (Lepistö et al., 2005; Schwartz et al., 2018\) and reading ability/dyslexia (Leppänen et al., 2010; Norton, Beach, et al., 2021). See Fox et al. (2024) for more information about the MMN task.   
@@ -158,7 +155,7 @@ Reeb-Sutherland, B.C., Vanderwert, R.E., Degnan, K.A., Marshall, P.J., Pérez-Ed
 
 Schwartz, S., Shinn-Cunningham, B., & Tager-Flusberg, H. (2018). Meta-analysis and systematic review of the literature characterizing auditory mismatch negativity in individuals with autism. Neuroscience & Biobehavioral Reviews, 87, 106–117.
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: RA administered in person  
 **REDCap Form Name**: NA  
 **Pilot Data Dictionary**: NA  
@@ -166,14 +163,14 @@ Schwartz, S., Shinn-Cunningham, B., & Tager-Flusberg, H. (2018). Meta-analysis a
 **Child Specific/Unspecific Form**: Child Specific  
 **Respondent**: NA
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**:  
   * V03: 3-9 months  
   * V04: 9-15 months  
   * V06: 15-48 months  
 **Estimated length of time for completion**: Approximately 11:30 minutes (V03) or 8:30 minutes (V04/6)
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures** 
   * Data are cleaned and preprocessed using the Maryland Analysis of Developmental EEG (MADE) pipeline (Debnath et al., 2019\)  
   * Ongoing QC monitoring via LORIS dashboard  
@@ -186,24 +183,23 @@ Schwartz, S., Shinn-Cunningham, B., & Tager-Flusberg, H. (2018). Meta-analysis a
   * Irregular application of EEG sensors   
   * Missing stimulus flags
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 * Interstimulus interval (ISI) changes between V03 \- V04/6. See Fox et al. (2024) and Morr et al. (2002) for more information about the ISI change. 
 
-## Additional Information
+### Additional Information
 **Relevant Documents**: HBCD E-Prime Task Manual, Official EEG Acquisition Manual  
 **Links to Resources**:  
   * [E-Prime manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)  
   * [EEG Acquisition Manual](https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing)
 
-## Summary
+### Summary
 The Auditory Mismatch Negativity task (v.11.29.23) provides an assessment of the precursors of infant and child language development. It includes thorough QC procedures to ensure data accuracy and integrity.
 
-# Measure Overview: EEG Visual Evoked Potential Task
+## EEG Visual Evoked Potential Task
 **Full Name**: Visual Evoked Potential Task  
 **Acronym/Brief Name**: VEP  
 **Construct**: The Visual Evoked Potential Task (VEP) (v.11.29.23) measures cortical responses to flashing checkerboard visual stimuli. VEP amplitude and latency decreases with age during the first three years of life. The VEP has been associated with concurrent and later developmental outcomes as a function of prenatal substance exposures (Margolis et al., 2024), early visual enrichment or deprivation (Jensen et al., 2019), vision system maturation (Lippé et al., 2009), neurodevelopmental disorders (e.g., ASD and ADHD; Cremone- Caira et al., 2023; Nazhvani et al., 2013), and reading and learning disabilities (Shandiz et al., 2017). The morphology of the VEP likely reflects varying degrees of synaptic efficiency and as such, can be used as a readout of general cortical function. The task elicits a VEP response in the occipital area (Oz), consisting of the, N1 (first negative peak), P1 (first positive peak), and N2 (second negative peak) components. See Fox et al. (2024) for more information about the VEP task.  
 **Description**: A flashing black and white checkerboard is shown for the duration of the task.  
-
 
 ![VEP checkerboard image](assets/eeg-vep-checkerboard.png)
 
@@ -224,7 +220,7 @@ Nazhvani, A.D., Boostani, R., Afrasiabi, S., & Sadatnezhad, K. (2013). Classific
 
 Shandiz, J.H., Heyrani, M., Sobhani-Rad, D., Salehinejad, Z., Shojaei, S., Khoshsima, M.J., Azimi, A., Yekta, A.A., & Yazdi, S.H.H. (2017). Pattern Visual Evoked Potentials in Dyslexic Children. Journal of Ophthalmic & Vision Research, 12(4), 402–406. https://doi.org/10.4103/jovr.jovr\_106\_16
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: RA administered in person  
 **REDCap Form Name**: NA  
 **Pilot Data Dictionary**: NA  
@@ -232,14 +228,14 @@ Shandiz, J.H., Heyrani, M., Sobhani-Rad, D., Salehinejad, Z., Shojaei, S., Khosh
 **Child Specific/Unspecific Form**: Child Specific  
 **Respondent**: NA
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**:  
   * V03: 3-9 months  
   * V04: 9-15 months  
   * V06: 15-48 months  
 **Estimated length of time for completion**: Approximately 1 minute
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures**:  
   * Data are cleaned and preprocessed using the Maryland Analysis of Developmental EEG (MADE) pipeline (Debnath et al., 2019\)  
   * Ongoing QC monitoring via LORIS dashboard  
@@ -251,14 +247,14 @@ Shandiz, J.H., Heyrani, M., Sobhani-Rad, D., Salehinejad, Z., Shojaei, S., Khosh
   * Irregular application of EEG sensors   
   * Missing stimulus flags
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 * No issues found
 
-## Additional Information
+### Additional Information
 **Relevant Documents**: HBCD E-Prime Task Manual, Official EEG Acquisition Manual  
 **Links to Resources**:  
   * [E-Prime manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)  
   * [EEG Acquisition Manual](https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing)
 
-## Summary
+### Summary
 The Visual Evoked Potential Task (v.11.29.23) measures development of visual cortex and response to stimuli, reflecting underlying cortical development. It includes thorough QC procedures to ensure data accuracy and integrity.
