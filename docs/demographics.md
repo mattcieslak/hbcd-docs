@@ -2,8 +2,7 @@
 title: "Demographics"
 ---
 
-## Measure Overview: Demographics
-
+# Measure Overview: Demographics
 Description taken from [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www.sciencedirect.com/science/article/pii/S1878929324000902) (p. 2-4): 
 
 > The HBCD Demographics survey was designed to collect social and economic information including race, ethnicity, nativity, income, maternal education, and occupation, as well as to characterize gender identity, sexual orientation, relationship status, primary residence, and household composition. The household composition matrix asks for details on all household members including age, gender, relationship to the child, relationship to the primary caregiver, and time spent caring for the child. Participants and families who endorse no primary residence, or that they are living in a shelter or treatment facility, are not asked to complete the household matrix. The survey includes a limited set of questions on the child’s “other biological parent” (i.e., race, ethnicity, nativity, education, occupation), provided the respondent endorsed an item indicating that they could answer this set of questions. Although there are no direct questions about the primary caregiver’s spouse/partner in the demographics, details of this relationship can be found within the household composition roster. The questions on Occupation ask for detailed information about exposures to environmental toxicants.    
