@@ -7,12 +7,13 @@ nav:
   - Release Notes: releasenotes.md
   - FAQ: faq.md
   - Change Log: changelog.md
-  - Demographics: demographics.md
-  - "Physical Health: Food Insecurity": physhealth.md
-  - Pregnancy and exposures: pregexposures.md
-  - Novel Technologies/Wearable Sensors: sensors.md
-  - Social and Environmental Determinants: socenv_determinants.md
-  - Behavior/Caregiver Child Interaction: behavior.md
-  - EEG: eeg.md
+  - Data Measures & Quality Control:
+    - Demographics: demographics.md
+    - "Physical Health: Food Insecurity": physhealth.md
+    - Pregnancy and exposures: pregexposures.md
+    - Novel Technologies/Wearable Sensors: sensors.md
+    - Social and Environmental Determinants: socenv_determinants.md
+    - Behavior/Caregiver Child Interaction: behavior.md
+    - EEG: eeg.md
   - MRI Protocols: mri_protocols.md
   
