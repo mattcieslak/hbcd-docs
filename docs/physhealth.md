@@ -1,4 +1,4 @@
-# Physical Health:
+# Physical Health
 
 ## Food Insecurity
 ### Overview
