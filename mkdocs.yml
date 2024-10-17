@@ -4,6 +4,13 @@ plugins:
   - search
 docs_dir: docs
 nav:
+  - Demographics: demograpnics.md
+  - EEG: eeg.md
+  - Physical Health: physhealth.md
+  - Pregnancy and exposures: pregexposures.md
+  - Novel Technologies/Wearable Sensors: sensors.md
+  - Social and Environmental Determinants: socenv_determinants.md
+  - Behavior/Caregiver Child Interaction: behavior.md
   - Siemens Protocols: siemens.md
   - GE Protocols: ge.md
 
