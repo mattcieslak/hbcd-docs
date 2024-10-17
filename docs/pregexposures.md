@@ -1,15 +1,13 @@
----
-title: "Pregnancy and exposures"
----
+# Pregnancy and exposures
 
-# Measure Overview: Pregnancy health
+## Pregnancy health
 **Full Name**: Pregnancy health  
 **Acronym/Brief Name**: Healthhx  
 **Construct**: Pre-pregnancy and pregnancy health  
 **Description**: This was a created to assess pre-pregnancy and pregnancy health  
 **Summary**: Gravidity and parity, height and weight, pregnancy intentions, use of assisted reproductive technology, start of prenatal care, prenatal vitamin or aspirin use, secondhand smoke.
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: self-administered  
 **REDCap Form Name**: Healthhx  
 **Pilot Data Dictionary**:   
@@ -17,27 +15,25 @@ title: "Pregnancy and exposures"
 **Child Specific/Unspecific Form**: Unspecific  
 **Respondent:** pregnant person
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**:  V1 (pregnancy)
 **Estimated length of time for completion**: 5 minutes
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 * No issues found
 
-
-
-# Measure Overview: Pregnancy health - Vaccines
+## Pregnancy health - Vaccines
 **Full Name**: Pregnancy health- vaccines  
 **Acronym/Brief Name**: Exp I vacc  
 **Construct**: Vaccines in pregnancy  
 **Description**: This was a created to assess vaccine receipt in pregnancy  
 **Summary**: Asks about receipt of a list of common vaccines in pregnancy, and trimester received
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: self-administered  
 **REDCap Form Name**: Vacc  
 **Pilot Data Dictionary**:   
@@ -45,26 +41,25 @@ title: "Pregnancy and exposures"
 **Child Specific/Unspecific Form**: Unspecific  
 **Respondent:** pregnant person
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**:  V1 (pregnancy)
 **Estimated length of time for completion**: 3 minutes
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 * No issues found
 
-
-# Measure Overview: Pregnancy health - Illness
+## Pregnancy health - Illness
 **Full Name**: Pregnancy health- illness  
 **Acronym/Brief Name**: Exp I illness  
 **Construct**: Illness in pregnancy  
 **Description**: This was a created to capture illnesses in pregnancy  
 **Summary**: Asks about covid-19 or other illnesses in pregnancy, including start and stop dates and whether the person had a fever.
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: RA-administered in person  
 **REDCap Form Name**: illness  
 **Pilot Data Dictionary**:   
@@ -72,25 +67,25 @@ title: "Pregnancy and exposures"
 **Child Specific/Unspecific Form**: Unspecific  
 **Respondent:** pregnant person
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**:  V1 (pregnancy)
 **Estimated length of time for completion**: 3 minutes
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 * Illnesses are captured either from ICD codes (from BioPortal ICD) or symptom codes (from World Health Organization), which were at times difficult for the participant to name or the RA to correctly find in the ICD or symptom database.
 
-# Measure Overview: Pregnancy health - ER/Hospitalizations
+## Pregnancy health - ER/Hospitalizations
 **Full Name**: Pregnancy health- ER/hospitalizations  
 **Acronym/Brief Name**: Exp I ERhosp  
 **Construct**: ER visit or hospitalization in pregnancy  
 **Description**: This was a created to capture reasons for any ER visits or hospitalizations in pregnancy  
 **Summary**: Asks about any ER visits or hospitalizations in pregnancy
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: RA-administered in person  
 **REDCap Form Name**: ERhosp  
 **Pilot Data Dictionary**:   
@@ -98,26 +93,25 @@ title: "Pregnancy and exposures"
 **Child Specific/Unspecific Form**: Unspecific  
 **Respondent:** pregnant person
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**:  V1 pregnancy visit  
 **Estimated length of time for completion**: 5 minutes
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 * Reasons for ER visit or hospitalization are captured from ICD codes (from BioPortal ICD), which were at times difficult for the participant to name or the RA to correctly find in the ICD database. This was particularly apparent for use of the ER for normal care (no diagnosis) or false alarms (e.g. thought water broke but it did not), resulting in the use of ‘don’t know’.
 
-
-# Measure Overview: Pregnancy health- chronic conditions 
+## Pregnancy health- Chronic Conditions 
 **Full Name**: Pregnancy health- chronic conditions  
 **Acronym/Brief Name**: Exp I chroncond  
 **Construct**: chronic conditions and sexually transmitted infections in pregnancy  
 **Description**: This was a created to capture chronic conditions (queried from a list) and sexually transmitted diseases in pregnancy.  
 **Summary**: Asks about a pre-defined list of chronic conditions and sexually transmitted infections in pregnancy. Endorsed chronic conditions are asked whether they are ongoing or resolved. 
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: self-administered in person  
 **REDCap Form Name**: chroncond  
 **Pilot Data Dictionary**:   
@@ -125,25 +119,25 @@ title: "Pregnancy and exposures"
 **Child Specific/Unspecific Form**: Unspecific  
 **Respondent:** pregnant person
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**:  V1 (pregnancy)
 **Estimated length of time for completion**: 3 minutes
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 * No issues found
 
-# Measure Overview: Pregnancy health - Medications
+## Pregnancy health - Medications
 **Full Name**: Pregnancy health- medications  
 **Acronym/Brief Name**: Exp I Meds  
 **Construct**: prescription and over the counter medications in pregnancy  
 **Description**: This was a created to capture prescription and over the counter medications in pregnancy.  
 **Summary**: Asks about any prescription or over the counter medications used since last menstrual period. For each, the participant is asked medication name, indication, frequency, start and stop date (if applicable).
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: RA-administered in person  
 **REDCap Form Name**: Meds  
 **Pilot Data Dictionary**:   
@@ -151,25 +145,25 @@ title: "Pregnancy and exposures"
 **Child Specific/Unspecific Form**: Unspecific  
 **Respondent:** pregnant person
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**:  V1 (pregnancy)
 **Estimated length of time for completion**: 5 minutes
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 * Medication was queried from the RxNORM database. Reasons for medication use are captured from ICD codes (from BioPortal ICD), which were at times difficult for the participant to name or the RA to correctly find in the ICD database. This was apparent with aspirin used for preeclampsia, as there was not an option for coding preventive use. Aspirin was specifically moved to the prenatal vitamin section a few months into the study. Additionally, medications used PRN were difficult for the participant to report. Finally, although not asked, some medications were coded with the dose in the database, although this was not asked and should not be used.
 
-# Measure Overview: Pregnancy health- V2 (end of pregnancy)
+## Pregnancy health- V2 (end of pregnancy)
 **Full Name**: Pregnancy health- V2 (end of pregnancy)  
 **Acronym/Brief Name**: Healthv2 Preg  
 **Construct**: updates information between enrollment and delivery  
 **Description**: This was a created to capture exposures between enrollment and delivery  
 **Summary**: Updates information on prenatal vitamins, aspirin, infections, vaccines, prescription and over the counter medications (both continued from V1 and any new medications) and illnesses. In addition, we ask about pregnancy complications (from a list: e.g. gestational diabetes), labor, mode of delivery, place of delivery, and how many nights the birthing person remained in the hospital. 
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: RA-administered in person  
 **REDCap Form Name**: HealthV2 Preg  
 **Pilot Data Dictionary**:   
@@ -177,26 +171,25 @@ title: "Pregnancy and exposures"
 **Child Specific/Unspecific Form**: Unspecific  
 **Respondent:** person who gave birth
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**:  V2 (0-1 month postnatal visit)
 **Estimated length of time for completion**: 10 minutes
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 * Same issues identified at V1 (difficulty with ICD codes (from BioPortal ICD) and medication names (from RxNORM)) apply to this visit as well.
 
-
-# Measure Overview: Infant health- V2
+## Infant health- V2
 **Full Name**: Infant health- V2   
 **Acronym/Brief Name**: Healthv2 Inf  
 **Construct**: Delivery and birth outcomes   
 **Description**: This was a created to capture outcomes of delivery  
 **Summary**: Captures infant birth weight and length, nights in hospital, newborn conditions (from list: e.g. neonatal abstinence syndrome), birth defects, genetic diagnoses, admission to NICU and length of stay, intubation, adverse outcomes (from list: e.g. BPD, congenital syphilis), infant prescription and over the counter medications (name, indication, status), access to healthcare, need to see a specialist, results of newborn hearing test. All is maternal self-report.
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: RA-administered in person  
 **REDCap Form Name**: HealthV2 Preg  
 **Pilot Data Dictionary**:   
@@ -204,19 +197,18 @@ title: "Pregnancy and exposures"
 **Child Specific/Unspecific Form**: Child specific 
 **Respondent:** person who gave birth or primary caregiver
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**:  V2 (0-1 month postnatal visit)  
 **Estimated length of time for completion**: 10 minutes
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 * Same issues identified at V1 for medications (difficulty with ICD codes (from BioPortal ICD) and medication names (from RxNORM)) apply to this visit as well.
 
-
-# Measure Overview: Personal and family psychiatric history 
+## Personal and Family Psychiatric History 
 **Full Name**: Personal and family psychiatric history   
 **Acronym/Brief Name**: FAM MH  
 **Construct**: Personal and family mental health   
@@ -228,7 +220,7 @@ title: "Pregnancy and exposures"
 
 [**https://www.researchallofus.org/wp-content/themes/research-hub-wordpress-theme/media/2023/PaFHH\_Survey\_English.pdf**](https://www.researchallofus.org/wp-content/themes/research-hub-wordpress-theme/media/2023/PaFHH_Survey_English.pdf)
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: self-administered in person  
 **REDCap Form Name**: Personal and family psych history 
 **Pilot Data Dictionary**:   
@@ -236,21 +228,21 @@ title: "Pregnancy and exposures"
 **Child Specific/Unspecific Form**: Unspecific
 **Respondent:** pregnant person
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**:  V1 (pregnancy)
 **Estimated length of time for completion**: 5 minutes
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 * No issues found
 
-## Additional Information
+### Additional Information
 From FHAM items for Antisocial Personality Disorder and Undifferentiated Psychiatric Disorder were not included.
 
-# Measure Overview: APA 1/2
+## APA 1/2
 **Full Name**: DSM-5 Self-Rated Level 1 and Level 2 (version 8a) Cross-Cutting Symptom Measure—Adult   
 **Acronym/Brief Name**: APA 1/2  
 **Construct**: Mental health   
@@ -258,7 +250,6 @@ From FHAM items for Antisocial Personality Disorder and Undifferentiated Psychia
 **Summary**: This is a highly sensitive screening tool for use in community samples. This mental health screening instrument has two levels. Level 1 includes one to two questions for each of thirteen mental health conditions. When symptoms were reported for Level 1, the participant answered several subsequent questions, which asked about additional symptoms associated with each mental health condition, including anger, anxiety, depression, somatic symptoms, and sleep problems. Slight modifications were made due to the use of other measures and the study population. Specifically, the level 1 questions for personality functioning and substance use were not included; participants proceed automatically to level 2 measures. In addition, all participants answer the level 1 questions on depression but proceed to level 2 questions irrespective of answers.
 
 ### Publications and References
-
 Doss, R. A., & Lowmaster, S. E. (2022). Validation of the DSM-5 Level 1 Cross-Cutting Symptom Measure in a Community  Sample. *Psychiatry Research*, *318*, 114935\. [https://doi.org/10.1016/j.psychres.2022.114935](https://doi.org/10.1016/j.psychres.2022.114935)
 
 Roche, M. J., Pincus, A. L., & Cole, P. E. (2019). Linking dimensions and dynamics in psychopathology research: An example using DSM-5 instruments. *Journal of Research in Personality*, *82*, 103852\. [https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852](https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852)
@@ -274,7 +265,7 @@ All other Level 2 measures (except depression and sleep): [https://www.psychiatr
 Listed in this section as well is the Personality Inventory for DSM-5 Brief. It assesses 5 personality trait domains including negative affect, detachment, antagonism, disinhibition,  
 and psychoticism, with each trait domain consisting of 5 items. Information about the measure and scoring can be found here: https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA\_DSM5\_The-Personality-Inventory-For-DSM-5-Brief-Form-Adult.pdf
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: self-administered in person or remote    
 **REDCap Form Name**: APA Level 1/2  
 **Pilot Data Dictionary**:   
@@ -282,26 +273,25 @@ and psychoticism, with each trait domain consisting of 5 items. Information abou
 **Child Specific/Unspecific Form**: Unspecific
 **Respondent:** pregnant person/person who gave birth/primary caregiver
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**:  V1, V2, V3
 **Estimated length of time for completion**: 5 minutes
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 * No issues found
 
-## Additional Information
+### Additional Information
 When symptoms were reported for Level 1, the participant answered several subsequent questions, which asked about additional symptoms associated with each mental health condition, including anger, anxiety, depression, somatic symptoms, and sleep problems. Slight modifications were made due to the use of other measures and the study population. Specifically, the level 1 questions for personality functioning and substance use were not included; participants proceed automatically to level 2 measures. In addition, all participants answer the level 1 questions on depression but proceed to level 2 questions irrespective of answers.
 
 * Note: the following scores triggered an alert for study staff   
   * APA suicide ('Thoughts of actually hurting yourself?'), score greater than 0  
   * APA depression (from 'I felt worthless' to 'I felt that nothing could cheer me up'), raw score greater than 32
 
-
-# Measure Overview: NSESSS—PTSD and NSESSS—Acute Stress Disorder
+## NSESSS—PTSD and NSESSS—Acute Stress Disorder
 **Full Name**: Severity of Posttraumatic/Acute Stress Symptoms- National Stressful Events Survey PTSD Short Scale (NSESSS) and National Stressful Events Survey Acute Stress Disorder Short Scale (NSESSS)  
 **Acronym/Brief Name**: NSESSS—PTSD and NSESSS—Acute Stress Disorder  
 **Construct**: PTSD/acute stress disorder symptom severity  
@@ -309,7 +299,6 @@ When symptoms were reported for Level 1, the participant answered several subseq
 **Summary**: The Severity of Posttraumatic/Acute Stress Symptoms is a measure that assesses the severity of symptoms of post-traumatic stress disorder and acute stress disorder in individuals ages 18 and older following an extremely stressful event or experience. Items 1-9 from the National Stressful Events Survey PTSD Short Scale (NSESSS—PTSD) and Item 3 from the National Stressful Events Survey Acute Stress Disorder Short Scale (NSESSS—Acute Stress Disorder) were combined into a single assessment for the HBCD study to capture the severity of maternal posttraumatic/acute stress symptoms.
 
 ### Publications and References
-
 This measure is a combination of two measures: the Severity of Posttraumatic Stress Symptoms—Adult\* National Stressful Events Survey PTSD Short Scale (NSESSS-PTSD) (questions 1-9) [**https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA\_DSM5\_Severity-of-Posttraumatic-Stress-Symptoms-Adult.pdf**](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Posttraumatic-Stress-Symptoms-Adult.pdf)
 
 And the Severity of Acute Stress Symptoms—Adult\* National Stressful Events Survey Acute Stress Disorder Short Scale (NSESSS-Acute Stress Disorder) (question 3\) [**https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA\_DSM5\_Severity-of-Acute-Stress-Symptoms-Adult.pdf**](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Acute-Stress-Symptoms-Adult.pdf)
@@ -324,7 +313,7 @@ Please note that scores on these scales will not differentiate between symptoms 
 | :---- |
 | Total Raw Score PTSD (Total of Questions 1, 2, 3, 4, 5, 6, 7, 8, 9\) |
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: self-administered in person or remote
 **REDCap Form Name**: DSD5 Severity Acute Stress or PTSD 
 **Pilot Data Dictionary**:   
@@ -332,18 +321,18 @@ Please note that scores on these scales will not differentiate between symptoms 
 **Child Specific/Unspecific Form**: Unspecific 
 **Respondent:** pregnant person/person who gave birth/primary caregiver
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**:  V1, V2, V3
 **Estimated length of time for completion**: 3 minutes
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 * No issues found
 
-# Measure Overview: The Edinburgh Postnatal Depression Scale 
+## The Edinburgh Postnatal Depression Scale 
 **Full Name**: The Edinburgh Postnatal Depression Scale   
 **Acronym/Brief Name**: EPDS  
 **Construct**: Pregnancy/postnatal depression  
@@ -355,7 +344,7 @@ Cox, J. L., Holden, J. M., & Sagovsky, R. (1987). Detection of postnatal depress
 
 The EPDS was scored as follows: [https://med.stanford.edu/content/dam/sm/ppc/documents/DBP/EDPS\_text\_added.pdf](https://med.stanford.edu/content/dam/sm/ppc/documents/DBP/EDPS_text_added.pdf)
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: self-administered in person or remote  
 **REDCap Form Name**: EPDS  
 **Pilot Data Dictionary**:   
@@ -363,26 +352,24 @@ The EPDS was scored as follows: [https://med.stanford.edu/content/dam/sm/ppc/doc
 **Child Specific/Unspecific Form**: Unspecific  
 **Respondent:** pregnant person or person who gave birth
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**:  V1, V2, V3  
 **Estimated length of time for completion**: 3 minutes
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 * No issues found
 
-## Additional Information
+### Additional Information
 Note: the following scores on the EPDS triggered a clinical alert for study staff:
 
 * EPDS suicide ('The thought of harming myself has occurred to me'), score greater than 1  
   * EPDS depression, overall score greater than 11
 
-
-
-# Measure Overview: ASSIST V1 
+## ASSIST V1 
 **Full Name**: NIDA-modified Alcohol, Smoking and Substance Involvement Screening Test (ASSIST) V2.0  
 **Acronym/Brief Name**: ASSIST V1  
 **Construct**: Substance use before and during pregnancy  
@@ -392,7 +379,7 @@ Note: the following scores on the EPDS triggered a clinical alert for study staf
 ### Publications and References
 National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: RA administered in person (except in Alabama, where it was self-administered)   
 **REDCap Form Name**: Assist V1 
 **Pilot Data Dictionary**:   
@@ -400,19 +387,18 @@ National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
 **Child Specific/Unspecific Form**: Unspecific 
 **Respondent:** pregnant person
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**:  V1
 **Estimated length of time for completion**: 5 minutes
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures**: Distributions for answers, cross with TLFB   
 **Common Issues Identified**: If a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it.
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 * To capture ‘standard drinks’ of alcohol, participants were asked to self-report their typical size of a single drink (in oz). This was difficult for some participants, and some reports are outside of expected range. Sites were queried on outliers, but participants were not always able to be re-contacted. 
 
-
-# Measure Overview: ASSIST V2 
+## ASSIST V2 
 **Full Name**: NIDA-modified Alcohol, Smoking and Substance Involvement Screening Test (ASSIST) V2.0  
 **Acronym/Brief Name**: ASSIST V2  
 **Construct**: Substance use (end of pregnancy and postnatal)  
@@ -423,7 +409,7 @@ In addition, participants were asked if they used any of the 18 substances betwe
 ### Publications and References
 National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: RA-administered in person (except in Alabama, where it was self-administered)
 **REDCap Form Name**: Assist V2  
 **Pilot Data Dictionary**:   
@@ -431,19 +417,18 @@ National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
 **Child Specific/Unspecific Form**: Unspecific 
 **Respondent:** person who gave birth
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**:  V2
 **Estimated length of time for completion**: 5 minutes
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures**: Distributions for answers, cross with TLFB  
 **Common Issues Identified**: If a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it.
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 * To capture ‘standard drinks’ of alcohol, participants were asked to self-report their typical size of a single drink (in oz). This was difficult for some participants, and some reports are outside of expected range. Sites were queried on outliers, but participants were not always able to be re-contacted. 
 
-
-# Measure Overview: ASSIST V3
+## ASSIST V3
 **Full Name**: NIDA-modified Alcohol, Smoking and Substance Involvement Screening Test (ASSIST) V2.0  
 **Acronym/Brief Name**: ASSIST V3  
 **Construct**: Substance use after pregnancy  
@@ -453,7 +438,7 @@ National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
 ### Publications and References
 National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: RA administered in person (except in Alabama, where it was self-administered)   
 **REDCap Form Name**: Assist V3  
 **Pilot Data Dictionary**:   
@@ -461,19 +446,18 @@ National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
 **Child Specific/Unspecific Form**: Unspecific 
 **Respondent:** person who gave birth or primary caregiver
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**:  V3
 **Estimated length of time for completion**: 3 minutes
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 * No issues found
 
-
-# Measure Overview: Timeline Follow Back 
+## Timeline Follow Back 
 **Full Name**: Timeline Follow Back  
 **Acronym/Brief Name**: TLFB  
 **Construct**: Substance use before and during pregnancy  
@@ -483,7 +467,7 @@ National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
 ### Publications and References
 Sobell, L., & Sobell, M. (2000). Alcohol timeline follow-back (TLFB). In *Handbook of psychiatric measures.* (p. 477). American Psychiatric Association.
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: RA administered in person (except in Alabama, where it was self-administered) 
 **REDCap Form Name**: TLFB   
 **Pilot Data Dictionary**:   
@@ -491,16 +475,16 @@ Sobell, L., & Sobell, M. (2000). Alcohol timeline follow-back (TLFB). In *Handbo
 **Child Specific/Unspecific Form**: Unspecific 
 **Respondent:** pregnant person or person who gave birth
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**:  V1, V2
 **Estimated length of time for completion**: 10 minutes
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures**: Distributions for answers, cross with Assist 
 
 **Common Issues Identified**: If a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it.
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 * Important note for users: the TLFB was a sampling of weeks of use before (Weeks 1-2) and during (Weeks 3-9) pregnancy. It is completely reasonable that someone could endorse a substance during pregnancy, and it doesn’t appear on the TLFB because it didn’t happen to fall within a sampled week. Similarly, they may have a positive biospecimen but no data on the TLFB for the same reason. Sampling (before, early, mid and late pregnancy) was meant to minimize participant burden (and not request a 40-week TLFB) but capture portions of pregnancy where behaviors tend to change (before and after pregnancy recognition, late pregnancy). 
 
 * Also, of note- participants were asked to report occasions (except cigarettes/ cigarillos and drinks (number), but some substances (e.g. electronic cigarette devices) are difficult to report in occasions and have outliers.

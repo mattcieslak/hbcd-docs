@@ -1,9 +1,6 @@
----
-title: "Behavior/Caregiver Child Interaction"
----
+# Behavior/Caregiver Child Interaction
 
-# Measure Overview: IBQ-R (VSF)+BI
-
+## IBQ-R (VSF)+BI
 The Infant Behavior Questionnaire-Revised (Very Short Form \+ BI) is designed to measure infant’s temperamental reactivity and regulation. The IBQ-R (VSF)+BI is adapted from the well validated IBQ-R Very Short Form, with additional items reflecting Behavioral Inhibition from the long form of the IBQ-R.
 
 **Full Name**: Infant Behavior Questionnaire – Revised Very Short Form \+ Behavior Inhibition  
@@ -19,8 +16,7 @@ Gartstein, M. A., & Rothbart, M. K. (2003). Studying infant temperament via the 
 
 Putnam, S. P., Helbig, A. L., Gartstein, M. A., Rothbart, M. K. & Leerkes, E. (2014). Development and Assessment of Short and Very Short Forms of the Infant Behavior Questionnaire-Revised. Journal of Personality Assessment, 96, 445-458.
 
-## Implementation Details
-
+### Implementation Details
 **Method of Administration**: remote survey  
 **REDCap Form Name**: mh\_cg\_ibqr  
 **Pilot Data Dictionary**: IBQ  
@@ -28,8 +24,7 @@ Putnam, S. P., Helbig, A. L., Gartstein, M. A., Rothbart, M. K. & Leerkes, E. (2
 **Child Specific/Unspecific Form**: Child Specific  
 **Respondent**: Caregiver
 
-## Data Collection
-
+### Data Collection
 **Visits Administered and corresponding age range of administration**: V03, V05, validated for ages 3 months 0 days to 17 months 30 days (for HBCD purposes)  
 **Estimated length of time for completion**: Approximately 7-10 minutes     
 **General Scoring Description and Procedure**:  
@@ -56,7 +51,7 @@ Scale scores for the Infant Behavior Questionnaire – Revised – Very Short Fo
    
 For example, given a sum of 47 for a scale of 12 items, with one item receiving no response, two items marked "does not apply," and 9 items receiving a numerical response, the sum of 47 would be divided by 9 to yield a mean of 5.22 for the scale score. Items with an “R” are reverse scored and already implemented in the HBCD scoring algorithm.
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures**
 
 - Examine the range of the child’s age to ensure that it falls in the age range 3 to 18 months
@@ -68,16 +63,16 @@ For example, given a sum of 47 for a scale of 12 items, with one item receiving 
 **Common Issues Identified**:    
 Scoring not accurately applied to observations with missing responses and incorrect administration ages, missing data patterns that may be site specific.
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 
 Subject matter experts identified no potential issues with IBQ
 
-## Additional Information
+### Additional Information
 
 [Mary Rothbart's Temperament Questionnaires](https://research.bowdoin.edu/rothbart-temperament-questionnaires)
 
 
-# Measure Overview: MAPS-TL
+## MAPS-TL
 **Full Name**: Multidimensional Assessment Profiles \- Temper Loss scale.  
 **Acronym/Brief Name**: MAPS-TL  
 **Construct**: Irritability  
@@ -87,7 +82,6 @@ Subject matter experts identified no potential issues with IBQ
 Krogh-Jespersen, S., Kaat, A. J., Petitclerc, A., Perlman, S. B., Briggs-Gowan, M. J., Burns, J. L., ... & Wakschlag, L. S. (2022). Calibrating temper loss severity in the transition to toddlerhood: Implications for developmental science. *Applied developmental science,* 26(4), 785-798.
 
 ### Sum scores are computed by the following method:
-
 1. If a caregiver answers all 17 items, sum all numerical item responses. All 17 raw items should be answered on a scale of 1:6:
 - 1 - Never
 - 2 - Rarely (Less than once per week)
@@ -103,7 +97,7 @@ Krogh-Jespersen, S., Kaat, A. J., Petitclerc, A., Perlman, S. B., Briggs-Gowan, 
 
 3. If a caregiver answers less than 9 items, then their sum score is missing
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: This questionnaire is to be filled out by the child’s caregiver in a remote setting. Questions inquire about the behaviors of the focal child over the past month.  
 **REDCap Form Name**: N/A  
 **Pilot Data Dictionary**: N/A  
@@ -111,11 +105,11 @@ Krogh-Jespersen, S., Kaat, A. J., Petitclerc, A., Perlman, S. B., Briggs-Gowan, 
 **Child Specific/Unspecific Form**: Child Specific  
 **Respondent:** Primary Caregiver
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**: V03 age range; 3m 0 days– 9m 0 days  
 **Estimated length of time for completion**: 5 minutes 
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 **QC Procedures**   
   * Examine the range of the child’s age to ensure that it falls in the age range 3 to 9 months  
   * Examine missingness. Count the number of items answered for each participant  
@@ -126,11 +120,11 @@ Krogh-Jespersen, S., Kaat, A. J., Petitclerc, A., Perlman, S. B., Briggs-Gowan, 
 **Common Issues Identified**    
 Prorated scoring not applied to observations with missing responses. Incorrect ages.
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 
 **MAPS-TL**: The missingness rule not being correctly implemented leads to incorrect scores. Measure administration has a strict age cutoff. Age auto-generation needs to be fixed so that QC can ensure the measure is being administered to correct target population.
 
-# Measure Overview: ecPROMIS Child-Caregiver Interaction
+## ecPROMIS Child-Caregiver Interaction
 **Full Name**: Early Childhood Patient-Reported Outcome Measurement Information System Child/Caregiver Relationship Scale.
 **Acronym/Brief Name**: ecPROMIS Child-Caregiver Interaction  
 **Construct**: Relationships
@@ -144,7 +138,6 @@ Prorated scoring not applied to observations with missing responses. Incorrect a
   Park, C.H., Blaisdell, C.J., & Gillman, M.W. (2022). The NIH ECHO Program: An Impetus for the Development of Early Childhood PROMIS Tools. *Journal of Pediatric Psychology*, 47(5), 497-499.
 
 ### Scoring Algorithms
-
 Sum scores are computed by the following method:
 
   1\. If a caregiver answers all 5 items (‘fam\_ec2’, ‘fam\_ec6’, ‘fam\_ec1’, ‘fam\_ec4’, ‘fam\_ec10’), sum all numerical item responses.
@@ -157,7 +150,7 @@ Sum scores are computed by the following method:
 
   *(See Links to Resources*)
 
-## Implementation Details
+### Implementation Details
 **Method of Administration**: This questionnaire is to be filled out by the child’s caregiver in a remote setting. 
 **REDCap Form Name**: N/A
 **Pilot Data Dictionary**: N/A
@@ -165,11 +158,11 @@ Sum scores are computed by the following method:
 **Child Specific/Unspecific Form**: Child Specific
 **Respondent:** Primary Caregiver
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**: V03 age range; \<12mo age
 **Estimated length of time for completion**: 1-2 minutes
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 
 **QC Procedures**   
   * Examine the range of the child’s age to ensure that it falls in the age range 3 to 9 months  
@@ -181,10 +174,10 @@ Sum scores are computed by the following method:
 **Common Issues Identified**  
 Prorated scoring not applied to observations with missing responses. Incorrect ages.
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 **ecPROMIS**: The missingness rule not being correctly implemented leads to incorrect scores. Measure administration has a strict age cutoff. Age auto-generation needs to be fixed so that QC can ensure the measure is being administered to the correct target population.
 
-## Additional Information
+### Additional Information
 **Relevant Documents** 
 
   * HealthMeasures, the creators of ecPROMIS have an Assessment Center API that translates sum scores into T-scores (see Links to Resources). When administered in REDCap, sum scores can be auto-calculated, and trigger an API call to obtain corresponding T-scores. Higher T-scores represent more of the phenomenon being measured. In this case, higher T-scores indicate increased child/caregiver interaction. 
