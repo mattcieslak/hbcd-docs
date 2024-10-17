@@ -7,6 +7,7 @@
 **Construct**: The Video Resting State (v.11.29.23) task provides information about neural oscillations measured in EEG power across the scalp. Developmental changes in oscillatory activity reflect underlying developing large scale neural networks associated with early self-regulatory, cognitive, and affective processes and developmental outcomes (Gabard-Durnam et al., 2019; E. J. Jones et al., 2020; Whedon et al., 2020). The metrics derived from the resting EEG signal include power across the frequency spectrum (Gabard-Durnam et al., 2019\) and relative power between different scalp locations (Davidson & Fox, 1982). See Fox et al. (2024) for more information about the RS.   
 **Description**:    
 In V03, a silent video plays with a variety of colorful and abstract toys and visuals on screen. The child watches the video for the duration of the task.
+
 ![](images/eeg-RS-V03-tmp.png)
 
 In V04/6, a silent video plays with a variety of marble run and construction visuals on screen. The child watches the video for the duration of the task.    
@@ -34,10 +35,7 @@ Whedon, M., Perry, N.B., & Bell, M.A. (2020). Relations between frontal EEG matu
 **Respondent**: NA
 
 ### Data Collection
-**Visits Administered and corresponding age range of administration**:  
-  * V03: 3-9 months  
-  * V04: 9-15 months  
-  * V06: 15-48 months  
+**Visits Administered and corresponding age range of administration**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)<br>  
 **Estimated length of time for completion**: Approximately 3 minutes
 
 ### Quality Control (QC) Processes
@@ -63,7 +61,7 @@ Whedon, M., Perry, N.B., & Bell, M.A. (2020). Relations between frontal EEG matu
 ### Summary
 The Resting State Task (v.11.29.23) provides assessment of large-scale neural networks in infancy and early childhood. It includes thorough QC procedures to ensure data accuracy and integrity.
 
-## EEG Faces Task
+## Faces Task
 ### Overview
 **Full Name**: Faces task  
 **Acronym/Brief Name**: Face  
@@ -73,7 +71,8 @@ The Resting State Task (v.11.29.23) provides assessment of large-scale neural ne
 **Face task images (Face vs. Object)**<br>
 ![](images/eeg-facetask-tmp.png)
 
-**Face task schematic (Face vs. Object)**
+**Face task schematic (Face vs. Object)**<br>
+**UNDER CONSTRUCTION**
 
 **Summary**: The Face task (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life.
 
@@ -82,7 +81,7 @@ Barry-Anwar, Ryan, Tracy Riggins, and Lisa S. Scott, 'Electrophysiology in Devel
 
 Fox, N.A., Pérez-Edgar, K., Morales, S., Brito, N.H., Campbell, A.M., Cavanagh, J.F., Gabard-Durnam, L.J., Hudac, C.M., Key, A.P., Larson-Prior, L.J., Pedapati, E.V., Norton, E.S., Reetzke, R., Roberts, T.P., Rutter, T.M., Scott, L.S., Shuffrey, L.C., Antúnez, M., Boylan, M.R., … Yoder, L. (2024). The development and structure of the Healthy Brain and Child Development (HBCD) study EEG Protocol. Developmental Cognitive Neuroscience, 69, 101447. https://doi.org/10.1016/j.dcn.2024.101447 
 
-Markant, J., & Scott, L. S. (2018). Attention and Perceptual Learning Interact in the Development of the Other-Race Effect. *Current Directions in Psychological Science*, *27*(3), 163–169. [https://doi.org/10.1177/0963721418769884](https://doi.org/10.1177/0963721418769884) 
+Markant, J., & Scott, L.S. (2018). Attention and Perceptual Learning Interact in the Development of the Other-Race Effect. *Current Directions in Psychological Science*, *27*(3), 163–169. [https://doi.org/10.1177/0963721418769884](https://doi.org/10.1177/0963721418769884) 
 
 Scherf, K.S., & Scott, L.S. (2012). Connecting developmental trajectories: Biases in face processing from infancy to adulthood. *Developmental Psychobiology*, *54*(6), 643–663. [https://doi.org/10.1002/dev.21013](https://doi.org/10.1002/dev.21013)
 
@@ -95,10 +94,7 @@ Scherf, K.S., & Scott, L.S. (2012). Connecting developmental trajectories: Biase
 **Respondent**: NA
 
 ### Data Collection
-**Visits Administered and corresponding age range of administration**:  
-  * V03: 3-9 months  
-  * V04: 9-15 months  
-  * V06: 15-48 months  
+**Visits Administered and corresponding age range of administration**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)  
 **Estimated length of time for completion**: Approximately 5 minutes
 
 ### Quality Control (QC) Processes
@@ -125,7 +121,7 @@ Scherf, K.S., & Scott, L.S. (2012). Connecting developmental trajectories: Biase
 ### Summary
 The Face task (v.11.29.23) is used to assess neural activity supporting face and object processing. It assesses child and infant face processing development including attention, perception, categorization, individuation and memory. The measure includes rigorous QC procedures to ensure data integrity and reliability.
 
-## EEG Auditory Mismatch Negativity Task
+## Auditory Mismatch Negativity Task
 ### Overview
 **Full Name**: Auditory Mismatch Negativity Task  
 **Acronym/Brief Name**: MMN  
@@ -198,7 +194,7 @@ Schwartz, S., Shinn-Cunningham, B., & Tager-Flusberg, H. (2018). Meta-analysis a
 ### Summary
 The Auditory Mismatch Negativity task (v.11.29.23) provides an assessment of the precursors of infant and child language development. It includes thorough QC procedures to ensure data accuracy and integrity.
 
-## EEG Visual Evoked Potential Task
+## Visual Evoked Potential Task
 ### Overview
 **Full Name**: Visual Evoked Potential Task  
 **Acronym/Brief Name**: VEP  
@@ -218,7 +214,7 @@ Lippé, S., Kovacevic, N., & McIntosh, A.R. (2009). Differential Maturation of B
 
 Jensen, S.K., Kumar, S., Xie, W., Tofail, F., Haque, R., Petri, W.A., & Nelson, C.A. (2019). Neural correlates of early adversity among Bangladeshi infants. Scientific Reports, 9(1), 1–10.
 
-Margolis, E.T., Davel,L., Bourke, N.J., Bosco, C., Zieff, M.R., Monachino, A.D., Mazubane, T., Williams, S.R., Miles, M., & Jacobs, C.A. (2024). Longitudinal effects of prenatal alcohol exposure on visual neurodevelopment over infancy. Developmental Psychology. [https://psycnet.apa.org/record/2024-66755-001](https://psycnet.apa.org/record/2024-66755-001)
+Margolis, E.T., Davel, L., Bourke, N.J., Bosco, C., Zieff, M.R., Monachino, A.D., Mazubane, T., Williams, S.R., Miles, M., & Jacobs, C.A. (2024). Longitudinal effects of prenatal alcohol exposure on visual neurodevelopment over infancy. Developmental Psychology. [https://psycnet.apa.org/record/2024-66755-001](https://psycnet.apa.org/record/2024-66755-001)
 
 Nazhvani, A.D., Boostani, R., Afrasiabi, S., & Sadatnezhad, K. (2013). Classification of ADHD and BMD patients using visual evoked potential. Clinical Neurology and Neurosurgery, 115(11), 2329–2335.
 
@@ -233,10 +229,7 @@ Shandiz, J.H., Heyrani, M., Sobhani-Rad, D., Salehinejad, Z., Shojaei, S., Khosh
 **Respondent**: NA
 
 ### Data Collection
-**Visits Administered and corresponding age range of administration**:  
-  * V03: 3-9 months  
-  * V04: 9-15 months  
-  * V06: 15-48 months  
+**Visits Administered and corresponding age range of administration**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)<br>  
 **Estimated length of time for completion**: Approximately 1 minute
 
 ### Quality Control (QC) Processes
