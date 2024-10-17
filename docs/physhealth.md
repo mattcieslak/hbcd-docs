@@ -1,6 +1,4 @@
-# Physical Health
-
-## Food Insecurity
+# Physical Health: Food Insecurity
 ### Overview
 **Full Name**: 2-item Food Insecurity   
 **Acronym/Brief Name**: USDA short form  
