@@ -8,12 +8,12 @@ nav:
   - FAQ: faq.md
   - Change Log: changelog.md
   - Data Measures & Quality Control:
-    - Demographics: demographics.md
-    - "Physical Health: Food Insecurity": physhealth.md
-    - Pregnancy and exposures: pregexposures.md
-    - Novel Technologies/Wearable Sensors: sensors.md
-    - Social and Environmental Determinants: socenv_determinants.md
-    - Behavior/Caregiver Child Interaction: behavior.md
-    - EEG: eeg.md
+    - Demographics: measures/demographics.md
+    - "Physical Health: Food Insecurity": measures/physhealth.md
+    - Pregnancy and exposures: measures/pregexposures.md
+    - Novel Technologies/Wearable Sensors: measures/sensors.md
+    - Social and Environmental Determinants: measures/socenv_determinants.md
+    - Behavior/Caregiver Child Interaction: measures/behavior.md
+    - EEG: measures/eeg.md
   - MRI Protocols: mri_protocols.md
   
