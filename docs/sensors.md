@@ -1,9 +1,6 @@
----
-title: "Novel Technologies/Wearable Sensors"
----
+# Novel Technologies/Wearable Sensors 
 
-# Measure Overview: Wearable Sensors
-
+## Wearable Sensors
 **Full Name**: Infant leg movement data collected by wearable sensors.   
 **Acronym/Brief Name**: N/A  
 **Construct**: motor behavior, physical activity, sleep   
@@ -33,7 +30,7 @@ Data files included in the data release are raw sensor data in BIDS format for t
 
 **Processing code** used to obtain processed data outputs are available as a container on [INC Laboratory's Docker Hub](https://hub.docker.com/r/inclab/hbcd_motion_postproc) (source code available on GitHub [here](https://github.com/Infant-Neuromotor-Control-Lab/hbcd_motion_postproc))
 
-## Implementation Details
+### Implementation Details
 
 **Method of Administration**: RA placed sensors on child at visit, sensors then worn while 72 hours of data were collected across typical activities in the natural environment.  
 **REDCap Form Name**: N/A  
@@ -42,12 +39,12 @@ Data files included in the data release are raw sensor data in BIDS format for t
 **Child Specific/Unspecific Form**: N/A  
 **Respondent:** N/A
 
-## Data Collection
+### Data Collection
 
 **Visits Administered and corresponding age range of administration**: V02 (0-1 month of age) and V03 (3-8 months of age).  
 **Estimated length of time for completion**: N/A
 
-## Quality Control (QC) Processes
+### Quality Control (QC) Processes
 
 **QC Procedures**   
 Raw data files were spot-checked during the data collection time frame. Only a small percentage of data files were randomly checked each week as the process was manual and visual. When checked, calibration files were checked for presence of adequate data for each of 6 axes and 72-hour files were checked for the presence of data, labeling of right and left leg, and sampling rate used.
@@ -55,15 +52,15 @@ Raw data files were spot-checked during the data collection time frame. Only a s
 **Common Issues Identified**    
 Common issues identified during QC processes included inadequate data for each of the 6 axes in calibration files (human error), missing data for calibration files (due to human error or technical difficulties), missing data for 72 hours (due to human error, technical difficulties, or parent/legal guardian declining to participate in this aspect of the study), sensors being removed for prolonged periods during the 72 hours, or incorrect sampling rate used during the 72 hour collection. If possible, errors were corrected (but this was not often possible). All issued occurred rarely overall and the majority of the data were judged to be present and correctly collected.
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 
 No issues were found. Users are reminded that accelerometer sensor timestamps drift over time, so even though the right and left leg sensors started recording at the same time and recorded for the same duration of time at the same sampling rate, one cannot assume that the time specified matches exactly between the 2 sensors. By our estimates, Axivity AX6 sensors recording at 25 samples/sec diverge from one another by a couple of seconds by the end of 72 hours, and the magnitude of this error increases over time. Further, offsets were different between different sensors, so a calibration procedure was used to adjust for this. See Oh, J., Loeb, G. E., & Smith, B. A. (2024). The Utility of Calibrating Wearable Sensors before Quantifying Infant Leg Movements. *Sensors*, *24*(17), 5736
 
-## Additional Information
+### Additional Information
 
 Data files included in the data release are raw sensor data in BIDS format for the calibration and 72-hour files for the right leg and the left leg, as well as files containing processed data outputs.
 
-### Raw data, calibration files
+#### Raw data, calibration files
 
 **Full Name:** sub-{dccid}\_ses-{session number}\_task-LeftLegMovement\_tracksys-imu\_acq-calibration\_channels.json  
 **Acronym/Brief Name**: LL-Calib-Channels-Ref  
@@ -104,7 +101,7 @@ Data files included in the data release are raw sensor data in BIDS format for t
 **Description**: Recording related information: sampling frequency, effective sampling frequency, task name, task description, tracking system name, recording duration, accelerometer channel count, gyroscope channel count, latency channel count, manufacturer, sensor name, sensor’s serial number   
 **Summary**: Calibration dataset of the right leg movement sensor related information
 
-### Raw data, 72-hour files
+#### Raw data, 72-hour files
 **Full Name**: sub-{dccid}\_ses-{session number}\_task-LeftLegMovement\_tracksys-imu\_acq-primary\_channels.json  
 **Acronym/Brief Name**: LL-Primary-Channels-Ref  
 **Description**: The reference frame in which the channels of the Inertial Measurement Unit sensor used to prepare sensor movement dataset is represented (left leg movement): Anterior, Right, Superior each corresponding to X, Y, and Z axis   
@@ -165,7 +162,7 @@ Data files included in the data release are raw sensor data in BIDS format for t
 **Description**: 72 hour right leg movement data calibrated using RL-Calib-Recording. 25 Hz is the original sampling rate.  
 **Summary**: Movement dataset of the right leg movement sensor, calibrated
 
-### Processed data outputs
+#### Processed data outputs
 
 **Full Name**: sub-{dccid}\_ses-{session number}\_desc-kinematics\_recording-20\_motion.json  
 **Acronym/Brief Name**: Primary-Summary20  
@@ -214,15 +211,14 @@ Data files included in the data release are raw sensor data in BIDS format for t
 
 **Summary**: A list of parameters used to run the processing pipeline container.
 
-# Measure Overview: Infant Sensor Questionnaire
-
+## Infant Sensor Questionnaire
 **Full Name**: Daily survey about infant heart rate sensor and infant leg movement sensors.   
 **Acronym/Brief Name**: Infant Sensor Questionnaire  
 **Construct**: motor behavior, physical activity, sleep   
 **Description**: Survey was sent to primary caregiver once per day for 3 days during the 72 hour data collection of infant heart rate sensor data and infant leg movement sensor data. Surveys were automatically sent via email or text message (per caregiver preference) at 10 am eastern/9 am central/8 am mountain/7 am pacific. The surveys were sent after the sensors had been recording for 24, 48, and 72 hours. The survey asked about the preceding 24-hour period. It asked whether the sensors were worn for most of the time and about the daily activities of the infant (whether or not it was a fairly typical 24 hours for the infant, estimates of how much they napped and slept, how much they were in a car seat, swing or other restraining device, how much they were in a moving car or stroller or being carried, and whether or not their legs are swaddled during naps and sleep). This survey was created by the workgroup.
 **Summary**: The questionnaire was sent once per day for 3 days while the infant was wearing the heart rate sensor and infant leg movement sensors to obtain information about context of the sensor recordings.
 
-## Implementation Details
+### Implementation Details
 
 **Method of Administration**: RA marked preferred contact and preferred method of contact (email or text message) at visit, then surveys were sent automatically.  
 **REDCap Form Name**: sens\_ch\_rcpt  
@@ -231,17 +227,15 @@ Data files included in the data release are raw sensor data in BIDS format for t
 **Child Specific/Unspecific Form**: Caregiver answering questions about their child.  
 **Respondent:** Caregiver
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**: V02 (0-1 month of age) and V03 (3-8 months of age).  
 **Estimated length of time for completion**: N/A
 
-## Quality Control (QC) Processes
-
+### Quality Control (QC) Processes
 **QC Procedures**   
 Surveys were spot-checked during the data collection time frame. Only a small percentage of surveys were randomly checked each week as the process was manual. When checked, surveys were checked for the presence of responses. When no responses were provided, RA’s were contacted to confirm whether or not surveys had gone out to the participants as intended.  
 **Common Issues Identified**    
 Common issues identified during QC processes included surveys that had no responses. Sometimes this was human error (preferred contact or preferred method of communication not selected by RA) or potentially technological malfunction, and sometimes it was caregiver non-response. Caregiver non-response was the reason for the majority of the surveys without responses. Caregiver non-response was common.
 
-## Potential Issues Flagged by Subject Matter Experts
-
+### Potential Issues Flagged by Subject Matter Experts
 No issues were found. 
