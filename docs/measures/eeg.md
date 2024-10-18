@@ -8,10 +8,10 @@
 **Description**:    
 In V03, a silent video plays with a variety of colorful and abstract toys and visuals on screen. The child watches the video for the duration of the task.
 
-![](images/eeg-RS-V03-tmp.png)
+![](./../images/eeg-RS-V03-tmp.png)
 
 In V04/6, a silent video plays with a variety of marble run and construction visuals on screen. The child watches the video for the duration of the task.    
-![](images/eeg-RS-V04-tmp.png)
+![](./../images/eeg-RS-V04-tmp.png)
 
 **Summary**: The Resting State Task (v.11.29.23) provides assessment of the development of large scale neural networks during infancy and early childhood.
 
