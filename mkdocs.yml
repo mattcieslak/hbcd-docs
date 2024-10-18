@@ -17,5 +17,5 @@ nav:
     - EEG: measures/eeg.md
   - MRI Protocols:
     - "Siemens Protocol v2.2": mriprotocols/seimens.md
-    - GE Protocol v2.2: mriprotocols/ge.md
+    - "GE Protocol v2.2": mriprotocols/ge.md
   
