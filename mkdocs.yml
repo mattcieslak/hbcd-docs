@@ -4,7 +4,7 @@ plugins:
   - search
 docs_dir: docs
 nav:
-  - Release Notes: 
+  - Release Notes:
     - releasenotes.md
   - FAQ: faq.md
   - Change Log: changelog.md
