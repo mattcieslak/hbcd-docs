@@ -1,32 +1,7 @@
-# MRI Protocols
+# Siemens Protocol v2.2 
 
-## GE v2.2 HBCD Protocols
-Please note that GE pulse sequences must be requested from the vendor directly. See protocol files below
+## Installation Instructions
 
-### Download v2.2 Sequences
-[HBCD_GE_PilotProtocol_v1.2_2022.08.15.pdf](v2.2_sequences/ge/HBCD_GE_PilotProtocol_v1.2_2022.08.15.pdf)<br>
-[session.xml](v2.2_sequences/ge/session.xml)<br>
-[3Planelocalizer-SSFSE_20130406081210729_23](v2.2_sequences/ge/3Planelocalizer-SSFSE_20130406081210729_23/LxProtocol)<br>
-[AxT2FSE_20201103111728296_2](v2.2_sequences/ge/AxT2FSE_20201103111728296_2/LxProtocol)<br>
-[DTI_20170221045322618_4](v2.2_sequences/ge/DTI_20170221045322618_4/LxProtocol)<br>
-[HERCULESHBCD_20230713205403972_2](v2.2_sequences/ge/HERCULESHBCD_20230713205403972_2/LxProtocol)<br>
-[PRESSHBCD_20230713205403943_1](v2.2_sequences/ge/PRESSHBCD_20230713205403943_1/LxProtocol)<br>
-[anat-t1w_20230601222700685_1](v2.2_sequences/ge/anat-t1w_20230601222700685_1/LxProtocol)<br>
-[anat-T2w_20230518132301193_2](v2.2_sequences/ge/anat-T2w_20230518132301193_2/LxProtocol)<br>
-[anat_acq-qalas_CS_20230518134019450_11](v2.2_sequences/ge/anat_acq-qalas_CS_20230518134019450_11/LxProtocol)<br>
-[dwi_dir-PA_20230211114509514_5](v2.2_sequences/ge/dwi_dir-PA_20230211114509514_5/LxProtocol)<br>
-[fmap-epi_2023051813263949_4](v2.2_sequences/ge/fmap-epi_2023051813263949_4/LxProtocol)<br>
-[fmap-epi_20230603131910917_2](v2.2_sequences/ge/fmap-epi_20230603131910917_2/LxProtocol)<br>
-[fmap-epi_dir-AP_20230603132112403_4](v2.2_sequences/ge/fmap-epi_dir-AP_20230603132112403_4/LxProtocol)<br>
-[fmap-epi_dir-PA_20230603132112361_3](v2.2_sequences/ge/fmap-epi_dir-PA_20230603132112361_3/LxProtocol)<br>
-[fmap_TB1AFI_2023051813545166_12](v2.2_sequences/ge/fmap_TB1AFI_2023051813545166_12/LxProtocol)<br>
-[func_task-rest_dir-PA_2023051813290093_5](v2.2_sequences/ge/func_task-rest_dir-PA_2023051813290093_5/LxProtocol)<br>
-[func_task-rest_dir-PA_20230518133224776_7](v2.2_sequences/ge/func_task-rest_dir-PA_20230518133224776_7/LxProtocol)<br>
-[mrs-axial_20230412204309940_1](v2.2_sequences/ge/mrs-axial_20230412204309940_1/LxProtocol)<br>
-
-## Siemens v2.2 HBCD Protocol Release Notes
-
-### Installation Instructions
 For HBCD sites, please make sure to follow the HBCD protocol upgrade SOP which will help ensure there are records of when each protocol update is applied at your site.
 
 Before importing the HBCD protocol, please ensure you have received and installed the necessary C2P sequence packages for access to the latest versions of each sequence:
@@ -52,6 +27,8 @@ Without these C2P packages installed, the protocol cannot be imported.
 This software baseline is no longer supported. All scanners must upgrade to NXVA30A SP02 to run the v2.0 or later protocol.
 
 **NXVA30A (a.k.a., XA30) systems**
+
+
 
 1. This package can only be installed on systems with the SP02 service pack installed. To confirm this is installed, go to the "?" menu in the top-right corner of the scanner console, then select "About", then click on “System Info”; a window should pop up with the following version information:
 
@@ -137,23 +114,29 @@ The PDF files are for your review, but please do not attempt to recreate the pro
 
 Figure 1. Check for fully installed sequences in DEFAULT > Sequence Region > Customer Sequences > Default.
 
-![siemens_fig1](images/siemens_fig1.png)
+![siemens_fig1](./../images/siemens_fig1.png)
 
-### Operation Instructions
+## Operation Instructions
 
 Operation instructions (a.k.a, SOP) can be found [here](https://hbcdstudy.atlassian.net/wiki/pages/viewpageattachments.action?pageId=85033234)
 
 
-### Update History
+## Update History
 
 
-#### v2.2 (April 19, 2024)
+### v2.2 (April 19, 2024)
+
+
+
 * anat-t1w and anat-t2w now have the BOLD Add-In to enable connection to FIRMM
 * fMRI and DWI scans have now all be configured to auto-open the inline display
 * anat-t2w had its B0 Shim set to Standard
 
 
-#### v2.1 (June 30, 2023)
+### v2.1 (June 30, 2023)
+
+
+
 * SVS localizer protocols (axial and coronal) have been updated to reduce SAR:
     * RF Pulse Type: Normal -> Low SAR
     * Allowed Delay: 0 s -> 30 s
@@ -163,7 +146,10 @@ Operation instructions (a.k.a, SOP) can be found [here](https://hbcdstudy.atlass
 * anat-t1w had its TI changed from 1100 ms to 1060 ms (this had been incorrectly set in v2.0)
 
 
-#### v2.0 (June 20, 2023)
+### v2.0 (June 20, 2023)
+
+
+
 * [N4VE11] N4VE11 is no longer supported. All scanners must be upgraded to NXVA30A SP02 to run the v2.0 protocol.
 * [NXVA30] DWI protocol was modified:
     * Prescan Normalize turned on (Normalize -> Prescan)
@@ -177,12 +163,18 @@ Operation instructions (a.k.a, SOP) can be found [here](https://hbcdstudy.atlass
 * [NXVA30] There are now only 2 repetitions of the EPI field mapping sequences during the fMRI block (previously field mapping was repeated 3 times).
 
 
-#### v1.5.2 (April 1, 2023)
+### v1.5.2 (April 1, 2023)
+
+
+
 * [N4VE11] There are no changes to the N4VE11 protocol, so it remains at v1.4 but is included in the v1.5.1 directory.
 * [NXVA30] The DWI protocol was again modified to have all derived images disabled except for FA Map. We previously tried to disable all derived images (see v1.5). However, a bug in the DWI sequence causes all derived images to be reenabled whenever the protocol is opened, unless at least one derived image is selected.
 
 
-#### v1.5.1 (March 16, 2023)
+### v1.5.1 (March 16, 2023)
+
+
+
 * [N4VE11] There are no changes to the N4VE11 protocol, so it remains at v1.4 but is included in the v1.5.1 directory.
 * [NXVA30] Copy references settings were corrected for spectroscopy sequences in 32-channel protocol. Previously some scans copied the incorrect information, leading to runtime errors.
 * [NXVA30] To assist in reproducible subject registration, the protocol folders have been set to:
@@ -190,7 +182,10 @@ Operation instructions (a.k.a, SOP) can be found [here](https://hbcdstudy.atlass
     * Anatomy -> Brain
 
 
-#### v1.5 (January 25, 2023)
+### v1.5 (January 25, 2023)
+
+
+
 * [N4VE11] There are no changes to the N4VE11 protocol, so it remains at v1.4 but is included in the v1.5 directory.
 * [NXVA30] Sequences were renamed to match their primary BIDS output
 * [NXVA30] The following protocol changes were made to DWI scans:
@@ -208,24 +203,37 @@ Operation instructions (a.k.a, SOP) can be found [here](https://hbcdstudy.atlass
     * Image Scaling -> 3.0
 
 
-#### v1.4.1 (October 6, 2022)
+### v1.4.1 (October 6, 2022)
+
+
+
 * [N4VE11] There are no changes to the N4VE11 protocol, so it remains at v1.4 but is included in the v1.4.1 directory.
 * [NXVA30] Corrected the automatic FOV-copying links for resting state fMRI in 32-channel protocol.
 * [NXVA30] Added the "Set Strategy To Fixed" step to the start of the protocols, ensuring that the table remains stationary for the duration of the scan session.
 * [NXVA30] Added the "BOLD add in" to the fMRI and DWI scans, pre-populated with default information to enable support for the FIRMM tablet.
 
-#### v1.4 (August 3, 2022)
+
+### v1.4 (August 3, 2022)
+
+
+
 * First release at NXVA30A
 * [NXVA30] T2w_SPACE now uses CS factor of 4 instead of 2x2 GRAPPA
 * [NXVA30 and N4VE11] Now include up-to-date diffusion direction files with the protocol. Also confirmed that diffusion protocol is using these up-to-date direction files.
 * [NXVA30 and N4VE11] Changed default location of SVS voxel to isocenter and default alignment to transversal.
 
 
-#### v1.3 (July 14, 2022)
+### v1.3 (July 14, 2022)
+
+
+
 * Localizer_SVS has been changed to a HASTE-based protocol.
 
 
-#### v1.2 (June 28, 2022)
+### v1.2 (June 28, 2022)
+
+
+
 * SpinEchoFieldMap_AP, SpinEchoFieldMap_PA, and rfMRI_REST_PA, had the following adjustments to prevent triggering the peripheral nerve stimulation model:
     * FOV 216 mm
     * Matrix Size 108 pixels
@@ -233,17 +241,25 @@ Operation instructions (a.k.a, SOP) can be found [here](https://hbcdstudy.atlass
     * Echo Spacing 0.56 ms
 * QALAS3d_1p3mm_R2 had its FOV unlinked from T2w_SPACE, and is now set manually. tfl_b1map is now set to default its FOV to follow QALAS3d_1p3mm.
 
-#### v1.1.2 (June 20, 2022)
+
+### v1.1.2 (June 20, 2022)
+
+
+
 * SpinEchoFieldMap_AP, SpinEchoFieldMap_PA, and rfMRI_REST_PA, corrected to have pure axial orientation for FOV (was previously angled T > C).
 
 
-#### v1.1.1 (June 16, 2022)
+### v1.1.1 (June 16, 2022)
+
+
 
 * DWI_pe2_AP correct to no longer wait for user before starting; this was missed in the previous v1.1 release.
 * Corrected Localizer_SVS to have “Body part examined” set to “Brain”. This was missed in the previous v1.1 release.
 
 
-#### v1.1 (June 13, 2022)
+### v1.1 (June 13, 2022)
+
+
 
 * Replaced Localizer with Localizer_quiet, based on Baby Connectome Project localizer (with addition of "Acoustic Noise Reduction" filter) to reduce acoustic noise.
 * FOV for QALAS3d_1p3mm_R2, tfl_b1map, and T1w_MPR have now been set to default to follow the FOV for T2w_SPACE.
@@ -263,11 +279,12 @@ Operation instructions (a.k.a, SOP) can be found [here](https://hbcdstudy.atlass
 * All scans have "Body part examined" set to "Brain".
 
 
-#### v1.0 (April 19, 2022)
+### v1.0 (April 19, 2022)
 
 Initial release.
 
-### Download v2.2 Sequences
+
+## Download v2.2 Sequences
 [HBCD_v2.2_32ch.pdf](v2.2_sequences/siemens/HBCD_v2.2_32ch.pdf)<br>
 [HBCD_v2.2_64ch.pdf](v2.2_sequences/siemens/HBCD_v2.2_64ch.pdf)<br>
 [HBCD_v2.2_32ch.exar1](v2.2_sequences/siemens/HBCD_v2.2_32ch.exar1)<br>
