@@ -1,4 +1,4 @@
-# GE v2.2 HBCD Protocols
+# GE Protocol v2.2
 
 Please note that GE pulse sequences must be requested from the vendor directly. See protocol files below
 

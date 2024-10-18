@@ -1,4 +1,4 @@
-# Siemens v2.2 HBCD Protocol Release Notes
+# Siemens Protocol v2.2 
 
 ## Installation Instructions
 

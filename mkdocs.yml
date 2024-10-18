@@ -16,5 +16,7 @@ nav:
     - Social and Environmental Determinants: measures/socenv_determinants.md
     - Behavior/Caregiver Child Interaction: measures/behavior.md
     - EEG: measures/eeg.md
-  - MRI Protocols: mri_protocols.md
+  - MRI Protocols:
+    - Siemens Protocol v2.2: seimens.md
+    - GE Protocol v2.2: ge.md
   
