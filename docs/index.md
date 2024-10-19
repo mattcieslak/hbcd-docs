@@ -10,9 +10,9 @@ This is the central documentation page for the HEALthy Brain and Child Developme
 
 ### External Webpages for Processing Pipelines
 **Magnetic Resonance Imaging (MRI)**  
-[MRIQC](https://mriqc.readthedocs.io/en/latest/) for automated extraction of image quality metrics from structural (T1w and T2w) and functional MRI data  
-[BIBSNet](https://bibsnet.readthedocs.io/en/latest/) deep learning model for brain segmentation  
-[infant-fMRIPrep/fMRIPrep](https://nibabies.readthedocs.io/en/latest/): structural and functional MRI preprocessing pipeline 
+[MRIQC](https://mriqc.readthedocs.io/en/latest/): automated extraction of image quality metrics from structural (T1w and T2w) and functional MRI data  
+[BIBSNet](https://bibsnet.readthedocs.io/en/latest/): deep learning model for brain segmentation  
+[infant-fMRIPrep/fMRIPrep](https://nibabies.readthedocs.io/en/latest/): structural and functional MRI preprocessing pipeline   
 [XCP-D](https://xcp-d.readthedocs.io/en/latest/): functional MRI post-processing and noise regression pipeline  
 [QSIPrep](https://qsiprep.readthedocs.io/en/latest/) and [QSIRecon](https://qsirecon.readthedocs.io/en/latest/) used to process diffusion-weighted MRI (dMRI) data<br>
 [SyMRI](https://hbcd-symri-postproc.readthedocs.io/en/latest/index.html): minimal post-processing on synthetic images generated from SyMRI tools using QALAS acquisition
