@@ -18,7 +18,7 @@ This is the central documentation page for the HEALthy Brain and Child Developme
 [SyMRI](https://hbcd-symri-postproc.readthedocs.io/en/latest/index.html): minimal post-processing for synthetic images generated from SyMRI tools using QALAS acquisition
 
 **Electroencephalogram (EEG)**  
-[HBCD-MADE](https://docs-hbcd-made.readthedocs.io/en/latest/): Maryland Analysis of Developmental EEG (MADE) pipeline (Debnath et al., 2020) adapted for HBCD data
+[HBCD-MADE](https://docs-hbcd-made.readthedocs.io/en/latest/): Maryland Analysis of Developmental EEG (MADE) pipeline adapted for HBCD data
 
 **Magnetic Resonance Spectroscopy (MRS)**  
 [OSPREY](https://osprey-bids.readthedocs.io/en/latest/index.html): MRS data processing pipeline
