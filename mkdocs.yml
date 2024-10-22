@@ -4,9 +4,12 @@ plugins:
   - search
 docs_dir: docs
 nav:
-  - Release Notes: releasenotes.md
-  - FAQ: faq.md
-  - Change Log: changelog.md
+  - Release Notes: 
+    - Version 1.0: releasenotes.md
+  - FAQ: 
+    - FAQ: faq.md
+  - Change Log: 
+    - Change Log: changelog.md
   - Data Measures & Quality Control:
     - Demographics: measures/demographics.md
     - "Physical Health: Food Insecurity": measures/physhealth.md
@@ -15,7 +18,8 @@ nav:
     - Social and Environmental Determinants: measures/socenv_determinants.md
     - Behavior/Caregiver Child Interaction: measures/behavior.md
     - EEG: measures/eeg.md
-  - Data Curation: bidscuration.md
+  - Data Curation: 
+    - Data Curation: bidscuration.md
   - MRI Protocols:
     - Siemens Protocol v2.2: mriprotocols/siemens.md
     - GE Protocol v2.2: mriprotocols/ge.md
