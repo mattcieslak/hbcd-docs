@@ -4,6 +4,12 @@
 # Required
 version: 2
 
+# Build all branches and tags
+versions:
+  only:
+    - main
+    - dev
+
 # Set the version of Python and other tools you might need
 build:
   os: ubuntu-22.04
@@ -17,12 +23,6 @@ mkdocs:
 python:
   install:
   - requirements: docs/requirements.txt
-
-# Build all branches and tags
-versions:
-  only:
-    - main
-    - dev
 
 # Optionally build your docs in additional formats such as PDF and ePub
 # formats:
