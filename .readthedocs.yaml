@@ -18,6 +18,12 @@ python:
   install:
   - requirements: docs/requirements.txt
 
+# Build all branches and tags
+versions:
+  only:
+    - main
+    - dev
+
 # Optionally build your docs in additional formats such as PDF and ePub
 # formats:
 #    - pdf
