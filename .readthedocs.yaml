@@ -4,12 +4,6 @@
 # Required
 version: 2
 
-# Build all branches and tags
-versions:
-  only:
-    - main
-    - dev
-
 # Set the version of Python and other tools you might need
 build:
   os: ubuntu-22.04
