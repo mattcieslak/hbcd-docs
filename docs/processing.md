@@ -1,1 +1,3 @@
-*[Data Processing Webpage](https://hbcd-cbrain-processing.readthedocs.io/latest/)*
+<script type="text/javascript">
+    window.location.href = "https://hbcd-cbrain-processing.readthedocs.io/latest/";
+</script>
