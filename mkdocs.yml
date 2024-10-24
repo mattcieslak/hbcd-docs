@@ -1,4 +1,4 @@
-site_name: HBCD
+site_name: HBCD Data Release
 theme: readthedocs
 plugins:
   - search
