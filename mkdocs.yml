@@ -26,5 +26,5 @@ nav:
     - Phenotypes Curation: datacuration/phenotypes.md
   - Data Processing:
     - HBCD Processing: processing/processing.md
-    - Pipelines: processing/pipelines.md
+    - Pipelines & Software Standards: processing/pipelines.md
   
