@@ -1,13 +1,12 @@
 site_name: HBCD Data Release
-theme: readthedocs
+theme: material
 plugins:
   - search
 docs_dir: docs
-nav:
-  - Main: 
-    - Release Notes: main/releasenotes.md
-    - Change Log: main/changelog.md
-    - FAQ: main/faq.md
+nav: 
+  - Release Notes: main/releasenotes.md
+  - Change Log: main/changelog.md
+  - FAQ: main/faq.md
   - Data Measures & Quality Control:
     - Demographics: measures/demographics.md
     - "Physical Health: Food Insecurity": measures/physhealth.md
