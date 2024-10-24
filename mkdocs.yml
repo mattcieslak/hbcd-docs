@@ -19,12 +19,10 @@ nav:
   - MRI Protocols:
     - Siemens Protocol v2.2: mriprotocols/siemens.md
     - GE Protocol v2.2: mriprotocols/ge.md
-  - Data Curation: 
-    - BIDS: datacuration/bids.md
-    - MRI: datacuration/mri.md
-    - EEG: datacuration/eeg.md
-    - Motion: datacuration/motion.md
-    - Phenotypes: datacuration/phenotypes.md
+  - Data Curation & BIDS Data Creation: 
+    - Overview: datacuration/bids.md
+    - Imaging Curation: datacuration/imaging.md
+    - Phenotypes Curation: datacuration/phenotypes.md
   - Data Processing:
     - HBCD Processing: processing/processing.md
     - Pipelines: processing/pipelines.md
