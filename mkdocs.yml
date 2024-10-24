@@ -24,6 +24,6 @@ nav:
   - Data Curation: 
     - Data Curation: bidscuration.md
   - Data Processing:
-    - HBCD Processing: processing.md
+    - HBCD Processing: processing/processing.md
     - Pipelines: processing/pipelines.md
   
