@@ -18,9 +18,12 @@ nav:
     - Social and Environmental Determinants: measures/socenv_determinants.md
     - Behavior/Caregiver Child Interaction: measures/behavior.md
     - EEG: measures/eeg.md
-  - Data Curation: 
-    - Data Curation: bidscuration.md
   - MRI Protocols:
     - Siemens Protocol v2.2: mriprotocols/siemens.md
     - GE Protocol v2.2: mriprotocols/ge.md
+  - Data Curation: 
+    - Data Curation: bidscuration.md
+  - Data Processing:
+    - HBCD Processing: processing/processing.md
+    - Pipelines: processing/pipelines.md
   
