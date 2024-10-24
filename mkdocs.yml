@@ -6,8 +6,8 @@ docs_dir: docs
 nav:
   - Main: 
     - Release Notes: main/releasenotes.md
-    - FAQ: main/faq.md
     - Change Log: main/changelog.md
+    - FAQ: main/faq.md
   - Data Measures & Quality Control:
     - Demographics: measures/demographics.md
     - "Physical Health: Food Insecurity": measures/physhealth.md
@@ -20,7 +20,11 @@ nav:
     - Siemens Protocol v2.2: mriprotocols/siemens.md
     - GE Protocol v2.2: mriprotocols/ge.md
   - Data Curation: 
-    - Data Curation: bidscuration.md
+    - BIDS: datacuration/bids.md
+    - MRI: datacuration/mri.md
+    - EEG: datacuration/eeg.md
+    - Motion: datacuration/motion.md
+    - Phenotypes: datacuration/phenotypes.md
   - Data Processing:
     - HBCD Processing: processing/processing.md
     - Pipelines: processing/pipelines.md
