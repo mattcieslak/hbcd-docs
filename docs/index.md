@@ -6,8 +6,6 @@ This is the central documentation page for the HEALthy Brain and Child Developme
 
 ### [Central HBCD Study page](https://hbcdstudy.org/) 
 
-### [HBCD Study CBRAIN Processing Documentation](https://hbcd-cbrain-processing.readthedocs.io/latest/)
-
 ### External Webpages for Processing Pipelines
 **Magnetic Resonance Imaging (MRI)**  
 [MRIQC](https://mriqc.readthedocs.io/en/latest/): automated extraction of image quality metrics from structural (T1w and T2w) and functional MRI data  
