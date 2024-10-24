@@ -22,6 +22,7 @@ nav:
   - Data Curation & BIDS Data Creation: 
     - Overview: datacuration/bids.md
     - Imaging Curation: datacuration/imaging.md
+    - Biosensor Curation: motion.md
     - Phenotypes Curation: datacuration/phenotypes.md
   - Data Processing:
     - HBCD Processing: processing/processing.md
