@@ -16,7 +16,7 @@ docs_dir: docs
 nav: 
   - About: index.md
   - Release Notes:
-  - "Data Measures & Quality Control": measures/index.md
+    - "Data Measures & Quality Control": measures/index.md
       - Demographics: measures/demographics.md
       - "Physical Health: Food Insecurity": measures/physhealth.md
       - Pregnancy and exposures: measures/pregexposures.md
@@ -24,7 +24,7 @@ nav:
       - Social and Environmental Determinants: measures/socenv_determinants.md
       - Behavior/Caregiver Child Interaction: measures/behavior.md
       - EEG: measures/eeg.md
-    - MRI Protocols:
+    - "MRI Protocols": mriprotocols/index.md
       - Siemens Protocol: mriprotocols/siemens.md
       - GE Protocol: mriprotocols/ge.md
     - Data Curation & BIDS Data Creation: 
