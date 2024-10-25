@@ -24,7 +24,7 @@ nav:
               - Pregnancy Health: measures/pregexp/preghealth.md
               - Infant Health: measures/pregexp/infant.md
               - "Psychiatric Evaluation & History": measures/pregexp/mentalhealth.md
-              - Other: measures/pregexp/other.md
+              - Substance Use: measures/pregexp/substanceuse.md
           - "Novel Technologies & Wearable Sensors": measures/sensors.md
           - "Social & Environmental Determinants": measures/socenv_determinants.md
           - "Behavior/Caregiver Child Interaction": measures/behavior.md

@@ -1,6 +1,3 @@
-
-
-
 ## ASSIST V1
 ### Overview
 **Full Name**: NIDA-modified Alcohol, Smoking and Substance Involvement Screening Test (ASSIST) V2.0  
