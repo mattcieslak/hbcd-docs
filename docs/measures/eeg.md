@@ -205,7 +205,7 @@ Schwartz, S., Shinn-Cunningham, B., & Tager-Flusberg, H. (2018). Meta-analysis a
 **Respondent**: NA
 
 ### Data Collection
-**Visits Administered and corresponding age range of administration**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)<br>  
+**Visits Administered and corresponding age range of administration**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)  
 **Estimated length of time for completion**: Approximately 1 minute
 
 ### Quality Control (QC) Processes
