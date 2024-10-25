@@ -21,9 +21,9 @@ nav:
           - Demographics: measures/demographics.md
           - "Physical Health & Food Insecurity": measures/physhealth.md
           - "Pregnancy & Exposures": 
-              - Overview: measures/pregexp/index.md
               - Pregnancy Health: measures/pregexp/preghealth.md
-              - "Pregnancy Health- Vaccines": measures/pregexp/vaccines.md
+              - Infant Health: measures/pregexp/infant.md
+              - "Psychiatric Evaluation & History": measures/pregexp/mentalhealth.md
               - Other: measures/pregexp/other.md
           - "Novel Technologies & Wearable Sensors": measures/sensors.md
           - "Social & Environmental Determinants": measures/socenv_determinants.md
