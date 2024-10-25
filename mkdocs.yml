@@ -9,7 +9,6 @@ theme:
 
 plugins:
   - search
-  - mike
 
 docs_dir: docs
 
@@ -18,11 +17,11 @@ nav:
   - Release Notes:
       - "Data Measures & Quality Control": measures/index.md
           - Demographics: measures/demographics.md
-          - "Physical Health: Food Insecurity": measures/physhealth.md
-          - Pregnancy and exposures: measures/pregexposures.md
-          - Novel Technologies/Wearable Sensors: measures/sensors.md
+          - "Physical Health & Food Insecurity": measures/physhealth.md
+          - Pregnancy and Exposures: measures/pregexposures.md
+          - "Novel Technologies & Wearable Sensors": measures/sensors.md
           - Social and Environmental Determinants: measures/socenv_determinants.md
-          - Behavior/Caregiver Child Interaction: measures/behavior.md
+          - "Behavior/Caregiver Child Interaction": measures/behavior.md
           - EEG: measures/eeg.md
       - "MRI Protocols": mriprotocols/index.md
           - Siemens Protocol: mriprotocols/siemens.md
@@ -33,7 +32,7 @@ nav:
           - Biosensor Curation: datacuration/motion.md
           - Phenotypes Curation: datacuration/phenotypes.md
       - "Data Processing": processing/index.md
-          - Pipelines & Software Standards: processing/pipelines.md
+          - "Pipelines & Software Standards": processing/pipelines.md
           - External Processing Documentation: processing/processing.md
   - Change Log: changelog.md
   - FAQ: faq.md
