@@ -27,12 +27,12 @@ nav:
     - "MRI Protocols": mriprotocols/index.md
       - Siemens Protocol: mriprotocols/siemens.md
       - GE Protocol: mriprotocols/ge.md
-    - Data Curation & BIDS Data Creation: 
+    - "Data Curation & BIDS Data Creation": datacuration/index.md
       - Overview: datacuration/bids.md
       - Imaging Curation: datacuration/imaging.md
       - Biosensor Curation: datacuration/motion.md
       - Phenotypes Curation: datacuration/phenotypes.md
-    - Data Processing: 
+    - "Data Processing": processing/index.md
       - Pipelines & Software Standards: processing/pipelines.md
       - External Processing Documentation: processing/processing.md
   - Change Log: changelog.md
