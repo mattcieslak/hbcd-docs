@@ -1,4 +1,4 @@
-# Brain Imaging Data Structure Overview
+# Brain Imaging Data Structure
 
 As much as possible, HBCD processing tries to utilize the [Brain Imaging Data Structure](https://bids-specification.readthedocs.io/en/stable/) (BIDS) standard for data organization. At a high level, the HBCD BIDS structure will appear as follows:
 

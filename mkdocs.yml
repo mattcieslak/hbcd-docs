@@ -14,23 +14,27 @@ docs_dir: docs
 nav: 
   - About: index.md
   - Release Notes:
-      - "Data Measures & Quality Control": measures/index.md
+      - "Data Measures & Quality Control":
+          - Overview: measures/index.md
           - Demographics: measures/demographics.md
           - "Physical Health & Food Insecurity": measures/physhealth.md
-          - Pregnancy and Exposures: measures/pregexposures.md
+          - "Pregnancy & Exposures": measures/pregexposures.md
           - "Novel Technologies & Wearable Sensors": measures/sensors.md
-          - Social and Environmental Determinants: measures/socenv_determinants.md
+          - "Social & Environmental Determinants": measures/socenv_determinants.md
           - "Behavior/Caregiver Child Interaction": measures/behavior.md
           - EEG: measures/eeg.md
-      - "MRI Protocols": mriprotocols/index.md
+      - "MRI Protocols": 
+          - Overview: mriprotocols/index.md
           - Siemens Protocol: mriprotocols/siemens.md
           - GE Protocol: mriprotocols/ge.md
-      - "Data Curation & BIDS Data Creation": datacuration/index.md
-          - Overview: datacuration/bids.md
+      - "Data Curation & BIDS Data Creation":
+          - Overview: datacuration/index.md
+          - Brain Imaging Data Structure: datacuration/bids.md
           - Imaging Curation: datacuration/imaging.md
           - Biosensor Curation: datacuration/motion.md
           - Phenotypes Curation: datacuration/phenotypes.md
-      - "Data Processing": processing/index.md
+      - Data Processing: 
+          - Overview: processing/index.md
           - "Pipelines & Software Standards": processing/pipelines.md
           - External Processing Documentation: processing/processing.md
   - Change Log: changelog.md
