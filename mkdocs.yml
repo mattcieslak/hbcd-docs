@@ -5,9 +5,11 @@ theme:
   features:
     - navigation.tabs
     - navigation.path
+    - version
 
 plugins:
   - search
+  - mike
 
 docs_dir: docs
 
