@@ -34,10 +34,11 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 ## Potential Issues Flagged by Subject Matter Experts
 **Measure Name**: We learned through RA reports that some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g., options did not capture identity) and occupation (i.e., imperfect option for job type and number of hours). 
 
-| Appendix. Source information for demographic measures |  |  |  |  |
-| :---- | :---- | :---- | :---- | :---- |
+##  Appendix. Source information for demographic measures
+
+### Demographics Of Birth Parent
 | **Construct** | **Measure Source** | **Source Citations** | **DEI Considerations / Alternations** | **PhenX link/ Source Variable**  |
-| **Demographics Of Birth Parent** |  |  |  |  |
+| :---- | :---- | :---- | :---- | :---- |
 | Marital and Relationship Status | PhenX | Hamilton, et al. (2011) The PhenX Toolkit: Get the Most From Your Measures. American Journal of Epidemiology, 174(3), 253-60. | **Alterations for heteronormative bias**                                      Combine "Divorced/Seperated"                       Use "Single" as opposed to "Never Married";          Use "Partnered" as opposed to "Member of an Unmarried Couple"  | [https://www.phenxtoolkit.org/protocols/view/10903](https://www.phenxtoolkit.org/protocols/view/10903) |
 | Gender Identity | PhenX | Hamilton, et al. (2011) The PhenX Toolkit: Get the Most From Your Measures. American Journal of Epidemiology, 174(3), 253-60. | **Alterations for heteronormative bias**                                              Move Transgender Man/ Transgender Women options to primary tier of a two-tier question | [https://www.phenxtoolkit.org/protocols/view/11801](https://www.phenxtoolkit.org/protocols/view/11801) |
 | Sexual Orientation  | PhenX | Hamilton, et al. (2011) The PhenX Toolkit: Get the Most From Your Measures. American Journal of Epidemiology, 174(3), 253-60. | **Inclusion of diverse response options**     Response categories capture sexual orientation across three dimensions of sexual orientation, including attraction, identity, and behavior. Participant can select all that apply.  | [https://www.phenxtoolkit.org/protocols/view/11701](https://www.phenxtoolkit.org/protocols/view/11701) |
@@ -59,8 +60,12 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 | Jobs During Pregnancy \- Type of Work | HBCD | Cioffredi, et al. (2024) Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD), Developmental Cognitive Neuroscience, 69 | None | None available |
 | Jobs During Pregnancy \- Job Start/Stop Dates | HBCD | Cioffredi, et al. (2024) Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD), Developmental Cognitive Neuroscience, 69 | None | None available |
 | Jobs During Pregnancy \- Typical Hours/Week | HBCD | Cioffredi, et al. (2024) Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD), Developmental Cognitive Neuroscience, 69 | None | None available |
-| Jobs During Pregnancy \- Shift Schedule | Baby's First Years |  | None | BFY Year 1 Protocol \- G39, SchedMain |
-| **Demographics Of Other Biological Parent** |  |  |  |  |
+| Jobs During Pregnancy \- Shift Schedule | Baby's First Years |  | None | BFY Year 1 Protocol \- G39, SchedMain |  |  |  |  |
+
+
+### Demographics Of Other Biological Parent
+| **Construct** | **Measure Source** | **Source Citations** | **DEI Considerations / Alternations** | **PhenX link/ Source Variable**  |
+| :---- | :---- | :---- | :---- | :---- |
 | Age | HBCD | None available | None  | None available |
 | Race/Ethnicity  | OMB | Initial Proposals For Updating OMB's Race and Ethnicity Statistical Standards,  88 Federal Register 5375-5384 (proposed 1/27/2023) https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards  | **Inclusion of diverse racial and ethnic categories**  This question aligns to proposed recommendations for data collection under review by the federal register and includes a combined race/ethnicity variable with 7 response options. Participants may select all that apply.  | [https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/](https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/) |
 | Birthplace and Heritage | PhenX | Hamilton, et al. (2011) The PhenX Toolkit: Get the Most From Your Measures. American Journal of Epidemiology, 174(3), 253-60. | None | [https://www.phenxtoolkit.org/protocols/view/10201](https://www.phenxtoolkit.org/protocols/view/10201) |
