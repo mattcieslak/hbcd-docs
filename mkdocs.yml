@@ -6,6 +6,9 @@ theme:
     - navigation.tabs
     - navigation.path
     - version
+    - toc.integrate
+  toc:
+    depth: 1  # Only display top-level headers in right-hand TOC
 
 plugins:
   - search
