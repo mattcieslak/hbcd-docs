@@ -1,7 +1,4 @@
 # Data Processing
 
-
-- [Overview](bids.md)
-- [Imaging Curation](imaging.md)
-- [Biosensor Curation](motion.md)
-- [Phenotypes Curation](phenotypes.md)
+- [Pipelines & Software Standards](pipelines.md)
+- [External Processing Documentation](processing.md)
