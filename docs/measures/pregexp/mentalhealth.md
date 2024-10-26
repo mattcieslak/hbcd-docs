@@ -64,9 +64,9 @@ None
 ### Additional Information
 When symptoms were reported for Level 1, the participant answered several subsequent questions, which asked about additional symptoms associated with each mental health condition, including anger, anxiety, depression, somatic symptoms, and sleep problems. Slight modifications were made due to the use of other measures and the study population. Specifically, the level 1 questions for personality functioning and substance use were not included; participants proceed automatically to level 2 measures. In addition, all participants answer the level 1 questions on depression but proceed to level 2 questions irrespective of answers.
 
-* Note: the following scores triggered an alert for study staff   
-  * APA suicide ('Thoughts of actually hurting yourself?'), score greater than 0  
-  * APA depression (from 'I felt worthless' to 'I felt that nothing could cheer me up'), raw score greater than 32
+Note: the following scores triggered an alert for study staff:   
+ * APA suicide ('Thoughts of actually hurting yourself?'), score greater than 0
+ * APA depression (from 'I felt worthless' to 'I felt that nothing could cheer me up'), raw score greater than 32
 
 ### References
  * Doss, R. A., & Lowmaster, S. E. (2022). Validation of the DSM-5 Level 1 Cross-Cutting Symptom Measure in a Community  Sample. *Psychiatry Research*, *318*, 114935\. [https://doi.org/10.1016/j.psychres.2022.114935](https://doi.org/10.1016/j.psychres.2022.114935)
@@ -155,9 +155,8 @@ None
 
 ### Additional Information
 Note: the following scores on the EPDS triggered a clinical alert for study staff:
-
-* EPDS suicide ('The thought of harming myself has occurred to me'), score greater than 1  
-  * EPDS depression, overall score greater than 11
+* EPDS suicide ('The thought of harming myself has occurred to me'), score greater than 1
+* EPDS depression, overall score greater than 11
 
 ### References
  * Cox, J. L., Holden, J. M., & Sagovsky, R. (1987). Detection of postnatal depression . Development of the 10-item Edinburgh Postnatal Depression Scale. *British Journal of Psychiatry*, *150*, 782–786. [https://doi.org/10.1192/bjp.150.6.782](https://doi.org/10.1192/bjp.150.6.782)
