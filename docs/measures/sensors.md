@@ -39,138 +39,138 @@ No issues were found. Users are reminded that accelerometer sensor timestamps dr
 Data files included in the data release are raw sensor data in BIDS format for the calibration and 72-hour files for the right leg and the left leg, as well as files containing processed data outputs.
 
 ### Raw data, calibration files
-**Full Name:** sub-{dccid}_ses-{session number}_task-LeftLegMovement_tracksys-imu_acq-calibration_channels.json  
+**Full Name:** `sub-{dccid}_ses-{session number}_task-LeftLegMovement_tracksys-imu_acq-calibration_channels.jso`n  
 **Acronym/Brief Name**: LL-Calib-Channels-Ref  
 **Description**: The reference frame in which the channels of the Inertial Measurement Unit sensor used to prepare sensor calibration dataset is represented (left leg movement): Anterior, Right, Superior each corresponding to X, Y, and Z axis.
 
-**Full Name**: sub-{dccid}_ses-{session number}_task-RightLegMovement_tracksys-imu_acq-calibration_channels.json  
+**Full Name**: `sub-{dccid}_ses-{session number}_task-RightLegMovement_tracksys-imu_acq-calibration_channels.json`  
 **Acronym/Brief Name**: RL-Calib-Channels-Ref  
 **Description**: The reference frame in which the channels of the Inertial Measurement Unit sensor used to prepare sensor calibration dataset is represented (right leg movement): Anterior, Right, Superior each corresponding to X, Y, and Z axis.  
 **Summary**: Reference frame of the IMU sensor
 
-**Full Name**: sub-{dccid}_ses-{session number}_task-LeftLegMovement_tracksys-imu_acq-calibration_channels.tsv  
+**Full Name**: `sub-{dccid}_ses-{session number}_task-LeftLegMovement_tracksys-imu_acq-calibration_channels.tsv`  
 **Acronym/Brief Name**: LL-Calib-Channels-Details  
 **Description**: Measurement axis, sensor type, sensor position, unit, latency, reference frame of each column in sub-{dccid}_ses-{session number}_task-LeftLegMovement_tracksys-imu_acq-calibration_motion.tsv   
 **Summary**: Details about the columns of the left leg calibration dataset.
 
-**Full Name**: sub-{dccid}_ses-{session number}_task-RightLegMovement_tracksys-imu_acq-calibration_channels.tsv  
+**Full Name**: `sub-{dccid}_ses-{session number}_task-RightLegMovement_tracksys-imu_acq-calibration_channels.tsv`  
 **Acronym/Brief Name**: RL-Calib-Channels-Details  
 **Description**: Measurement axis, sensor type, sensor position, unit, latency, reference frame of each column in sub-{dccid}_ses-{session number}_task-RightLegMovement_tracksys-imu_acq-calibration_motion.tsv   
 **Summary**: Details about the columns of the right leg calibration dataset.
 
-**Full Name**: sub-{dccid}_ses-{session number}_task-LeftLegMovement_tracksys-imu_acq-calibration_motion.tsv  
+**Full Name**: `sub-{dccid}_ses-{session number}_task-LeftLegMovement_tracksys-imu_acq-calibration_motion.tsv`  
 **Acronym/Brief Name**: LL-Calib-Recording  
 **Description**: Actual recording of the sensor (~ 1 minute) to prepare calibration dataset of the left leg movement sensor. There will be seven columns, and the detail about each column is in LL-Calib-Cahnnels-Details.   
 **Summary**: Calibration dataset, left leg movement sensor
 
-**Full Name**: sub-{dccid}_ses-{session number}_task-RightLegMovement_tracksys-imu_acq-calibration_motion.tsv  
+**Full Name**: `sub-{dccid}_ses-{session number}_task-RightLegMovement_tracksys-imu_acq-calibration_motion.tsv`  
 **Acronym/Brief Name**: RL-Calib-Recording  
 **Description**: Actual recording of the sensor (~ 1 minute) to prepare calibration dataset of the right leg movement sensor. There will be seven columns, and the detail about each column is in RL-Calib-Channels-Details.  
 **Summary**: Calibration dataset, right leg movement sensor
 
-**Full Name**: sub-{dccid}_ses-{session number}_task-LeftLegMovement_tracksys-imu_acq-calibration_motion.json  
+**Full Name**: `sub-{dccid}_ses-{session number}_task-LeftLegMovement_tracksys-imu_acq-calibration_motion.json`  
 **Acronym/Brief Name**: LL-Calib-Recording-Details  
 **Description**: Recording related information: sampling frequency, effective sampling frequency, task name, task description, tracking system name, recording duration, accelerometer channel count, gyroscope channel count, latency channel count, manufacturer, sensor name, sensor’s serial number   
 **Summary**: Calibration dataset of the left leg movement sensor related information
 
-**Full Name**: sub-{dccid}_ses-{session number}_task-RightLegMovement_tracksys-imu_acq-calibration_motion.json  
+**Full Name**: `sub-{dccid}_ses-{session number}_task-RightLegMovement_tracksys-imu_acq-calibration_motion.json`  
 **Acronym/Brief Name**: RL-Calib-Recording-Details  
 **Description**: Recording related information: sampling frequency, effective sampling frequency, task name, task description, tracking system name, recording duration, accelerometer channel count, gyroscope channel count, latency channel count, manufacturer, sensor name, sensor’s serial number   
 **Summary**: Calibration dataset of the right leg movement sensor related information
 
 ### Raw data, 72-hour files
-**Full Name**: sub-{dccid}_ses-{session number}_task-LeftLegMovement_tracksys-imu_acq-primary_channels.json  
+**Full Name**: `sub-{dccid}_ses-{session number}_task-LeftLegMovement_tracksys-imu_acq-primary_channels.json`  
 **Acronym/Brief Name**: LL-Primary-Channels-Ref  
 **Description**: The reference frame in which the channels of the Inertial Measurement Unit sensor used to prepare sensor movement dataset is represented (left leg movement): Anterior, Right, Superior each corresponding to X, Y, and Z axis   
 **Summary**: Reference frame of the IMU sensor
 
-**Full Name**: sub-{dccid}_ses-{session number}_task-RightLegMovement_tracksys-imu_acq-primary_channels.json  
+**Full Name**: `sub-{dccid}_ses-{session number}_task-RightLegMovement_tracksys-imu_acq-primary_channels.json`  
 **Acronym/Brief Name**: RL-Primary-Channels-Ref  
 **Description**: The reference frame in which the channels of the Inertial Measurement Unit sensor used to prepare sensor movement dataset is represented (right leg movement): Anterior, Right, Superior each corresponding to X, Y, and Z axis   
 **Summary**: Reference frame of the IMU sensor
 
-**Full Name**: sub-{dccid}_ses-{session number}_task-LeftLegMovement_tracksys-imu_acq-calibration_channels.tsv  
+**Full Name**: `sub-{dccid}_ses-{session number}_task-LeftLegMovement_tracksys-imu_acq-calibration_channels.tsv`  
 **Acronym/Brief Name**: LL-Primary-Channels-Details  
 **Description**: Measurement axis, sensor type, sensor position, unit, latency, reference frame of each column in sub-{dccid}_ses-{session number}_task-LeftLegMovement_tracksys-imu_acq-primary_motion.tsv   
 **Summary**: Details about the columns of the left leg movement dataset.
 
-**Full Name**: sub-{dccid}_ses-{session number}_task-RightLegMovement_tracksys-imu_acq-primary_channels.tsv  
+**Full Name**: `sub-{dccid}_ses-{session number}_task-RightLegMovement_tracksys-imu_acq-primary_channels.tsv`  
 **Acronym/Brief Name**: RL-Primary-Channels-Details  
 **Description**: Measurement axis, sensor type, sensor position, unit, latency, reference frame of each column in sub-{dccid}_ses-{session number}_task-RightLegMovement_tracksys-imu_acq-primary_motion.tsv   
 **Summary**: Details about the columns of the right leg movement dataset.
 
-**Full Name**: sub-{dccid}_ses-{session number}_task-LeftLegMovement_tracksys-imu_acq-primary_motion.tsv  
+**Full Name**: `sub-{dccid}_ses-{session number}_task-LeftLegMovement_tracksys-imu_acq-primary_motion.tsv`  
 **Acronym/Brief Name**: LL-Primary-Recording  
 **Description**: Actual recording of the sensor (~ 1 minute) to prepare movement dataset of the left leg movement sensor. There will be seven columns, and the detail about each column is in LL-Primary-Channels-Details.  
 **Summary**: Movement dataset, left leg movement sensor
 
-**Full Name**: sub-{dccid}_ses-{session number}_task-RightLegMovement_tracksys-imu_acq-primary_motion.tsv  
+**Full Name**: `sub-{dccid}_ses-{session number}_task-RightLegMovement_tracksys-imu_acq-primary_motion.tsv`  
 **Acronym/Brief Name**: RL-Primary-Recording  
 **Description**: Actual recording of the sensor (~ 1 minute) to prepare movement dataset of the right leg movement sensor. There will be seven columns, and the detail about each column is in RL-Calib-Channels-Details.  
 **Summary**: Movement dataset, right leg movement sensor
 
-**Full Name**: sub-{dccid}_ses-{session number}_task-LeftLegMovement_tracksys-imu_acq-primary_motion.json  
+**Full Name**: `sub-{dccid}_ses-{session number}_task-LeftLegMovement_tracksys-imu_acq-primary_motion.json`  
 **Acronym/Brief Name**: LL-Primary-Recording-Details  
 **Description**: Recording related information: sampling frequency, effective sampling frequency, task name, task description, tracking system name, recording duration, accelerometer channel count, gyroscope channel count, latency channel count, manufacturer, sensor name, sensor’s serial number   
 **Summary**: Movement dataset of the left leg movement sensor related information
 
-**Full Name**: sub-{dccid}_ses-{session number}_task-RightLegMovement_tracksys-imu_acq-primary_motion.json  
+**Full Name**: `sub-{dccid}_ses-{session number}_task-RightLegMovement_tracksys-imu_acq-primary_motion.json`  
 **Acronym/Brief Name**: RL-Primary-Recording-Details  
 **Description**: Recording related information: sampling frequency, effective sampling frequency, task name, task description, tracking system name, recording duration, accelerometer channel count, gyroscope channel count, latency channel count, manufacturer, sensor name, sensor’s serial number   
 **Summary**: Movement dataset of the right leg movement sensor related information
 
-**Full Name**: sub-{dccid}_ses-{session number}_leg-left_desc-calibrated_recording-20_motion.tsv  
+**Full Name**: `sub-{dccid}_ses-{session number}_leg-left_desc-calibrated_recording-20_motion.tsv`  
 **Acronym/Brief Name**: LL-Primary-Recording-Calibrated20  
 **Description**: 72 hour left leg movement data calibrated using LL-Calib-Recording and resampled at 20 Hz.   
 **Summary**: Movement dataset of the left leg movement sensor calibrated and resampled at 20 Hz.
 
-**Full Name**: sub-{dccid}_ses-{session number}_leg-right_desc-calibrated_recording-20_motion.tsv  
+**Full Name**: `sub-{dccid}_ses-{session number}_leg-right_desc-calibrated_recording-20_motion.tsv`  
 **Acronym/Brief Name**: RL-Primary-Recording-Calibrated20  
 **Description**: 72 hour right leg movement data calibrated using RL-Calib-Recording and resampled at 20 Hz.   
 **Summary**: Movement dataset of the right leg movement sensor calibrated and resampled at 20 Hz.
 
-**Full Name**: sub-{dccid}_ses-{session number}_leg-left_desc-calibrated_recording-25_motion.tsv  
+**Full Name**: `sub-{dccid}_ses-{session number}_leg-left_desc-calibrated_recording-25_motion.tsv`  
 **Acronym/Brief Name**: LL-Primary-Recording-Calibrated25  
 **Description**: 72 hour left leg movement data calibrated using LL-Calib-Recording. 25 Hz is the original sampling rate.  
 **Summary**: Movement dataset of the left leg movement sensor, calibrated.
 
-**Full Name**: sub-{dccid}_ses-{session number}_leg-right_desc-calibrated_recording-25_motion.tsv  
+**Full Name**: `sub-{dccid}_ses-{session number}_leg-right_desc-calibrated_recording-25_motion.tsv`  
 **Acronym/Brief Name**: RL-Primary-Recording-Calibrated25  
 **Description**: 72 hour right leg movement data calibrated using RL-Calib-Recording. 25 Hz is the original sampling rate.  
 **Summary**: Movement dataset of the right leg movement sensor, calibrated
 
 ### Processed data outputs
-**Full Name**: sub-{dccid}_ses-{session number}_desc-kinematics_recording-20_motion.json  
+**Full Name**: `sub-{dccid}_ses-{session number}_desc-kinematics_recording-20_motion.json`  
 **Acronym/Brief Name**: Primary-Summary20  
 **Description**: Summary kinematic measures based on the 72 hour leg movement data calibrated and resampled at 20Hz (LL-Primary-Recording-Calibrated20 & RL-Primary-Recording-Calibrated20). Measures include threshold values, movement rates, total movement counts, sleep times, average acceleration medians, peak acceleration medians, movement duration medians, and entropy values of the left and the right leg movement dataset.  
 **Summary**: Summary kinematic variables from the movement dataset of both legs, calibrated and resampled at 20Hz.
 
-**Full Name**: sub-{dccid}_ses-{session number}_desc-kinematics_recording-25_motion.json  
+**Full Name**: `sub-{dccid}_ses-{session number}_desc-kinematics_recording-25_motion.json`  
 **Acronym/Brief Name**: Primary-Summary25  
 **Description**: Summary kinematic measures based on the 72 hour leg movement data recorded at 25Hz and calibrated using LL-Primary-Recording-Calibrated25 and RL-Primary-Recording-Calibrated25. Measures include threshold values, movement rates, total movement counts, sleep times, average acceleration medians, peak acceleration medians, movement duration medians, and entropy values of the left and the right leg movement dataset.  
 **Summary**: Summary kinematic variables from the movement dataset of both legs, calibrated.
 
-**Full Name**: sub-{dccid}_ses-{session number}_leg-{pa_side*}_desc-{pa_measure*}PA_BOUTS.tsv  
+**Full Name**: `sub-{dccid}_ses-{session number}_leg-{pa_side*}_desc-{pa_measure*}PA_BOUTS.tsv`  
 **Acronym/Brief Name**: PA-BOUTS  
 **Description**: This file lists bouts of activity as they occur over time. There are 4 columns of data [start time of a bout, end time of a bout, duration of a bout, and classification of a bout]. The unit for time is seconds. The first line contains the headings, and the rest contain the data. Classification of bours is [0: sedentary, 3: light activity, 6: moderate-to-vigorous (MV) activity, 999: undefined (could not be computed)]. {pa_side} and {pa_measure} are user defined. {pa_side} is ‘left’ or ‘right’, and {pa_measure} is ‘acceleration’ or ‘jerk’.  
 **Summary**: A list of bouts of activity with timestamps and classification categories
 
-**Full Name**: sub-{dccid}_ses-{session number}_leg-{pa_side*}_desc-{pa_measure*}PA_SUMMARY.json  
+**Full Name**: `sub-{dccid}_ses-{session number}_leg-{pa_side*}_desc-{pa_measure*}PA_SUMMARY.json`  
 **Acronym/Brief Name**: PA-SUMMARY  
 **Description**: The overall summary of physical activity in terms of 3 different measures: counts (instances) recorded, in terms of percentage time spent, and in terms of actual time spent in minutes. For each measure, values will be listed for the total, sedentary, light, and moderate-to-vigorous (MV) activity. The fifth label, “undefined”, can be ignored. {pa_side} and {pa_measure} are user defined. {pa_side} is ‘left’ or ‘right’, and {pa_measure} is ‘acceleration’ or ‘jerk’.  
 **Summary**: The overall summary of physical activity estimated from recording.
 
-**Full Name**: sub-{dccid}_ses-{session number}_leg-{pa_side*}_desc-{pa_measure*}PA_RAW.json  
+**Full Name**: `sub-{dccid}_ses-{session number}_leg-{pa_side*}_desc-{pa_measure*}PA_RAW.json`  
 **Acronym/Brief Name**: PA-RAW  
 **Description**: The file lists instantaneous levels of activity as they occur over time. There are 2 columns of data, separated by commas: Unix epoch time (in seconds) at each instance, and classification at each instance. Classification of instance is [0: sedentary, 3: light activity, 6: moderate-to-vigorous (MV) activity, 999: undefined (could not be computed)]. {pa_side} and {pa_measure} are user defined. {pa_side} is ‘left’ or ‘right’, and {pa_measure} is ‘acceleration’ or ‘jerk’.  
 **Summary**: A detailed description across time of when the infant was in different categories of physical activity
 
-**Full Name**: sub-{dccid}_ses-{session number}_leg-{pa_side*}_desc-{pa_measure*}PA_LOG.txt  
+**Full Name**: `sub-{dccid}_ses-{session number}_leg-{pa_side*}_desc-{pa_measure*}PA_LOG.txt`  
 **Acronym/Brief Name**: PA-LOG  
 **Description**: The file lists the parameters provided to process data and generate *PA_RAW.json, *PA_SUMMARY.json, and *PA_BOUTS.tsv. In addition, the content of *PA_SUMMARY.json is available in this file. {pa_side} is ‘left’ or ‘right’, and {pa_measure} is ‘acceleration’ or ‘jerk’.  
 **Summary**: A list of parameters used to estimate the physical activity categories and the summary of processing output.
 
-**Full Name**: PARAMETERS.json  
+**Full Name**: `PARAMETERS.json`  
 **Acronym/Brief Name**: Kinematics-Param  
 **Description**: The file lists the parameters provided when using the docker container (see page 3). Items include [bids_dir, output_dir, analytics_level, participant_label, session_id, interval, pa_measure, pa_side, entropy_type, entropy_measure]. Explanation of each item is available at **https://hbcd-motion-postproc.readthedocs.io/en/latest**.  
 
