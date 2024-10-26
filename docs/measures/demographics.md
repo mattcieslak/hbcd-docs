@@ -48,7 +48,7 @@ We learned through RA reports that some participants reported challenges in answ
 | Race/Ethnicity | [OMB](https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/)<sup>4</sup> | **Inclusion of diverse racial and ethnic categories:** This question aligns to the proposed recommendations for data collection under review by the OMB and includes a combined race and ethnicity variable with 7 response options. Participants may select all that apply. |
 | Others Describe You | BRFSS<sup>5</sup> | **Alterations to include same categories as the race and ethnicity question**  Includes 7 race and ethnicity response options |
 | Biological Parents Birthplace and Heritage | [PhenX](https://www.phenxtoolkit.org/protocols/view/10301)<sup>1</sup> | None |
-| Income | ABCD<sup>5</sup>| **Alteration of household income brackets**  | 
+| Income | ABCD<sup>6</sup>| **Alteration of household income brackets**  | 
 | Educational Attainment | [PhenX](https://www.phenxtoolkit.org/protocols/view/11002)<sup>1</sup> | None |
 | Active-Duty Military | HBCD<sup>2</sup>| None |
 | Currently Work for Pay | Baby's First Years | None | BFY Year 1 Protocol - G35, Mwork |
@@ -90,7 +90,7 @@ We learned through RA reports that some participants reported challenges in answ
 <sup>3</sup> ECHO = Environmental Influences On Child Health Outcomes   
 <sup>4</sup> OMB = Office of Management And Budget (Federal Register 2023)  
 <sup>5</sup> BRFSS = Behavioral Risk Factor Surveillance System (Jones et al. 2008)  
-<sup>6</sup> ABCD = Adolescent Brain Child Development Study
+<sup>6</sup> ABCD = Adolescent Brain Child Development Study (Barch et al. 2018)
 
 ## References
   * Hamilton, et al. (2011) The PhenX Toolkit: Get the Most From Your Measures. American Journal of Epidemiology, 174(3), 253-60.
