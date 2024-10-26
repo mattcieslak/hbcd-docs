@@ -33,7 +33,7 @@ None
 **Description**: This was a created to assess vaccine receipt in pregnancy  
 **Summary**: Asks about receipt of a list of common vaccines in pregnancy, and trimester received
 
-### Implementation Details
+### Implementation
 **Method of Administration**: self-administered  
 **REDCap Form Name**: Vacc  
 **Pilot Data Dictionary**:   
@@ -45,12 +45,12 @@ None
 **Visits Administered and corresponding age range of administration**:  V1 (pregnancy)
 **Estimated length of time for completion**: 3 minutes
 
-### Quality Control (QC) Processes
+### Quality Control (QC)
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
 ### Potential Issues Flagged by Subject Matter Experts
-* No issues found
+None
 
 ## Pregnancy Health - Illness
 ### Overview
@@ -77,7 +77,7 @@ None
 **Common Issues Identified**: None
 
 ### Potential Issues Flagged by Subject Matter Experts
-* Illnesses are captured either from ICD codes (from BioPortal ICD) or symptom codes (from World Health Organization), which were at times difficult for the participant to name or the RA to correctly find in the ICD or symptom database.
+Illnesses are captured either from ICD codes (from BioPortal ICD) or symptom codes (from World Health Organization), which were at times difficult for the participant to name or the RA to correctly find in the ICD or symptom database.
 
 ## Pregnancy Health - ER/Hospitalizations
 ### Overview
@@ -104,14 +104,14 @@ None
 **Common Issues Identified**: None
 
 ### Potential Issues Flagged by Subject Matter Experts
-* Reasons for ER visit or hospitalization are captured from ICD codes (from BioPortal ICD), which were at times difficult for the participant to name or the RA to correctly find in the ICD database. This was particularly apparent for use of the ER for normal care (no diagnosis) or false alarms (e.g. thought water broke but it did not), resulting in the use of ‘don’t know.’
+Reasons for ER visit or hospitalization are captured from ICD codes (from BioPortal ICD), which were at times difficult for the participant to name or the RA to correctly find in the ICD database. This was particularly apparent for use of the ER for normal care (no diagnosis) or false alarms (e.g. thought water broke but it did not), resulting in the use of ‘don’t know.’
 
 ## Pregnancy Health- Chronic Conditions 
 ### Overview
 **Full Name**: Pregnancy health- chronic conditions  
 **Acronym/Brief Name**: Exp I chroncond  
 **Construct**: chronic conditions and sexually transmitted infections in pregnancy  
-**Description**: This was a created to capture chronic conditions (queried from a list) and sexually transmitted diseases in pregnancy.  
+**Description**: This was a created to capture chronic conditions (queried from a list) and sexually transmitted diseases in pregnancy.   
 **Summary**: Asks about a pre-defined list of chronic conditions and sexually transmitted infections in pregnancy. Endorsed chronic conditions are asked whether they are ongoing or resolved. 
 
 ### Implementation
@@ -131,7 +131,7 @@ None
 **Common Issues Identified**: None
 
 ### Potential Issues Flagged by Subject Matter Experts
-* No issues found
+None
 
 ## Pregnancy Health - Medications
 ### Overview
