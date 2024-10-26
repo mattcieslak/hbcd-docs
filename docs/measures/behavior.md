@@ -63,7 +63,7 @@ None
 ### Additional Information
  * [Mary Rothbart's Temperament Questionnaires](https://research.bowdoin.edu/rothbart-temperament-questionnaires)
 
-### Publications and References 
+### References 
  * Rothbart, M. K. (1981). Measurement of temperament in infancy. Child Development, 52, 569-578.
  * Gartstein, M. A., & Rothbart, M. K. (2003). Studying infant temperament via the Revised Infant Behavior Questionnaire. Infant Behavior and Development, 26 (1), 64-86.
  * Putnam, S. P., Helbig, A. L., Gartstein, M. A., Rothbart, M. K. & Leerkes, E. (2014). Development and Assessment of Short and Very Short Forms of the Infant Behavior Questionnaire-Revised. Journal of Personality Assessment, 96, 445-458.
