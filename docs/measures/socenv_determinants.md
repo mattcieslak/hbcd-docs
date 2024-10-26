@@ -8,7 +8,7 @@
 **Description**: This measure is a three-item questionnaire to assess the respondent’s perceptions about safety, violence, and crime in their neighborhoods. Neighborhood safety may be relevant to a range of maternal and child health outcomes. The respondent’s perception of their neighborhood may also be used alongside geocoded measures of neighborhood crime statistics to help understand an individuals experience within a neighborhood.   
 **Summary**: This measure is a questionnaire to assess the respondent’s subjective perceptions about safety and crime in their neighborhoods. 
 
-### Implementation Details
+### Implementation 
 **Method of Administration**: RA administered in person or remote survey  
 **REDCap Form Name**: sed\_bm\_nbhsaf  
 **Pilot Data Dictionary**: Unknown  
@@ -24,7 +24,7 @@
   * Visit 9 (32-46 months)  
 **Estimated length of time for completion**: 1 minute
 
-### Quality Control (QC) Processes
+### Quality Control (QC) 
 **QC Procedures**: Monitoring missingness 
 
 **Common Issues Identified**: None
@@ -47,7 +47,7 @@ Mujahid, M. S., Diez Roux, A. V., Morenoff, J. D., & Raghunathan, T. (2007). Ass
 **Description**: These measures of perceived stress and social support are a combination of the PROMIS emotional support 4a questionnaire and the Perceived Stress Scale – 4 (PSS-4). The first 4 questions are the PROMIS emotional support 4a questionnaire which measures the quality of the emotional support to which the participant has access. The last 4 questions (PSS-4) represent the shortened version of the PSS-14. This questionnaire measures perceived general stress in the past month. It has been used in many populations world wide including pregnant individuals and young families.  
 **Summary**: The Perceived Stress and Social support tools measure perceived stress and perceptions of emotional support by one’s social network in the caregivers in this study longitudinally. 
 
-### Implementation Details
+### Implementation 
 **Method of Administration**: Remote survey  
 **REDCap Form Name**: sed\_bm\_strsup  
 **Pilot Data Dictionary**: PROMIS  
@@ -59,7 +59,7 @@ Mujahid, M. S., Diez Roux, A. V., Morenoff, J. D., & Raghunathan, T. (2007). Ass
 **Visits**: V1 (prenatal), V2 (0-1m), V3 (3-9m) 
 **Estimated length of time for completion**: 4 minute
 
-### Quality Control (QC) Processes
+### Quality Control (QC) 
 **QC Procedures**   
 Monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency.  
 
