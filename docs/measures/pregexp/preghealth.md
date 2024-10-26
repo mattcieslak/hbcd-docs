@@ -158,7 +158,7 @@ None
 **Common Issues Identified**: None
 
 ### Potential Issues Flagged by Subject Matter Experts
-* Medication was queried from the RxNORM database. Reasons for medication use are captured from ICD codes (from BioPortal ICD), which were at times difficult for the participant to name or the RA to correctly find in the ICD database. This was apparent with aspirin used for preeclampsia, as there was not an option for coding preventive use. Aspirin was specifically moved to the prenatal vitamin section a few months into the study. Additionally, medications used PRN were difficult for the participant to report. Finally, although not asked, some medications were coded with the dose in the database, although this was not asked and should not be used.
+Medication was queried from the RxNORM database. Reasons for medication use are captured from ICD codes (from BioPortal ICD), which were at times difficult for the participant to name or the RA to correctly find in the ICD database. This was apparent with aspirin used for preeclampsia, as there was not an option for coding preventive use. Aspirin was specifically moved to the prenatal vitamin section a few months into the study. Additionally, medications used PRN were difficult for the participant to report. Finally, although not asked, some medications were coded with the dose in the database, although this was not asked and should not be used.
 
 ## Pregnancy Health- V2 (End of Pregnancy)
 ### Overview
@@ -177,7 +177,7 @@ None
 **Respondent:** person who gave birth
 
 ### Data Collection
-**Visits Administered and corresponding age range of administration**:  V2 (0-1 month postnatal visit)
+**Visits Administered and corresponding age range of administration**:  V2 (0-1 month postnatal visit)  
 **Estimated length of time for completion**: 10 minutes
 
 ### Quality Control (QC)
