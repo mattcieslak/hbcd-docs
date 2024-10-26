@@ -25,8 +25,8 @@
 ### Potential Issues Flagged by Subject Matter Experts
 * To capture ‘standard drinks’ of alcohol, participants were asked to self-report their typical size of a single drink (in oz). This was difficult for some participants, and some reports are outside of expected range. Sites were queried on outliers, but participants were not always able to be re-contacted. 
 
-### Publications and References
-National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
+### References
+ * National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
 
 ## ASSIST V2 
 **Full Name**: NIDA-modified Alcohol, Smoking and Substance Involvement Screening Test (ASSIST) V2.0  
@@ -55,8 +55,8 @@ In addition, participants were asked if they used any of the 18 substances betwe
 ### Potential Issues Flagged by Subject Matter Experts
 * To capture ‘standard drinks’ of alcohol, participants were asked to self-report their typical size of a single drink (in oz). This was difficult for some participants, and some reports are outside of expected range. Sites were queried on outliers, but participants were not always able to be re-contacted. 
 
-### Publications and References
-National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
+### References
+ * National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
 
 ## ASSIST V3
 **Full Name**: NIDA-modified Alcohol, Smoking and Substance Involvement Screening Test (ASSIST) V2.0  
@@ -82,10 +82,10 @@ National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
 **Common Issues Identified**: None
 
 ### Potential Issues Flagged by Subject Matter Experts
-* No issues found
+None
 
-### Publications and References
-National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
+### References
+ * National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
 
 ## Timeline Follow Back 
 **Full Name**: Timeline Follow Back  
@@ -112,11 +112,11 @@ National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
 **Common Issues Identified**: If a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it.
 
 ### Potential Issues Flagged by Subject Matter Experts
-* Important note for users: the TLFB was a sampling of weeks of use before (Weeks 1-2) and during (Weeks 3-9) pregnancy. It is completely reasonable that someone could endorse a substance during pregnancy, and it doesn’t appear on the TLFB because it didn’t happen to fall within a sampled week. Similarly, they may have a positive biospecimen but no data on the TLFB for the same reason. Sampling (before, early, mid and late pregnancy) was meant to minimize participant burden (and not request a 40-week TLFB) but capture portions of pregnancy where behaviors tend to change (before and after pregnancy recognition, late pregnancy). 
+Important note for users: the TLFB was a sampling of weeks of use before (Weeks 1-2) and during (Weeks 3-9) pregnancy. It is completely reasonable that someone could endorse a substance during pregnancy, and it doesn’t appear on the TLFB because it didn’t happen to fall within a sampled week. Similarly, they may have a positive biospecimen but no data on the TLFB for the same reason. Sampling (before, early, mid and late pregnancy) was meant to minimize participant burden (and not request a 40-week TLFB) but capture portions of pregnancy where behaviors tend to change (before and after pregnancy recognition, late pregnancy). 
 
-* Also, of note- participants were asked to report occasions (except cigarettes/ cigarillos and drinks (number), but some substances (e.g. electronic cigarette devices) are difficult to report in occasions and have outliers.
+Also of note- participants were asked to report occasions (except cigarettes/ cigarillos and drinks (number), but some substances (e.g. electronic cigarette devices) are difficult to report in occasions and have outliers.
 
-* The TLFB data should be combined with the biospecimen and Assist data. One could also create trajectories of use from the TLFB with assumptions by using data on early pregnancy (weeks 3-6) carried forward until stated pregnancy recognition (V1 Health), then using enrollment (week 7\) information and carrying that forward until late pregnancy (weeks 8-9). 
+The TLFB data should be combined with the biospecimen and Assist data. One could also create trajectories of use from the TLFB with assumptions by using data on early pregnancy (weeks 3-6) carried forward until stated pregnancy recognition (V1 Health), then using enrollment (week 7\) information and carrying that forward until late pregnancy (weeks 8-9). 
 
-### Publications and References
-Sobell, L., & Sobell, M. (2000). Alcohol timeline follow-back (TLFB). In *Handbook of psychiatric measures.* (p. 477). American Psychiatric Association.
+### References
+ * Sobell, L., & Sobell, M. (2000). Alcohol timeline follow-back (TLFB). In *Handbook of psychiatric measures.* (p. 477). American Psychiatric Association.
