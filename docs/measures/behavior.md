@@ -23,15 +23,16 @@ The Infant Behavior Questionnaire-Revised (Very Short Form + BI) is designed to 
 **Estimated length of time for completion**: Approximately 7-10 minutes     
 **General Scoring Description and Procedure**:  
 The IBQ-R+BI is scored in 4 domains: Surgency, Negative Affect, Effortful Control, Behavioral Inhibition. Respondents report on the frequency of infant’s behavior using the following scale:  
-
-- 1 - Never
-- 2 - Very rarely
-- 3 - Less than half the time
-- 4 - About half the time
-- 5 - More than half the time
-- 6 - Almost always
-- 7 - Always
-- 8 - (Does not apply/missing)  
+```
+1 - Never   
+2 - Very rarely   
+3 - Less than half the time   
+4 - About half the time   
+5 - More than half the time   
+6 - Almost always   
+7 - Always   
+8 - (Does not apply/missing)
+``` 
    
 Scale scores for the Infant Behavior Questionnaire – Revised – Very Short Form represent the mean score of all scale items applicable to the child, as judged by the caregiver. Scales' scores are to be computed by the following method:  
    
