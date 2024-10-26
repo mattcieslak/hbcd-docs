@@ -38,7 +38,7 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 
 ### Demographics Of Birth Parent
 | **Construct** | **Measure Source** | **DEI Modifications** |
-| :---- | :---- | :-- |
+| :---- | :--- | :-- |
 | Marital and Relationship Status | [PhenX](https://www.phenxtoolkit.org/protocols/view/10903)<sup>1</sup> | **For heteronormative bias:** (1) Combine "Divorced/Seperated" (2) "Never Married" replaced by "Single" (3) "Member of an Unmarried Couple" replaced by "Partnered"
 | Gender Identity | [PhenX](https://www.phenxtoolkit.org/protocols/view/11801)<sup>1</sup> | **For heteronormative bias:** Transgender Man/Transgender Woman options moved to primary tier of a two-tier question | 
 | Sexual Orientation | [PhenX](https://www.phenxtoolkit.org/protocols/view/11701)<sup>1</sup> | **Inclusion of diverse response options:** Response categories capture sexual orientation across three dimensions of sexual orientation, including attraction, identity, and behavior. Participant can select all that apply. | 
@@ -64,7 +64,7 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 
 ### Demographics Of Other Biological Parent
 | **Construct** | **Measure Source** | **DEI Modifications** |
-| :---- | :--- | :---- |
+| :---- | :--- | :-- |
 | Age | HBCD | None |
 | Race/Ethnicity | [OMB](https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/)<sup>3</sup> | **Inclusion of diverse racial and ethnic categories**  This question aligns to proposed recommendations for data collection under review by the federal register and includes a combined race/ethnicity variable with 7 response options. Participants may select all that apply. |
 | Birthplace and Heritage | [PhenX](https://www.phenxtoolkit.org/protocols/view/10201)<sup>2</sup> | None |
