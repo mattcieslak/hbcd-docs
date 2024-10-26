@@ -64,7 +64,7 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 
 ### Demographics Of Other Biological Parent
 | **Construct** | **Measure Source** | **Source Citations** | **DEI Considerations / Alternations** |
-| :---- | :---- | :---- | :---- | :---- |
+| :---- | :--- | :---- | :---- |
 | Age | HBCD | None available | None |
 | Race/Ethnicity  | [OMB](https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/) | Initial Proposals For Updating OMB's Race and Ethnicity Statistical Standards, 88 Federal Register 5375-5384 (proposed 1/27/2023) https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards  | **Inclusion of diverse racial and ethnic categories**  This question aligns to proposed recommendations for data collection under review by the federal register and includes a combined race/ethnicity variable with 7 response options. Participants may select all that apply. |
 | Birthplace and Heritage | [PhenX](https://www.phenxtoolkit.org/protocols/view/10201) | Hamilton, et al. (2011) The PhenX Toolkit: Get the Most From Your Measures. American Journal of Epidemiology, 174(3), 253-60. | None |
@@ -76,4 +76,10 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 | Job At Conception- Full Time/Part Time | HBCD | Cioffredi, et al. (2024) Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD), Developmental Cognitive Neuroscience, 69 | None |
 | Active-Duty Military | HBCD | Cioffredi, et al. (2024) Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD), Developmental Cognitive Neuroscience, 69 | None |
 | Help Out Financially | HBCD | Cioffredi, et al. (2024) Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD), Developmental Cognitive Neuroscience, 69 | None |
-| ABCD \= Adolescent Brain Child Development Study,  BRFSS \= Behavioral Risk Factor Surveillance System,  ECHO \= Environmental Influences On Child Health Outcomes,  HBCD \= HEALthy Brain and Child Development Study,  OMB \= Office of Management And Budget |  |  |  |  |
+
+
+* ABCD = Adolescent Brain Child Development Study
+* BRFSS = Behavioral Risk Factor Surveillance System
+* ECHO = Environmental Influences On Child Health Outcomes
+* HBCD = HEALthy Brain and Child Development Study
+* OMB = Office of Management And Budget
