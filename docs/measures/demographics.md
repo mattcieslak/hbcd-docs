@@ -76,12 +76,13 @@ We learned through RA reports that some participants reported challenges in answ
 | Active-Duty Military | HBCD<sup>2</sup> | None |
 | Help Out Financially | HBCD<sup>2</sup>| None |  
 
-<sup>1</sup> PhenX Toolkit (Hamilton et al. 2011)<br> 
-<sup>2</sup> HBCD = HEALthy Brain and Child Development Study (Cioffredi et al. 2024)<br>
+<sup>1</sup> PhenX Toolkit (Hamilton et al. 2011) 
+<sup>2</sup> HBCD = HEALthy Brain and Child Development Study (Cioffredi et al. 2024) 
+<sup>3</sup> OMB = Office of Management And Budget (Federal Register 2023)  
 <sup>ABCD = Adolescent Brain Child Development Study</sup><br> 
 <sup>BRFSS = Behavioral Risk Factor Surveillance System (Jones et al. 2008)</sup><br> 
 <sup>ECHO = Environmental Influences On Child Health Outcomes</sup><br> 
-<sup>OMB = Office of Management And Budget (Federal Register 2023)</sup>
+
 
 ## References
   * Hamilton, et al. (2011) The PhenX Toolkit: Get the Most From Your Measures. American Journal of Epidemiology, 174(3), 253-60.
