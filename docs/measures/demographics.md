@@ -39,27 +39,27 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 ### Demographics Of Birth Parent
 | **Construct** | **Measure Source** | **DEI Modifications** |
 | :---- | :---- | :-- |
-| Marital and Relationship Status | [PhenX](https://www.phenxtoolkit.org/protocols/view/10903)^1^ | **For heteronormative bias:** (1) Combine "Divorced/Seperated" (2) "Never Married" replaced by "Single" (3) "Member of an Unmarried Couple" replaced by "Partnered"
-| Gender Identity | [PhenX](https://www.phenxtoolkit.org/protocols/view/11801) (Hamilton, et al. 2011) | **For heteronormative bias:** Transgender Man/Transgender Woman options moved to primary tier of a two-tier question | 
-| Sexual Orientation | [PhenX](https://www.phenxtoolkit.org/protocols/view/11701) (Hamilton, et al. 2011) | **Inclusion of diverse response options:** Response categories capture sexual orientation across three dimensions of sexual orientation, including attraction, identity, and behavior. Participant can select all that apply. | 
-| Primary Residence | HBCD (Cioffredi, et al. 2024) | **Destigmatization of diverse living situations:** Inclusion of options for individuals in treatment facilities, shelters, or unhoused |
-| Years At Current Address | HBCD (Cioffredi, et al. 2024) | None  |
+| Marital and Relationship Status | [PhenX](https://www.phenxtoolkit.org/protocols/view/10903)<sup>1</sup> | **For heteronormative bias:** (1) Combine "Divorced/Seperated" (2) "Never Married" replaced by "Single" (3) "Member of an Unmarried Couple" replaced by "Partnered"
+| Gender Identity | [PhenX](https://www.phenxtoolkit.org/protocols/view/11801)<sup>1</sup> | **For heteronormative bias:** Transgender Man/Transgender Woman options moved to primary tier of a two-tier question | 
+| Sexual Orientation | [PhenX](https://www.phenxtoolkit.org/protocols/view/11701)<sup>1</sup> | **Inclusion of diverse response options:** Response categories capture sexual orientation across three dimensions of sexual orientation, including attraction, identity, and behavior. Participant can select all that apply. | 
+| Primary Residence | HBCD<sup>2</sup> | **Destigmatization of diverse living situations:** Inclusion of options for individuals in treatment facilities, shelters, or unhoused |
+| Years At Current Address | HBCD<sup>2</sup> | None  |
 | Household Roster | [ECHO](https://echochildren.org/wp-content/uploads/2024/02/ROSTER_Participant_Roster_20231010_v03.00_training1.pdf) | **For heteronormative bias and nuclear family assumptions:** (1) Changed "Sex" to "Gender" and included Non-Binary and Transexual options (2) Expansion of family/caregiver roles |
-| Birthplace and Heritage | [PhenX](https://www.phenxtoolkit.org/protocols/view/10201) (Hamilton, et al. 2011) | None |
-| Years Living in the United States | [PhenX](https://www.phenxtoolkit.org/protocols/view/11201) (Hamilton, et al. 2011) | None |
+| Birthplace and Heritage | [PhenX](https://www.phenxtoolkit.org/protocols/view/10201)<sup>1</sup> | None |
+| Years Living in the United States | [PhenX](https://www.phenxtoolkit.org/protocols/view/11201)<sup>1</sup> | None |
 | Race/Ethnicity | [OMB](https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/) (OMB Initial Proposals) | **Inclusion of diverse racial and ethnic categories:** This question aligns to the proposed recommendations for data collection under review by the OMB and includes a combined race and ethnicity variable with 7 response options. Participants may select all that apply. |
 | Others Describe You | BRFSS (Jones et al. 2008) | **Alterations to include same categories as the race and ethnicity question**  Includes 7 race and ethnicity response options |
 | Biological Parents Birthplace and Heritage | [PhenX](https://www.phenxtoolkit.org/protocols/view/10301) (Hamilton, et al. 2011) | None |
 | Income | ABCD (Barch et al. 2017)| **Alteration of household income brackets**  | 
-| Educational Attainment | [PhenX](https://www.phenxtoolkit.org/protocols/view/11002) (Hamilton, et al. 2011) | None |
-| Active-Duty Military | HBCD (Cioffredi, et al. 2024)| None |
+| Educational Attainment | [PhenX](https://www.phenxtoolkit.org/protocols/view/11002)<sup>1</sup> | None |
+| Active-Duty Military | HBCD<sup>2</sup>| None |
 | Currently Work for Pay | Baby's First Years | None | BFY Year 1 Protocol - G35, Mwork |
-| Total Hours of Work In Last Week | HBCD (Cioffredi, et al. 2024) | None | 
-| Jobs During Pregnancy- All Jobs - Work 35+ Hours/Week | HBCD (Cioffredi, et al. 2024) | None | 
-| Jobs During Pregnancy- At Least One Job At 20 Hours/Week For 1 Month | HBCD (Cioffredi, et al. 2024) | None |
-| Jobs During Pregnancy- Type of Work | HBCD (Cioffredi, et al. 2024) | None |
-| Jobs During Pregnancy- Job Start/Stop Dates | HBCD (Cioffredi, et al. 2024) | None |
-| Jobs During Pregnancy- Typical Hours/Week | HBCD (Cioffredi, et al. 2024) | None |
+| Total Hours of Work In Last Week | HBCD<sup>2</sup> | None | 
+| Jobs During Pregnancy- All Jobs - Work 35+ Hours/Week | HBCD<sup>2</sup> | None | 
+| Jobs During Pregnancy- At Least One Job At 20 Hours/Week For 1 Month | HBCD<sup>2</sup> | None |
+| Jobs During Pregnancy- Type of Work | HBCD<sup>2</sup> | None |
+| Jobs During Pregnancy- Job Start/Stop Dates | HBCD<sup>2</sup> | None |
+| Jobs During Pregnancy- Typical Hours/Week | HBCD<sup>2</sup> | None |
 | Jobs During Pregnancy- Shift Schedule | Baby's First Years | BFY Year 1 Protocol \- G39, SchedMain |  |  |  |
 
 ### Demographics Of Other Biological Parent
@@ -67,15 +67,15 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 | :---- | :--- | :---- |
 | Age | HBCD | None |
 | Race/Ethnicity | [OMB](https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/) (OMB Initial Proposals) | **Inclusion of diverse racial and ethnic categories**  This question aligns to proposed recommendations for data collection under review by the federal register and includes a combined race/ethnicity variable with 7 response options. Participants may select all that apply. |
-| Birthplace and Heritage | [PhenX](https://www.phenxtoolkit.org/protocols/view/10201)^1^ | None |
-| Years Living in The United States | [PhenX](https://www.phenxtoolkit.org/protocols/view/11201) (Hamilton, et al. 2011) | None |
-| Biological Parents Country of Origin | [PhenX](https://www.phenxtoolkit.org/protocols/view/10301) (Hamilton, et al. 2011) | None |
-| Education | [PhenX](https://www.phenxtoolkit.org/protocols/view/11002) (Hamilton, et al. 2011) | None |
-| Job At Conception- Work for Pay  | HBCD (Cioffredi, et al. 2024) | None |
-| Job At Conception- Type of Work | HBCD (Cioffredi, et al. 2024) | None |
-| Job At Conception- Full Time/Part Time | HBCD (Cioffredi, et al. 2024) | None |
-| Active-Duty Military | HBCD (Cioffredi, et al. 2024) | None |
-| Help Out Financially | HBCD (Cioffredi, et al. 2024)| None |
+| Birthplace and Heritage | [PhenX](https://www.phenxtoolkit.org/protocols/view/10201)<sup>2</sup> | None |
+| Years Living in The United States | [PhenX](https://www.phenxtoolkit.org/protocols/view/11201)<sup>2</sup> | None |
+| Biological Parents Country of Origin | [PhenX](https://www.phenxtoolkit.org/protocols/view/10301)<sup>2</sup> | None |
+| Education | [PhenX](https://www.phenxtoolkit.org/protocols/view/11002)<sup>2</sup> | None |
+| Job At Conception- Work for Pay  | HBCD<sup>2</sup> | None |
+| Job At Conception- Type of Work | HBCD<sup>2</sup> | None |
+| Job At Conception- Full Time/Part Time | HBCD<sup>2</sup> | None |
+| Active-Duty Military | HBCD<sup>2</sup> | None |
+| Help Out Financially | HBCD<sup>2</sup>| None |
 
 * ABCD = Adolescent Brain Child Development Study
 * BRFSS = Behavioral Risk Factor Surveillance System
@@ -83,6 +83,9 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 * HBCD = HEALthy Brain and Child Development Study
 * OMB = Office of Management And Budget
 
+<sup>1</sup> Hamilton, et al. 2011
+<sup>2</sup> Cioffredi, et al. 2024
+ 
 ## References
 Hamilton, et al. (2011) The PhenX Toolkit: Get the Most From Your Measures. American Journal of Epidemiology, 174(3), 253-60.
 
