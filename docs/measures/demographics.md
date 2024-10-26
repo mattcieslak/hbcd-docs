@@ -76,12 +76,11 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 | Job At Conception- Full Time/Part Time | HBCD<sup>2</sup> | None |
 | Active-Duty Military | HBCD<sup>2</sup> | None |
 | Help Out Financially | HBCD<sup>2</sup>| None |
-
-* ABCD = Adolescent Brain Child Development Study
-* BRFSS = Behavioral Risk Factor Surveillance System
-* ECHO = Environmental Influences On Child Health Outcomes
-* HBCD = HEALthy Brain and Child Development Study
-* OMB = Office of Management And Budget
+<sup>ABCD = Adolescent Brain Child Development Study</sup> 
+<sup>BRFSS = Behavioral Risk Factor Surveillance System</sup> 
+<sup>ECHO = Environmental Influences On Child Health Outcomes</sup> 
+<sup>HBCD = HEALthy Brain and Child Development Study</sup> 
+<sup>OMB = Office of Management And Budget</sup>
 
 ## References
 <sup>1</sup>Hamilton, et al. (2011) The PhenX Toolkit: Get the Most From Your Measures. American Journal of Epidemiology, 174(3), 253-60.
