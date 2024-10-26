@@ -6,7 +6,7 @@
 **Description**: This was a created to capture maternal, paternal, and grandparents’ mental health conditions and diagnoses  
 **Summary**: This measure was created from combining and modifying the Family History Assessment Module (FHAM) and the All of Us Personal and Family Health History. It assesses self-reported diagnoses and mental health conditions of the biologic mother, father, maternal parents and paternal parents. 
 
-### Implementation Details
+### Implementation
 **Method of Administration**: self-administered in person  
 **REDCap Form Name**: Personal and family psych history 
 **Pilot Data Dictionary**:   
@@ -18,7 +18,7 @@
 **Visits Administered and corresponding age range of administration**: V1 (pregnancy)
 **Estimated length of time for completion**: 5 minutes
 
-### Quality Control (QC) Processes
+### Quality Control (QC) 
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
@@ -42,7 +42,7 @@ From FHAM items for Antisocial Personality Disorder and Undifferentiated Psychia
 **Description**: This was a created to capture maternal mental health  
 **Summary**: This is a highly sensitive screening tool for use in community samples. This mental health screening instrument has two levels. Level 1 includes one to two questions for each of thirteen mental health conditions. When symptoms were reported for Level 1, the participant answered several subsequent questions, which asked about additional symptoms associated with each mental health condition, including anger, anxiety, depression, somatic symptoms, and sleep problems. Slight modifications were made due to the use of other measures and the study population. Specifically, the level 1 questions for personality functioning and substance use were not included; participants proceed automatically to level 2 measures. In addition, all participants answer the level 1 questions on depression but proceed to level 2 questions irrespective of answers.
 
-### Implementation Details
+### Implementation 
 **Method of Administration**: self-administered in person or remote    
 **REDCap Form Name**: APA Level 1/2  
 **Pilot Data Dictionary**:   
@@ -54,7 +54,7 @@ From FHAM items for Antisocial Personality Disorder and Undifferentiated Psychia
 **Visits Administered and corresponding age range of administration**:  V1, V2, V3
 **Estimated length of time for completion**: 5 minutes
 
-### Quality Control (QC) Processes
+### Quality Control (QC) 
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
@@ -92,7 +92,7 @@ and psychoticism, with each trait domain consisting of 5 items. Information abou
 **Description**: This measure was created to capture maternal PTSD and acute stress symptoms  
 **Summary**: The Severity of Posttraumatic/Acute Stress Symptoms is a measure that assesses the severity of symptoms of post-traumatic stress disorder and acute stress disorder in individuals ages 18 and older following an extremely stressful event or experience. Items 1-9 from the National Stressful Events Survey PTSD Short Scale (NSESSS—PTSD) and Item 3 from the National Stressful Events Survey Acute Stress Disorder Short Scale (NSESSS—Acute Stress Disorder) were combined into a single assessment for the HBCD study to capture the severity of maternal posttraumatic/acute stress symptoms.
 
-### Implementation Details
+### Implementation 
 **Method of Administration**: self-administered in person or remote
 **REDCap Form Name**: DSD5 Severity Acute Stress or PTSD 
 **Pilot Data Dictionary**:   
@@ -104,7 +104,7 @@ and psychoticism, with each trait domain consisting of 5 items. Information abou
 **Visits Administered and corresponding age range of administration**:  V1, V2, V3
 **Estimated length of time for completion**: 3 minutes
 
-### Quality Control (QC) Processes
+### Quality Control (QC) 
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
@@ -134,7 +134,7 @@ Please note that scores on these scales will not differentiate between symptoms 
 **Description**: This was a created to capture symptoms of maternal depression  
 **Summary**: The Edinburgh Postnatal Depression Scale (EPDS), a sensitive, 10-item screening tool for prenatal and postpartum depression symptoms, was selected due to its ease of administration and widely accepted use.
 
-### Implementation Details
+### Implementation 
 **Method of Administration**: self-administered in person or remote  
 **REDCap Form Name**: EPDS  
 **Pilot Data Dictionary**:   
@@ -146,7 +146,7 @@ Please note that scores on these scales will not differentiate between symptoms 
 **Visits Administered and corresponding age range of administration**:  V1, V2, V3  
 **Estimated length of time for completion**: 3 minutes
 
-### Quality Control (QC) Processes
+### Quality Control (QC) 
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
