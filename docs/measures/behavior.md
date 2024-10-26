@@ -58,17 +58,15 @@ For example, given a sum of 47 for a scale of 12 items, with one item receiving 
 Scoring not accurately applied to observations with missing responses and incorrect administration ages, missing data patterns that may be site specific.
 
 ### Potential Issues Flagged by Subject Matter Experts
-Subject matter experts identified no potential issues with IBQ
+None
 
 ### Additional Information
-[Mary Rothbart's Temperament Questionnaires](https://research.bowdoin.edu/rothbart-temperament-questionnaires)
+ * [Mary Rothbart's Temperament Questionnaires](https://research.bowdoin.edu/rothbart-temperament-questionnaires)
 
 ### Publications and References 
-Rothbart, M. K. (1981). Measurement of temperament in infancy. Child Development, 52, 569-578.
-
-Gartstein, M. A., & Rothbart, M. K. (2003). Studying infant temperament via the Revised Infant Behavior Questionnaire. Infant Behavior and Development, 26 (1), 64-86.
-
-Putnam, S. P., Helbig, A. L., Gartstein, M. A., Rothbart, M. K. & Leerkes, E. (2014). Development and Assessment of Short and Very Short Forms of the Infant Behavior Questionnaire-Revised. Journal of Personality Assessment, 96, 445-458.
+ * Rothbart, M. K. (1981). Measurement of temperament in infancy. Child Development, 52, 569-578.
+ * Gartstein, M. A., & Rothbart, M. K. (2003). Studying infant temperament via the Revised Infant Behavior Questionnaire. Infant Behavior and Development, 26 (1), 64-86.
+ * Putnam, S. P., Helbig, A. L., Gartstein, M. A., Rothbart, M. K. & Leerkes, E. (2014). Development and Assessment of Short and Very Short Forms of the Infant Behavior Questionnaire-Revised. Journal of Personality Assessment, 96, 445-458.
 
 ## MAPS-TL
 ### Overview
@@ -79,12 +77,14 @@ Putnam, S. P., Helbig, A. L., Gartstein, M. A., Rothbart, M. K. & Leerkes, E. (2
 
 ### Sum scores are computed by the following method:
 1. If a caregiver answers all 17 items, sum all numerical item responses. All 17 raw items should be answered on a scale of 1:6:
-- 1 - Never
-- 2 - Rarely (Less than once per week)
-- 3 - Some (1-3) days of the week   
-* 4 - Most (4-6) days of the week   
-* 5 - Every day of the week   
-* 6 - Many times each day  
+```
+1 - Never   
+2 - Rarely (Less than once per week)   
+3 - Some (1-3) days of the week     
+4 - Most (4-6) days of the week   
+5 - Every day of the week   
+6 - Many times each day
+```
 
 2. If a caregiver doesn’t answer an item (i.e., endorse any of the 6 options for an item), they get a missing value for that item. If a caregiver has missing data on some items but answers 9 items or more, then generate a prorated sum score. In other words: 
 ```
@@ -119,8 +119,8 @@ Prorated scoring not applied to observations with missing responses. Incorrect a
 ### Potential Issues Flagged by Subject Matter Experts
 **MAPS-TL**: The missingness rule not being correctly implemented leads to incorrect scores. Measure administration has a strict age cutoff. Age auto-generation needs to be fixed so that QC can ensure the measure is being administered to correct target population.
 
-### Publications and References
-Krogh-Jespersen, S., Kaat, A. J., Petitclerc, A., Perlman, S. B., Briggs-Gowan, M. J., Burns, J. L., ... & Wakschlag, L. S. (2022). Calibrating temper loss severity in the transition to toddlerhood: Implications for developmental science. *Applied developmental science,* 26(4), 785-798.
+### References
+ * Krogh-Jespersen, S., Kaat, A. J., Petitclerc, A., Perlman, S. B., Briggs-Gowan, M. J., Burns, J. L., ... & Wakschlag, L. S. (2022). Calibrating temper loss severity in the transition to toddlerhood: Implications for developmental science. *Applied developmental science,* 26(4), 785-798.
 
 ## ecPROMIS Child-Caregiver Interaction
 ### Overview
@@ -175,9 +175,7 @@ Prorated scoring not applied to observations with missing responses. Incorrect a
 **Links to Resources** 
   * Assessment Center API: [https://www.healthmeasures.net/index.php?option=com\_content\&view=category\&layout=blog\&id=190\&Itemid=1214](https://www.healthmeasures.net/index.php?option=com_content&view=category&layout=blog&id=190&Itemid=1214)   
 
-### Publications and References
-  Cella, D., Blackwell, C.K., & Wakschlag, L.S. (2022). Bringing PROMIS to Early Childhood: Introduction and Qualitative Methods for the Development of Early Childhood Parent Report Instruments. *Journal of Pediatric Psychology*, 47(5):500-9.
-
-  Lai, J.S., Kallen, M.A., Blackwell, C.K., Wakschlag, L.S., & Cella, D. (2022). Psychometric Considerations in Developing PROMIS® Measures for Early Childhood. *Journal of Pediatric Psychology*, 47(5):510-22.
-
-  Park, C.H., Blaisdell, C.J., & Gillman, M.W. (2022). The NIH ECHO Program: An Impetus for the Development of Early Childhood PROMIS Tools. *Journal of Pediatric Psychology*, 47(5), 497-499.
+### References
+ * Cella, D., Blackwell, C.K., & Wakschlag, L.S. (2022). Bringing PROMIS to Early Childhood: Introduction and Qualitative Methods for the Development of Early Childhood Parent Report Instruments. *Journal of Pediatric Psychology*, 47(5):500-9.
+ * Lai, J.S., Kallen, M.A., Blackwell, C.K., Wakschlag, L.S., & Cella, D. (2022). Psychometric Considerations in Developing PROMIS® Measures for Early Childhood. *Journal of Pediatric Psychology*, 47(5):510-22.
+ * Park, C.H., Blaisdell, C.J., & Gillman, M.W. (2022). The NIH ECHO Program: An Impetus for the Development of Early Childhood PROMIS Tools. *Journal of Pediatric Psychology*, 47(5), 497-499.
