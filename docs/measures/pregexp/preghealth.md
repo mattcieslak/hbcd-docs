@@ -1,12 +1,12 @@
-# Pregnancy Health
-## Overview
+## Pregnancy Health
+### Overview
 **Full Name**: Pregnancy health  
 **Acronym/Brief Name**: Healthhx  
 **Construct**: Pre-pregnancy and pregnancy health  
 **Description**: This was a created to assess pre-pregnancy and pregnancy health  
 **Summary**: Gravidity and parity, height and weight, pregnancy intentions, use of assisted reproductive technology, start of prenatal care, prenatal vitamin or aspirin use, secondhand smoke.
 
-## Implementation
+### Implementation
 **Method of Administration**: self-administered  
 **REDCap Form Name**: Healthhx  
 **Pilot Data Dictionary**:   
@@ -14,15 +14,15 @@
 **Child Specific/Unspecific Form**: Unspecific  
 **Respondent:** pregnant person
 
-## Data Collection
+### Data Collection
 **Visits Administered and corresponding age range of administration**:  V1 (pregnancy)
 **Estimated length of time for completion**: 5 minutes
 
-## Quality Control (QC)
+### Quality Control (QC)
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 None
 
 ## Pregnancy Health - Vaccines
@@ -60,7 +60,7 @@ None
 **Description**: This was a created to capture illnesses in pregnancy  
 **Summary**: Asks about covid-19 or other illnesses in pregnancy, including start and stop dates and whether the person had a fever.
 
-### Implementation Details
+### Implementation
 **Method of Administration**: RA-administered in person  
 **REDCap Form Name**: illness  
 **Pilot Data Dictionary**:   
@@ -72,7 +72,7 @@ None
 **Visits Administered and corresponding age range of administration**:  V1 (pregnancy)
 **Estimated length of time for completion**: 3 minutes
 
-### Quality Control (QC) Processes
+### Quality Control (QC)
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
@@ -87,7 +87,7 @@ None
 **Description**: This was a created to capture reasons for any ER visits or hospitalizations in pregnancy  
 **Summary**: Asks about any ER visits or hospitalizations in pregnancy
 
-### Implementation Details
+### Implementation
 **Method of Administration**: RA-administered in person  
 **REDCap Form Name**: ERhosp  
 **Pilot Data Dictionary**:   
@@ -99,7 +99,7 @@ None
 **Visits Administered and corresponding age range of administration**:  V1 pregnancy visit  
 **Estimated length of time for completion**: 5 minutes
 
-### Quality Control (QC) Processes
+### Quality Control (QC)
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
@@ -114,7 +114,7 @@ None
 **Description**: This was a created to capture chronic conditions (queried from a list) and sexually transmitted diseases in pregnancy.  
 **Summary**: Asks about a pre-defined list of chronic conditions and sexually transmitted infections in pregnancy. Endorsed chronic conditions are asked whether they are ongoing or resolved. 
 
-### Implementation Details
+### Implementation
 **Method of Administration**: self-administered in person  
 **REDCap Form Name**: chroncond  
 **Pilot Data Dictionary**:   
@@ -126,7 +126,7 @@ None
 **Visits Administered and corresponding age range of administration**:  V1 (pregnancy)
 **Estimated length of time for completion**: 3 minutes
 
-### Quality Control (QC) Processes
+### Quality Control (QC)
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
@@ -141,7 +141,7 @@ None
 **Description**: This was a created to capture prescription and over the counter medications in pregnancy.  
 **Summary**: Asks about any prescription or over the counter medications used since last menstrual period. For each, the participant is asked medication name, indication, frequency, start and stop date (if applicable).
 
-### Implementation Details
+### Implementation
 **Method of Administration**: RA-administered in person  
 **REDCap Form Name**: Meds  
 **Pilot Data Dictionary**:   
@@ -153,7 +153,7 @@ None
 **Visits Administered and corresponding age range of administration**:  V1 (pregnancy)
 **Estimated length of time for completion**: 5 minutes
 
-### Quality Control (QC) Processes
+### Quality Control (QC)
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
@@ -168,7 +168,7 @@ None
 **Description**: This was a created to capture exposures between enrollment and delivery  
 **Summary**: Updates information on prenatal vitamins, aspirin, infections, vaccines, prescription and over the counter medications (both continued from V1 and any new medications) and illnesses. In addition, we ask about pregnancy complications (from a list: e.g. gestational diabetes), labor, mode of delivery, place of delivery, and how many nights the birthing person remained in the hospital. 
 
-### Implementation Details
+### Implementation
 **Method of Administration**: RA-administered in person  
 **REDCap Form Name**: HealthV2 Preg  
 **Pilot Data Dictionary**:   
@@ -180,9 +180,9 @@ None
 **Visits Administered and corresponding age range of administration**:  V2 (0-1 month postnatal visit)
 **Estimated length of time for completion**: 10 minutes
 
-### Quality Control (QC) Processes
+### Quality Control (QC)
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
 ### Potential Issues Flagged by Subject Matter Experts
-* Same issues identified at V1 (difficulty with ICD codes (from BioPortal ICD) and medication names (from RxNORM)) apply to this visit as well.
+Same issues identified at V1 (difficulty with ICD codes (from BioPortal ICD) and medication names (from RxNORM)) apply to this visit as well.
