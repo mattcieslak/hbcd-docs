@@ -42,11 +42,11 @@ We learned through RA reports that some participants reported challenges in answ
 | Sexual Orientation | [PhenX](https://www.phenxtoolkit.org/protocols/view/11701)<sup>1</sup> | **Inclusion of diverse response options:** Response categories capture sexual orientation across three dimensions of sexual orientation, including attraction, identity, and behavior. Participant can select all that apply. | 
 | Primary Residence | HBCD<sup>2</sup> | **Destigmatization of diverse living situations:** Inclusion of options for individuals in treatment facilities, shelters, or unhoused |
 | Years At Current Address | HBCD<sup>2</sup> | None  |
-| Household Roster | [ECHO](https://echochildren.org/wp-content/uploads/2024/02/ROSTER_Participant_Roster_20231010_v03.00_training1.pdf) | **For heteronormative bias and nuclear family assumptions:** (1) Changed "Sex" to "Gender" and included Non-Binary and Transexual options (2) Expansion of family/caregiver roles |
+| Household Roster | [ECHO](https://echochildren.org/wp-content/uploads/2024/02/ROSTER_Participant_Roster_20231010_v03.00_training1.pdf)<sup>3</sup> | **For heteronormative bias and nuclear family assumptions:** (1) Changed "Sex" to "Gender" and included Non-Binary and Transexual options (2) Expansion of family/caregiver roles |
 | Birthplace and Heritage | [PhenX](https://www.phenxtoolkit.org/protocols/view/10201)<sup>1</sup> | None |
 | Years Living in the United States | [PhenX](https://www.phenxtoolkit.org/protocols/view/11201)<sup>1</sup> | None |
-| Race/Ethnicity | [OMB](https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/)<sup>3</sup> | **Inclusion of diverse racial and ethnic categories:** This question aligns to the proposed recommendations for data collection under review by the OMB and includes a combined race and ethnicity variable with 7 response options. Participants may select all that apply. |
-| Others Describe You | BRFSS<sup>4</sup> | **Alterations to include same categories as the race and ethnicity question**  Includes 7 race and ethnicity response options |
+| Race/Ethnicity | [OMB](https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/)<sup>4</sup> | **Inclusion of diverse racial and ethnic categories:** This question aligns to the proposed recommendations for data collection under review by the OMB and includes a combined race and ethnicity variable with 7 response options. Participants may select all that apply. |
+| Others Describe You | BRFSS<sup>5</sup> | **Alterations to include same categories as the race and ethnicity question**  Includes 7 race and ethnicity response options |
 | Biological Parents Birthplace and Heritage | [PhenX](https://www.phenxtoolkit.org/protocols/view/10301)<sup>1</sup> | None |
 | Income | ABCD<sup>5</sup>| **Alteration of household income brackets**  | 
 | Educational Attainment | [PhenX](https://www.phenxtoolkit.org/protocols/view/11002)<sup>1</sup> | None |
@@ -65,7 +65,7 @@ We learned through RA reports that some participants reported challenges in answ
 | **Construct** | **Measure Source** | **DEI Modifications** |
 | :---- | :--- | :-- |
 | Age | HBCD | None |
-| Race/Ethnicity | [OMB](https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/)<sup>3</sup> | **Inclusion of diverse racial and ethnic categories**  This question aligns to proposed recommendations for data collection under review by the federal register and includes a combined race/ethnicity variable with 7 response options. Participants may select all that apply. |
+| Race/Ethnicity | [OMB](https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/)<sup>4</sup> | **Inclusion of diverse racial and ethnic categories**  This question aligns to proposed recommendations for data collection under review by the federal register and includes a combined race/ethnicity variable with 7 response options. Participants may select all that apply. |
 | Birthplace and Heritage | [PhenX](https://www.phenxtoolkit.org/protocols/view/10201)<sup>2</sup> | None |
 | Years Living in The United States | [PhenX](https://www.phenxtoolkit.org/protocols/view/11201)<sup>2</sup> | None |
 | Biological Parents Country of Origin | [PhenX](https://www.phenxtoolkit.org/protocols/view/10301)<sup>2</sup> | None |
@@ -83,6 +83,14 @@ We learned through RA reports that some participants reported challenges in answ
 <sup>5</sup> ABCD = Adolescent Brain Child Development Study<br>
 <sup>6</sup> ECHO = Environmental Influences On Child Health Outcomes 
 
+
+### NEW
+<sup>1</sup> PhenX Toolkit (Hamilton et al. 2011)  
+<sup>2</sup> HBCD = HEALthy Brain and Child Development Study (Cioffredi et al. 2024)  
+<sup>3</sup> ECHO = Environmental Influences On Child Health Outcomes   
+<sup>4</sup> OMB = Office of Management And Budget (Federal Register 2023)  
+<sup>5</sup> BRFSS = Behavioral Risk Factor Surveillance System (Jones et al. 2008)  
+<sup>6</sup> ABCD = Adolescent Brain Child Development Study
 
 ## References
   * Hamilton, et al. (2011) The PhenX Toolkit: Get the Most From Your Measures. American Journal of Epidemiology, 174(3), 253-60.
