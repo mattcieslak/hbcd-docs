@@ -50,7 +50,7 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 | Race/Ethnicity | [OMB](https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/)<sup>3</sup> | **Inclusion of diverse racial and ethnic categories:** This question aligns to the proposed recommendations for data collection under review by the OMB and includes a combined race and ethnicity variable with 7 response options. Participants may select all that apply. |
 | Others Describe You | BRFSS<sup>4</sup> | **Alterations to include same categories as the race and ethnicity question**  Includes 7 race and ethnicity response options |
 | Biological Parents Birthplace and Heritage | [PhenX](https://www.phenxtoolkit.org/protocols/view/10301)<sup>1</sup> | None |
-| Income | ABCD (Barch et al. 2017)| **Alteration of household income brackets**  | 
+| Income | ABCD<sup>5</sup>| **Alteration of household income brackets**  | 
 | Educational Attainment | [PhenX](https://www.phenxtoolkit.org/protocols/view/11002)<sup>1</sup> | None |
 | Active-Duty Military | HBCD<sup>2</sup>| None |
 | Currently Work for Pay | Baby's First Years | None | BFY Year 1 Protocol - G35, Mwork |
@@ -87,6 +87,7 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 <sup>2</sup> Cioffredi, et al. 2024
 <sup>3</sup> Federal Register 2023
 <sup>4</sup> Jones et al. 2008
+<sup>5</sup> Barch et al. 2017
 
  
 ## References
