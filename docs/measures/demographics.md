@@ -39,7 +39,7 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 ### Demographics Of Birth Parent
 | **Construct** | **Measure Source** | **DEI Modifications** |
 | :---- | :---- | :-- |
-| Marital and Relationship Status | [PhenX](https://www.phenxtoolkit.org/protocols/view/10903) (Hamilton, et al. 2011) | **For heteronormative bias:** (1) Combine "Divorced/Seperated" (2) "Never Married" replaced by "Single" (3) "Member of an Unmarried Couple" replaced by "Partnered"
+| Marital and Relationship Status | [PhenX](https://www.phenxtoolkit.org/protocols/view/10903)^1^ | **For heteronormative bias:** (1) Combine "Divorced/Seperated" (2) "Never Married" replaced by "Single" (3) "Member of an Unmarried Couple" replaced by "Partnered"
 | Gender Identity | [PhenX](https://www.phenxtoolkit.org/protocols/view/11801) (Hamilton, et al. 2011) | **For heteronormative bias:** Transgender Man/Transgender Woman options moved to primary tier of a two-tier question | 
 | Sexual Orientation | [PhenX](https://www.phenxtoolkit.org/protocols/view/11701) (Hamilton, et al. 2011) | **Inclusion of diverse response options:** Response categories capture sexual orientation across three dimensions of sexual orientation, including attraction, identity, and behavior. Participant can select all that apply. | 
 | Primary Residence | HBCD (Cioffredi, et al. 2024) | **Destigmatization of diverse living situations:** Inclusion of options for individuals in treatment facilities, shelters, or unhoused |
@@ -67,7 +67,7 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 | :---- | :--- | :---- |
 | Age | HBCD | None |
 | Race/Ethnicity | [OMB](https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/) (OMB Initial Proposals) | **Inclusion of diverse racial and ethnic categories**  This question aligns to proposed recommendations for data collection under review by the federal register and includes a combined race/ethnicity variable with 7 response options. Participants may select all that apply. |
-| Birthplace and Heritage | [PhenX](https://www.phenxtoolkit.org/protocols/view/10201) (Hamilton, et al. 2011)| None |
+| Birthplace and Heritage | [PhenX](https://www.phenxtoolkit.org/protocols/view/10201)^1^ | None |
 | Years Living in The United States | [PhenX](https://www.phenxtoolkit.org/protocols/view/11201) (Hamilton, et al. 2011) | None |
 | Biological Parents Country of Origin | [PhenX](https://www.phenxtoolkit.org/protocols/view/10301) (Hamilton, et al. 2011) | None |
 | Education | [PhenX](https://www.phenxtoolkit.org/protocols/view/11002) (Hamilton, et al. 2011) | None |
