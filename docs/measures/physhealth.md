@@ -26,4 +26,4 @@
 None
 
 ## References
-Hager ER, Quigg AM, Black MM, Coleman SM, Heeren T, Rose-Jacobs R, Cook JT, Ettinger de Cuba SA, Casey PH, Chilton M, Cutts DB, Meyers AF, Frank DA. Development and validity of a 2-item screen to identify families at risk for food insecurity. Pediatrics. 2010 Jul;126(1):e26-32. doi: 10.1542/peds.2009-3146. PMID: 20595453.
+ * Hager ER, Quigg AM, Black MM, Coleman SM, Heeren T, Rose-Jacobs R, Cook JT, Ettinger de Cuba SA, Casey PH, Chilton M, Cutts DB, Meyers AF, Frank DA. Development and validity of a 2-item screen to identify families at risk for food insecurity. Pediatrics. 2010 Jul;126(1):e26-32. doi: 10.1542/peds.2009-3146. PMID: 20595453.
