@@ -47,7 +47,7 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 | Household Roster | [ECHO](https://echochildren.org/wp-content/uploads/2024/02/ROSTER_Participant_Roster_20231010_v03.00_training1.pdf) | **For heteronormative bias and nuclear family assumptions:** (1) Changed "Sex" to "Gender" and included Non-Binary and Transexual options (2) Expansion of family/caregiver roles |
 | Birthplace and Heritage | [PhenX](https://www.phenxtoolkit.org/protocols/view/10201)<sup>1</sup> | None |
 | Years Living in the United States | [PhenX](https://www.phenxtoolkit.org/protocols/view/11201)<sup>1</sup> | None |
-| Race/Ethnicity | [OMB](https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/) (OMB Initial Proposals) | **Inclusion of diverse racial and ethnic categories:** This question aligns to the proposed recommendations for data collection under review by the OMB and includes a combined race and ethnicity variable with 7 response options. Participants may select all that apply. |
+| Race/Ethnicity | [OMB](https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/)<sup>3</sup> | **Inclusion of diverse racial and ethnic categories:** This question aligns to the proposed recommendations for data collection under review by the OMB and includes a combined race and ethnicity variable with 7 response options. Participants may select all that apply. |
 | Others Describe You | BRFSS (Jones et al. 2008) | **Alterations to include same categories as the race and ethnicity question**  Includes 7 race and ethnicity response options |
 | Biological Parents Birthplace and Heritage | [PhenX](https://www.phenxtoolkit.org/protocols/view/10301) (Hamilton, et al. 2011) | None |
 | Income | ABCD (Barch et al. 2017)| **Alteration of household income brackets**  | 
@@ -66,7 +66,7 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 | **Construct** | **Measure Source** | **DEI Modifications** |
 | :---- | :--- | :---- |
 | Age | HBCD | None |
-| Race/Ethnicity | [OMB](https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/) (OMB Initial Proposals) | **Inclusion of diverse racial and ethnic categories**  This question aligns to proposed recommendations for data collection under review by the federal register and includes a combined race/ethnicity variable with 7 response options. Participants may select all that apply. |
+| Race/Ethnicity | [OMB](https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/)<sup>3</sup> | **Inclusion of diverse racial and ethnic categories**  This question aligns to proposed recommendations for data collection under review by the federal register and includes a combined race/ethnicity variable with 7 response options. Participants may select all that apply. |
 | Birthplace and Heritage | [PhenX](https://www.phenxtoolkit.org/protocols/view/10201)<sup>2</sup> | None |
 | Years Living in The United States | [PhenX](https://www.phenxtoolkit.org/protocols/view/11201)<sup>2</sup> | None |
 | Biological Parents Country of Origin | [PhenX](https://www.phenxtoolkit.org/protocols/view/10301)<sup>2</sup> | None |
@@ -85,13 +85,15 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 
 <sup>1</sup> Hamilton, et al. 2011
 <sup>2</sup> Cioffredi, et al. 2024
+<sup>3</sup> Federal Register 2023
+
  
 ## References
 Hamilton, et al. (2011) The PhenX Toolkit: Get the Most From Your Measures. American Journal of Epidemiology, 174(3), 253-60.
 
 Cioffredi, et al. (2024) Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD), Developmental Cognitive Neuroscience, 69
 
-“OMB Initial Proposals” - how to properly cite in text Initial Proposals For Updating OMB's Race and Ethnicity Statistical Standards, 88 Federal Register 5375-5384 (proposed 1/27/2023) https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards
+Federal Register. (2023, January 27). Initial Proposals For Updating OMB’s Race and Ethnicity Statistical Standards ([Document No. 2023-01635](https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards)). 88 FR 5375-5384.
 
 Jones, Camara P., Benedict I. Truman, Laurie D. ElamEvans, Camille A. Jones, Clara Y. Jones, Ruth Jiles, Susan F. Rumisha, and Geraldine Perry. 2008. “Using ‘Socially Assigned Race’ to Probe White Advantages in Health Status.” Ethnicity and Disease 18(4):496–504
 
