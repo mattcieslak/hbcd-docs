@@ -12,9 +12,6 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 
 **Summary**: Demographic information is crucial for understanding the child’s environment and identifying how social, structural, and economic factors influence development over time in a longitudinal study of child development. By capturing detailed information, the Demographics survey provides key information on the child’s context. Repeating these measures allows researchers to track changes and study these changes in relation to development. 
 
-## Scoring Algorithms
-**UNDER CONSTRUCTION**
-
 ## Implementation Details
 **Method of Administration**: RA administered in person     
 **REDCap Form Name**: N/A  
