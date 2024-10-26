@@ -79,8 +79,9 @@ We learned through RA reports that some participants reported challenges in answ
 <sup>1</sup> PhenX Toolkit (Hamilton et al. 2011) 
 <sup>2</sup> HBCD = HEALthy Brain and Child Development Study (Cioffredi et al. 2024) 
 <sup>3</sup> OMB = Office of Management And Budget (Federal Register 2023)  
-<sup>ABCD = Adolescent Brain Child Development Study</sup><br> 
-<sup>BRFSS = Behavioral Risk Factor Surveillance System (Jones et al. 2008)</sup><br> 
+<sup>4</sup> BRFSS = Behavioral Risk Factor Surveillance System (Jones et al. 2008) 
+<sup>5</sup> ABCD = Adolescent Brain Child Development Study
+
 <sup>ECHO = Environmental Influences On Child Health Outcomes</sup><br> 
 
 
