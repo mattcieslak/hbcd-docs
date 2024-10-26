@@ -6,7 +6,7 @@
 **Description**: This was a created to capture maternal substance use before, during and after pregnancy  
 **Summary**: Lifetime and problematic use, pre-pregnancy and pregnancy use was expanded into the following substances: nicotine or tobacco products, alcohol, cannabis, cannabidiol, synthetic cannabinoids, prescription opioids, heroin or other illicit opioids, methadone, buprenorphine, benzodiazepines, cocaine, amphetamine type stimulants, methamphetamine, inhalants, hallucinogens or club drugs, androgenic anabolic steroids, phencyclidine, and kratom. Participants were asked for each substance whether they had ever used it, and for those endorsed, a series of questions about disordered use or use causing problems in their lives. Information was obtained about modes of use specific to each substance. For example, for tobacco, participants were asked to report the type of product used, such as cigarettes or e-cigarettes. Likewise, participants who used cannabis were asked what types of products they used, such as smoking marijuana flower, vaping, or consuming edibles. If alcohol was reported during this period, the participant was further asked what type of alcohol they consumed (beer, hard cider, hard seltzer/wine/spirits). For each one, they were asked, on average, the volume of one typical glass/container that they consumed. United States defined ‘standard drinks’ were then calculated by dividing the amount reported by 12oz (beer, hard cider, hard seltzer), 5oz (wine) or 1.5 oz (spirits). Finally, if the participant reported opioids, they were asked the type of opioid used during the period, and typical quantities per occasion for the following: heroin (grams, bags), prescription opioids (pills), buprenorphine (pills, injectables, films), and methadone (mg). Any endorsement of substances in the 3 months prior to pregnancy or during pregnancy triggered the Time Line Follow Back (TLFB).
 
-### Implementation Details
+### Implementation 
 **Method of Administration**: RA administered in person (except in Alabama, where it was self-administered)   
 **REDCap Form Name**: Assist V1 
 **Pilot Data Dictionary**:   
@@ -18,7 +18,7 @@
 **Visits Administered and corresponding age range of administration**:  V1
 **Estimated length of time for completion**: 5 minutes
 
-### Quality Control (QC) Processes
+### Quality Control (QC) 
 **QC Procedures**: Distributions for answers, cross with TLFB   
 **Common Issues Identified**: If a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it.
 
@@ -36,7 +36,7 @@ National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
 **Summary**: Participants were first asked to update whether they had used any of the 18 substances of interest between V1 and delivery. If alcohol was reported during this period, the participant was further asked what type of alcohol they consumed (beer, hard cider, hard seltzer/wine/spirits). For each one, they were asked, on average, the volume of one typical glass/container that they consumed. United States defined ‘standard drinks’ were then calculated by dividing the amount reported by 12oz (beer, hard cider, hard seltzer), 5oz (wine) or 1.5 oz (spirits). Finally, if the participant reported opioids, they were asked the type of opioid used during the period, and typical quantities per occasion for the following: heroin (grams, bags), prescription opioids (pills), buprenorphine (pills, injectables, films), and methadone (mg). Any endorsement of substances between V1 and delivery triggered the Time Line Follow Back (TLFB).   
 In addition, participants were asked if they used any of the 18 substances between delivery and V2 (0-4 weeks postnatal). Response choices are: 0, Never | 1, Once or Twice | 2, Monthly | 3, Weekly | 4, Daily or Almost Daily.
 
-### Implementation Details
+### Implementation 
 **Method of Administration**: RA-administered in person (except in Alabama, where it was self-administered)
 **REDCap Form Name**: Assist V2  
 **Pilot Data Dictionary**:   
@@ -48,7 +48,7 @@ In addition, participants were asked if they used any of the 18 substances betwe
 **Visits Administered and corresponding age range of administration**:  V2
 **Estimated length of time for completion**: 5 minutes
 
-### Quality Control (QC) Processes
+### Quality Control (QC) 
 **QC Procedures**: Distributions for answers, cross with TLFB  
 **Common Issues Identified**: If a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it.
 
@@ -65,7 +65,7 @@ National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
 **Description**: This was a created to capture maternal substance use throughout the rest of the study.  
 **Summary**: Participants were asked if they used any of the 18 substances in the last 3 months. Response choices are: 0, Never | 1, Once or Twice | 2, Monthly | 3, Weekly | 4, Daily or Almost Daily.
 
-### Implementation Details
+### Implementation 
 **Method of Administration**: RA administered in person (except in Alabama, where it was self-administered)   
 **REDCap Form Name**: Assist V3  
 **Pilot Data Dictionary**:   
@@ -77,7 +77,7 @@ National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
 **Visits Administered and corresponding age range of administration**:  V3
 **Estimated length of time for completion**: 3 minutes
 
-### Quality Control (QC) Processes
+### Quality Control (QC) 
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None
 
@@ -94,7 +94,7 @@ National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
 **Description**: This was a created to capture maternal substance use before and during pregnancy  
 **Summary**: Participants who reported any substance use in the three months before or during pregnancy were interviewed about their use of each substance with a TLFB approach.  They were instructed to report their substance use during 9 weeks in total for each substance reported on the ASSIST, disaggregated into product type (e.g. edible cannabis products). The number of occasions of use per day was captured for all products except for cigarettes and cigarillos (number per day) and alcohol (number of single servings per day). The sampled weeks captured 9 weeks in total and were as follows: pre-pregnancy use (Weeks 1-2: four weeks before LMP through two weeks before LMP), early pregnancy use (Weeks 3-6: two weeks after LMP through six weeks after LMP), and current use (Week 7: the week prior to V1). The TLFB was repeated at V2 to capture substance use during the last two full weeks of gestation (Weeks 8-9). While for most participants, the TLFB was administered by study staff, at the site where prenatal substance use was reportable by study staff, participants received training to enter their use directly into the TLFB.  
 
-### Implementation Details
+### Implementation 
 **Method of Administration**: RA administered in person (except in Alabama, where it was self-administered) 
 **REDCap Form Name**: TLFB   
 **Pilot Data Dictionary**:   
@@ -106,7 +106,7 @@ National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
 **Visits Administered and corresponding age range of administration**:  V1, V2
 **Estimated length of time for completion**: 10 minutes
 
-### Quality Control (QC) Processes
+### Quality Control (QC) 
 **QC Procedures**: Distributions for answers, cross with Assist 
 
 **Common Issues Identified**: If a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it.
