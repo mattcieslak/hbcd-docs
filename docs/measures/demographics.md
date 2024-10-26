@@ -83,21 +83,14 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 * HBCD = HEALthy Brain and Child Development Study
 * OMB = Office of Management And Budget
 
-<sup>1</sup> Hamilton, et al. 2011
-<sup>2</sup> Cioffredi, et al. 2024
-<sup>3</sup> Federal Register 2023
-<sup>4</sup> Jones et al. 2008
-<sup>5</sup> Barch et al. 2017
-
- 
 ## References
-Hamilton, et al. (2011) The PhenX Toolkit: Get the Most From Your Measures. American Journal of Epidemiology, 174(3), 253-60.
+<sup>1</sup>Hamilton, et al. (2011) The PhenX Toolkit: Get the Most From Your Measures. American Journal of Epidemiology, 174(3), 253-60.
 
-Cioffredi, et al. (2024) Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD), Developmental Cognitive Neuroscience, 69
+<sup>2</sup>Cioffredi, et al. (2024) Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD), Developmental Cognitive Neuroscience, 69
 
-Federal Register. (2023, January 27). Initial Proposals For Updating OMB’s Race and Ethnicity Statistical Standards ([Document No. 2023-01635](https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards)). 88 FR 5375-5384.
+<sup>3</sup>Federal Register. (2023, January 27). Initial Proposals For Updating OMB’s Race and Ethnicity Statistical Standards ([Document No. 2023-01635](https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards)). 88 FR 5375-5384.
 
-Jones, Camara P., Benedict I. Truman, Laurie D. ElamEvans, Camille A. Jones, Clara Y. Jones, Ruth Jiles, Susan F. Rumisha, and Geraldine Perry. 2008. “Using ‘Socially Assigned Race’ to Probe White Advantages in Health Status.” Ethnicity and Disease 18(4):496–504
+<sup>4</sup>Jones, Camara P., Benedict I. Truman, Laurie D. ElamEvans, Camille A. Jones, Clara Y. Jones, Ruth Jiles, Susan F. Rumisha, and Geraldine Perry. 2008. “Using ‘Socially Assigned Race’ to Probe White Advantages in Health Status.” Ethnicity and Disease 18(4):496–504
 
-Barch DM, Albaugh MD, Avenevoli S, Chang L, Clark DB, Glantz MD, Hudziak JJ, Jernigan TL, Tapert SF, Yurgelun-Todd D, Alia-Klein N, Potter AS, Paulus MP, Prouty D, Zucker RA, Sher KJ. Demographic, physical and mental health assessments in the adolescent brain and cognitive development study: Rationale and description. Dev Cogn Neurosci. 2018 Aug;32:55-66. doi: 10.1016/j.dcn.2017.10.010. Epub 2017 Nov 3\. PMID: 29113758; PMCID: PMC5934320. 
+<sup>5</sup>Barch DM, Albaugh MD, Avenevoli S, Chang L, Clark DB, Glantz MD, Hudziak JJ, Jernigan TL, Tapert SF, Yurgelun-Todd D, Alia-Klein N, Potter AS, Paulus MP, Prouty D, Zucker RA, Sher KJ. Demographic, physical and mental health assessments in the adolescent brain and cognitive development study: Rationale and description. Dev Cogn Neurosci. 2018 Aug;32:55-66. doi: 10.1016/j.dcn.2017.10.010. Epub 2017 Nov 3. PMID: 29113758; PMCID: PMC5934320. 
 
