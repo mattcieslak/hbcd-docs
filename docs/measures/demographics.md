@@ -70,7 +70,7 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 | Birthplace and Heritage | [PhenX](https://www.phenxtoolkit.org/protocols/view/10201)<sup>2</sup> | None |
 | Years Living in The United States | [PhenX](https://www.phenxtoolkit.org/protocols/view/11201)<sup>2</sup> | None |
 | Biological Parents Country of Origin | [PhenX](https://www.phenxtoolkit.org/protocols/view/10301)<sup>2</sup> | None |
-| Education | [PhenX](https://www.phenxtoolkit.org/protocols/view/11002)<sup>2</sup> | None |
+| Educational Attainment | [PhenX](https://www.phenxtoolkit.org/protocols/view/11002)<sup>2</sup> | None |
 | Job At Conception- Work for Pay  | HBCD<sup>2</sup> | None |
 | Job At Conception- Type of Work | HBCD<sup>2</sup> | None |
 | Job At Conception- Full Time/Part Time | HBCD<sup>2</sup> | None |
