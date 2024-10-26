@@ -28,7 +28,7 @@ None
 ### Additional Information
 From FHAM items for Antisocial Personality Disorder and Undifferentiated Psychiatric Disorder were not included.
 
-### Publications and References
+### References
 [**https://arc.psych.wisc.edu/self-report/family-history-assessment-module-fham/**](https://arc.psych.wisc.edu/self-report/family-history-assessment-module-fham/)
 
 [**https://www.researchallofus.org/wp-content/themes/research-hub-wordpress-theme/media/2023/PaFHH\_Survey\_English.pdf**](https://www.researchallofus.org/wp-content/themes/research-hub-wordpress-theme/media/2023/PaFHH_Survey_English.pdf)
@@ -154,9 +154,9 @@ Please note that scores on these scales will not differentiate between symptoms 
 None
 
 ### Additional Information
-Note: the following scores on the EPDS triggered a clinical alert for study staff:
-* EPDS suicide ('The thought of harming myself has occurred to me'), score greater than 1
-* EPDS depression, overall score greater than 11
+Note: the following scores on the EPDS triggered a clinical alert for study staff:  
+  * EPDS suicide ('The thought of harming myself has occurred to me'), score greater than 1
+  * EPDS depression, overall score greater than 11
 
 ### References
  * Cox, J. L., Holden, J. M., & Sagovsky, R. (1987). Detection of postnatal depression . Development of the 10-item Edinburgh Postnatal Depression Scale. *British Journal of Psychiatry*, *150*, 782–786. [https://doi.org/10.1192/bjp.150.6.782](https://doi.org/10.1192/bjp.150.6.782)
