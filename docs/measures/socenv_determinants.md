@@ -32,7 +32,7 @@ None
 [https://www.phenxtoolkit.org/protocols/view/210901](https://www.phenxtoolkit.org/protocols/view/210901) 
 
 ### Publications and References
-Mujahid, M. S., Diez Roux, A. V., Morenoff, J. D., & Raghunathan, T. (2007). Assessing the measurement properties of neighborhood scales: From psychometrics to ecometrics. *American Journal of Epidemiology,* *165,* 858-867.
+ * Mujahid, M. S., Diez Roux, A. V., Morenoff, J. D., & Raghunathan, T. (2007). Assessing the measurement properties of neighborhood scales: From psychometrics to ecometrics. *American Journal of Epidemiology,* *165,* 858-867.
 
 ## Perceived Stress/Social Support 
 ### Overview
@@ -55,11 +55,8 @@ Mujahid, M. S., Diez Roux, A. V., Morenoff, J. D., & Raghunathan, T. (2007). Ass
 **Estimated length of time for completion**: 4 minute
 
 ### Quality Control (QC) 
-**QC Procedures**   
-Monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency.  
-
-**Common Issues Identified**    
-None
+**QC Procedures:** Monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency.  
+**Common Issues Identified:** None
 
 ### Potential Issues Flagged by Subject Matter Experts
 None
