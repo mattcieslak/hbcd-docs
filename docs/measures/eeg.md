@@ -47,7 +47,7 @@ In V04/6, a silent video plays with a variety of marble run and construction vis
   * [E-Prime manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)  
   * [EEG Acquisition Manual](https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing)
 
-### Publications and References
+### References
 Davidson, R. J., & Fox, N. A. (1982). Asymmetrical Brain Activity Discriminates Between Positive and Negative Affective Stimuli in Human Infants. Science, 218(4578), 1235– 1237. [https://doi.org/10.1126/science.7146906](https://doi.org/10.1126/science.7146906)
 
 Fox, N.A., Pérez-Edgar, K., Morales, S., Brito, N.H., Campbell, A.M., Cavanagh, J.F., Gabard-Durnam, L.J., Hudac, C.M., Key, A.P., Larson-Prior, L.J., Pedapati, E.V., Norton, E.S., Reetzke, R., Roberts, T.P., Rutter, T.M., Scott, L.S., Shuffrey, L.C., Antúnez, M., Boylan, M.R., … Yoder, L. (2024). The development and structure of the Healthy Brain and Child Development (HBCD) study EEG Protocol. Developmental Cognitive Neuroscience, 69, 101447. https://doi.org/10.1016/j.dcn.2024.101447 
@@ -106,7 +106,7 @@ Whedon, M., Perry, N.B., & Bell, M.A. (2020). Relations between frontal EEG matu
   * [E-Prime manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)  
   * [EEG Acquisition Manual](https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing)
 
-### Publications and References
+### References
 Barry-Anwar, Ryan, Tracy Riggins, and Lisa S. Scott, 'Electrophysiology in Developmental Populations Key Methods and Findings', in Kathrin Cohen Kadosh (ed.), *Oxford Handbook of Developmental Cognitive Neuroscience*, Oxford Library of Psychology (2024; online edn, Oxford Academic, 2 Sept. 2020), [https://doi.org/10.1093/oxfordhb/9780198827474.013.3](https://doi.org/10.1093/oxfordhb/9780198827474.013.3)
 
 Fox, N.A., Pérez-Edgar, K., Morales, S., Brito, N.H., Campbell, A.M., Cavanagh, J.F., Gabard-Durnam, L.J., Hudac, C.M., Key, A.P., Larson-Prior, L.J., Pedapati, E.V., Norton, E.S., Reetzke, R., Roberts, T.P., Rutter, T.M., Scott, L.S., Shuffrey, L.C., Antúnez, M., Boylan, M.R., … Yoder, L. (2024). The development and structure of the Healthy Brain and Child Development (HBCD) study EEG Protocol. Developmental Cognitive Neuroscience, 69, 101447. https://doi.org/10.1016/j.dcn.2024.101447 
@@ -160,7 +160,7 @@ Scherf, K.S., & Scott, L.S. (2012). Connecting developmental trajectories: Biase
   * [E-Prime manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)  
   * [EEG Acquisition Manual](https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing)
 
-### Publications and References
+### References
 Choudhury, N., & Benasich, A. A. (2011). Maturation of auditory evoked potentials from 6 to 48 months: Prediction to 3 and 4 year language and cognitive abilities. Clinical Neurophysiology, 122(2), 320–338. [https://doi.org/10.1016/j.clinph.2010.05.035](https://doi.org/10.1016/j.clinph.2010.05.035)
 
 Fox, N.A., Pérez-Edgar, K., Morales, S., Brito, N.H., Campbell, A.M., Cavanagh, J.F., Gabard-Durnam, L.J., Hudac, C.M., Key, A.P., Larson-Prior, L.J., Pedapati, E.V., Norton, E.S., Reetzke, R., Roberts, T.P., Rutter, T.M., Scott, L.S., Shuffrey, L.C., Antúnez, M., Boylan, M.R., … Yoder, L. (2024). The development and structure of the Healthy Brain and Child Development (HBCD) study EEG Protocol. Developmental Cognitive Neuroscience, 69, 101447. https://doi.org/10.1016/j.dcn.2024.101447 
@@ -229,7 +229,7 @@ Schwartz, S., Shinn-Cunningham, B., & Tager-Flusberg, H. (2018). Meta-analysis a
   * [E-Prime manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)  
   * [EEG Acquisition Manual](https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing)
 
-### Publications and References
+### References
 Cremone-Caira, A., Braverman, Y., MacNaughton, G.A., Nikolaeva, J.I., & Faja, S. (2023). Reduced Visual Evoked Potential Amplitude in Autistic Children with Co-Occurring Features of Attention-Deficit/Hyperactivity Disorder. Journal of Autism and Developmental Disorders. [https://doi.org/10.1007/s10803-023-06005-7](https://doi.org/10.1007/s10803-023-06005-7)
 
 Fox, N.A., Pérez-Edgar, K., Morales, S., Brito, N.H., Campbell, A.M., Cavanagh, J.F., Gabard-Durnam, L.J., Hudac, C.M., Key, A.P., Larson-Prior, L.J., Pedapati, E.V., Norton, E.S., Reetzke, R., Roberts, T.P., Rutter, T.M., Scott, L.S., Shuffrey, L.C., Antúnez, M., Boylan, M.R., … Yoder, L. (2024). The development and structure of the Healthy Brain and Child Development (HBCD) study EEG Protocol. Developmental Cognitive Neuroscience, 69, 101447. https://doi.org/10.1016/j.dcn.2024.101447 
