@@ -1,4 +1,3 @@
-# Novel Technologies/Wearable Sensors 
 ## Wearable Sensors
 ### Overview
 **Full Name**: Infant leg movement data collected by wearable sensors.   
