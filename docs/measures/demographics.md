@@ -75,11 +75,12 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 | Job At Conception- Type of Work | HBCD<sup>2</sup> | None |
 | Job At Conception- Full Time/Part Time | HBCD<sup>2</sup> | None |
 | Active-Duty Military | HBCD<sup>2</sup> | None |
-| Help Out Financially | HBCD<sup>2</sup>| None |
-<sup>ABCD = Adolescent Brain Child Development Study</sup> 
-<sup>BRFSS = Behavioral Risk Factor Surveillance System</sup> 
-<sup>ECHO = Environmental Influences On Child Health Outcomes</sup> 
-<sup>HBCD = HEALthy Brain and Child Development Study</sup> 
+| Help Out Financially | HBCD<sup>2</sup>| None |  
+
+<sup>ABCD = Adolescent Brain Child Development Study</sup><br> 
+<sup>BRFSS = Behavioral Risk Factor Surveillance System</sup><br> 
+<sup>ECHO = Environmental Influences On Child Health Outcomes</sup><br> 
+<sup>HBCD = HEALthy Brain and Child Development Study</sup><br> 
 <sup>OMB = Office of Management And Budget</sup>
 
 ## References
