@@ -10,7 +10,7 @@ The Infant Behavior Questionnaire-Revised (Very Short Form + BI) is designed to 
 **Description**: The IBQ-R VSF is a caregiver report form used to assess temperament in infancy. Caregivers are asked to report on the infant’s behaviors on a 7-point Likert scale ranging from 1 (never) to 7 (always). For the purposes of HBCD, the measure consists of 4 scale domains: surgency (13 items), negative affect (12 items), effortful control (12 items), and behavioral inhibition (13 items).  
 **Summary**: The IBQ provides a comprehensive assessment of early temperament, focusing on key traits that influence development and behavior during the early years.
 
-### Implementation Details
+### Implementation 
 **Method of Administration**: remote survey  
 **REDCap Form Name**: mh_cg_ibqr  
 **Pilot Data Dictionary**: IBQ  
@@ -45,7 +45,7 @@ Scale scores for the Infant Behavior Questionnaire – Revised – Very Short Fo
    
 For example, given a sum of 47 for a scale of 12 items, with one item receiving no response, two items marked "does not apply," and 9 items receiving a numerical response, the sum of 47 would be divided by 9 to yield a mean of 5.22 for the scale score. Items with an “R” are reverse scored and already implemented in the HBCD scoring algorithm.
 
-### Quality Control (QC) Processes
+### Quality Control (QC) 
 **QC Procedures**<br>
 - Examine the range of the child’s age to ensure that it falls in the age range 3 to 18 months
 - Examine missingness. Count the number of items answered for each participant
@@ -92,7 +92,7 @@ Putnam, S. P., Helbig, A. L., Gartstein, M. A., Rothbart, M. K. & Leerkes, E. (2
 
 3. If a caregiver answers less than 9 items, then their sum score is missing
 
-### Implementation Details
+### Implementation 
 **Method of Administration**: This questionnaire is to be filled out by the child’s caregiver in a remote setting. Questions inquire about the behaviors of the focal child over the past month.  
 **REDCap Form Name**: N/A  
 **Pilot Data Dictionary**: N/A  
@@ -104,7 +104,7 @@ Putnam, S. P., Helbig, A. L., Gartstein, M. A., Rothbart, M. K. & Leerkes, E. (2
 **Visits Administered and corresponding age range of administration**: V03 age range; 3m 0 days– 9m 0 days  
 **Estimated length of time for completion**: 5 minutes 
 
-### Quality Control (QC) Processes
+### Quality Control (QC) 
 **QC Procedures**   
   * Examine the range of the child’s age to ensure that it falls in the age range 3 to 9 months  
   * Examine missingness. Count the number of items answered for each participant  
@@ -141,7 +141,7 @@ Sum scores are computed by the following method:
 
   *(See Links to Resources*)
 
-### Implementation Details
+### Implementation 
 **Method of Administration**: This questionnaire is to be filled out by the child’s caregiver in a remote setting. 
 **REDCap Form Name**: N/A
 **Pilot Data Dictionary**: N/A
@@ -153,7 +153,7 @@ Sum scores are computed by the following method:
 **Visits Administered and corresponding age range of administration**: V03 age range; <12mo age
 **Estimated length of time for completion**: 1-2 minutes
 
-### Quality Control (QC) Processes
+### Quality Control (QC) 
 **QC Procedures**   
   * Examine the range of the child’s age to ensure that it falls in the age range 3 to 9 months  
   * Examine missingness. Count the number of items answered for each participant  
