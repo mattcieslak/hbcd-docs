@@ -63,23 +63,34 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 | Jobs During Pregnancy- Shift Schedule | Baby's First Years | BFY Year 1 Protocol \- G39, SchedMain |  |  |  |
 
 ### Demographics Of Other Biological Parent
-| **Construct** | **Measure Source** | **Source Citations** | **DEI Considerations / Alternations** |
-| :---- | :--- | :---- | :---- |
-| Age | HBCD | None available | None |
-| Race/Ethnicity | [OMB](https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/) | Initial Proposals For Updating OMB's Race and Ethnicity Statistical Standards, 88 Federal Register 5375-5384 (proposed 1/27/2023) https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards  | **Inclusion of diverse racial and ethnic categories**  This question aligns to proposed recommendations for data collection under review by the federal register and includes a combined race/ethnicity variable with 7 response options. Participants may select all that apply. |
-| Birthplace and Heritage | [PhenX](https://www.phenxtoolkit.org/protocols/view/10201) | Hamilton, et al. (2011) The PhenX Toolkit: Get the Most From Your Measures. American Journal of Epidemiology, 174(3), 253-60. | None |
-| Years Living in The United States | [PhenX](https://www.phenxtoolkit.org/protocols/view/11201) | Hamilton, et al. (2011) The PhenX Toolkit: Get the Most From Your Measures. American Journal of Epidemiology, 174(3), 253-60. | None |
-| Biological Parents Country of Origin | [PhenX](https://www.phenxtoolkit.org/protocols/view/10301) | Hamilton, et al. (2011) The PhenX Toolkit: Get the Most From Your Measures. American Journal of Epidemiology, 174(3), 253-60. | None |
-| Education | [PhenX](https://www.phenxtoolkit.org/protocols/view/11002) | Hamilton, et al. (2011) The PhenX Toolkit: Get the Most From Your Measures. American Journal of Epidemiology, 174(3), 253-60. | None |
-| Job At Conception- Work for Pay  | HBCD | Cioffredi, et al. (2024) Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD), Developmental Cognitive Neuroscience, 69 | None |
-| Job At Conception- Type of Work | HBCD | Cioffredi, et al. (2024) Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD), Developmental Cognitive Neuroscience, 69 | None |
-| Job At Conception- Full Time/Part Time | HBCD | Cioffredi, et al. (2024) Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD), Developmental Cognitive Neuroscience, 69 | None |
-| Active-Duty Military | HBCD | Cioffredi, et al. (2024) Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD), Developmental Cognitive Neuroscience, 69 | None |
-| Help Out Financially | HBCD | Cioffredi, et al. (2024) Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD), Developmental Cognitive Neuroscience, 69 | None |
-
+| **Construct** | **Measure Source** | **DEI Considerations/Alternations** |
+| :---- | :--- | :---- |
+| Age | HBCD | None |
+| Race/Ethnicity | [OMB](https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/) (OMB Initial Proposals) | **Inclusion of diverse racial and ethnic categories**  This question aligns to proposed recommendations for data collection under review by the federal register and includes a combined race/ethnicity variable with 7 response options. Participants may select all that apply. |
+| Birthplace and Heritage | [PhenX](https://www.phenxtoolkit.org/protocols/view/10201) (Hamilton, et al. 2011)| None |
+| Years Living in The United States | [PhenX](https://www.phenxtoolkit.org/protocols/view/11201) (Hamilton, et al. 2011) | None |
+| Biological Parents Country of Origin | [PhenX](https://www.phenxtoolkit.org/protocols/view/10301) (Hamilton, et al. 2011) | None |
+| Education | [PhenX](https://www.phenxtoolkit.org/protocols/view/11002) (Hamilton, et al. 2011) | None |
+| Job At Conception- Work for Pay  | HBCD (Cioffredi, et al. 2024) | None |
+| Job At Conception- Type of Work | HBCD (Cioffredi, et al. 2024) | None |
+| Job At Conception- Full Time/Part Time | HBCD (Cioffredi, et al. 2024) | None |
+| Active-Duty Military | HBCD (Cioffredi, et al. 2024) | None |
+| Help Out Financially | HBCD (Cioffredi, et al. 2024)| None |
 
 * ABCD = Adolescent Brain Child Development Study
 * BRFSS = Behavioral Risk Factor Surveillance System
 * ECHO = Environmental Influences On Child Health Outcomes
 * HBCD = HEALthy Brain and Child Development Study
 * OMB = Office of Management And Budget
+
+## References
+Hamilton, et al. (2011) The PhenX Toolkit: Get the Most From Your Measures. American Journal of Epidemiology, 174(3), 253-60.
+
+Cioffredi, et al. (2024) Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD), Developmental Cognitive Neuroscience, 69
+
+“OMB Initial Proposals” - how to properly cite in text Initial Proposals For Updating OMB's Race and Ethnicity Statistical Standards, 88 Federal Register 5375-5384 (proposed 1/27/2023) https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards
+
+Jones, Camara P., Benedict I. Truman, Laurie D. ElamEvans, Camille A. Jones, Clara Y. Jones, Ruth Jiles, Susan F. Rumisha, and Geraldine Perry. 2008. “Using ‘Socially Assigned Race’ to Probe White Advantages in Health Status.” Ethnicity and Disease 18(4):496–504
+
+Barch DM, Albaugh MD, Avenevoli S, Chang L, Clark DB, Glantz MD, Hudziak JJ, Jernigan TL, Tapert SF, Yurgelun-Todd D, Alia-Klein N, Potter AS, Paulus MP, Prouty D, Zucker RA, Sher KJ. Demographic, physical and mental health assessments in the adolescent brain and cognitive development study: Rationale and description. Dev Cogn Neurosci. 2018 Aug;32:55-66. doi: 10.1016/j.dcn.2017.10.010. Epub 2017 Nov 3\. PMID: 29113758; PMCID: PMC5934320. 
+
