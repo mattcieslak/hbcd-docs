@@ -32,7 +32,7 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 We learned through RA reports that some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g., options did not capture identity) and occupation (i.e., imperfect option for job type and number of hours). 
 
 ##  Appendix. Source Information for Demographic Measures
-**DEMOGRAPHICS OF BIRTH PARENT**
+**DEMOGRAPHICS OF BIRTH PARENT**  
 | **Construct** | **Measure Source** | **DEI Modifications** |
 | :---- | :--- | :-- |
 | Marital and Relationship Status | [PhenX](https://www.phenxtoolkit.org/protocols/view/10903)<sup>1</sup> | **For heteronormative bias:** (1) Combine "Divorced/Seperated" (2) "Never Married" replaced by "Single" (3) "Member of an Unmarried Couple" replaced by "Partnered"
@@ -58,7 +58,7 @@ We learned through RA reports that some participants reported challenges in answ
 | Jobs During Pregnancy- Typical Hours/Week | HBCD<sup>2</sup> | None |
 | Jobs During Pregnancy- Shift Schedule | Baby's First Years | BFY Year 1 Protocol \- G39, SchedMain | 
 
-**DEMOGRAPHICS OF OTHER BIOLOGICAL PARENT**
+**DEMOGRAPHICS OF OTHER BIOLOGICAL PARENT**  
 | **Construct** | **Measure Source** | **DEI Modifications** |
 | :---- | :--- | :-- |
 | Age | HBCD | None |
