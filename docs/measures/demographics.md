@@ -76,20 +76,21 @@ We learned through RA reports that some participants reported challenges in answ
 | Active-Duty Military | HBCD<sup>2</sup> | None |
 | Help Out Financially | HBCD<sup>2</sup>| None |  
 
+<sup>1</sup> PhenX Toolkit (Hamilton et al. 2011)<br> 
+<sup>2</sup> HBCD = HEALthy Brain and Child Development Study (Cioffredi et al. 2024)<br>
 <sup>ABCD = Adolescent Brain Child Development Study</sup><br> 
-<sup>BRFSS = Behavioral Risk Factor Surveillance System</sup><br> 
+<sup>BRFSS = Behavioral Risk Factor Surveillance System (Jones et al. 2008)</sup><br> 
 <sup>ECHO = Environmental Influences On Child Health Outcomes</sup><br> 
-<sup>HBCD = HEALthy Brain and Child Development Study</sup><br> 
-<sup>OMB = Office of Management And Budget</sup>
+<sup>OMB = Office of Management And Budget (Federal Register 2023)</sup>
 
 ## References
-<sup>1</sup>Hamilton, et al. (2011) The PhenX Toolkit: Get the Most From Your Measures. American Journal of Epidemiology, 174(3), 253-60.
+  * Hamilton, et al. (2011) The PhenX Toolkit: Get the Most From Your Measures. American Journal of Epidemiology, 174(3), 253-60.
 
-<sup>2</sup>Cioffredi, et al. (2024) Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD), Developmental Cognitive Neuroscience, 69
+  * Cioffredi, et al. (2024) Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD), Developmental Cognitive Neuroscience, 69
 
-<sup>3</sup>Federal Register. (2023, January 27). Initial Proposals For Updating OMB’s Race and Ethnicity Statistical Standards ([Document No. 2023-01635](https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards)). 88 FR 5375-5384.
+  * Federal Register. (2023, January 27). Initial Proposals For Updating OMB’s Race and Ethnicity Statistical Standards ([Document No. 2023-01635](https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards)). 88 FR 5375-5384.
 
-<sup>4</sup>Jones, Camara P., Benedict I. Truman, Laurie D. ElamEvans, Camille A. Jones, Clara Y. Jones, Ruth Jiles, Susan F. Rumisha, and Geraldine Perry. 2008. “Using ‘Socially Assigned Race’ to Probe White Advantages in Health Status.” Ethnicity and Disease 18(4):496–504
+  * Jones, Camara P., Benedict I. Truman, Laurie D. ElamEvans, Camille A. Jones, Clara Y. Jones, Ruth Jiles, Susan F. Rumisha, and Geraldine Perry. 2008. “Using ‘Socially Assigned Race’ to Probe White Advantages in Health Status.” Ethnicity and Disease 18(4):496–504
 
-<sup>5</sup>Barch DM, Albaugh MD, Avenevoli S, Chang L, Clark DB, Glantz MD, Hudziak JJ, Jernigan TL, Tapert SF, Yurgelun-Todd D, Alia-Klein N, Potter AS, Paulus MP, Prouty D, Zucker RA, Sher KJ. Demographic, physical and mental health assessments in the adolescent brain and cognitive development study: Rationale and description. Dev Cogn Neurosci. 2018 Aug;32:55-66. doi: 10.1016/j.dcn.2017.10.010. Epub 2017 Nov 3. PMID: 29113758; PMCID: PMC5934320. 
+  * Barch DM, Albaugh MD, Avenevoli S, Chang L, Clark DB, Glantz MD, Hudziak JJ, Jernigan TL, Tapert SF, Yurgelun-Todd D, Alia-Klein N, Potter AS, Paulus MP, Prouty D, Zucker RA, Sher KJ. Demographic, physical and mental health assessments in the adolescent brain and cognitive development study: Rationale and description. Dev Cogn Neurosci. 2018 Aug;32:55-66. doi: 10.1016/j.dcn.2017.10.010. Epub 2017 Nov 3. PMID: 29113758; PMCID: PMC5934320. 
 
