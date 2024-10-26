@@ -32,14 +32,14 @@ Raw data files were spot-checked during the data collection time frame. Only a s
 **Common Issues Identified**    
 Common issues identified during QC processes included inadequate data for each of the 6 axes in calibration files (human error), missing data for calibration files (due to human error or technical difficulties), missing data for 72 hours (due to human error, technical difficulties, or parent/legal guardian declining to participate in this aspect of the study), sensors being removed for prolonged periods during the 72 hours, or incorrect sampling rate used during the 72 hour collection. If possible, errors were corrected (but this was not often possible). All issued occurred rarely overall and the majority of the data were judged to be present and correctly collected.
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 No issues were found. Users are reminded that accelerometer sensor timestamps drift over time, so even though the right and left leg sensors started recording at the same time and recorded for the same duration of time at the same sampling rate, one cannot assume that the time specified matches exactly between the 2 sensors. By our estimates, Axivity AX6 sensors recording at 25 samples/sec diverge from one another by a couple of seconds by the end of 72 hours, and the magnitude of this error increases over time. Further, offsets were different between different sensors, so a calibration procedure was used to adjust for this. See Oh, J., Loeb, G. E., & Smith, B. A. (2024). The Utility of Calibrating Wearable Sensors before Quantifying Infant Leg Movements. *Sensors*, *24*(17), 5736
 
 ### Additional Information
 Data files included in the data release are raw sensor data in BIDS format for the calibration and 72-hour files for the right leg and the left leg, as well as files containing processed data outputs.
 
 #### Raw data, calibration files
-**Full Name:** `sub-{dccid}_ses-{session number}_task-LeftLegMovement_tracksys-imu_acq-calibration_channels.jso`n  
+**Full Name:** `sub-{dccid}_ses-{session number}_task-LeftLegMovement_tracksys-imu_acq-calibration_channels.json`  
 **Acronym/Brief Name**: LL-Calib-Channels-Ref  
 **Description**: The reference frame in which the channels of the Inertial Measurement Unit sensor used to prepare sensor calibration dataset is represented (left leg movement): Anterior, Right, Superior each corresponding to X, Y, and Z axis.
 
@@ -223,6 +223,7 @@ Data files included in the data release are raw sensor data in BIDS format for t
 ### Quality Control (QC)
 **QC Procedures**   
 Surveys were spot-checked during the data collection time frame. Only a small percentage of surveys were randomly checked each week as the process was manual. When checked, surveys were checked for the presence of responses. When no responses were provided, RA’s were contacted to confirm whether or not surveys had gone out to the participants as intended.  
+
 **Common Issues Identified**    
 Common issues identified during QC processes included surveys that had no responses. Sometimes this was human error (preferred contact or preferred method of communication not selected by RA) or potentially technological malfunction, and sometimes it was caregiver non-response. Caregiver non-response was the reason for the majority of the surveys without responses. Caregiver non-response was common.
 
