@@ -17,11 +17,7 @@
 **Respondent:** Adult Participant
 
 ### Data Collection
-**Visits Administered and corresponding age range of administration:**   
-  * Visit 1 (prenatal)   
-  * Visit 5 (10-17 months)   
-  * Visit 7 (16-31 months)   
-  * Visit 9 (32-46 months)  
+**Visits Administered and corresponding age range of administration:** Visit 1 (prenatal), Visit 5 (10-17 months), Visit 7 (16-31 months), Visit 9 (32-46 months)    
 **Estimated length of time for completion**: 1 minute
 
 ### Quality Control (QC) 
@@ -30,14 +26,13 @@
 **Common Issues Identified**: None
 
 ### Potential Issues Flagged by Subject Matter Experts
-**Neighborhood Safety**: No issues found
+None
 
 ### Additional Information
 [https://www.phenxtoolkit.org/protocols/view/210901](https://www.phenxtoolkit.org/protocols/view/210901) 
 
 ### Publications and References
 Mujahid, M. S., Diez Roux, A. V., Morenoff, J. D., & Raghunathan, T. (2007). Assessing the measurement properties of neighborhood scales: From psychometrics to ecometrics. *American Journal of Epidemiology,* *165,* 858-867.
-
 
 ## Perceived Stress/Social Support 
 ### Overview
@@ -67,12 +62,11 @@ Monitoring the data dashboard for variable missingness, possible coding errors, 
 None
 
 ### Potential Issues Flagged by Subject Matter Experts
-**Perceived Stress**: No issues found
-**Social Support**: No issues found
+None
 
 ### Additional Information
 **Relevant Documents**: Scoring Manuals  
 
-### Publications and References
+### References
   * PROMIS Emotional Support: Hahn, E.A., Cella, D., Bode, R.K. *et al.* Measuring Social Well-Being in People with Chronic Illness. *Soc Indic Res* **96**, 381–401 (2010).   
   * Cohen, S., Kamarck, T., & Mermelstein, R. (1983). A global measure of perceived stress. Journal of Health and Social Behavior, 24, 385-396.
