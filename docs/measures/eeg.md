@@ -15,7 +15,7 @@ In V04/6, a silent video plays with a variety of marble run and construction vis
 
 **Summary**: The Resting State Task (v.11.29.23) provides assessment of the development of large scale neural networks during infancy and early childhood. It includes thorough QC procedures to ensure data accuracy and integrity.
 
-### Implementation Details
+### Implementation 
 **Method of Administration**: RA administered in person  
 **REDCap Form Name**: NA  
 **Pilot Data Dictionary**: NA  
@@ -27,7 +27,7 @@ In V04/6, a silent video plays with a variety of marble run and construction vis
 **Visits Administered and corresponding age range of administration**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)<br>  
 **Estimated length of time for completion**: Approximately 3 minutes
 
-### Quality Control (QC) Processes
+### Quality Control (QC) 
 **QC Procedures** 
   * Data are cleaned and preprocessed using the Maryland Analysis of Developmental EEG (MADE) pipeline (Debnath et al., 2019).   
   * Ongoing QC monitoring via LORIS dashboard  
@@ -73,7 +73,7 @@ Whedon, M., Perry, N.B., & Bell, M.A. (2020). Relations between frontal EEG matu
 
 **Summary**: The Face task (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. It assesses child and infant face processing development including attention, perception, categorization, individuation and memory. The measure includes rigorous QC procedures to ensure data integrity and reliability.
 
-### Implementation Details
+### Implementation 
 **Method of Administration**: RA administered in person  
 **REDCap Form Name**: NA  
 **Pilot Data Dictionary**: NA  
@@ -85,7 +85,7 @@ Whedon, M., Perry, N.B., & Bell, M.A. (2020). Relations between frontal EEG matu
 **Visits Administered and corresponding age range of administration**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)  
 **Estimated length of time for completion**: Approximately 5 minutes
 
-### Quality Control (QC) Processes
+### Quality Control (QC) 
 **QC Procedures**:  
   * Data are cleaned and preprocessed using the Maryland Analysis of Developmental EEG (MADE) pipeline (Debnath et al., 2019\)  
   * Ongoing QC monitoring via LORIS dashboard  
@@ -123,7 +123,7 @@ Scherf, K.S., & Scott, L.S. (2012). Connecting developmental trajectories: Biase
 **Description**: An auditory presentation of human syllables including “ba” and “da”. A video is played on iPad as a distractor with brightness all the way up, in airplane mode, and not plugged in. The task runs for 11:30 minutes in V03 and 8:30 minutes in V04/6. The task may be paused if breaks are needed.   
 **Summary**: The MMN task (v.11.29.23) provides a comprehensive assessment of infant speech sound processing. The measure includes rigorous QC procedures to ensure data integrity and reliability.
 
-### Implementation Details
+### Implementation 
 **Method of Administration**: RA administered in person  
 **REDCap Form Name**: NA  
 **Pilot Data Dictionary**: NA  
@@ -138,7 +138,7 @@ Scherf, K.S., & Scott, L.S. (2012). Connecting developmental trajectories: Biase
   * V06: 15-48 months  
 **Estimated length of time for completion**: Approximately 11:30 minutes (V03) or 8:30 minutes (V04/6)
 
-### Quality Control (QC) Processes
+### Quality Control (QC) 
 **QC Procedures** 
   * Data are cleaned and preprocessed using the Maryland Analysis of Developmental EEG (MADE) pipeline (Debnath et al., 2019\)  
   * Ongoing QC monitoring via LORIS dashboard  
@@ -196,7 +196,7 @@ Schwartz, S., Shinn-Cunningham, B., & Tager-Flusberg, H. (2018). Meta-analysis a
 
 **Summary**: The Visual Evoked Potential Task (v.11.29.23) measures development of visual cortex and response to stimuli, reflecting underlying cortical development. The measure includes rigorous QC procedures to ensure data integrity and reliability.
 
-### Implementation Details
+### Implementation 
 **Method of Administration**: RA administered in person  
 **REDCap Form Name**: NA  
 **Pilot Data Dictionary**: NA  
@@ -208,7 +208,7 @@ Schwartz, S., Shinn-Cunningham, B., & Tager-Flusberg, H. (2018). Meta-analysis a
 **Visits Administered and corresponding age range of administration**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)  
 **Estimated length of time for completion**: Approximately 1 minute
 
-### Quality Control (QC) Processes
+### Quality Control (QC) 
 **QC Procedures**:  
   * Data are cleaned and preprocessed using the Maryland Analysis of Developmental EEG (MADE) pipeline (Debnath et al., 2019\)  
   * Ongoing QC monitoring via LORIS dashboard  
