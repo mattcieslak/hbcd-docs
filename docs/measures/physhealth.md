@@ -6,7 +6,7 @@
 **Description**: Measures food security via two items assessing the availability of food in the home over the last 12 months. Each question uses the same response options.  
 **Summary**: Screening measure used across many populations indicating risk of food insecurity in the last 12 months.
 
-## Implementation Details
+## Implementation
 **Method of Administration**: Remote survey  
 **REDCap Form Name**: sed\_cg\_foodins  
 **Pilot Data Dictionary**: 2-Item Food Insecurity  
@@ -23,7 +23,7 @@
 **Common Issues Identified**: None
 
 ## Potential Issues Flagged by Subject Matter Experts
-**Food Insecurity**: No issues found
+None
 
 ## References
 Hager ER, Quigg AM, Black MM, Coleman SM, Heeren T, Rose-Jacobs R, Cook JT, Ettinger de Cuba SA, Casey PH, Chilton M, Cutts DB, Meyers AF, Frank DA. Development and validity of a 2-item screen to identify families at risk for food insecurity. Pediatrics. 2010 Jul;126(1):e26-32. doi: 10.1542/peds.2009-3146. PMID: 20595453.
