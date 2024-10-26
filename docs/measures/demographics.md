@@ -39,7 +39,7 @@ From [Cioffredi et al, *Developmental Cognitive Neuroscience,* 2024](https://www
 ### Demographics Of Birth Parent
 | **Construct** | **Measure Source** | **DEI Modifications** |
 | :---- | :---- | :-- |
-| Marital and Relationship Status | [PhenX](https://www.phenxtoolkit.org/protocols/view/10903) (Hamilton, et al. 2011) | **For heteronormative bias:** (1) Combine "Divorced/Seperated" (2) Use "Single" as opposed to "Never Married" (3) Use "Partnered" as opposed to "Member of an Unmarried Couple"
+| Marital and Relationship Status | [PhenX](https://www.phenxtoolkit.org/protocols/view/10903) (Hamilton, et al. 2011) | **For heteronormative bias:** (1) Combine "Divorced/Seperated" (2) "Never Married" replaced by "Single" (3) "Member of an Unmarried Couple" replaced by "Partnered"
 | Gender Identity | [PhenX](https://www.phenxtoolkit.org/protocols/view/11801) (Hamilton, et al. 2011) | **For heteronormative bias:** Transgender Man/Transgender Woman options moved to primary tier of a two-tier question | 
 | Sexual Orientation | [PhenX](https://www.phenxtoolkit.org/protocols/view/11701) (Hamilton, et al. 2011) | **Inclusion of diverse response options:** Response categories capture sexual orientation across three dimensions of sexual orientation, including attraction, identity, and behavior. Participant can select all that apply. | 
 | Primary Residence | HBCD (Cioffredi, et al. 2024) | **Destigmatization of diverse living situations:** Inclusion of options for individuals in treatment facilities, shelters, or unhoused |
