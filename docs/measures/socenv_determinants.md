@@ -21,18 +21,15 @@
 **Estimated length of time for completion**: 1 minute
 
 ### Quality Control (QC) 
-**QC Procedures**: Monitoring missingness 
-
+**QC Procedures**: Monitoring missingness   
 **Common Issues Identified**: None
 
 ### Potential Issues Flagged by Subject Matter Experts
 None
 
-### Additional Information
-[https://www.phenxtoolkit.org/protocols/view/210901](https://www.phenxtoolkit.org/protocols/view/210901) 
-
-### Publications and References
+### References
  * Mujahid, M. S., Diez Roux, A. V., Morenoff, J. D., & Raghunathan, T. (2007). Assessing the measurement properties of neighborhood scales: From psychometrics to ecometrics. *American Journal of Epidemiology,* *165,* 858-867.
+  # PhenX Toolkit. (2024 October 28). Neighborhood Safety, PhenX Toolkit. https://www.phenxtoolkit.org/protocols/view/210901
 
 ## Perceived Stress/Social Support 
 ### Overview
@@ -55,7 +52,7 @@ None
 **Estimated length of time for completion**: 4 minute
 
 ### Quality Control (QC) 
-**QC Procedures:** Monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency.  
+**QC Procedures:** Monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency.    
 **Common Issues Identified:** None
 
 ### Potential Issues Flagged by Subject Matter Experts
@@ -67,3 +64,36 @@ None
 ### References
   * PROMIS Emotional Support: Hahn, E.A., Cella, D., Bode, R.K. *et al.* Measuring Social Well-Being in People with Chronic Illness. *Soc Indic Res* **96**, 381–401 (2010).   
   * Cohen, S., Kamarck, T., & Mermelstein, R. (1983). A global measure of perceived stress. Journal of Health and Social Behavior, 24, 385-396.
+
+## Discrimination
+### Overview
+**Full Name**: PhenX+ Toolkit Discrimination
+**Acronym/Brief Name**: PhenX+ Discrimination
+**Construct**: Discrimination
+**Description** This measure can be used by respondents to report discriminatory experiences. Discrimination is an important factor in an individual’s health because it affects access to employment, housing, and education opportunities and can affect self-esteem and cause stress.
+**Summary**: This measure is a questionnaire to assess perceived discriminatory experiences.
+
+### Implementation 
+**Method of Administration**: Remote survey  
+**REDCap Form Name**: sed_bm_phx_i_discr; Phenx Discrimination (Experiences with Unfair Treatment) 
+**Pilot Data Dictionary**: sed_bm_phx_i_discr 
+**Spanish Translation**: Existing  
+**Child Specific/Unspecific Form**: Child Unspecific  
+**Respondent:** Parent on Self
+
+### Data Collection
+**Visits**: V1, 2nd-3rd trimester and postnatal; V5, 10-17 months; V7, 16-31 months  
+**Estimated length of time for completion**: 3 minutes
+
+### Quality Control (QC) 
+**QC Procedures:**  TODO
+**Common Issues Identified:** TODO
+
+### Potential Issues Flagged by Subject Matter Experts
+None
+
+### References
+ * Williams, D. R. (2015). Measuring discrimination resource. http://scholar.harvard.edu/davidrwilliams/node/32777
+ * Sternthal, M., Slopen, N., Williams, D.R. “Racial Disparities in Health: How Much Does Stress Really Matter?” Du Bois Review, 2011; 8(1): 95-113.
+ * PhenX Toolkit. (2024 September 30). Discrimination, PhenX Toolkit. https://www.phenxtoolkit.org/protocols/view/210302
+
