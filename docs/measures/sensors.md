@@ -197,7 +197,7 @@ Data files included in the data release are raw sensor data in BIDS format for t
 *Calibration process to prepare data for calculation of infant leg movement characteristics*     
  * Oh, J., Loeb, G. E., & Smith, B. A. (2024). The Utility of Calibrating Wearable Sensors before Quantifying Infant Leg Movements. *Sensors*, *24*(17), 5736.  
 
-**Algorithms to identify infant leg movement characteristics** 
+*Algorithms to identify infant leg movement characteristics*     
  * Smith, B. A., Trujillo-Priego, I. A., Lane, C. J., Finley, J. M., & Horak, F. B. (2015). Daily quantity of infant leg movement: Wearable sensor algorithm and relationship to walking onset *Sensors*, *15*(8), 19006-19020. 
  * Trujillo-Priego IA, Smith BA. Kinematic characteristics of infant leg movements produced across a full day. *Journal of rehabilitation and assistive technologies engineering*. 2017;4:205566831771746. doi:10.1177/2055668317717461. 
  * Trujillo-Priego IA, Zhou J, Werner IF, Deng W, Smith BA. Infant Leg Activity Intensity Before and After Naps. Journal for the Measurement of Physical Behaviour. 2020;3(2):157-163. doi:10.1123/jmpb.2019-0011. 
