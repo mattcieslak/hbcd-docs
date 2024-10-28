@@ -12,15 +12,15 @@ At minimum, equivalent standards to the Bronze badge in the rating system are re
 
 ## Documentation 
 ### NMIND Documentation Checklist
-- [ ] Landing page (e.g., GitHub README, website) provides a link to documentation and brief description of what program does  
-- [ ] Documentation is up to date with version of software  
-- [ ] Typical intended usage is described  
-- [ ] An example of its usage is shown  
-- [ ] Document functions intended to be used by users (i.e., public function docstring / help coverage ≥ 10%)  
-- [ ] Description of required input parameters for user-facing functions with reasonable description of inputs (i.e., "NIfTI of brain mask in MNI" vs. "An image file")  
-- [ ] Description of output(s)  
-- [ ] User installation instructions available  
-- [ ] Dependencies listed (i.e., external and within-language requirements)
+* [ ] Landing page (e.g., GitHub README, website) provides a link to documentation and brief description of what program does
+* [ ] Documentation is up to date with version of software
+* [ ] Typical intended usage is described
+* [ ] An example of its usage is shown
+* [ ] Document functions intended to be used by users (i.e., public function docstring / help coverage ≥ 10%)
+* [ ] Description of required input parameters for user-facing functions with reasonable description of inputs (i.e., "NIfTI of brain mask in MNI" vs. "An image file")
+* [ ] Description of output(s)
+* [ ] User installation instructions available
+* [ ] Dependencies listed (i.e., external and within-language requirements)
 
 ### Webpage For Documentation
 In addition to the general guidelines provided by the checklist, each pipeline is required to have living documentation made available via a web page using utilities such as [ReadtheDocs](https://about.readthedocs.com/?ref=readthedocs.com), [GitHub Pages](https://pages.github.com/?(null)), [Wiki](https://support.microsoft.com/en-us/office/create-and-edit-a-wiki-dc64f9c2-d1a2-44b5-ac59-b9d535551a32), etc. This allows for information to stay up-to-date as compared to a publication and also is easier to navigate than a simple GitHub README given the depth of information typically required for image processing pipelines. 
