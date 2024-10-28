@@ -3,7 +3,7 @@ site_name: HBCD Data Release
 theme: 
   name: material
   palette:
-    primary: pink
+    primary: teal
   features:
     - navigation.tabs
     - navigation.path
