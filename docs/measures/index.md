@@ -1,13 +1,13 @@
 # Data Measures & Quality Control
 
-## Data Measure Categories
+## Data Measures
 - [Demographics](demographics.md)
 - [Physical Health: Food Insecurity](physhealth.md)
-- [Pregnancy and Exposures](pregexposures.md)
-    - Pregnancy Health Measures
-    - Infant Health Measures
-    - Psychiatric Evaluation & History Measures
-    - Substance Use Measures
+- Pregnancy & Exposures Categories
+    - [Pregnancy Health Measures](pregexp/preghealth.md)
+    - [Infant Health Measures](pregexp/infant.md)
+    - [Psychiatric Evaluation & History Measures](pregexp/mentalhealth.md)
+    - [Substance Use Measures](pregexp/substanceuse.md)
 - [Novel Technologies & Wearable Sensors](sensors.md)
     - Wearable Sensors
     - Infant Sensor Questionnaire
