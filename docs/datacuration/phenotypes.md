@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Phenotypes Data Curation & BIDS Conversion
 
 ## Data Structure
