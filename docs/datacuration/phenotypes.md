@@ -1,6 +1,7 @@
 # Phenotypes Data Curation & BIDS Conversion
 
-## Overview
+## Data Structure
+![](./../images/bids_phenotypes.png)
 
 ## Excluded Elements
 
