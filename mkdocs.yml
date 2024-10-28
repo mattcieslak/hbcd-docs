@@ -28,6 +28,7 @@ nav:
           - "Novel Technologies & Wearable Sensors": measures/sensors.md
           - "Social & Environmental Determinants": measures/socenv_determinants.md
           - "Behavior/Caregiver Child Interaction": measures/behavior.md
+          - "Neurocognition & Language": measures/neurocog_language.md
           - EEG: measures/eeg.md
       - "MRI Protocols": 
           - Overview: mriprotocols/index.md
