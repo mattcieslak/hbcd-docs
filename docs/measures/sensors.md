@@ -188,22 +188,27 @@ Data files included in the data release are raw sensor data in BIDS format for t
 **Summary**: A list of parameters used to run the processing pipeline container.
 
 ### References
-Protocol decision-making process:<br>  
+Protocol decision-making process:
+
  * Pini N, Fifer WP, Oh J, et al. Remote Data Collection of Infant Activity and Sleep Patterns via Wearable Sensors in the HEALthy Brain and Child Development Study (HBCD). *Dev Cogn Neurosci*. 2024;69:101446. doi:10.1016/j.dcn.2024.101446
 
-BIDS format for raw data files:<br>
+BIDS format for raw data files:
+
  * Jeung, S., Cockx, H., Appelhoff, S., Berg, T., Gramann, K., Grothkopp, S., ... & Welzel, J. (2024). Motion-BIDS: an extension to the brain imaging data structure to organize motion data for reproducible research. *Scientific Data*, *11*(1), 716.
 
-Calibration process to prepare data for calculation of infant leg movement characteristics:<br>
+Calibration process to prepare data for calculation of infant leg movement characteristics:
+
  * Oh, J., Loeb, G. E., & Smith, B. A. (2024). The Utility of Calibrating Wearable Sensors before Quantifying Infant Leg Movements. *Sensors*, *24*(17), 5736.
 
-Algorithms to identify infant leg movement characteristics:<br>
+Algorithms to identify infant leg movement characteristics:
+
  * Smith, B. A., Trujillo-Priego, I. A., Lane, C. J., Finley, J. M., & Horak, F. B. (2015). Daily quantity of infant leg movement: Wearable sensor algorithm and relationship to walking onset *Sensors*, *15*(8), 19006-19020.
  * Trujillo-Priego IA, Smith BA. Kinematic characteristics of infant leg movements produced across a full day. *Journal of rehabilitation and assistive technologies engineering*. 2017;4:205566831771746. doi:10.1177/2055668317717461.
  * Trujillo-Priego IA, Zhou J, Werner IF, Deng W, Smith BA. Infant Leg Activity Intensity Before and After Naps. Journal for the Measurement of Physical Behaviour. 2020;3(2):157-163. doi:10.1123/jmpb.2019-0011.
  * Oh J, Ordoñez ELT, Velasquez E, et al. Associating neuromotor outcomes at 12 months with wearable sensor measures collected during early infancy in rural Guatemala. *Gait Posture*. Published online 2024. doi:10.1016/j.gaitpost.2024.08.005.
 
-Algorithm to estimate intensity of infant physical activity:<br>
+Algorithm to estimate intensity of infant physical activity:
+
  * Ghazi, M. A., Zhou, J., Havens, K. L., & Smith, B. A. (2024). Accelerometer Thresholds for Estimating Physical Activity Intensity Levels in Infants: A Preliminary Study. *Sensors*, *24*(14), 4436.
 
 **Processing code** used to obtain processed data outputs are available as a container on [INC Laboratory's Docker Hub](https://hub.docker.com/r/inclab/hbcd_motion_postproc) (source code available on GitHub [here](https://github.com/Infant-Neuromotor-Control-Lab/hbcd_motion_postproc))
