@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Data Measures & Quality Control
 
 ## Data Measures
