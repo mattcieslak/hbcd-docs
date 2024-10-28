@@ -188,10 +188,10 @@ Data files included in the data release are raw sensor data in BIDS format for t
 **Summary**: A list of parameters used to run the processing pipeline container.
 
 ### References
-*Protocol decision-making process*
+**Protocol decision-making process**
   * Pini N, Fifer WP, Oh J, et al. Remote Data Collection of Infant Activity and Sleep Patterns via Wearable Sensors in the HEALthy Brain and Child Development Study (HBCD). *Dev Cogn Neurosci*. 2024;69:101446. doi:10.1016/j.dcn.2024.101446    
 
-*BIDS format for raw data files*    
+**BIDS format for raw data files**    
   * Jeung, S., Cockx, H., Appelhoff, S., Berg, T., Gramann, K., Grothkopp, S., ... & Welzel, J. (2024). Motion-BIDS: an extension to the brain imaging data structure to organize motion data for reproducible research. *Scientific Data*, *11*(1), 716.  
 
 *Calibration process to prepare data for calculation of infant leg movement characteristics*     
