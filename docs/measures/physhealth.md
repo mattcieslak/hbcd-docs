@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Physical Health: Food Insecurity
 ## Overview
 **Full Name**: 2-item Food Insecurity   
