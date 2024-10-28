@@ -38,7 +38,6 @@ nav:
           - Siemens Protocol: mriprotocols/siemens.md
           - GE Protocol: mriprotocols/ge.md
       - "Data Curation & BIDS Data Creation":
-          - Overview: datacuration/index.md
           - Brain Imaging Data Structure: datacuration/bids.md
           - Imaging: datacuration/imaging.md
           - EEG: datacuration/eeg.md
