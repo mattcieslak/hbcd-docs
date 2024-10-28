@@ -45,8 +45,8 @@ nav:
           - Biosensor Motion Data: datacuration/motion.md
           - Phenotypes: datacuration/phenotypes.md
       - Data Processing: 
-          - Overview: processing/index.md
-          - "Pipelines & Software Standards": processing/pipelines.md
+          - Pipelines: processing/pipelines.md
+          - Pipelinem Software Standards: processing/standards.md
           - External Processing Documentation: processing/processing.md
   - Change Log: changelog.md
   - FAQ: faq.md
