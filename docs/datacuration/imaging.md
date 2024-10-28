@@ -1,4 +1,4 @@
-# Imaging Data Curation
+# Imaging Data Curation & BIDS Conversion
 
 ## MRI
 DICOM images are converted using a [custom version](https://github.com/rordenlab/dcm2niix/tree/c5caaa9f858b704b61d3ff4a7989282922dd712e) of the [dcm2niix](https://github.com/rordenlab/dcm2niix) tool that included bug fixes for some modalities acquired in HBCD.
@@ -96,5 +96,3 @@ Philips BOLD files obtained after the dcm2niix conversion were missing the Phase
 - TE outside of range 0.0369-0.0371  
 - Slice thickness not being set to 2  
 - fMRI is shorter than 87 volumes (approximately less than 2.5 minutes long)
-
-## EEG Data Curation

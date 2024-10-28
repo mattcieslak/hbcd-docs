@@ -36,9 +36,10 @@ nav:
       - "Data Curation & BIDS Data Creation":
           - Overview: datacuration/index.md
           - Brain Imaging Data Structure: datacuration/bids.md
-          - Imaging Curation: datacuration/imaging.md
-          - Biosensor Curation: datacuration/motion.md
-          - Phenotypes Curation: datacuration/phenotypes.md
+          - Imaging: datacuration/imaging.md
+          - EEG: datacuration/eeg.md
+          - Biosensor Motion Data: datacuration/motion.md
+          - Phenotypes: datacuration/phenotypes.md
       - Data Processing: 
           - Overview: processing/index.md
           - "Pipelines & Software Standards": processing/pipelines.md

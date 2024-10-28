@@ -1,1 +1,1 @@
-# Motion Data Curation
+# Motion Data Curation & BIDS Conversion
