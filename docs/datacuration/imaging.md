@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Imaging Data Curation & BIDS Conversion
 
 ## MRI
