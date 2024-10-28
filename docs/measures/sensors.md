@@ -211,7 +211,7 @@ Algorithm to estimate intensity of infant physical activity:
 
  * Ghazi, M. A., Zhou, J., Havens, K. L., & Smith, B. A. (2024). Accelerometer Thresholds for Estimating Physical Activity Intensity Levels in Infants: A Preliminary Study. *Sensors*, *24*(14), 4436.
 
-**Processing code** used to obtain processed data outputs are available as a container on [INC Laboratory's Docker Hub](https://hub.docker.com/r/inclab/hbcd_motion_postproc) (source code available on GitHub [here](https://github.com/Infant-Neuromotor-Control-Lab/hbcd_motion_postproc))
+**Processing code** used to obtain processed data outputs available as a container on [INC Laboratory's Docker Hub](https://hub.docker.com/r/inclab/hbcd_motion_postproc) ([source code](https://github.com/Infant-Neuromotor-Control-Lab/hbcd_motion_postproc))
 
 ## Infant Sensor Questionnaire
 ### Overview
