@@ -130,17 +130,10 @@ Prorated scoring not applied to observations with missing responses. Incorrect a
 **Description**: The Early Childhood Patient-Reported Outcome Measurement Information System (ecPROMIS) offers clinicians and researchers a brief, efficient, and precise way to evaluate young children’s well-being. The ecPROMIS Child-Caregiver Relationship Scale assesses the degree to which young children develop close, satisfying relationships with caregivers. Questions inquire about the focal child/caregiver relationship over the past 7 days. The ecPROMIS Child/Caregiver relationship form (Infancy: < 1 year) was developed for HBCD based on the “PROMIS Early Childhood Parent-Report Short Form v1.0 - Social Relationships – Child-Caregiver Interactions 5a” form.
 
 ### Scoring Algorithms
-Sum scores are computed by the following method:
-
-  1. If a caregiver answers all 5 items (‘fam_ec2’, ‘fam_ec6’, ‘fam_ec1’, ‘fam_ec4’, ‘fam_ec10’), sum all numerical item responses.
-
-  2. If a caregiver doesn’t answer an item (i.e., endorse any of the 5 options for an item), they get a missing value for that item. If a caregiver has missing data on some items but answers 3 items or more, then generate a prorated sum score. In other words:
-
-  (Sum of items answered/the number of items answered)*5
-
-  3. If a caregiver answers less than 3 items, then their sum score is missing
-
-  *(See Links to Resources*)
+Sum scores are computed by the following methods depending on the number of items answered out of 5 (‘fam_ec2’, ‘fam_ec6’, ‘fam_ec1’, ‘fam_ec4’, ‘fam_ec10’):
+ * Caregiver answers all 5 items: sum all numerical item responses.
+ * Caregiver answers 3 or 4 items: items without an answer are scored as zero and a prorated sum score is generated based on items with answers (`(sum of items answered/the number of items answered)*5`)
+ * Caregiver answers <3 items: sum score marked as missing
 
 ### Implementation 
 **Method of Administration**: This questionnaire is to be filled out by the child’s caregiver in a remote setting. 
