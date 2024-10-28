@@ -49,7 +49,7 @@ None
 
 ### Data Collection
 **Visits**: V1 (prenatal), V2 (0-1m), V3 (3-9m) 
-**Estimated length of time for completion**: 4 minute
+**Estimated length of time for completion**: 4 minutes
 
 ### Quality Control (QC) 
 **QC Procedures:** Monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency.    
@@ -96,4 +96,39 @@ None
  * Williams, D. R. (2015). Measuring discrimination resource. http://scholar.harvard.edu/davidrwilliams/node/32777
  * Sternthal, M., Slopen, N., Williams, D.R. “Racial Disparities in Health: How Much Does Stress Really Matter?” Du Bois Review, 2011; 8(1): 95-113.
  * PhenX Toolkit. (2024 September 30). Discrimination, PhenX Toolkit. https://www.phenxtoolkit.org/protocols/view/210302
+
+## PACES
+### Overview
+**Full Name**: Protective and Compensatory Experience
+**Acronym/Brief Name**: PACES (Current)
+**Construct**: Protective Factors
+**Description**: Assesses positive experiences during childhood through age 18
+**Summary**: A 10 question scale with scores ranging between 0 and 10 assessing positive childhood experiences such as: relationships, feeling of connectedness, physical activity, engagement, environment, and opportunities
+
+### Implementation 
+**Method of Administration**: RA administered in person, remote survey   
+**REDCap Form Name**: sed_bm_paces  
+**Pilot Data Dictionary**: PACES  
+**Spanish Translation**: BURG     
+**Child Specific/Unspecific Form**: Child Unspecific  
+**Respondent:** Parent on Self
+
+### Data Collection
+**Visits**: V01 Prenatal (PACES Current)   
+
+### Quality Control (QC) 
+**QC Procedures:** Social and Environmental Working Group QC procedures included monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency.    
+**Common Issues Identified:** None
+
+### Potential Issues Flagged by Subject Matter Experts
+None
+
+### References
+ * Morris AS, Treat A, Hays-Grudo J, Chesher T, Williamson AC, Mendez J. Integrating
+research and theory on early relationships to guide intervention and prevention. Building
+early social and emotional relationships with infants and toddlers: Integrating research
+and practice. 2018:1-25
+ * Morris AS, Hays-Grudo J, Zapata MI, Treat A, Kerr KL. Adverse and protective
+childhood experiences and parenting attitudes: The role of cumulative protection in
+understanding resilience. Adversity and Resilience Science. 2021;2:181-192
 
