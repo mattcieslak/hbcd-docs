@@ -17,9 +17,6 @@ plugins:
 docs_dir: docs
 
 nav: 
-  - [TOC]
-    template: sidebar
-    hide: navigation
   - About: index.md
   - Release Notes:
       - "Data Measures & Quality Control":
