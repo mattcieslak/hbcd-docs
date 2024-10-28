@@ -188,7 +188,7 @@ Data files included in the data release are raw sensor data in BIDS format for t
 **Summary**: A list of parameters used to run the processing pipeline container.
 
 ### References
-*Describing the protocol decision-making process* 
+*Protocol decision-making process* 
  * Pini N, Fifer WP, Oh J, et al. Remote Data Collection of Infant Activity and Sleep Patterns via Wearable Sensors in the HEALthy Brain and Child Development Study (HBCD). *Dev Cogn Neurosci*. 2024;69:101446. doi:10.1016/j.dcn.2024.101446    
 
 *BIDS format for raw data files*
