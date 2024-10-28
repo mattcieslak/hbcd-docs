@@ -46,7 +46,7 @@ nav:
           - Phenotypes: datacuration/phenotypes.md
       - Data Processing: 
           - Pipelines: processing/pipelines.md
-          - Pipelinem Software Standards: processing/standards.md
+          - Pipeline Software Standards: processing/standards.md
           - External Processing Documentation: processing/processing.md
   - Change Log: changelog.md
   - FAQ: faq.md

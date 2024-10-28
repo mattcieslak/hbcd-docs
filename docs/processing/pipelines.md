@@ -4,7 +4,7 @@ hide:
 ---
 
 # Processing Pipelines
-**The following pipelines were used for HBCD data processing: for more details, visit the pipeline webpages linked below as well as the [Tool Details Overview](https://hbcd-cbrain-processing.readthedocs.io/latest/tool_details.html) section of the [HBCD Processing webpage](https://hbcd-cbrain-processing.readthedocs.io/latest/index.html).**
+The following pipelines were used for HBCD data processing: for more details, visit the pipeline webpages linked below as well as the [Tool Details Overview](https://hbcd-cbrain-processing.readthedocs.io/latest/tool_details.html) section of the [HBCD Processing webpage](https://hbcd-cbrain-processing.readthedocs.io/latest/index.html).
 
 **Magnetic Resonance Imaging (MRI)**    
 - [MRIQC](https://mriqc.readthedocs.io/en/latest/): automated extraction of image quality metrics from structural (T1w and T2w) and functional MRI data  
