@@ -6,7 +6,25 @@ hide:
 # Brain Imaging Data Structure
 As much as possible, HBCD processing tries to utilize the [Brain Imaging Data Structure](https://bids-specification.readthedocs.io/en/stable/) (BIDS) standard for data organization. At a high level, the HBCD BIDS structure will appear as follows:
 
-![](./../images/bids.png)
+```
+assembly_bids/ 
+└─── participants.tsv
+└─── participants.json 
+└─── sub-<label>/
+│   │   sub-<label>_sessions.tsv
+│   │   sub-<label>_sessions.json
+│   │
+│   └─── ses-<label>/
+│       │   anat/
+│       │   dwi/
+│       │   eeg/
+│       │   fmap/
+│       │   func/
+│       │   motion/
+│       │   mrs/
+│       │   sub-<label>_ses-<label>_scans.tsv
+│       │   sub-<label>_ses-<label>_scans.json
+```
 
 As anticipated in a large infant study, many subjects will have missing data elements. As a result, the number of folders and files available for each unique subject and session will vary. Additionally, because the HBCD acquisition involves multiple modalities, some are collected at different times. Even within a single modality, certain acquisitions may be gathered on different days.
 

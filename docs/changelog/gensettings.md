@@ -3,11 +3,11 @@
 **Mounted Directory:** `/loris/loris_server/volumes/data/loris/data/stg_s3_data/`     
 **Data Structure:**    
 ```
-root_bids_directory 
+root_bids_directory/ 
 └─── participants.tsv
 └─── participants.json 
 └─── assembly_bids
-└─── phenotype  
+└─── phenotype/  
     └─── visit_data.tsv
     └─── visit_data.json
     └─── sed_basic_demographics.tsv
