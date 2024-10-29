@@ -1,6 +1,6 @@
 # General Settings
 **Destination S3 bucket:** hbcd-main-staging    
-**Mounted Directory:** /loris/loris_server/volumes/data/loris/data/stg_s3_data/     
+**Mounted Directory:** `/loris/loris_server/volumes/data/loris/data/stg_s3_data/`     
 **Data Structure:**    
 ```
 root_bids_directory 
