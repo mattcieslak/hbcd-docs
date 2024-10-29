@@ -1,8 +1,7 @@
 # Dynamic Filters
 This section lists **dynamic exclusions** applied during the Data Release process.
 
-**Participant filters:**
-
+## Participant Filters
 * DCC participants  
 * Participant prefix (Included only 'CH' Participants):  
   * YI, XI, QI, PI  
@@ -13,99 +12,93 @@ This section lists **dynamic exclusions** applied during the Data Release proces
     * 33 participants V02 'CH' participants)  
     * Differs from the numbers reported by Sauren (41 instances for V02 and 1 instance for V03). Follow-Up required by Chris & Jim (see 'Abnormal brain rating' email thread)
 
-**Visit filters:**
-
+## Visit Filters
 * Only visits whose 'LaunchPad Complete' Status was set to 'Complete' before July 1st, 2024 are included.
 
-**Domain filters:**
-
+## Domain Filters
 * BioSpecimens  
 * Geocoding data  
 * Transition in Care  
 * REDCap surveys filled out directly in LORIS  
   * Identified based on LORIS 'Examiner' field not set to 'REDCap'
 
-# Explicitly excluded elements in phenotype data
+# Static Filters 
 This section lists **static elements** excluded from the data release.
 
-**Participant filters:**
+## Participant Filters
+Based on Exclusion list ([HBCD - Data Release - Participants to Exclude](https://docs.google.com/spreadsheets/d/16jKl8BMqCFLqjXovIhzSUDJYh6lzT3ExPuVy6iUnV3E/edit?gid=0#gid=0)):  
 
-* Based on Exclusion list ([HBCD \- Data Release - Participants to Exclude](https://docs.google.com/spreadsheets/d/16jKl8BMqCFLqjXovIhzSUDJYh6lzT3ExPuVy6iUnV3E/edit?gid=0#gid=0)):  
   * Participants with a 'Postnatal Recruitment' visit  
   * Multiple Birth Participants
 
-**Excluded Instruments**:
-
+## Excluded Instruments
 * BioSensor Receipt   
-  * sens\_ch\_rcpt  
+  * sens_ch_rcpt  
 * EEG Acquisition Checklists  
-  * eeg\_ch\_chkl  
-  * eeg\_ch\_chkl\_1  
-  * eeg\_ch\_chkl\_2  
+  * eeg_ch_chkl  
+  * eeg_ch_chkl_1  
+  * eeg_ch_chkl_2  
 * MRI Checklists  
-  * mri\_ra\_chkl\_data  
-  * mri\_ra\_chkl\_scan  
+  * mri_ra_chkl_data  
+  * mri_ra_chkl_scan  
 * MRI Pre/Post Scan Prep  
-  * mri\_ra\_prep  
+  * mri_ra_prep  
 * NIH Baby Toolbox  
-  * ncl\_ch\_nbtb  
+  * ncl_ch_nbtb  
 * Participant Feedback  
-  * adm\_cg\_fb  
+  * adm_cg_fb  
 * RA Feedback  
-  * adm\_ra\_fb  
+  * adm_ra_fb  
 * Participant Alerts   
-  * admin\_alert  
+  * admin_alert  
 * TLFB (Timeline Follow Back)   
-  * pex\_ch\_tlfb  
+  * pex_ch_tlfb  
 * Transitions in Care Questionnaire   
-  * sed\_cg\_tic  
+  * sed_cg_tic  
 * Visit Data  
-  * adm\_fd\_visitdata  
+  * adm_fd_visitdata  
 * Visit Start  
-  * visit\_start  
+  * visit_start  
 * Urgent Events  
-  * adm\_fd\_urgent
+  * adm_fd_urgent
 
-**Excluded instrument fields:**
-
+## Excluded instrument fields
 * Examiner (Examiner)  
 * Date of Birth (DOB)  
-* Date of Administration (Date\_taken)  
-* Start timestamp (timestamp\_start)  
-* Stop timestamp (timestamp\_stop)  
-* REDCap timestamp (timestamp\_redcap\_locked)  
+* Date of Administration (Date_taken)  
+* Start timestamp (timestamp_start)  
+* Stop timestamp (timestamp_stop)  
+* REDCap timestamp (timestamp_redcap_locked)  
 * Clinical Alerts  
 * REDCap Complete status ('complete').  
 * Scannable codes (BioSamples codes, tracking Nos, etc...)
 
-**Field Conversions**
+# Field Conversions
 
 * V01 conversions:  
   * The 'Sex' field for participants with only a V01 visit changed to 'Other'  
-  * For V01, all “Candidate\_Age” values are replaced with “n/a”  
+  * For V01, all “Candidate_Age” values are replaced with “n/a”  
 * Empty string “” or missing values replaced with the default ReproSchema-compliant string “n/a”  
 * 'Candidate age at Administration' converted from 'months' to 'years' with a 3 decimal point precision (for all visits other than V01)  
 * Extreme/Out of range values converted to ‘n/a’. Current threshold conversions:  
-  * Pex Bm Healthv2 Inf (‘pex\_bm\_healthv2\_inf’) instrument:  
-    * Field “001\_i\_01”: higher than 16\.  
-    * Field “001\_i\_02”: higher than 66\.  
+  * Pex Bm Healthv2 Inf (‘pex_bm_healthv2_inf’) instrument:  
+    * Field “001_i_01”: higher than 16.  
+    * Field “001_i_02”: higher than 66.  
     * Field “002”: outside of range 12-51.  
-    * Field “002\_i\_01”: outside of range 30-130.
+    * Field “002_i_01”: outside of range 30-130.
 
 # Upcoming/Pending Filters
-**Pending Field filters:**
-
+## Pending Field filters
 * Brain Rating associated fields  
 * Open text fields (Custom per instrument. Check on a case by case basis)  
-* Fields in 'HBCD\_Include\_vs\_not\_Include' tab of the '[Internal Facing](https://docs.google.com/spreadsheets/d/1qKuhIvogkOCVg-lDk30WKd5tfF0xuy-ChubOBSqOYNQ/edit?gid=1013027810#gid=1013027810)' document
+* Fields in 'HBCD_Include_vs_not_Include' tab of the '[Internal Facing](https://docs.google.com/spreadsheets/d/1qKuhIvogkOCVg-lDk30WKd5tfF0xuy-ChubOBSqOYNQ/edit?gid=1013027810#gid=1013027810)' document
 
-**Upcoming:**
-
-* Change '\_i\_' to '\_\_' in Data Dictionary  
+## Upcoming
+* Change '_i_' to '__' in Data Dictionary  
 * Gestational Age at Administration'  
 * Optional Secondary Age for MRI 'scans.tsv'  
-* scans.tsv file – MRI \-  'Candidate Age at Administration' based on jittered DoB in ‘Years’ with three decimal point precision   
-* scans.tsv file – EEG \- 'Candidate Age at Administration' based on jittered DoB in ‘Years’ with three decimal point precision   
+* scans.tsv file – MRI -  'Candidate Age at Administration' based on jittered DoB in ‘Years’ with three decimal point precision   
+* scans.tsv file – EEG - 'Candidate Age at Administration' based on jittered DoB in ‘Years’ with three decimal point precision   
   
 **Logs**
 
@@ -116,108 +109,105 @@ The following logs are generated for double-checking purposes (Logs are not shar
 * Discrepancies in Participants queried from database vs the .tsv list of participants from assembly bids (based on the MRI pipeline)  
 * Log of errors found during parsing of data release data dump
 
-**Embedded instrument data files**
-
+# Embedded instrument data files
 These are the instruments/fields that were included in the release.
 
-**V1.1:**
+## V1.1
+* biosample_urine.json  
+* biosample_urine.tsv
 
-* biosample\_urine.json  
-* biosample\_urine.tsv
-
-**V1.0:**
-
-* adm\_bm\_screen.json  
-* adm\_bm\_screen.tsv  
-* mh\_cg\_erica\_3\_7m.json  
-* mh\_cg\_erica\_3\_7m.tsv  
-* mh\_cg\_erica\_7\_9m.json  
-* mh\_cg\_erica\_7\_9m.tsv  
-* mh\_cg\_erica\_cons\_3\_7m.json   
-* mh\_cg\_erica\_cons\_3\_7m.tsv  
-* mh\_cg\_erica\_cons\_7\_9m.json  
-* mh\_cg\_erica\_cons\_7\_9m.tsv  
-* mh\_cg\_erica\_fcm\_3\_7m.json  
-* mh\_cg\_erica\_fcm\_3\_7m.tsv  
-* mh\_cg\_erica\_fcm\_7\_9m.json  
-* mh\_cg\_erica\_fcm\_7\_9m.tsv  
-* mh\_cg\_erica\_fcm\_adm\_3\_7m.json  
-* mh\_cg\_erica\_fcm\_adm\_3\_7m.tsv  
-* mh\_cg\_erica\_fcm\_adm\_7\_9m.json  
-* mh\_cg\_erica\_fcm\_adm\_7\_9m.tsv  
-* mh\_cg\_erica\_rel\_3\_7m.json  
-* mh\_cg\_erica\_rel\_3\_7m.tsv  
-* mh\_cg\_erica\_rel\_7\_9m.json  
-* mh\_cg\_erica\_rel\_7\_9m.tsv  
-* mh\_cg\_ibqr.json  
-* mh\_cg\_ibqr.tsv  
-* mh\_cg\_mapdb\_i\_inf.json  
-* mh\_cg\_mapdb\_i\_inf.tsv  
-* mh\_cg\_pms\_i\_cc\_i\_inf.json  
-* mh\_cg\_pms\_i\_cc\_i\_inf.tsv  
-* ncl\_cg\_spm2\_i\_inf.json  
-* ncl\_cg\_spm2\_i\_inf.tsv  
-* ncl\_ch\_mlds.json  
-* ncl\_ch\_mlds.tsv  
-* nt\_ch\_sens\_i\_qtn\_1.json  
-* nt\_ch\_sens\_i\_qtn\_1.tsv  
-* nt\_ch\_sens\_i\_qtn\_2.json  
-* nt\_ch\_sens\_i\_qtn\_2.tsv  
-* nt\_ch\_sens\_i\_qtn\_3.json  
-* nt\_ch\_sens\_i\_qtn\_3.tsv  
-* nt\_pa\_gabi\_rcpt.json  
-* nt\_pa\_gabi\_rcpt.tsv  
-* nt\_pa\_gabi\_setup.json  
-* nt\_pa\_gabi\_setup.tsv  
-* pex\_bm\_apa.json  
-* pex\_bm\_apa.tsv  
-* pex\_bm\_assistv1.json  
-* pex\_bm\_assistv1.tsv  
-* pex\_bm\_assistv2.json  
-* pex\_bm\_assistv2.tsv  
-* pex\_bm\_assistv3.json  
-* pex\_bm\_assistv3.tsv  
-* pex\_bm\_epds.json  
-* pex\_bm\_epds.tsv  
-* pex\_bm\_health\_preg\_i\_chroncond.json  
-* pex\_bm\_health\_preg\_i\_chroncond.tsv  
-* pex\_bm\_health\_preg\_i\_erhosp.json  
-* pex\_bm\_health\_preg\_i\_erhosp.tsv  
-* pex\_bm\_health\_preg\_i\_exp\_i\_vacc.json  
-* pex\_bm\_health\_preg\_i\_exp\_i\_vacc.tsv  
-* pex\_bm\_health\_preg\_i\_healthhx.json  
-* pex\_bm\_health\_preg\_i\_healthhx.tsv  
-* pex\_bm\_health\_preg\_i\_illness.json  
-* pex\_bm\_health\_preg\_i\_illness.tsv  
-* pex\_bm\_health\_preg\_i\_meds.json  
-* pex\_bm\_health\_preg\_i\_meds.tsv  
-* pex\_bm\_healthv2\_inf.json  
-* pex\_bm\_healthv2\_inf.tsv  
-* pex\_bm\_healthv2\_preg.json  
-* pex\_bm\_healthv2\_preg.tsv  
-* pex\_bm\_psych.json  
-* pex\_bm\_psych.tsv  
-* pex\_bm\_str\_i\_ptsd.json  
-* pex\_bm\_str\_i\_ptsd.tsv  
-* ph\_cg\_phx\_i\_bfh.json  
-* ph\_cg\_phx\_i\_bfh.tsv  
-* ph\_ch\_anthro.json  
-* ph\_ch\_anthro.tsv  
-* sed\_bm\_bfy.json  
-* sed\_bm\_bfy.tsv  
-* sed\_bm\_demo.json  
-* sed\_bm\_demo.tsv  
-* sed\_bm\_ehits.json  
-* sed\_bm\_ehits.tsv  
-* sed\_bm\_nbhsaf.json  
-* sed\_bm\_nbhsaf.tsv  
-* sed\_bm\_paces.json  
-* sed\_bm\_paces.tsv  
-* sed\_bm\_phx\_i\_discr.json  
-* sed\_bm\_phx\_i\_discr.tsv  
-* sed\_bm\_strsup.json  
-* sed\_bm\_strsup.tsv  
-* sed\_cg\_foodins.json  
-* sed\_cg\_foodins.tsv  
-* sens\_ch\_setup.json  
-* sens\_ch\_setup.tsv
+## V1.0
+* adm_bm_screen.json  
+* adm_bm_screen.tsv  
+* mh_cg_erica_3_7m.json  
+* mh_cg_erica_3_7m.tsv  
+* mh_cg_erica_7_9m.json  
+* mh_cg_erica_7_9m.tsv  
+* mh_cg_erica_cons_3_7m.json   
+* mh_cg_erica_cons_3_7m.tsv  
+* mh_cg_erica_cons_7_9m.json  
+* mh_cg_erica_cons_7_9m.tsv  
+* mh_cg_erica_fcm_3_7m.json  
+* mh_cg_erica_fcm_3_7m.tsv  
+* mh_cg_erica_fcm_7_9m.json  
+* mh_cg_erica_fcm_7_9m.tsv  
+* mh_cg_erica_fcm_adm_3_7m.json  
+* mh_cg_erica_fcm_adm_3_7m.tsv  
+* mh_cg_erica_fcm_adm_7_9m.json  
+* mh_cg_erica_fcm_adm_7_9m.tsv  
+* mh_cg_erica_rel_3_7m.json  
+* mh_cg_erica_rel_3_7m.tsv  
+* mh_cg_erica_rel_7_9m.json  
+* mh_cg_erica_rel_7_9m.tsv  
+* mh_cg_ibqr.json  
+* mh_cg_ibqr.tsv  
+* mh_cg_mapdb_i_inf.json  
+* mh_cg_mapdb_i_inf.tsv  
+* mh_cg_pms_i_cc_i_inf.json  
+* mh_cg_pms_i_cc_i_inf.tsv  
+* ncl_cg_spm2_i_inf.json  
+* ncl_cg_spm2_i_inf.tsv  
+* ncl_ch_mlds.json  
+* ncl_ch_mlds.tsv  
+* nt_ch_sens_i_qtn_1.json  
+* nt_ch_sens_i_qtn_1.tsv  
+* nt_ch_sens_i_qtn_2.json  
+* nt_ch_sens_i_qtn_2.tsv  
+* nt_ch_sens_i_qtn_3.json  
+* nt_ch_sens_i_qtn_3.tsv  
+* nt_pa_gabi_rcpt.json  
+* nt_pa_gabi_rcpt.tsv  
+* nt_pa_gabi_setup.json  
+* nt_pa_gabi_setup.tsv  
+* pex_bm_apa.json  
+* pex_bm_apa.tsv  
+* pex_bm_assistv1.json  
+* pex_bm_assistv1.tsv  
+* pex_bm_assistv2.json  
+* pex_bm_assistv2.tsv  
+* pex_bm_assistv3.json  
+* pex_bm_assistv3.tsv  
+* pex_bm_epds.json  
+* pex_bm_epds.tsv  
+* pex_bm_health_preg_i_chroncond.json  
+* pex_bm_health_preg_i_chroncond.tsv  
+* pex_bm_health_preg_i_erhosp.json  
+* pex_bm_health_preg_i_erhosp.tsv  
+* pex_bm_health_preg_i_exp_i_vacc.json  
+* pex_bm_health_preg_i_exp_i_vacc.tsv  
+* pex_bm_health_preg_i_healthhx.json  
+* pex_bm_health_preg_i_healthhx.tsv  
+* pex_bm_health_preg_i_illness.json  
+* pex_bm_health_preg_i_illness.tsv  
+* pex_bm_health_preg_i_meds.json  
+* pex_bm_health_preg_i_meds.tsv  
+* pex_bm_healthv2_inf.json  
+* pex_bm_healthv2_inf.tsv  
+* pex_bm_healthv2_preg.json  
+* pex_bm_healthv2_preg.tsv  
+* pex_bm_psych.json  
+* pex_bm_psych.tsv  
+* pex_bm_str_i_ptsd.json  
+* pex_bm_str_i_ptsd.tsv  
+* ph_cg_phx_i_bfh.json  
+* ph_cg_phx_i_bfh.tsv  
+* ph_ch_anthro.json  
+* ph_ch_anthro.tsv  
+* sed_bm_bfy.json  
+* sed_bm_bfy.tsv  
+* sed_bm_demo.json  
+* sed_bm_demo.tsv  
+* sed_bm_ehits.json  
+* sed_bm_ehits.tsv  
+* sed_bm_nbhsaf.json  
+* sed_bm_nbhsaf.tsv  
+* sed_bm_paces.json  
+* sed_bm_paces.tsv  
+* sed_bm_phx_i_discr.json  
+* sed_bm_phx_i_discr.tsv  
+* sed_bm_strsup.json  
+* sed_bm_strsup.tsv  
+* sed_cg_foodins.json  
+* sed_cg_foodins.tsv  
+* sens_ch_setup.json  
+* sens_ch_setup.tsv
