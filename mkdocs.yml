@@ -47,7 +47,11 @@ nav:
           - Pipelines: processing/pipelines.md
           - Pipeline Software Standards: processing/standards.md
           - External Processing Documentation: processing/processing.md
+
   - Change Log: 
-    - General Settings: changelog/gensettings.md
-    - Version History: changelog/versions.md
+      - General Settings: changelog/gensettings.md
+      - Version History: 
+          - V1.4: changelog/versions/v1.4.md
+          - V1.3: changelog/versions/v1.3.md
+          
   - FAQ: faq.md
