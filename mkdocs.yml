@@ -60,4 +60,6 @@ nav:
           - V1.2: changelog/versions/v1.2.md
           - V1.1: changelog/versions/v1.1.md
           - V1.0: changelog/versions/v1.0.md
+      - Phenotype Data Structure: changelog/phenotype_datastruc.md
+      - Exclusion Filters: changelog/filters.md
   - FAQ: faq.md
