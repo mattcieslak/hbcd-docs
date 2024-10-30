@@ -46,7 +46,7 @@ nav:
           - Brain Imaging Data Structure: datacuration/bids.md
           - Imaging: datacuration/imaging.md
           - EEG: datacuration/eeg.md
-          - Biosensor Motion Data: datacuration/motion.md
+          - Motion Data: datacuration/motion.md
           - Phenotypes: datacuration/phenotypes.md
       - Data Processing: 
           - Pipelines: processing/pipelines.md
