@@ -18,8 +18,7 @@ root/
 ```
 
 ## Excluded Elements
-This section lists **static elements** excluded from the data release.
-
+### Static Elements Excluded
 Excluded **participants**:
 
 - ARK: 2  
@@ -65,7 +64,7 @@ Excluded **instrument fields**, mostly metadata fields:
 - Timestamps ('timestamp', ‘timestamp_start', 'timestamp_stop', 'timestamp_start_tmp', 'timestamp_redcap_locked', 'dtt').  
 - REDCap Complete status ('complete').
 
-This section lists **dynamic exclusions** applied during the Data Release process:
+### Dynamic Elements Excluded
 
 - No brain rating or brain rating noted “abnormal” are not selected.  
 - Only active participants and sessions are selected.  
@@ -74,8 +73,7 @@ This section lists **dynamic exclusions** applied during the Data Release proces
 - Only participants with PSCIDs starting with “CH” are selected (excluding all test participants e.g. QI,YI,XI).  
 - Participants having REDCap instruments not filled out by the exact “redcap” examiner will be excluded from the result (i.e. possible modification of data between REDCap and LORIS, or data entered directly into LORIS).
 
-This section outlines the general rules applied to all data:
-
+### General Rules Applied to All Data
 - All participants having only one active visit that is V01 will have their sex changed to “Other” instead of “Male” or “Female”.  
 - All empty string “” or missing values will be replaced with the default ReproSchema-compliant string “n/a”.  
 - For V01, all “Candidate_Age” values are replaced with “n/a”.  
