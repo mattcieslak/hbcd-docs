@@ -1,8 +1,3 @@
----
-hide:
-  - toc
----
-
 # Phenotypes Data Curation & BIDS Conversion
 
 ## Data Structure
@@ -22,7 +17,7 @@ root/
 |   |__ <instrument_name>.json (repeat for all selected instruments)
 ```
 
-## Excluded Elements {#excluded-elements}
+## Excluded Elements
 This section lists **static elements** excluded from the data release.
 
 Excluded **participants**:
@@ -93,7 +88,7 @@ This section outlines the general rules applied to all data:
     - Field “002_i_01”: outside of range 30-130.
 
 ## Biosample Urine Results
-Regarding phenotype/biosample_urine files:
+Regarding `phenotype/biosample_urine` files:
 
 - USDTL Urine results   
 - Updated up to July 1st  
@@ -102,7 +97,7 @@ Regarding phenotype/biosample_urine files:
 - ‘bio’ domain prepended
 
 ## Basic Demographics
-The phenotype/sed_basic_demographics files contain demographics data of each participant useful with phenotype context, including:
+The `phenotype/sed_basic_demographics` files contain demographics data of each participant useful with phenotype context, including:
 
 - Gestational age at birth.  
 - Sex.  
