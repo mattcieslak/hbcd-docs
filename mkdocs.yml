@@ -1,15 +1,6 @@
 site_name: HBCD Data Release
 
-theme: 
-  name: material
-  palette:
-    primary: teal
-    accent: pink
-  features:
-    - navigation.tabs
-    - navigation.path
-    - version
-
+theme: readthedocs
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
