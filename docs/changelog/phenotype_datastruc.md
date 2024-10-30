@@ -1,7 +1,11 @@
-# Instrument Data
+# Phenotype Datastructure
+
+## Instrument Data
+
 The `phenotype/<instrument\_name\>` files contain `.tsv` tables per instrument with all instrument values for each participant. All fields for the instrument except those listed in the exclusion filter section below are included. The accompanying .json file for each instrument contains the Data Dictionary elements describing the instrument fields for the given instrument. 
 
-# Basic Demographics
+## Basic Demographics
+
 The `phenotype/sed_basic_demographics` files contain ‘Demographics’ data of general interest within the phenotype context, including:
 
 * Sex  
@@ -24,7 +28,8 @@ The `phenotype/sed_basic_demographics` files contain ‘Demographics’ data of 
     * Neonatal Opioid Withdrawal Syndrome (NOWS) \- Field \-007’, option 1  
     * Fetal Alcohol Syndrome (FAS) \- Field ‘007’, option 5
 
-# Visit Data
+## Visit Data
+
 The `phenotype/visit_data` files contain all participant visit data. This includes:
 
 * Project  
