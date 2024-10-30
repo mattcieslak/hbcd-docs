@@ -3,5 +3,5 @@
 - [Brain Imaging Data Structure](bids.md)
 - [Imaging](imaging.md)
 - [EEG](eeg.md)
-- [Biosensor Motion Data](motion.md)
+- [Motion Data](motion.md)
 - [Phenotypes](phenotypes.md)
