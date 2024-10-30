@@ -13,7 +13,7 @@ Before the 72 hours of data were collected, a calibration file was collected for
 Data files included in the data release are raw sensor data in BIDS format for the calibration and 72-hour files for the right leg and the left leg, as well as files containing processed data outputs. All are described below in the “Additional Information” section.
 
 Data structure for motion data:
-
+```
 root/  
 |__ participants.tsv  
 |__ participants.json  
@@ -28,6 +28,7 @@ root/
 |   |   |   |__ sub-<label>_ses-<label>_task-<label>_tracksys-imu_acq-<label>_motion.json  
 |   |   |   |__ sub-<label>_ses-<label>_task-<label>_tracksys-imu_acq-<label>_channels.tsv  
 |   |   |   |__ sub-<label>_ses-<label>_task-<label>_tracksys-imu_acq-<label>_channels.json
+```
 
 ## Sensor recordings
 An actual recording will be labeled as `sub-<label>_ses-<label>_task-<label>_tracksys-imu_acq-<label>_motion.tsv`. The *acquisition* label for the calibration files is `calibration `while the label for the data files is `primary`. The task label will be either `LeftLegMovement` or `RightLegMovement`. The JSON sidecar contains recording related metadata `*_channels.tsv` which describes each column of the corresponding `*_motion.tsv`. 
