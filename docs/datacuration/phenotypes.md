@@ -109,11 +109,12 @@ The `phenotype/sed_basic_demographics` files contain demographics data of each p
 
 ## Visit Data
 The `phenotype/visit_data` files contain all participant visit data. This includes:
+
 - Visit information:  
-  - Label  
-  - Stage  
-  - Date  
-  - If the visit was missed and the reason  
+   - Label  
+   - Stage  
+   - Date  
+   - If the visit was missed and the reason  
 - Project  
 - Cohort  
 - Site  
