@@ -66,24 +66,25 @@ Excluded **instrument fields**, mostly metadata fields:
 
 ### Dynamic Elements Excluded
 
-- No brain rating or brain rating noted “abnormal” are not selected.  
-- Only active participants and sessions are selected.  
-- For Beta Data Release, the process considers only data noted with launchpad complete status from before 2024-07-01 (YYYY-MM-DD).  
-- Participants from Data Coordination Center (DCC) and University of Florida (UFL) sites are not selected.  
-- Only participants with PSCIDs starting with “CH” are selected (excluding all test participants e.g. QI,YI,XI).  
-- Participants having REDCap instruments not filled out by the exact “redcap” examiner will be excluded from the result (i.e. possible modification of data between REDCap and LORIS, or data entered directly into LORIS).
+- No brain rating or brain rating noted “abnormal” are not selected  
+- Only active participants and sessions are selected  
+- For Beta Data Release, the process considers only data noted with launchpad complete status from before 2024-07-01 (YYYY-MM-DD)  
+- Participants from Data Coordination Center (DCC) and University of Florida (UFL) sites are not selected  
+- Only participants with PSCIDs starting with “CH” are selected (excluding all test participants e.g. QI,YI,XI)  
+- Participants having REDCap instruments not filled out by the exact “redcap” examiner will be excluded from the result (i.e. possible modification of data between REDCap and LORIS, or data entered directly into LORIS)
 
 ### General Rules Applied to All Data
+
 - All participants having only one active visit that is V01 will have their sex changed to “Other” instead of “Male” or “Female”  
 - All empty string “” or missing values will be replaced with the default ReproSchema-compliant string “n/a”  
 - For V01, all “Candidate_Age” values are replaced with “n/a”  
 - For other visits, “Candidate_Age” will be computed in years  
 - Some fields can have out of range values. They are considered “extreme” values and are changed to “n/a”. Filters apply to:  
-  - Pex Bm Healthv2 Inf (‘pex_bm_healthv2_inf’) instrument:  
-    - Field “001_i_01”: higher than 16  
-    - Field “001_i_02”: higher than 66  
-    - Field “002”: outside of range 12-51  
-    - Field “002_i_01”: outside of range 30-130
+   - Pex Bm Healthv2 Inf (‘pex_bm_healthv2_inf’) instrument:  
+      - Field “001_i_01”: higher than 16  
+      - Field “001_i_02”: higher than 66  
+      - Field “002”: outside of range 12-51  
+      - Field “002_i_01”: outside of range 30-130
 
 ## Biosample Urine Results
 Regarding `phenotype/biosample_urine` files:
