@@ -13,10 +13,7 @@ plugins:
 docs_dir: docs
 
 nav: 
-  - About: 
-      - Overview: index.md
-      - FAQ: faq.md
-      - Contact: contact.md
+  - About: index.md
   - Release Notes:
       - "Data Measures & Quality Control":
           - Demographics: measures/demographics.md
@@ -52,4 +49,8 @@ nav:
           - Beta Release 3/V1.2: changelog/versions/v1.2.md
           - Beta Release 2/V1.1: changelog/versions/v1.1.md
           - Beta Release 1/V1.0: changelog/versions/v1.0.md
+
+  - "FAQ & Contact": 
+      - FAQ: faq.md
+      - Contact: contact.md
 
