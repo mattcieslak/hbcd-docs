@@ -5,7 +5,7 @@
 * Brain Rating associated fields  
 * Open text fields (Custom per instrument. Check on a case by case basis)  
 
-**Upcoming:**
+**Upcoming**
 
 * Change '_i_' to '__' in Data Dictionary  
 * Gestational Age at Administration'  

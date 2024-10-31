@@ -1,78 +1,3 @@
-# Dynamic Filters
-This section lists **dynamic exclusions** applied during the Data Release process.
-
-## Participant Filters
-* DCC participants  
-* Participant prefix (Included only 'CH' Participants):  
-  * YI, XI, QI, PI  
-* Participants from excluded sites  
-  * University of Florida (FLU Participants)  
-* Participants with ‘Brain Rating’:  
-  * Abnormal  
-    * 33 participants V02 'CH' participants)  
-    * Differs from the numbers reported by Sauren (41 instances for V02 and 1 instance for V03). Follow-Up required by Chris & Jim (see 'Abnormal brain rating' email thread)
-
-## Visit Filters
-* Only visits whose 'LaunchPad Complete' Status was set to 'Complete' before July 1st, 2024 are included.
-
-## Domain Filters
-* BioSpecimens  
-* Geocoding data  
-* Transition in Care  
-* REDCap surveys filled out directly in LORIS  
-  * Identified based on LORIS 'Examiner' field not set to 'REDCap'
-
-# Static Filters 
-This section lists **static elements** excluded from the data release.
-
-## Participant Filters
-Based on Exclusion list ([HBCD - Data Release - Participants to Exclude](https://docs.google.com/spreadsheets/d/16jKl8BMqCFLqjXovIhzSUDJYh6lzT3ExPuVy6iUnV3E/edit?gid=0#gid=0)):  
-
-  * Participants with a 'Postnatal Recruitment' visit  
-  * Multiple Birth Participants
-
-## Excluded Instruments
-* BioSensor Receipt   
-  * sens_ch_rcpt  
-* EEG Acquisition Checklists  
-  * eeg_ch_chkl  
-  * eeg_ch_chkl_1  
-  * eeg_ch_chkl_2  
-* MRI Checklists  
-  * mri_ra_chkl_data  
-  * mri_ra_chkl_scan  
-* MRI Pre/Post Scan Prep  
-  * mri_ra_prep  
-* NIH Baby Toolbox  
-  * ncl_ch_nbtb  
-* Participant Feedback  
-  * adm_cg_fb  
-* RA Feedback  
-  * adm_ra_fb  
-* Participant Alerts   
-  * admin_alert  
-* TLFB (Timeline Follow Back)   
-  * pex_ch_tlfb  
-* Transitions in Care Questionnaire   
-  * sed_cg_tic  
-* Visit Data  
-  * adm_fd_visitdata  
-* Visit Start  
-  * visit_start  
-* Urgent Events  
-  * adm_fd_urgent
-
-## Excluded instrument fields
-* Examiner (Examiner)  
-* Date of Birth (DOB)  
-* Date of Administration (Date_taken)  
-* Start timestamp (timestamp_start)  
-* Stop timestamp (timestamp_stop)  
-* REDCap timestamp (timestamp_redcap_locked)  
-* Clinical Alerts  
-* REDCap Complete status ('complete').  
-* Scannable codes (BioSamples codes, tracking Nos, etc...)
-
 # Field Conversions
 
 * V01 conversions:  
@@ -87,28 +12,8 @@ Based on Exclusion list ([HBCD - Data Release - Participants to Exclude](http
     * Field “002”: outside of range 12-51.  
     * Field “002_i_01”: outside of range 30-130.
 
-# Upcoming/Pending Filters
-## Pending Field filters
-* Brain Rating associated fields  
-* Open text fields (Custom per instrument. Check on a case by case basis)  
-* Fields in 'HBCD_Include_vs_not_Include' tab of the '[Internal Facing](https://docs.google.com/spreadsheets/d/1qKuhIvogkOCVg-lDk30WKd5tfF0xuy-ChubOBSqOYNQ/edit?gid=1013027810#gid=1013027810)' document
 
-## Upcoming
-* Change '_i_' to '__' in Data Dictionary  
-* Gestational Age at Administration'  
-* Optional Secondary Age for MRI 'scans.tsv'  
-* scans.tsv file – MRI -  'Candidate Age at Administration' based on jittered DoB in ‘Years’ with three decimal point precision   
-* scans.tsv file – EEG - 'Candidate Age at Administration' based on jittered DoB in ‘Years’ with three decimal point precision   
-  
-**Logs**
-
-The following logs are generated for double-checking purposes (Logs are not shared nor embedded within the data dump structure):
-
-* List of included participants (CandID/PSCID only)  
-* List of included participants with 'Visit Label' (Same as above, with 'Visit Label')  
-* Discrepancies in Participants queried from database vs the .tsv list of participants from assembly bids (based on the MRI pipeline)  
-* Log of errors found during parsing of data release data dump
-
+ 
 # Embedded instrument data files
 These are the instruments/fields that were included in the release.
 
