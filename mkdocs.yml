@@ -13,6 +13,7 @@ plugins:
 docs_dir: docs
 
 nav: 
+  - About: index.md
   - Release Notes:
       - "Data Measures & Quality Control":
           - Demographics: measures/demographics.md
