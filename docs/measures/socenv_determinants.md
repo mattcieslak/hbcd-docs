@@ -134,3 +134,35 @@ Relevant Documents: Scoring Manuals
 
 ## Baby’s First Year
 ### Overview
+**Full Name**: Baby’s First Years – Benefits/Services/Economic Stress      
+**Acronym/Brief Name**: BFY    
+**Construct**: Benefits/Services/Economic Stress       
+**Description**: 10 Likert Scale questions on economic stress, financial instability, inability to meet basic needs, and benefits or social services received over the past 12 months.      
+**Summary**: Selected questions from the Year 1 protocol of the NIH-funded Baby’s First Years study of infant and child development and originated from the Moving to Opportunity (MTO) study. Assessing economic stress, financial instability, ability to meet basic needs, and benefits/services received. Some slight modifications were made for the HBCD study by removing the Medicaid coverage question asked elsewhere in the study and adding a question asking whether anyone in the family receives free and reduced lunch.
+
+### Implementation
+**Method of Administration**: In Person     
+**REDCap Form Name**: sed_bm_bfy      
+**Pilot Data Dictionary**: BFY-Economic Stress      
+**Spanish Translation**: Publisher BURG     
+**Child Specific/Unspecific Form**: Child Unpecific  
+**Respondent:** Parent on Self    
+
+### Data Collection
+**Visits**: V01 Prenatal        
+**Estimated length of time for completion**: 4 minutes
+
+### Quality Control (QC)
+**QC Procedures**: Social and Environmental Working Group QC procedures included monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency.<br>
+**Common Issues Identified**: None
+
+### Potential Issues Flagged by Subject Matter Experts
+None
+
+### References
+ - Noble KG, Magnuson K, Gennetian LA, et al. Baby’s first years: design of a randomized controlled trial of poverty reduction in the United States. Pediatrics. 2021;148(4).
+  - Sanbonmatsu L, Potter NA, Adam E, et al. The long-term effects of moving to opportunity on adult health and economic self-sufficiency. Cityscape. 2012:109-136.
+
+
+
+
