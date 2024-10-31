@@ -19,18 +19,19 @@ nav:
   - About: index.md
   - Release Notes:
       - "Data Measures & Quality Control":
-          - Demographics: measures/demographics.md
+          - "Behavior & Caregiver-Child Interaction": measures/behavior.md
+          - Electroencephalogram (EEG): measures/eeg.md
+          - Magnetic Resonance Imaging (MRI): measures/mri.md
+          - "Neurocognition & Language": measures/neurocog_language.md
+          - "Novel Technologies & Wearable Sensors": measures/sensors.md
           - "Physical Health": measures/physhealth.md
-          - "Pregnancy & Exposures": 
+          - "Pregnancy & Exposure": 
               - Pregnancy Health: measures/pregexp/preghealth.md
               - Infant Health: measures/pregexp/infant.md
               - "Psychiatric Evaluation & History": measures/pregexp/mentalhealth.md
               - Substance Use: measures/pregexp/substanceuse.md
-          - "Novel Technologies & Wearable Sensors": measures/sensors.md
           - "Social & Environmental Determinants": measures/socenv_determinants.md
-          - "Behavior/Caregiver Child Interaction": measures/behavior.md
-          - "Neurocognition & Language": measures/neurocog_language.md
-          - EEG: measures/eeg.md
+          - Demographics: measures/demographics.md
       - "MRI Protocols": 
           - Siemens Protocol: mriprotocols/siemens.md
           - GE Protocol: mriprotocols/ge.md

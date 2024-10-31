@@ -1,4 +1,4 @@
-# EEG
+# Electroencephalogram (EEG)
 
 ## Video Resting State
 ### Overview
