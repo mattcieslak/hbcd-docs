@@ -36,7 +36,7 @@ nav:
           - Siemens Protocol: mriprotocols/siemens.md
           - GE Protocol: mriprotocols/ge.md
       - HBCD BIDS Dataset:
-          - Brain Imaging Data Structure: datacuration/bids.md
+          - Overview: datacuration/bids.md
           - Imaging: datacuration/imaging.md
           - EEG: datacuration/eeg.md
           - Motion Data: datacuration/motion.md
