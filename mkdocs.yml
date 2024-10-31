@@ -8,7 +8,7 @@ markdown_extensions:
       custom_checkbox: true
 
 extra_css:
-  - stylesheets/custom.css
+  - assets/custom.css
 
 plugins:
   - search
