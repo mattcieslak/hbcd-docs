@@ -17,6 +17,9 @@ root/
 |   |__ <instrument_name>.json (repeat for all selected instruments)
 ```
 
+**Instrument Data**
+The `phenotype/<instrument_name>` files contain `.tsv` tables per instrument with all instrument values for each participant. All fields for the instrument except those listed in the exclusion filter section are included. The accompanying .json file for each instrument contains the Data Dictionary elements describing the instrument fields for the given instrument. 
+
 ## Excluded Elements
 ### Static Elements Excluded
 Excluded **participants**:
