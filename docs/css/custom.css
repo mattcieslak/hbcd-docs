@@ -1,3 +1,10 @@
+.md-header {
+    background-color: #409b92;
+}
+.md-header-nav {
+    background-color: #409b92;
+}
+
 /* Hide the right sidebar */
 .md-sidebar--secondary {
     display: none;
@@ -7,3 +14,4 @@
 .md-content {
     max-width: 100%;
 }
+
