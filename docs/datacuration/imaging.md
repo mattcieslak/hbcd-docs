@@ -11,28 +11,31 @@ The MRI protocol is then checked in the produced NIfTI and JSON files in which c
 In some instances, the NIfTI and JSON files obtained from the dcm2niix conversion needed to be altered by in-house script to include additional header information. Those changes are listed below in each of the image type sections below. Any hard-coded headers are listed in the `HardCodedValues` field of the JSON sidecar file of the acquisition.
 
 ### Anatomical Images
-#### T1W
-T1W images can be found in the anat subdirectory located in the session folder. They are labeled as `sub-<label>_ses-<label>_run-<label>_T1w.nii.gz`. The JSON sidecar file contains relevant header information about the acquisition. 
 
-For Philips T1W images, the `RepetitionTime` value obtained after the dcm2niix conversion was incorrectly set and needed to be hardcoded to reflect the actual repetition time of the acquisition. 
+The following images are located in the `anat/` subdirectory and are accompanied by sidecar `.json` files that contain relevant header information about the acquisitions. 
+
+#### T1W
+**Filename:** `anat/sub-<label>_ses-<label>_run-<label>_T1w.nii.gz`
 
 **Exclusion Criteria**    
 - TR outside of range 2.3-2.41  
 - TE outside of range 0.002-0.0035  
 - TI outside of range 1.06-1.1  
-- Slice thickness not being 0.8 
+- Slice thickness not being 0.8
+
+**Notes:** For Philips T1W images, the `RepetitionTime` value obtained after the dcm2niix conversion was incorrectly set and needed to be hardcoded to reflect the actual repetition time of the acquisition. 
 
 #### T2W
-T2W images can be found in the anat subdirectory located in the session folder. They are labeled as `sub-<label>_ses-<label>_run-<label>_T2w.nii.gz`. The JSON sidecar file contains relevant header information about the acquisition. 
+**Filename:** `anat/sub-<label>_ses-<label>_run-<label>_T1w.nii.gz`
 
-**Exclusion Criteria**    
+**Exclusion Criteria**     
 - TR outside of range 2.5-4.5  
 - TE outside of range 0.09-0.15  
 - TI outside of range 0.29-0.33  
 - Slice thickness outside of range 0.563-0.565
 
 #### MRS localizer
-MRS localizer images can be found in the anat subdirectory located in the session folder, labeled as `sub-<label>_ses-<label>_acq-<label>_run-<label>_T2w.nii.gz`. The JSON sidecar file contains relevant header information about the acquisition. Axial MRS localizers are labeled using the `acq-mrsLocAx` label and coronal MRS localizers are labeled using the `acq-mrsLocCor` label.
+**Filename:** `anat/sub-<label>_ses-<label>_acq-<label>_run-<label>_T2w.nii.gz`
 
 **Exclusion Criteria**
 - TR outside of range 2.5-4.5  
@@ -40,8 +43,10 @@ MRS localizer images can be found in the anat subdirectory located in the sessio
 - TI outside of range 0.29-0.33  
 - Slice thickness outside of range 0.563-0.565
 
+*Notes:* Axial MRS localizers are labeled using the `acq-mrsLocAx` label and coronal MRS localizers are labeled using the `acq-mrsLocCor` label.
+
 #### Quantitative MRI
-QALAS images can be found in the anat subdirectory located in the session folder, labeled as `sub-<label>_ses-<label>_run-<label>_inv-<label>_QALAS.nii.gz`. The JSON sidecar file contains relevant header information about the acquisition. 
+**Filename:** `sub-<label>_ses-<label>_run-<label>_inv-<label>_QALAS.nii.gz`. 
 
 Depending on the scanner manufacturer, dcm2niix produced either 5 NIfTI 3D files or 1 NIfTI 4D file with 5 volumes. In addition, some header information was missing from the JSON file produced by `dcm2niix`. Therefore, we took the files produced by `dcm2niix` and generated the QALAS NIfTI files that can be found in the BIDS dataset. Therefore, each QALAS series results in 5 NIfTI files with different inversion time (labeled using the `inv-<label>` BIDS tag). In addition, JSON sidecar file needed to have the following headers modified:
 
