@@ -163,6 +163,35 @@ None
  - Noble KG, Magnuson K, Gennetian LA, et al. Baby’s first years: design of a randomized controlled trial of poverty reduction in the United States. Pediatrics. 2021;148(4).
   - Sanbonmatsu L, Potter NA, Adam E, et al. The long-term effects of moving to opportunity on adult health and economic self-sufficiency. Cityscape. 2012:109-136.
 
+## eHITS
+### Overview
+**Full Name**: BExtended – Hurt, Insult, Threaten, Scream      
+**Acronym/Brief Name**: eHITS    
+**Construct**: Intimate Partner Violence       
+**Description**: Self-administered 5 question Likert scale screener for experiences of psychological aggression, physical assault, sexual coercion, and injury      
+**Summary**: Created for quick administration in a health care setting or emergency department, the eHITS asks individuals to indicate whether their partner has done any of the following over the past 12 months:  physically hurt you, insulted you, threatened to harm you, screamed or cursed at you, or forced you to have sexual activities.
 
+### Implementation
+**Method of Administration**: In Person     
+**REDCap Form Name**: sed_bm_ehits      
+**Pilot Data Dictionary**:          
+**Spanish Translation**: BURG     
+**Child Specific/Unspecific Form**: Child Unpecific  
+**Respondent:** Parent on Self    
+
+### Data Collection
+**Visits**: V01 Prenatal        
+**Estimated length of time for completion**: 2 minutes
+
+### Quality Control (QC)
+**QC Procedures**: Social and Environmental Working Group QC procedures included monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. eHITS has a summary score.<br>
+**Common Issues Identified**: None
+
+### Potential Issues Flagged by Subject Matter Experts
+None
+
+### References
+ - Portnoy GA, Haskell SG, King MW, Maskin R, Gerber MR, Iverson KM. Accuracy and Acceptability of a Screening Tool for Identifying Intimate Partner Violence Perpetration among Women Veterans: A Pre-Implementation Evaluation. Womens Health Issues. 2018;28(5):439-445.
+ - Chan, CC; Chan, YC; Cheung, GOC. Reliability and validity of the "Extended - Hurt, Insult, Threaten, Scream" (E-HITS) screening tool in detecting intimate partner violence in hospital emergency departments in Hong Kong. Hong Kong Journal of Emergency Medicine. 2010;17(2): 110-117.
 
 
