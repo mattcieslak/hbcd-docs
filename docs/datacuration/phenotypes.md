@@ -16,10 +16,6 @@ root/
 |   |__ <instrument_name>.tsv (repeat for all selected instruments)
 |   |__ <instrument_name>.json (repeat for all selected instruments)
 ```
-
-**Instrument Data**
-The `phenotype/<instrument_name>` files contain `.tsv` tables per instrument with all instrument values for each participant. All fields for the instrument except those listed in the exclusion filter section are included. The accompanying .json file for each instrument contains the Data Dictionary elements describing the instrument fields for the given instrument. 
-
 ## Excluded Elements
 ### Static Elements Excluded
 Excluded **participants**:
@@ -105,25 +101,27 @@ The `phenotype/sed_basic_demographics` files contain demographics data of each p
 - Sex  
 - Recruitment site  
 - Child demographics: race, ethnicity  
-- Mother demographics: race, ethnicity, education, income, language at home  
+- Mother demographics: race, ethnicity, education, income, language spoken at home  
 - Substance Use (SU) - can be any of the following:  
-  - TLFB instrument: any flag raised for SU  
+  - Self reported use (TLFB): any flag raised for SU  
   - Biospecimen: any result returning a flag for SU  
-  - Health V2 instrument (‘pex_bm_healthv2_inf’): field “007”, option 1 (NOWS - Neonatal Opioid Withdrawal Syndrome) or 5 (FAS - Fetal Alcohol Syndrome) selected
-
+  - Health V2 instrument (‘pex_bm_healthv2_inf’)
+      - Neonatal Opioid Withdrawal Syndrome (NOWS) - Field -007’, option 1  
+      - Fetal Alcohol Syndrome (FAS) - Field ‘007’, option 5
+      
 ## Visit Data
 The `phenotype/visit_data` files contain all participant visit data. This includes:
 
+- Project  
+- Cohort  
+- Site 
 - Visit information:  
    - Label  
    - Stage  
    - Date  
    - If the visit was missed and the reason  
-- Project  
-- Cohort  
-- Site  
-- Withdrawal info: If the participant withdrew from the study, the reason and date  
-- Protocol violation: If there was a protocol exception and the date
+- Participant Withdrawal Information: If the participant withdrew from the study, the reason, and date  
+- Participant Protocol Exception Information: If there was a protocol exception, the type, and the date
 
 ## Instrument Data
-Regarding `phenotype/<instrument_name>` files, they contain all instrument answers of each participant split by instrument. Each file contains their full respective set of fields, depending on the instrument, minus the excluded fields mentioned above.
+The `phenotype/<instrument_name>` files contain `.tsv` tables per instrument with all instrument values for each participant. All fields for the instrument except those listed in the exclusion filter section are included. The accompanying .json file for each instrument contains the Data Dictionary elements describing the instrument fields for the given instrument. 

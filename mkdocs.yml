@@ -52,6 +52,5 @@ nav:
           - Beta Release 3/V1.2: changelog/versions/v1.2.md
           - Beta Release 2/V1.1: changelog/versions/v1.1.md
           - Beta Release 1/V1.0: changelog/versions/v1.0.md
-      - Phenotype Data Structure: changelog/phenotype_datastruc.md
       - Exclusion Filters: changelog/filters.md
 
