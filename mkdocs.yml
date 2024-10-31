@@ -1,10 +1,14 @@
 site_name: HBCD Data Release
 
 theme: readthedocs
+
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+
+extra_css:
+    - stylesheets/custom.css
 
 plugins:
   - search
