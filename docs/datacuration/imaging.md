@@ -1,14 +1,7 @@
----
-hide:
-  - toc
----
-
 # Imaging Data Curation & BIDS Conversion
 
-## Image Quality Control
-Quality control of the MRI images can be found in the `scans.tsv` file in the session folder.
-
-TODO: More information about the QC process to be provided by Don
+## Quality Control
+Quality control of the MRI images can be found in the `scans.tsv` file in the session folder. The raw QC process involves reviewing unprocessed or lightly processed MRI data to identify and exclude data with severe artifacts from further processing. An initial protocol compliance check is performed by extracting information from DICOM headers and checking for common issues and protocol deviations, such as missing files or incorrect patient orientation. Automated QC metrics are calculated from the image data. A deep learning model estimates motion artifacts for structural scans (T1w, T2w, and qMRI), while metrics related to motion, bad frames, line artifacts, and FOV (field of view) cutoff are assessed for dMRI, fMRI, and field maps. A subset of series are selected for manual review based on multivariate prediction and Bayesian classifiers using the automated metrics. During the manual review, data quality is scored based on the severity of specific artifacts. For structural scans, motion artifacts are scored based on perceived severity on a scale of 0 to 3. Scores indicate no artifact (0), mild (1), moderate (2), or severe (3). Other artifacts, such as unusual intensity inhomogeneity or ghosting are noted by the reviewer. For dMRI, fMRI, and field maps, scored artifacts include susceptibility artifacts, FOV cutoff, and line artifacts. Other artifacts may be noted. Series with severe artifacts that clearly compromise data usability are rejected (QC=0).
 
 ## MRI
 DICOM images are converted using a [custom version](https://github.com/rordenlab/dcm2niix/tree/c5caaa9f858b704b61d3ff4a7989282922dd712e) of the [dcm2niix](https://github.com/rordenlab/dcm2niix) tool that included bug fixes for some modalities acquired in HBCD.
@@ -39,9 +32,7 @@ T2W images can be found in the anat subdirectory located in the session folder. 
 - Slice thickness outside of range 0.563-0.565
 
 #### MRS localizer
-MRS localizer images can be found in the anat subdirectory located in the session folder, labeled as `sub-<label>_ses-<label>_acq-<label>_run-<label>_T2w.nii.gz`. The JSON sidecar file contains relevant header information about the acquisition. 
-
-Axial MRS localizers are labeled using the `acq-mrsLocAx` label and coronal MRS localizers are labeled using the `acq-mrsLocCor` label.
+MRS localizer images can be found in the anat subdirectory located in the session folder, labeled as `sub-<label>_ses-<label>_acq-<label>_run-<label>_T2w.nii.gz`. The JSON sidecar file contains relevant header information about the acquisition. Axial MRS localizers are labeled using the `acq-mrsLocAx` label and coronal MRS localizers are labeled using the `acq-mrsLocCor` label.
 
 **Exclusion Criteria**
 - TR outside of range 2.5-4.5  
@@ -72,8 +63,8 @@ DWI images can be found in the dwi subdirectory located in the session folder, l
 - Slice thickness not being set to 1.7  
 - The total number of volumes between DWI AP and DWI PA is below 90 volumes
 
-### Fieldmap images
-#### EPI images
+### Fieldmap Images
+#### EPI Images
 EPI images can be found in the fmap subdirectory located in the session folder, labeled as `sub-<label>_ses-<label>_dir-<label>_run-<label>_epi.nii.gz`. The JSON sidecar file contains relevant header information about the acquisition. The label `dir-<label>` is used to distinguish between the EPI acquired in the AP phase encoding direction (`dir-AP`) and the EPI acquired in the PA phase encoding direction (`dir-PA`). *Note:* After `dcm2niix` conversion, Philips EPI files were missing `PhaseEncodingDirection` and `TotalReadoutTime` header information. These headers have now been hard-coded into the JSON sidecar file for Philips EPI acquisitions.
 
 **Exclusion Criteria**
