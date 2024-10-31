@@ -1,0 +1,9 @@
+/* Hide the right sidebar */
+.md-sidebar--secondary {
+    display: none;
+}
+
+/* Expand the main content area to take up the full width */
+.md-content {
+    max-width: 100%;
+}

@@ -8,11 +8,10 @@ markdown_extensions:
       custom_checkbox: true
 
 extra_css:
-  - assets/custom.css
+  - css/custom.css
 
 plugins:
   - search
-  - mike
 
 docs_dir: docs
 
