@@ -21,7 +21,7 @@ nav:
   - Release Notes:
       - "Data Measures & Quality Control":
           - Demographics: measures/demographics.md
-          - "Physical Health: Food Insecurity": measures/physhealth.md
+          - "Physical Health": measures/physhealth.md
           - "Pregnancy & Exposures": 
               - Pregnancy Health: measures/pregexp/preghealth.md
               - Infant Health: measures/pregexp/infant.md
