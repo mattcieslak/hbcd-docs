@@ -67,10 +67,10 @@ None
 
 ## Discrimination
 ### Overview
-**Full Name**: PhenX+ Toolkit Discrimination
-**Acronym/Brief Name**: PhenX+ Discrimination
-**Construct**: Discrimination
-**Description** This measure can be used by respondents to report discriminatory experiences. Discrimination is an important factor in an individual’s health because it affects access to employment, housing, and education opportunities and can affect self-esteem and cause stress.
+**Full Name**: PhenX+ Toolkit Discrimination    
+**Acronym/Brief Name**: PhenX+ Discrimination   
+**Construct**: Discrimination   
+**Description** This measure can be used by respondents to report discriminatory experiences. Discrimination is an important factor in an individual’s health because it affects access to employment, housing, and education opportunities and can affect self-esteem and cause stress.    
 **Summary**: This measure is a questionnaire to assess perceived discriminatory experiences.
 
 ### Implementation 
@@ -82,7 +82,7 @@ None
 **Respondent:** Parent on Self
 
 ### Data Collection
-**Visits**: V1, 2nd-3rd trimester and postnatal; V5, 10-17 months; V7, 16-31 months  
+**Visits**: V1, 2nd-3rd trimester and postnatal; V5, 10-17 months; V7, 16-31 months     
 **Estimated length of time for completion**: 3 minutes
 
 ### Quality Control (QC) 
