@@ -1,15 +1,6 @@
 site_name: HBCD Data Release
 
-theme: 
-  name: material
-  palette:
-    primary: teal
-    accent: pink
-  features:
-    - navigation.tabs
-    - navigation.path
-    - version
-
+theme: readthedocs
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
@@ -22,10 +13,12 @@ plugins:
 docs_dir: docs
 
 nav: 
-  - About: index.md
+  - About: 
+      - Overview: index.md
+      - FAQ: faq.md
+      - Contact: contact.md
   - Release Notes:
       - "Data Measures & Quality Control":
-          - Overview: measures/index.md
           - Demographics: measures/demographics.md
           - "Physical Health: Food Insecurity": measures/physhealth.md
           - "Pregnancy & Exposures": 
@@ -39,7 +32,6 @@ nav:
           - "Neurocognition & Language": measures/neurocog_language.md
           - EEG: measures/eeg.md
       - "MRI Protocols": 
-          - Overview: mriprotocols/index.md
           - Siemens Protocol: mriprotocols/siemens.md
           - GE Protocol: mriprotocols/ge.md
       - HBCD BIDS Dataset:
@@ -53,13 +45,11 @@ nav:
           - Pipeline Software Standards: processing/standards.md
           - External Processing Documentation: processing/processing.md
   - Change Log: 
-      - General Settings: changelog/gensettings.md
+      - Pending Updates: changelog/pending.md
       - Version History: 
           - Beta Release 5/V1.4: changelog/versions/v1.4.md
           - Beta Release 4/V1.3: changelog/versions/v1.3.md
           - Beta Release 3/V1.2: changelog/versions/v1.2.md
           - Beta Release 2/V1.1: changelog/versions/v1.1.md
           - Beta Release 1/V1.0: changelog/versions/v1.0.md
-      - Phenotype Data Structure: changelog/phenotype_datastruc.md
-      - Exclusion Filters: changelog/filters.md
-  - FAQ: faq.md
+

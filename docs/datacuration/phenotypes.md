@@ -16,29 +16,12 @@ root/
 |   |__ <instrument_name>.tsv (repeat for all selected instruments)
 |   |__ <instrument_name>.json (repeat for all selected instruments)
 ```
-
 ## Excluded Elements
 ### Static Elements Excluded
-Excluded **participants**:
+This section lists **static elements** excluded from the data release.
 
-- ARK: 2  
-- BCH: 1  
-- CCH: 2  
-- EUY: 6  
-- JHU: 2  
-- NWU: 1  
-- NYU: 1  
-- OHS: 4  
-- PHI: 1  
-- UCS: 1  
-- UMN: 2  
-- UNM: 1  
-- UVM: 2  
-- VAN: 1  
-- WIS: 1  
-- PUP: 1
 
-Excluded **instruments**:
+**Excluded Instruments**:
 
 - Biosensor Receipt Form ('sens_ch_rcpt')  
 - EEG Acquisition Form ('eeg_ch_chkl')  
@@ -46,7 +29,7 @@ Excluded **instruments**:
 - EEG Acquisition Form Reattempt - 2 ('eeg_ch_chkl_2')  
 - MRI Data Summary Form ('mri_ra_chkl_data')  
 - MRI Scan Session Summary Form ('mri_ra_chkl_scan')  
-- Pre/Post Scan Prep ('mri_ra_prep')  
+- MRI Pre/Post Scan Prep ('mri_ra_prep')  
 - NIH Baby ToolBox ('ncl_ch_nbtb')  
 - Participant Feedback Form ('adm_cg_fb')  
 - RA Feedback ('adm_ra_fb')  
@@ -57,21 +40,27 @@ Excluded **instruments**:
 - TLFB (Timeline Follow Back) Summary Parser ('pex_ch_tlfb')  
 - Transitions in Care Questionnaire ('sed_cg_tic')
 
-Excluded **instrument fields**, mostly metadata fields:
+**Excluded Instrument Fields** (mostly metadata fields):
 
-- Date of Administration (‘date_taken’).  
-- Examiner (‘Examiner’).  
-- Timestamps ('timestamp', ‘timestamp_start', 'timestamp_stop', 'timestamp_start_tmp', 'timestamp_redcap_locked', 'dtt').  
-- REDCap Complete status ('complete').
+- Date of Administration (‘date_taken’)  
+- Examiner (‘Examiner’)  
+- Timestamps ('timestamp', ‘timestamp_start', 'timestamp_stop', 'timestamp_start_tmp', 'timestamp_redcap_locked', 'dtt')  
+- REDCap Complete status ('complete')
+
+**TODO: were these fields excluded as well? (from Loris beta release notes)**
+ - Date of Birth (DOB)  
+ - Clinical Alerts
+ - Scannable codes (BioSamples codes, tracking Nos, etc...)
 
 ### Dynamic Elements Excluded
+This section lists **dynamic exclusions** applied during the Data Release process.
 
 - No brain rating or brain rating noted “abnormal” are not selected  
 - Only active participants and sessions are selected  
-- For Beta Data Release, the process considers only data noted with launchpad complete status from before 2024-07-01 (YYYY-MM-DD)  
 - Participants from Data Coordination Center (DCC) and University of Florida (UFL) sites are not selected  
-- Only participants with PSCIDs starting with “CH” are selected (excluding all test participants e.g. QI,YI,XI)  
+- Only participants with PSCIDs starting with “CH” are selected (excluding all test participants e.g. QI,YI,XI,PI)  
 - Participants having REDCap instruments not filled out by the exact “redcap” examiner will be excluded from the result (i.e. possible modification of data between REDCap and LORIS, or data entered directly into LORIS)
+- For Beta Data Release, the process considers only data noted with launchpad complete status from before 2024-07-01 (YYYY-MM-DD)  
 
 ### General Rules Applied to All Data
 
@@ -102,25 +91,27 @@ The `phenotype/sed_basic_demographics` files contain demographics data of each p
 - Sex  
 - Recruitment site  
 - Child demographics: race, ethnicity  
-- Mother demographics: race, ethnicity, education, income, language at home  
+- Mother demographics: race, ethnicity, education, income, language spoken at home  
 - Substance Use (SU) - can be any of the following:  
-  - TLFB instrument: any flag raised for SU  
+  - Self reported use (TLFB): any flag raised for SU  
   - Biospecimen: any result returning a flag for SU  
-  - Health V2 instrument (‘pex_bm_healthv2_inf’): field “007”, option 1 (NOWS - Neonatal Opioid Withdrawal Syndrome) or 5 (FAS - Fetal Alcohol Syndrome) selected
-
+  - Health V2 instrument (‘pex_bm_healthv2_inf’)
+      - Neonatal Opioid Withdrawal Syndrome (NOWS) - Field -007’, option 1  
+      - Fetal Alcohol Syndrome (FAS) - Field ‘007’, option 5
+      
 ## Visit Data
 The `phenotype/visit_data` files contain all participant visit data. This includes:
 
+- Project  
+- Cohort  
+- Site 
 - Visit information:  
    - Label  
    - Stage  
    - Date  
    - If the visit was missed and the reason  
-- Project  
-- Cohort  
-- Site  
-- Withdrawal info: If the participant withdrew from the study, the reason and date  
-- Protocol violation: If there was a protocol exception and the date
+- Participant Withdrawal Information: If the participant withdrew from the study, the reason, and date  
+- Participant Protocol Exception Information: If there was a protocol exception, the type, and the date
 
 ## Instrument Data
-Regarding `phenotype/<instrument_name>` files, they contain all instrument answers of each participant split by instrument. Each file contains their full respective set of fields, depending on the instrument, minus the excluded fields mentioned above.
+The `phenotype/<instrument_name>` files contain `.tsv` tables per instrument with all instrument values for each participant. All fields for the instrument except those listed in the exclusion filter section are included. The accompanying .json file for each instrument contains the Data Dictionary elements describing the instrument fields for the given instrument. 
