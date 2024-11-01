@@ -28,8 +28,9 @@
 None
 
 ### References
- * Mujahid, M. S., Diez Roux, A. V., Morenoff, J. D., & Raghunathan, T. (2007). Assessing the measurement properties of neighborhood scales: From psychometrics to ecometrics. *American Journal of Epidemiology,* *165,* 858-867.
- * PhenX Toolkit. (2024 October 28). Neighborhood Safety, PhenX Toolkit. https://www.phenxtoolkit.org/protocols/view/210901
+Mujahid, M. S., Diez Roux, A. V., Morenoff, J. D., & Raghunathan, T. (2007). Assessing the measurement properties of neighborhood scales: from psychometrics to ecometrics. *American Journal of Epidemiology*, 165(8), 858–867. https://doi.org/10.1093/aje/kwm040
+
+PhenX Toolkit. (2024 November 01). Neighborhood Safety, PhenX Toolkit. https://www.phenxtoolkit.org/protocols/view/210901
 
 ## Discrimination
 ### Overview
@@ -59,9 +60,11 @@ None
 None
 
 ### References
- * Williams, D. R. (2015). Measuring discrimination resource. http://scholar.harvard.edu/davidrwilliams/node/32777
- * Sternthal, M., Slopen, N., Williams, D.R. “Racial Disparities in Health: How Much Does Stress Really Matter?” Du Bois Review, 2011; 8(1): 95-113.
- * PhenX Toolkit. (2024 September 30). Discrimination, PhenX Toolkit. https://www.phenxtoolkit.org/protocols/view/210302
+PhenX Toolkit. (2024 November 01). Discrimination, PhenX Toolkit. https://www.phenxtoolkit.org/protocols/view/210302
+
+Sternthal, M. J., Slopen, N., & Williams, D. R. (2011). Racial disparities in health. *Du Bois Review: Social Science Research on Race*, 8(1), 95–113. https://doi.org/10.1017/s1742058x11000087
+
+Williams, D. R. (2015). Measuring discrimination resource. http://scholar.harvard.edu/davidrwilliams/node/32777
 
 ## PACES
 ### Overview
@@ -90,13 +93,10 @@ None
 None
 
 ### References
- * Morris AS, Treat A, Hays-Grudo J, Chesher T, Williamson AC, Mendez J. Integrating
-research and theory on early relationships to guide intervention and prevention. Building
-early social and emotional relationships with infants and toddlers: Integrating research
-and practice. 2018:1-25
- * Morris AS, Hays-Grudo J, Zapata MI, Treat A, Kerr KL. Adverse and protective
-childhood experiences and parenting attitudes: The role of cumulative protection in
-understanding resilience. Adversity and Resilience Science. 2021;2:181-192
+Morris, A. S., Hays-Grudo, J., Zapata, M. I., Treat, A., & Kerr, K. L. (2021). Adverse and protective childhood experiences and parenting attitudes: The role of cumulative protection in understanding resilience. *Adversity and Resilience Science*, 2(3), 181–192. https://doi.org/10.1007/s42844-021-00036-8
+
+Morris, A. S., Treat, A., Hays-Grudo, J., Chesher, T., Williamson, A. C., & Mendez, J. (2018). Integrating research and theory on early relationships to guide intervention and prevention. In *Building Early Social and Emotional Relationships with Infants and Toddlers* (pp. 1–25). Springer International Publishing. https://doi.org/10.1007/978-3-030-03110-7_1
+
 
 ## Perceived Stress/Social Support
 ### Overview
@@ -129,8 +129,9 @@ None
 Relevant Documents: Scoring Manuals
 
 ### References
- * PROMIS Emotional Support: Hahn, E.A., Cella, D., Bode, R.K. et al. Measuring Social Well-Being in People with Chronic Illness. Soc Indic Res 96, 381–401 (2010).
- * Cohen, S., Kamarck, T., & Mermelstein, R. (1983). A global measure of perceived stress. Journal of Health and Social Behavior, 24, 385-396.
+Cohen, S., Kamarck, T., & Mermelstein, R. (1983). A global measure of perceived stress. *Journal of Health and Social Behavior*, 24(4), 385–396. https://doi.org/10.2307/2136404
+
+Hahn, E. A., Cella, D., Bode, R. K., & Hanrahan, R. T. (2010). Measuring social well-being in people with chronic illness. *Social Indicators Research*, 96(3), 381–401. https://doi.org/10.1007/s11205-009-9484-z
 
 ## Baby’s First Year
 ### Overview
@@ -160,8 +161,9 @@ Relevant Documents: Scoring Manuals
 None
 
 ### References
- - Noble KG, Magnuson K, Gennetian LA, et al. Baby’s first years: design of a randomized controlled trial of poverty reduction in the United States. Pediatrics. 2021;148(4).
-  - Sanbonmatsu L, Potter NA, Adam E, et al. The long-term effects of moving to opportunity on adult health and economic self-sufficiency. Cityscape. 2012:109-136.
+Noble, K. G., Magnuson, K., Gennetian, L. A., Duncan, G. J., Yoshikawa, H., Fox, N. A., & Halpern-Meekin, S. (2021). Baby’s First Years: Design of a randomized controlled trial of poverty reduction in the United States. *Pediatrics*, 148(4), e2020049702. https://doi.org/10.1542/peds.2020-049702
+
+Sanbonmatsu L., Marvokov J., Porter N., Yang F., Adam E., Congdon W. J., Duncan G. J., Gennetian L. A., Katz L. F., Kling J. R., et al. The Long-Term Effects of Moving to Opportunity on Adult Health and Economic Self-Sufficiency. *Cityscape*. 2012;14 (2) :109-36.
 
 ## eHITS
 ### Overview
@@ -191,7 +193,8 @@ None
 None
 
 ### References
- - Portnoy GA, Haskell SG, King MW, Maskin R, Gerber MR, Iverson KM. Accuracy and Acceptability of a Screening Tool for Identifying Intimate Partner Violence Perpetration among Women Veterans: A Pre-Implementation Evaluation. Womens Health Issues. 2018;28(5):439-445.
- - Chan, CC; Chan, YC; Cheung, GOC. Reliability and validity of the "Extended - Hurt, Insult, Threaten, Scream" (E-HITS) screening tool in detecting intimate partner violence in hospital emergency departments in Hong Kong. Hong Kong Journal of Emergency Medicine. 2010;17(2): 110-117.
+Chan, C. C., Chan, Y. C., Au, A., & Cheung, G. O. C. (2010). Reliability and validity of the “Extended - Hurt, Insult, Threaten, Scream” (E-hits) screening tool in detecting intimate partner violence in hospital emergency departments in Hong Kong. *Hong Kong Journal of Emergency Medicine*, 17(2), 109–117. https://doi.org/10.1177/102490791001700202
+
+Portnoy, G. A., Haskell, S. G., King, M. W., Maskin, R., Gerber, M. R., & Iverson, K. M. (2018). Accuracy and acceptability of a screening tool for identifying intimate partner violence perpetration among women veterans: A pre-implementation evaluation. *Women’s Health Issues: Official Publication of the Jacobs Institute of Women’s Health*. https://doi.org/10.1016/j.whi.2018.04.003
 
 
