@@ -5,6 +5,10 @@ theme: readthedocs
 extra_css:
   - css/custom.css
 
+markdown_extensions:
+  - toc:
+      permalink: true
+
 plugins:
   - search
 
