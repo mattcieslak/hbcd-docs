@@ -17,7 +17,7 @@ Data files included in the data release are raw sensor data in BIDS format for t
 
 ### Implementation & Data Collection
 **Method of Administration**: RA placed sensors on child at visit, sensors then worn while 72 hours of data were collected across typical activities in the natural environment.    
-**Visits Administered (Corresponding Age)**: V02 (0-1 months) and V03 (3-8 months)  
+**Visits**: V02 (0-1 months) and V03 (3-8 months)  
 
 ### Quality Control & Known Issues
 **QC Procedures**   
@@ -208,7 +208,7 @@ Data files included in the data release are raw sensor data in BIDS format for t
 **Spanish Translation**: Yes, done by study  
 **Child Specific/Unspecific Form**: Caregiver answering questions about their child.  
 **Respondent:** Caregiver   
-**Visits Administered (Corresponding Age)**: V02 (0-1 month of age) and V03 (3-8 months of age).  
+**Visits**: V02 (0-1 month of age) and V03 (3-8 months of age).  
 
 ### Quality Control & Known Issues
 **QC Procedures**   

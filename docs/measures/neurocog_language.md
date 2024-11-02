@@ -28,7 +28,7 @@ The total frequency of Spanish and English was then computed by multiplying the 
 **Spanish Translation**: Existing   
 **Child Specific/Unspecific Form**: Child Specific  
 **Respondent:** Primary caregiver of the child  
-**Visits Administered and corresponding age range of administration**: V3, V4, V5, V6, V7, V8  
+**Visits**: V3, V4, V5, V6, V7, V8  
 **Estimated length of time for completion**: 3-10 minutes
 
 ## Quality Control & Known Issues

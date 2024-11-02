@@ -25,8 +25,7 @@ From [Cioffredi et al. 2024](https://www.sciencedirect.com/science/article/pii/S
 **Common Issues Identified**: High missing on income (although in line with expectations)   
 **Potential Issues Flagged by Subject Matter Experts**: We learned through RA reports that some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g. options did not capture identity) and occupation (i.e. imperfect option for job type and number of hours). 
 
-## Additional Information 
-**Source Information for Demographic Measures**
+## Source Information for Demographic Measures
 
 **DEMOGRAPHICS OF BIRTH PARENT**  
 

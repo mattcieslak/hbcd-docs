@@ -15,7 +15,7 @@
 **Spanish Translation**: Existing  
 **Child Specific/Unspecific Form**: Child Unspecific  
 **Respondent:** Adult Participant   
-**Visits Administered (Corresponding Age)**: Visit 1 (prenatal), Visit 5 (10-17 months), Visit 7 (16-31 months), Visit 9 (32-46 months)    
+**Visits**: Visit 1 (prenatal), Visit 5 (10-17 months), Visit 7 (16-31 months), Visit 9 (32-46 months)    
 **Estimated length of time for completion**: 1 minute
 
 ### Quality Control & Known Issues
@@ -42,7 +42,7 @@
 **Spanish Translation**: Existing  
 **Child Specific/Unspecific Form**: Child Unspecific  
 **Respondent:** Parent on Self  
-**Visits Administered (Corresponding Age)**: V1 (2nd-3rd trimester and postnatal), V5 (10-17 months), V7 (16-31 months)     
+**Visits**: V1 (2nd-3rd trimester and postnatal), V5 (10-17 months), V7 (16-31 months)     
 **Estimated length of time for completion**: 3 minutes
 
 ### Quality Control & Known Issues 
@@ -70,7 +70,7 @@
 **Spanish Translation**: BURG     
 **Child Specific/Unspecific Form**: Child Unspecific  
 **Respondent:** Parent on Self  
-**Visits Administered (Corresponding Age)**: V01 Prenatal (PACES Current)   
+**Visits**: V01 Prenatal (PACES Current)   
 
 ### Quality Control & Known Issues
 **QC Procedures:** Social and Environmental Working Group QC procedures included monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency.    
@@ -96,7 +96,7 @@
 **Spanish Translation**: Existing        
 **Child Specific/Unspecific Form**: Child Specific  
 **Respondent:** Caregiver   
-**Visits Administered and corresponding age range of administration**: V1 (prenatal), V2 (0-1m), V3 (3-9m)  
+**Visits**: V1 (prenatal), V2 (0-1m), V3 (3-9m)  
 **Estimated length of time for completion**: 4 minutes 
 
 ### Quality Control (QC) 
@@ -126,7 +126,7 @@ Relevant Documents: Scoring Manuals
 **Spanish Translation**: Publisher BURG     
 **Child Specific/Unspecific Form**: Child Unpecific  
 **Respondent:** Parent on Self    
-**Visits Administered (Corresponding Age)**: V01 (prenatal)        
+**Visits**: V01 (prenatal)        
 **Estimated length of time for completion**: 4 minutes
 
 ### Quality Control & Known Issues
@@ -153,7 +153,7 @@ Relevant Documents: Scoring Manuals
 **Spanish Translation**: BURG     
 **Child Specific/Unspecific Form**: Child Unpecific  
 **Respondent:** Parent on Self    
-**Visits Administered (Corresponding Age)**: V01 (prenatal)        
+**Visits**: V01 (prenatal)        
 **Estimated length of time for completion**: 2 minutes
 
 ### Quality Control & Known Issues

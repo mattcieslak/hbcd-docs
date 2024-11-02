@@ -17,7 +17,7 @@ In V04/6, a silent video plays with a variety of marble run and construction vis
 ### Implementation & Data Collection
 **Method of Administration**: RA administered in person  
 **Child Specific/Unspecific Form**: Child Specific  
-**Visits Administered (Corresponding Age)**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)      
+**Visits**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)      
 **Estimated length of time for completion**: Approximately 3 minutes
 
 ### Quality Control & Known Issues
@@ -63,7 +63,7 @@ In V04/6, a silent video plays with a variety of marble run and construction vis
 ### Implementation & Data Collection
 **Method of Administration**: RA administered in person  
 **Child Specific/Unspecific Form**: Child Specific  
-**Visits Administered (Corresponding Age)**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)  
+**Visits**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)  
 **Estimated length of time for completion**: Approximately 5 minutes
 
 ### Quality Control & Known Issues 
@@ -105,7 +105,7 @@ In V04/6, a silent video plays with a variety of marble run and construction vis
 ### Implementation & Data Collection
 **Method of Administration**: RA administered in person  
 **Child Specific/Unspecific Form**: Child Specific    
-**Visits Administered (Corresponding Age)**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)      
+**Visits**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)      
 **Estimated length of time for completion**: Approximately 11:30 minutes (V03) or 8:30 minutes (V04/6)
 
 ### Quality Control & Known Issues 
@@ -158,7 +158,7 @@ In V04/6, a silent video plays with a variety of marble run and construction vis
 ### Implementation & Data Collection
 **Method of Administration**: RA administered in person  
 **Child Specific/Unspecific Form**: Child Specific  
-**Visits Administered (Corresponding Age)**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)  
+**Visits**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)  
 **Estimated length of time for completion**: Approximately 1 minute
 
 ### Quality Control (QC) 

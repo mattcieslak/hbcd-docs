@@ -1,6 +1,6 @@
 # Data Measures & Quality Control
 
-Each measure includes the following information applicable to that measure (with inapplicable or empty fields removed for clarity):
+Each measure generally includes the following information where applicable:
 
  - **Overview:** 
     - Full Name
