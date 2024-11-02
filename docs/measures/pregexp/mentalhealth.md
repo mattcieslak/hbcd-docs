@@ -68,10 +68,7 @@ Note: the following scores triggered an alert for study staff:
  * APA suicide ('Thoughts of actually hurting yourself?'), score greater than 0
  * APA depression (from 'I felt worthless' to 'I felt that nothing could cheer me up'), raw score greater than 32
 
-### References
- * Doss, R. A., & Lowmaster, S. E. (2022). Validation of the DSM-5 Level 1 Cross-Cutting Symptom Measure in a Community  Sample. *Psychiatry Research*, *318*, 114935. [https://doi.org/10.1016/j.psychres.2022.114935](https://doi.org/10.1016/j.psychres.2022.114935)
-
- * Roche, M. J., Pincus, A. L., & Cole, P. E. (2019). Linking dimensions and dynamics in psychopathology research: An example using DSM-5 instruments. *Journal of Research in Personality*, *82*, 103852. [https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852](https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852)
+Other:
 
  * Level 1 scoring: [https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf](https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf)
 
@@ -83,6 +80,11 @@ Note: the following scores triggered an alert for study staff:
 
  * Listed in this section as well is the Personality Inventory for DSM-5 Brief. It assesses 5 personality trait domains including negative affect, detachment, antagonism, disinhibition,  
 and psychoticism, with each trait domain consisting of 5 items. Information about the measure and scoring can be found here: https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_The-Personality-Inventory-For-DSM-5-Brief-Form-Adult.pdf
+
+### References
+Doss, R. A., & Lowmaster, S. E. (2022). Validation of the DSM-5 Level 1 Cross-Cutting Symptom Measure in a Community  Sample. *Psychiatry Research*, *318*, 114935. [https://doi.org/10.1016/j.psychres.2022.114935](https://doi.org/10.1016/j.psychres.2022.114935)
+
+Roche, M. J., Pincus, A. L., & Cole, P. E. (2019). Linking dimensions and dynamics in psychopathology research: An example using DSM-5 instruments. *Journal of Research in Personality*, *82*, 103852. [https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852](https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852)
 
 ## NSESSS—PTSD and NSESSS—Acute Stress Disorder
 ### Overview
@@ -136,7 +138,7 @@ Please note that scores on these scales will not differentiate between symptoms 
 
 ### Implementation 
 **Method of Administration**: self-administered in person or remote  
-**REDCap Form Name**: EPDS  
+**REDCap Form Name**: `EPDS` 
 **Pilot Data Dictionary**:   
 **Spanish Translation**: Available  
 **Child Specific/Unspecific Form**: Unspecific  
@@ -158,7 +160,9 @@ Note: the following scores on the EPDS triggered a clinical alert for study staf
   * EPDS suicide ('The thought of harming myself has occurred to me'), score greater than 1
   * EPDS depression, overall score greater than 11
 
-### References
- * Cox, J. L., Holden, J. M., & Sagovsky, R. (1987). Detection of postnatal depression . Development of the 10-item Edinburgh Postnatal Depression Scale. *British Journal of Psychiatry*, *150*, 782–786. [https://doi.org/10.1192/bjp.150.6.782](https://doi.org/10.1192/bjp.150.6.782)
+The EPDS was scored as follows: [https://med.stanford.edu/content/dam/sm/ppc/documents/DBP/EDPS_text_added.pdf](https://med.stanford.edu/content/dam/sm/ppc/documents/DBP/EDPS_text_added.pdf)
 
- * The EPDS was scored as follows: [https://med.stanford.edu/content/dam/sm/ppc/documents/DBP/EDPS_text_added.pdf](https://med.stanford.edu/content/dam/sm/ppc/documents/DBP/EDPS_text_added.pdf)
+### References
+Cox, J. L., Holden, J. M., & Sagovsky, R. (1987). Detection of postnatal depression . Development of the 10-item Edinburgh Postnatal Depression Scale. *British Journal of Psychiatry*, *150*, 782–786. [https://doi.org/10.1192/bjp.150.6.782](https://doi.org/10.1192/bjp.150.6.782)
+
+

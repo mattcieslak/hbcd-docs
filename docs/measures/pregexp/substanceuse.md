@@ -8,14 +8,13 @@
 
 ### Implementation 
 **Method of Administration**: RA administered in person (except in Alabama, where it was self-administered)   
-**REDCap Form Name**: Assist V1 
-**Pilot Data Dictionary**:   
+**REDCap Form Name**: `Assist V1`   
 **Spanish Translation**: Created  
 **Child Specific/Unspecific Form**: Unspecific 
 **Respondent:** pregnant person
 
 ### Data Collection
-**Visits Administered and corresponding age range of administration**:  V1
+**Visits Administered and corresponding age range of administration**: V1
 **Estimated length of time for completion**: 5 minutes
 
 ### Quality Control (QC) 
@@ -23,7 +22,7 @@
 **Common Issues Identified**: If a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it.
 
 ### Potential Issues Flagged by Subject Matter Experts
-* To capture ‘standard drinks’ of alcohol, participants were asked to self-report their typical size of a single drink (in oz). This was difficult for some participants, and some reports are outside of expected range. Sites were queried on outliers, but participants were not always able to be re-contacted. 
+To capture ‘standard drinks’ of alcohol, participants were asked to self-report their typical size of a single drink (in oz). This was difficult for some participants, and some reports are outside of expected range. Sites were queried on outliers, but participants were not always able to be re-contacted. 
 
 ### References
  * National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
@@ -38,14 +37,13 @@ In addition, participants were asked if they used any of the 18 substances betwe
 
 ### Implementation 
 **Method of Administration**: RA-administered in person (except in Alabama, where it was self-administered)
-**REDCap Form Name**: Assist V2  
-**Pilot Data Dictionary**:   
+**REDCap Form Name**: `Assist V2`   
 **Spanish Translation**: Created  
 **Child Specific/Unspecific Form**: Unspecific 
 **Respondent:** person who gave birth
 
 ### Data Collection
-**Visits Administered and corresponding age range of administration**:  V2
+**Visits Administered and corresponding age range of administration**: V2
 **Estimated length of time for completion**: 5 minutes
 
 ### Quality Control (QC) 
@@ -53,7 +51,7 @@ In addition, participants were asked if they used any of the 18 substances betwe
 **Common Issues Identified**: If a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it.
 
 ### Potential Issues Flagged by Subject Matter Experts
-* To capture ‘standard drinks’ of alcohol, participants were asked to self-report their typical size of a single drink (in oz). This was difficult for some participants, and some reports are outside of expected range. Sites were queried on outliers, but participants were not always able to be re-contacted. 
+To capture ‘standard drinks’ of alcohol, participants were asked to self-report their typical size of a single drink (in oz). This was difficult for some participants, and some reports are outside of expected range. Sites were queried on outliers, but participants were not always able to be re-contacted. 
 
 ### References
  * National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
@@ -67,14 +65,13 @@ In addition, participants were asked if they used any of the 18 substances betwe
 
 ### Implementation 
 **Method of Administration**: RA administered in person (except in Alabama, where it was self-administered)   
-**REDCap Form Name**: Assist V3  
-**Pilot Data Dictionary**:   
+**REDCap Form Name**: `Assist V3`  
 **Spanish Translation**: Created  
 **Child Specific/Unspecific Form**: Unspecific 
 **Respondent:** person who gave birth or primary caregiver
 
 ### Data Collection
-**Visits Administered and corresponding age range of administration**:  V3
+**Visits Administered and corresponding age range of administration**: V3
 **Estimated length of time for completion**: 3 minutes
 
 ### Quality Control (QC) 
@@ -96,14 +93,13 @@ None
 
 ### Implementation 
 **Method of Administration**: RA administered in person (except in Alabama, where it was self-administered) 
-**REDCap Form Name**: TLFB   
-**Pilot Data Dictionary**:   
+**REDCap Form Name**: `TLFB`   
 **Spanish Translation**: Created  
 **Child Specific/Unspecific Form**: Unspecific 
 **Respondent:** pregnant person or person who gave birth
 
 ### Data Collection
-**Visits Administered and corresponding age range of administration**:  V1, V2
+**Visits Administered and corresponding age range of administration**: V1, V2
 **Estimated length of time for completion**: 10 minutes
 
 ### Quality Control (QC) 

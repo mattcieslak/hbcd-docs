@@ -33,7 +33,7 @@ For example, given a sum of 47 for a scale of 12 items, with one item receiving 
 
 ### Implementation 
 **Method of Administration**: remote survey  
-**REDCap Form Name**: mh_cg_ibqr  
+**REDCap Form Name**: `mh_cg_ibqr`    
 **Pilot Data Dictionary**: IBQ  
 **Spanish Translation**: Existing  
 **Child Specific/Unspecific Form**: Child Specific  
@@ -62,9 +62,11 @@ None
  * [Mary Rothbart's Temperament Questionnaires](https://research.bowdoin.edu/rothbart-temperament-questionnaires)
 
 ### References 
- * Gartstein, M. A., & Rothbart, M. K. (2003). Studying infant temperament via the Revised Infant Behavior Questionnaire. Infant Behavior and Development, 26 (1), 64-86.
- * Putnam, S. P., Helbig, A. L., Gartstein, M. A., Rothbart, M. K. & Leerkes, E. (2014). Development and Assessment of Short and Very Short Forms of the Infant Behavior Questionnaire-Revised. Journal of Personality Assessment, 96, 445-458.
- * Rothbart, M. K. (1981). Measurement of temperament in infancy. Child Development, 52, 569-578.
+Gartstein, M. A., & Rothbart, M. K. (2003). Studying infant temperament via the Revised Infant Behavior Questionnaire. *Infant Behavior & Development*, 26(1), 64–86. [https://doi.org/10.1016/s0163-6383(02)00169-8](https://doi.org/10.1016/s0163-6383(02)00169-8)
+
+Putnam, S. P., Helbig, A. L., Gartstein, M. A., Rothbart, M. K., & Leerkes, E. (2014). Development and assessment of short and very short forms of the infant behavior questionnaire-revised. *Journal of Personality Assessment*, 96(4), 445–458. [https://doi.org/10.1080/00223891.2013.841171](https://doi.org/10.1080/00223891.2013.841171)
+
+Rothbart, M. K. (1981). Measurement of temperament in infancy. *Child Development*, 52(2), 569–578. [https://doi.org/10.1111/j.1467-8624.1981.tb03082.x](https://doi.org/10.1111/j.1467-8624.1981.tb03082.x)
 
 ## MAPS-TL
 ### Overview
@@ -88,8 +90,6 @@ Sum scores are computed by the following method:
 
 ### Implementation 
 **Method of Administration**: This questionnaire is to be filled out by the child’s caregiver in a remote setting. Questions inquire about the behaviors of the focal child over the past month.  
-**REDCap Form Name**: N/A  
-**Pilot Data Dictionary**: N/A  
 **Spanish Translation**: Yes  
 **Child Specific/Unspecific Form**: Child Specific  
 **Respondent:** Primary Caregiver
@@ -114,7 +114,7 @@ Sum scores are computed by the following method:
 The missingness rule not being correctly implemented leads to incorrect scores. Measure administration has a strict age cutoff. Age auto-generation needs to be fixed so that QC can ensure the measure is being administered to correct target population.
 
 ### References
- * Krogh-Jespersen, S., Kaat, A. J., Petitclerc, A., Perlman, S. B., Briggs-Gowan, M. J., Burns, J. L., ... & Wakschlag, L. S. (2022). Calibrating temper loss severity in the transition to toddlerhood: Implications for developmental science. *Applied developmental science,* 26(4), 785-798.
+Krogh-Jespersen, S., Kaat, A. J., Petitclerc, A., Perlman, S. B., Briggs-Gowan, M. J., Burns, J. L., Adam, H., Nili, A., Gray, L., & Wakschlag, L. S. (2022). Calibrating temper loss severity in the transition to toddlerhood: Implications for developmental science. *Applied Developmental Science*, 26(4), 785–798. [https://doi.org/10.1080/10888691.2021.1995386](https://doi.org/10.1080/10888691.2021.1995386)
 
 ## ecPROMIS Child-Caregiver Interaction
 ### Overview
@@ -124,16 +124,14 @@ The missingness rule not being correctly implemented leads to incorrect scores. 
 **Description**: The Early Childhood Patient-Reported Outcome Measurement Information System (ecPROMIS) offers clinicians and researchers a brief, efficient, and precise way to evaluate young children’s well-being. The ecPROMIS Child-Caregiver Relationship Scale assesses the degree to which young children develop close, satisfying relationships with caregivers. Questions inquire about the focal child/caregiver relationship over the past 7 days. The ecPROMIS Child/Caregiver relationship form (Infancy: < 1 year) was developed for HBCD based on the “PROMIS Early Childhood Parent-Report Short Form v1.0 - Social Relationships – Child-Caregiver Interactions 5a” form.
 
 **General Scoring Description and Procedure**: 
-Sum scores are computed by the following methods depending on the number of items answered out of 5 (‘fam_ec2’, ‘fam_ec6’, ‘fam_ec1’, ‘fam_ec4’, ‘fam_ec10’):
+Sum scores are computed by the following methods depending on the number of items answered out of 5 (`fam_ec2`, `fam_ec6`, `fam_ec1`, `fam_ec4`, `fam_ec10`):
 
  * If caregiver answers all 5 items: sum all numerical item responses
  * If caregiver answers 3 or 4 items: items without an answer are scored as zero and a prorated sum score is generated based on items with answers (`(sum of items answered/the number of items answered)*5`)
  * If caregiver answers fewer than 3 items: sum score marked as missing
 
 ### Implementation 
-**Method of Administration**: This questionnaire is to be filled out by the child’s caregiver in a remote setting.  
-**REDCap Form Name**: N/A   
-**Pilot Data Dictionary**: N/A    
+**Method of Administration**: This questionnaire is to be filled out by the child’s caregiver in a remote setting.    
 **Spanish Translation**: Yes    
 **Child Specific/Unspecific Form**: Child Specific    
 **Respondent:** Primary Caregiver
@@ -160,6 +158,8 @@ The missingness rule not being correctly implemented leads to incorrect scores. 
 HealthMeasures, the creators of ecPROMIS have an [Assessment Center API](https://www.healthmeasures.net/index.php?option=com_content&view=category&layout=blog&id=190&Itemid=1214) that translates sum scores into T-scores (see Links to Resources). When administered in REDCap, sum scores can be auto-calculated, and trigger an API call to obtain corresponding T-scores. Higher T-scores represent more of the phenomenon being measured. In this case, higher T-scores indicate increased child/caregiver interaction. 
 
 ### References
- * Cella, D., Blackwell, C.K., & Wakschlag, L.S. (2022). Bringing PROMIS to Early Childhood: Introduction and Qualitative Methods for the Development of Early Childhood Parent Report Instruments. *Journal of Pediatric Psychology*, 47(5):500-9.
- * Lai, J.S., Kallen, M.A., Blackwell, C.K., Wakschlag, L.S., & Cella, D. (2022). Psychometric Considerations in Developing PROMIS® Measures for Early Childhood. *Journal of Pediatric Psychology*, 47(5):510-22.
- * Park, C.H., Blaisdell, C.J., & Gillman, M.W. (2022). The NIH ECHO Program: An Impetus for the Development of Early Childhood PROMIS Tools. *Journal of Pediatric Psychology*, 47(5), 497-499.
+Cella, D., Blackwell, C. K., & Wakschlag, L. S. (2022). Bringing PROMIS to Early Childhood: Introduction and qualitative methods for the development of Early Childhood Parent Report instruments. *Journal of Pediatric Psychology*, 47(5), 500–509. [https://doi.org/10.1093/jpepsy/jsac027](https://doi.org/10.1093/jpepsy/jsac027)
+
+Lai, J.-S., Kallen, M. A., Blackwell, C. K., Wakschlag, L. S., & Cella, D. (2022). Psychometric considerations in developing PROMIS® measures for early childhood. *Journal of Pediatric Psychology*, 47(5), 510–522. [https://doi.org/10.1093/jpepsy/jsac025](https://doi.org/10.1093/jpepsy/jsac025)
+
+Park, C. H., Blaisdell, C. J., & Gillman, M. W. (2022). The NIH ECHO program: An impetus for the development of early childhood PROMIS tools. *Journal of Pediatric Psychology*, 47(5), 497–499. [https://doi.org/10.1093/jpepsy/jsac010](https://doi.org/10.1093/jpepsy/jsac010)

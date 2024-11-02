@@ -27,7 +27,7 @@
 ### Potential Issues Flagged by Subject Matter Experts
 None
 
-## References
+### References
 Hager, E. R., Quigg, A. M., Black, M. M., Coleman, S. M., Heeren, T., Rose-Jacobs, R., Cook, J. T., Ettinger de Cuba, S. A., Casey, P. H., Chilton, M., Cutts, D. B., Meyers, A. F., & Frank, D. A. (2010). Development and validity of a 2-item screen to identify families at risk for food insecurity. *Pediatrics*, 126(1), e26-32. [https://doi.org/10.1542/peds.2009-3146](https://doi.org/10.1542/peds.2009-3146)
 
 ## Breastfeeding
@@ -79,7 +79,7 @@ None
 **QC Procedures**: monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency.    
 **Common Issues Identified**: None
 
-## Potential Issues Flagged by Subject Matter Experts
+### Potential Issues Flagged by Subject Matter Experts
 None
 
 

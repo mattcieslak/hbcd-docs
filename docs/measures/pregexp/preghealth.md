@@ -8,8 +8,7 @@
 
 ### Implementation
 **Method of Administration**: self-administered  
-**REDCap Form Name**: Healthhx  
-**Pilot Data Dictionary**:   
+**REDCap Form Name**: `Healthhx`    
 **Spanish Translation**: Created  
 **Child Specific/Unspecific Form**: Unspecific  
 **Respondent:** pregnant person
@@ -35,8 +34,7 @@ None
 
 ### Implementation
 **Method of Administration**: self-administered  
-**REDCap Form Name**: Vacc  
-**Pilot Data Dictionary**:   
+**REDCap Form Name**: `Vacc`   
 **Spanish Translation**: Created  
 **Child Specific/Unspecific Form**: Unspecific  
 **Respondent:** pregnant person
@@ -62,14 +60,14 @@ None
 
 ### Implementation
 **Method of Administration**: RA-administered in person  
-**REDCap Form Name**: illness  
+**REDCap Form Name**: `illness`  
 **Pilot Data Dictionary**:   
 **Spanish Translation**: Created  
 **Child Specific/Unspecific Form**: Unspecific  
 **Respondent:** pregnant person
 
 ### Data Collection
-**Visits Administered and corresponding age range of administration**:  V1 (pregnancy)
+**Visits Administered and corresponding age range of administration**: V1 (pregnancy)
 **Estimated length of time for completion**: 3 minutes
 
 ### Quality Control (QC)
@@ -89,8 +87,7 @@ Illnesses are captured either from ICD codes (from BioPortal ICD) or symptom cod
 
 ### Implementation
 **Method of Administration**: RA-administered in person  
-**REDCap Form Name**: ERhosp  
-**Pilot Data Dictionary**:   
+**REDCap Form Name**: `ERhosp`  
 **Spanish Translation**: Created  
 **Child Specific/Unspecific Form**: Unspecific  
 **Respondent:** pregnant person
@@ -116,8 +113,7 @@ Reasons for ER visit or hospitalization are captured from ICD codes (from BioPor
 
 ### Implementation
 **Method of Administration**: self-administered in person  
-**REDCap Form Name**: chroncond  
-**Pilot Data Dictionary**:   
+**REDCap Form Name**: `chroncond`  
 **Spanish Translation**: Created  
 **Child Specific/Unspecific Form**: Unspecific  
 **Respondent:** pregnant person
@@ -143,8 +139,7 @@ None
 
 ### Implementation
 **Method of Administration**: RA-administered in person  
-**REDCap Form Name**: Meds  
-**Pilot Data Dictionary**:   
+**REDCap Form Name**: `Meds`   
 **Spanish Translation**: Created  
 **Child Specific/Unspecific Form**: Unspecific  
 **Respondent:** pregnant person
@@ -170,8 +165,7 @@ Medication was queried from the RxNORM database. Reasons for medication use are 
 
 ### Implementation
 **Method of Administration**: RA-administered in person  
-**REDCap Form Name**: HealthV2 Preg  
-**Pilot Data Dictionary**:   
+**REDCap Form Name**: `HealthV2 Preg`  
 **Spanish Translation**: Created  
 **Child Specific/Unspecific Form**: Unspecific  
 **Respondent:** person who gave birth
