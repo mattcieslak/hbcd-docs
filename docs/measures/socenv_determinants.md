@@ -10,7 +10,7 @@
 
 ### Implementation 
 **Method of Administration**: RA administered in person or remote survey  
-**REDCap Form Name**: sed\_bm\_nbhsaf  
+**REDCap Form Name**: `sed_bm_nbhsaf`  
 **Pilot Data Dictionary**: Unknown  
 **Spanish Translation**: Existing  
 **Child Specific/Unspecific Form**: Child Unspecific  
@@ -28,9 +28,9 @@
 None
 
 ### References
-Mujahid, M. S., Diez Roux, A. V., Morenoff, J. D., & Raghunathan, T. (2007). Assessing the measurement properties of neighborhood scales: from psychometrics to ecometrics. *American Journal of Epidemiology*, 165(8), 858–867. https://doi.org/10.1093/aje/kwm040
+Mujahid, M. S., Diez Roux, A. V., Morenoff, J. D., & Raghunathan, T. (2007). Assessing the measurement properties of neighborhood scales: from psychometrics to ecometrics. *American Journal of Epidemiology*, 165(8), 858–867. [https://doi.org/10.1093/aje/kwm040](https://doi.org/10.1093/aje/kwm040)
 
-PhenX Toolkit. (2024 November 01). Neighborhood Safety, PhenX Toolkit. https://www.phenxtoolkit.org/protocols/view/210901
+PhenX Toolkit. (2024 November 01). Neighborhood Safety, PhenX Toolkit. [https://www.phenxtoolkit.org/protocols/view/210901](https://www.phenxtoolkit.org/protocols/view/210901)
 
 ## Discrimination
 ### Overview
@@ -42,14 +42,14 @@ PhenX Toolkit. (2024 November 01). Neighborhood Safety, PhenX Toolkit. https://w
 
 ### Implementation 
 **Method of Administration**: Remote survey  
-**REDCap Form Name**: sed_bm_phx_i_discr; Phenx Discrimination (Experiences with Unfair Treatment) 
-**Pilot Data Dictionary**: sed_bm_phx_i_discr 
+**REDCap Form Name**: `sed_bm_phx_i_discr`; Phenx Discrimination (Experiences with Unfair Treatment) 
+**Pilot Data Dictionary**: `sed_bm_phx_i_discr` 
 **Spanish Translation**: Existing  
 **Child Specific/Unspecific Form**: Child Unspecific  
 **Respondent:** Parent on Self
 
 ### Data Collection
-**Visits**: V1, 2nd-3rd trimester and postnatal; V5, 10-17 months; V7, 16-31 months     
+**Visits**: V1 (2nd-3rd trimester and postnatal), V5 (10-17 months), V7 (16-31 months)     
 **Estimated length of time for completion**: 3 minutes
 
 ### Quality Control (QC) 
@@ -60,11 +60,11 @@ PhenX Toolkit. (2024 November 01). Neighborhood Safety, PhenX Toolkit. https://w
 None
 
 ### References
-PhenX Toolkit. (2024 November 01). Discrimination, PhenX Toolkit. https://www.phenxtoolkit.org/protocols/view/210302
+PhenX Toolkit. (2024 November 01). Discrimination, PhenX Toolkit. [https://www.phenxtoolkit.org/protocols/view/210302](https://www.phenxtoolkit.org/protocols/view/210302)
 
-Sternthal, M. J., Slopen, N., & Williams, D. R. (2011). Racial disparities in health. *Du Bois Review: Social Science Research on Race*, 8(1), 95–113. https://doi.org/10.1017/s1742058x11000087
+Sternthal, M. J., Slopen, N., & Williams, D. R. (2011). Racial disparities in health. *Du Bois Review: Social Science Research on Race*, 8(1), 95–113. [https://doi.org/10.1017/s1742058x11000087](https://doi.org/10.1017/s1742058x11000087)
 
-Williams, D. R. (2015). Measuring discrimination resource. http://scholar.harvard.edu/davidrwilliams/node/32777
+Williams, D. R. (2015). Measuring discrimination resource. [http://scholar.harvard.edu/davidrwilliams/node/32777](http://scholar.harvard.edu/davidrwilliams/node/32777)
 
 ## PACES
 ### Overview
@@ -76,7 +76,7 @@ Williams, D. R. (2015). Measuring discrimination resource. http://scholar.harvar
 
 ### Implementation 
 **Method of Administration**: RA administered in person, remote survey   
-**REDCap Form Name**: sed_bm_paces  
+**REDCap Form Name**: `sed_bm_paces`  
 **Pilot Data Dictionary**: PACES  
 **Spanish Translation**: BURG     
 **Child Specific/Unspecific Form**: Child Unspecific  
@@ -93,9 +93,9 @@ Williams, D. R. (2015). Measuring discrimination resource. http://scholar.harvar
 None
 
 ### References
-Morris, A. S., Hays-Grudo, J., Zapata, M. I., Treat, A., & Kerr, K. L. (2021). Adverse and protective childhood experiences and parenting attitudes: The role of cumulative protection in understanding resilience. *Adversity and Resilience Science*, 2(3), 181–192. https://doi.org/10.1007/s42844-021-00036-8
+Morris, A. S., Hays-Grudo, J., Zapata, M. I., Treat, A., & Kerr, K. L. (2021). Adverse and protective childhood experiences and parenting attitudes: The role of cumulative protection in understanding resilience. *Adversity and Resilience Science*, 2(3), 181–192. [https://doi.org/10.1007/s42844-021-00036-8](https://doi.org/10.1007/s42844-021-00036-8)
 
-Morris, A. S., Treat, A., Hays-Grudo, J., Chesher, T., Williamson, A. C., & Mendez, J. (2018). Integrating research and theory on early relationships to guide intervention and prevention. In *Building Early Social and Emotional Relationships with Infants and Toddlers* (pp. 1–25). Springer International Publishing. https://doi.org/10.1007/978-3-030-03110-7_1
+Morris, A. S., Treat, A., Hays-Grudo, J., Chesher, T., Williamson, A. C., & Mendez, J. (2018). Integrating research and theory on early relationships to guide intervention and prevention. In *Building Early Social and Emotional Relationships with Infants and Toddlers* (pp. 1–25). Springer International Publishing. [https://doi.org/10.1007/978-3-030-03110-7_1](https://doi.org/10.1007/978-3-030-03110-7_1)
 
 
 ## Perceived Stress/Social Support
@@ -108,7 +108,7 @@ Morris, A. S., Treat, A., Hays-Grudo, J., Chesher, T., Williamson, A. C., & Mend
 
 ### Implementation 
 **Method of Administration**: Remote survey       
-**REDCap Form Name**: sed_bm_strsup     
+**REDCap Form Name**: `sed_bm_strsup`     
 **Pilot Data Dictionary**: PROMIS        
 **Spanish Translation**: Existing        
 **Child Specific/Unspecific Form**: Child Specific  
@@ -129,9 +129,9 @@ None
 Relevant Documents: Scoring Manuals
 
 ### References
-Cohen, S., Kamarck, T., & Mermelstein, R. (1983). A global measure of perceived stress. *Journal of Health and Social Behavior*, 24(4), 385–396. https://doi.org/10.2307/2136404
+Cohen, S., Kamarck, T., & Mermelstein, R. (1983). A global measure of perceived stress. *Journal of Health and Social Behavior*, 24(4), 385–396. [https://doi.org/10.2307/2136404](https://doi.org/10.2307/2136404)
 
-Hahn, E. A., Cella, D., Bode, R. K., & Hanrahan, R. T. (2010). Measuring social well-being in people with chronic illness. *Social Indicators Research*, 96(3), 381–401. https://doi.org/10.1007/s11205-009-9484-z
+Hahn, E. A., Cella, D., Bode, R. K., & Hanrahan, R. T. (2010). Measuring social well-being in people with chronic illness. *Social Indicators Research*, 96(3), 381–401. [https://doi.org/10.1007/s11205-009-9484-z](https://doi.org/10.1007/s11205-009-9484-z)
 
 ## Baby’s First Year
 ### Overview
@@ -143,14 +143,14 @@ Hahn, E. A., Cella, D., Bode, R. K., & Hanrahan, R. T. (2010). Measuring social 
 
 ### Implementation
 **Method of Administration**: In Person     
-**REDCap Form Name**: sed_bm_bfy      
+**REDCap Form Name**: `sed_bm_bfy`      
 **Pilot Data Dictionary**: BFY-Economic Stress      
 **Spanish Translation**: Publisher BURG     
 **Child Specific/Unspecific Form**: Child Unpecific  
 **Respondent:** Parent on Self    
 
 ### Data Collection
-**Visits**: V01 Prenatal        
+**Visits**: V01 (prenatal)        
 **Estimated length of time for completion**: 4 minutes
 
 ### Quality Control (QC)
@@ -175,14 +175,14 @@ Sanbonmatsu L., Marvokov J., Porter N., Yang F., Adam E., Congdon W. J., Duncan 
 
 ### Implementation
 **Method of Administration**: In Person     
-**REDCap Form Name**: sed_bm_ehits      
+**REDCap Form Name**: `sed_bm_ehits`      
 **Pilot Data Dictionary**:          
 **Spanish Translation**: BURG     
 **Child Specific/Unspecific Form**: Child Unpecific  
 **Respondent:** Parent on Self    
 
 ### Data Collection
-**Visits**: V01 Prenatal        
+**Visits**: V01 (prenatal)        
 **Estimated length of time for completion**: 2 minutes
 
 ### Quality Control (QC)
