@@ -58,7 +58,7 @@ We learned through RA reports that some participants reported challenges in answ
 | Jobs During Pregnancy- Type of Work | HBCD<sup>2</sup> | None |
 | Jobs During Pregnancy- Job Start/Stop Dates | HBCD<sup>2</sup> | None |
 | Jobs During Pregnancy- Typical Hours/Week | HBCD<sup>2</sup> | None |
-| Jobs During Pregnancy- Shift Schedule | Baby's First Years | BFY Year 1 Protocol \- G39, SchedMain |
+| Jobs During Pregnancy- Shift Schedule | Baby's First Years | BFY Year 1 Protocol - G39, SchedMain |
 
 **DEMOGRAPHICS OF OTHER BIOLOGICAL PARENT**  
 

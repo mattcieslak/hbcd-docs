@@ -116,7 +116,7 @@ Important note for users: the TLFB was a sampling of weeks of use before (Weeks 
 
 Also of note- participants were asked to report occasions (except cigarettes/ cigarillos and drinks (number), but some substances (e.g. electronic cigarette devices) are difficult to report in occasions and have outliers.
 
-The TLFB data should be combined with the biospecimen and Assist data. One could also create trajectories of use from the TLFB with assumptions by using data on early pregnancy (weeks 3-6) carried forward until stated pregnancy recognition (V1 Health), then using enrollment (week 7\) information and carrying that forward until late pregnancy (weeks 8-9). 
+The TLFB data should be combined with the biospecimen and Assist data. One could also create trajectories of use from the TLFB with assumptions by using data on early pregnancy (weeks 3-6) carried forward until stated pregnancy recognition (V1 Health), then using enrollment (week 7) information and carrying that forward until late pregnancy (weeks 8-9). 
 
 ### References
  * Sobell, L., & Sobell, M. (2000). Alcohol timeline follow-back (TLFB). In *Handbook of psychiatric measures.* (p. 477). American Psychiatric Association.
