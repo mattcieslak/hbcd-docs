@@ -1,7 +1,5 @@
-# Neurocognition & Language
-
-## Multilingual Language Development Screener
-### Overview
+# Neurocognition & Language: Multilingual Language Development Screener
+## Measure Overview
 **Full Name**: Multilingual Language Development Screener    
 **Acronym/Brief Name**: MLDS    
 **Construct**: Multilingual exposure       
@@ -23,21 +21,17 @@ Frequency of English and Spanish was quantified for each environment as follows:
 
 The total frequency of Spanish and English was then computed by multiplying the percentage of English and Spanish language provided per environment by the total hours per week in both the home and other care environments. The values are provided for home and for the overall total child experience, combining home and other care environments.
 
-### Implementation
+## Implementation & Data Collection
 **Method of Administration**: This measure is completed remotely by caregivers prior to when cognitive and language assessments will be performed. If the caregiver does not complete the assessment remotely, it is conducted at the visit to document the child’s language exposure environments. The instrument can be administered by an RA in person or via video as needed.    
 **REDCap Form Name**: Child Language Exposure Survey    
 **Pilot Data Dictionary**: ncl_ch_mlds  
 **Spanish Translation**: Existing   
 **Child Specific/Unspecific Form**: Child Specific  
-**Respondent:** Primary caregiver of the child
-
-### Data Collection
+**Respondent:** Primary caregiver of the child  
 **Visits Administered and corresponding age range of administration**: V3, V4, V5, V6, V7, V8  
 **Estimated length of time for completion**: 3-10 minutes
 
-### Quality Control (QC)
+## Quality Control & Known Issues
 **QC Procedures:** Frequency of decline to answer and completeness was monitored during data collection.        
-**Common Issues Identified:** Initial data shows that about 10% of questionnaires were not complete.
-
-### Potential Issues Flagged by Subject Matter Experts
-None
+**Common Issues Identified:** Initial data shows that about 10% of questionnaires were not complete.    
+**Potential Issues Flagged by Subject Matter Experts:** None
