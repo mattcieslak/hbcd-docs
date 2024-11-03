@@ -1,12 +1,12 @@
 # The Edinburgh Postnatal Depression Scale 
-## Measure Overview
+**MEASURE OVERVIEW**    
 **Full Name**: The Edinburgh Postnatal Depression Scale   
 **Acronym/Brief Name**: EPDS  
 **Construct**: Pregnancy/postnatal depression  
 **Description**: This was a created to capture symptoms of maternal depression  
 **Summary**: The Edinburgh Postnatal Depression Scale (EPDS), a sensitive, 10-item screening tool for prenatal and postpartum depression symptoms, was selected due to its ease of administration and widely accepted use.
 
-## Implementation & Data Collection
+**IMPLEMENTATION & DATA COLLECTION**  
 **Method of Administration**: self-administered in person or remote  
 **REDCap Form Name**: `EPDS`  
 **Pilot Data Dictionary**:   
@@ -16,12 +16,12 @@
 **Visits**:  V1, V2, V3  
 **Estimated length of time for completion**: 3 minutes
 
-## Quality Control (QC) 
+**QUALITY CONTROL & KNOWN ISSUES**   
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None  
 **Potential Issues Flagged by Subject Matter Experts**: None
 
-## Additional Information
+**ADDITIONAL INFORMATION**   
 Note: the following scores on the EPDS triggered a clinical alert for study staff:  
 
   * EPDS suicide ('The thought of harming myself has occurred to me'), score greater than 1
@@ -29,5 +29,6 @@ Note: the following scores on the EPDS triggered a clinical alert for study staf
 
 The EPDS was scored as follows: [https://med.stanford.edu/content/dam/sm/ppc/documents/DBP/EDPS_text_added.pdf](https://med.stanford.edu/content/dam/sm/ppc/documents/DBP/EDPS_text_added.pdf)
 
-## References
+**REFERENCES**
+   
 - Cox, J. L., Holden, J. M., & Sagovsky, R. (1987). Detection of postnatal depression . Development of the 10-item Edinburgh Postnatal Depression Scale. *British Journal of Psychiatry*, *150*, 782–786. [https://doi.org/10.1192/bjp.150.6.782](https://doi.org/10.1192/bjp.150.6.782)

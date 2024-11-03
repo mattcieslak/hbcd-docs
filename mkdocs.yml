@@ -50,12 +50,12 @@ nav:
               - ecPROMIS Child-Caregiver Interaction: measures/beh_CG_interaction/ePROMIS.md
           - "Pregnancy & Exposure": 
               - Pregnancy Health Measures (7): measures/pregexp/preghealth_all.md
-              - Infant Health- V2: measures/pregexp/infanthealth.md
+              - Infant Health: measures/pregexp/infanthealth.md
               - "Personal & Family Psychiatric History": measures/pregexp/psych_history.md
               - Substance Use Measures (4): measures/pregexp/substanceuse_all.md
-              - APA 1/2: measures/pregexp/APA.md
-              - NSESSS—PTSD and NSESSS—Acute Stress Disorder: measures/pregexp/NSESSS.md
-              - The Edinburgh Postnatal Depression Scale: measures/pregexp/edinburgh_postnatal_depression.md
+              - Meantal Health: measures/pregexp/APA.md
+              - "NSESSS—PTSD & NSESSS—Acute Stress Disorder": measures/pregexp/NSESSS.md
+              - Edinburgh Postnatal Depression Scale: measures/pregexp/edinburgh_postnatal_depression.md
       - "MRI Protocols": 
           - Overview: mriprotocols/overview.md
           - Siemens Protocol: mriprotocols/siemens.md
