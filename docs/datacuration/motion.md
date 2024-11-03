@@ -1,8 +1,3 @@
----
-hide:
-  - toc
----
-
 # Motion Data Curation & BIDS Conversion
 Axivity AX6 sensors were used to record infant leg movements across 72 continuous hours. One sensor was placed on the distal right ankle and one sensor was placed on the distal left ankle, using leg warmers with a pocket to hold the sensor. Sensors were set to start recording at 10 am eastern/9 am central/8 am mountain/7 am pacific. Caregivers were instructed to go about their typical activities but to remove the sensors if the baby went into water (e.g., bathtub or pool) and replace them afterward.  
    
@@ -30,5 +25,4 @@ root/
 |   |   |   |__ sub-<label>_ses-<label>_task-<label>_tracksys-imu_acq-<label>_channels.json
 ```
 
-## Sensor recordings
-An actual recording will be labeled as `sub-<label>_ses-<label>_task-<label>_tracksys-imu_acq-<label>_motion.tsv`. The *acquisition* label for the calibration files is `calibration `while the label for the data files is `primary`. The task label will be either `LeftLegMovement` or `RightLegMovement`. The JSON sidecar contains recording related metadata `*_channels.tsv` which describes each column of the corresponding `*_motion.tsv`. 
+For sensor recordings, an actual recording will be labeled as `sub-<label>_ses-<label>_task-<label>_tracksys-imu_acq-<label>_motion.tsv`. The *acquisition* label for the calibration files is `calibration `while the label for the data files is `primary`. The task label will be either `LeftLegMovement` or `RightLegMovement`. The JSON sidecar contains recording related metadata `*_channels.tsv` which describes each column of the corresponding `*_motion.tsv`. 
