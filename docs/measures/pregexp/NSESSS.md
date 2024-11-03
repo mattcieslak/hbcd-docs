@@ -1,12 +1,12 @@
 # NSESSS—PTSD and NSESSS—Acute Stress Disorder
-**MEASURE OVERVIEW**  
+## Measure Overview
 **Full Name**: Severity of Posttraumatic/Acute Stress Symptoms- National Stressful Events Survey PTSD Short Scale (NSESSS) and National Stressful Events Survey Acute Stress Disorder Short Scale (NSESSS)  
 **Acronym/Brief Name**: NSESSS—PTSD and NSESSS—Acute Stress Disorder  
 **Construct**: PTSD/acute stress disorder symptom severity  
 **Description**: This measure was created to capture maternal PTSD and acute stress symptoms  
 **Summary**: The Severity of Posttraumatic/Acute Stress Symptoms is a measure that assesses the severity of symptoms of post-traumatic stress disorder and acute stress disorder in individuals ages 18 and older following an extremely stressful event or experience. Items 1-9 from the National Stressful Events Survey PTSD Short Scale (NSESSS—PTSD) and Item 3 from the National Stressful Events Survey Acute Stress Disorder Short Scale (NSESSS—Acute Stress Disorder) were combined into a single assessment for the HBCD study to capture the severity of maternal posttraumatic/acute stress symptoms.
 
-**IMPLEMENTATION & DATA COLLECTION**    
+## Implementation & Data Collection
 **Method of Administration**: self-administered in person or remote   
 **REDCap Form Name**: `DSD5 Severity Acute Stress` or `PTSD`     
 **Spanish Translation**: Created  
@@ -15,12 +15,12 @@
 **Visits**:  V1, V2, V3   
 **Estimated length of time for completion**: 3 minutes
 
-**QUALITY CONTROL & KNOWN ISSUES**   
+## Quality Control & Known Issues 
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None  
 **Potential Issues Flagged by Subject Matter Experts**: None
 
-**REFERENCES**      
+## References
 This measure is a combination of two measures: the Severity of Posttraumatic Stress Symptoms—Adult* National Stressful Events Survey PTSD Short Scale (NSESSS-PTSD) (questions 1-9) [**https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Posttraumatic-Stress-Symptoms-Adult.pdf**](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Posttraumatic-Stress-Symptoms-Adult.pdf)
 
 And the Severity of Acute Stress Symptoms—Adult* National Stressful Events Survey Acute Stress Disorder Short Scale (NSESSS-Acute Stress Disorder) (question 3) [**https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Acute-Stress-Symptoms-Adult.pdf**](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Acute-Stress-Symptoms-Adult.pdf)

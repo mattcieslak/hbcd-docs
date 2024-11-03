@@ -1,12 +1,12 @@
 # Mental Health
-**MEASURE OVERVIEW**    
+## Measure Overview
 **Full Name**: DSM-5 Self-Rated Level 1 and Level 2 (version 8a) Cross-Cutting Symptom Measure—Adult   
 **Acronym/Brief Name**: APA 1/2  
 **Construct**: Mental health   
 **Description**: This was a created to capture maternal mental health  
 **Summary**: This is a highly sensitive screening tool for use in community samples. This mental health screening instrument has two levels. Level 1 includes one to two questions for each of thirteen mental health conditions. When symptoms were reported for Level 1, the participant answered several subsequent questions, which asked about additional symptoms associated with each mental health condition, including anger, anxiety, depression, somatic symptoms, and sleep problems. Slight modifications were made due to the use of other measures and the study population. Specifically, the level 1 questions for personality functioning and substance use were not included; participants proceed automatically to level 2 measures. In addition, all participants answer the level 1 questions on depression but proceed to level 2 questions irrespective of answers.
 
-**IMPLEMENTATION & DATA COLLECTION**    
+## Implementation & Data Collection
 **Method of Administration**: self-administered in person or remote    
 **REDCap Form Name**: APA Level 1/2   
 **Spanish Translation**: Created  
@@ -15,12 +15,12 @@
 **Visits**: V1, V2, V3
 **Estimated length of time for completion**: 5 minutes
 
-**QUALITY CONTROL & KNOWN ISSUES**      
+## Quality Control & Known Issues 
 **QC Procedures**: Distributions for answers  
 **Common Issues Identified**: None  
 **Potential Issues Flagged by Subject Matter Experts**: None
 
-**ADDITIONAL INFORMATION**   
+## Additional Information
 When symptoms were reported for Level 1, the participant answered several subsequent questions, which asked about additional symptoms associated with each mental health condition, including anger, anxiety, depression, somatic symptoms, and sleep problems. Slight modifications were made due to the use of other measures and the study population. Specifically, the level 1 questions for personality functioning and substance use were not included; participants proceed automatically to level 2 measures. In addition, all participants answer the level 1 questions on depression but proceed to level 2 questions irrespective of answers.
 
 Note: The following scores triggered an alert for study staff:   
@@ -41,6 +41,6 @@ Other:
  * Listed in this section as well is the Personality Inventory for DSM-5 Brief. It assesses 5 personality trait domains including negative affect, detachment, antagonism, disinhibition,  
 and psychoticism, with each trait domain consisting of 5 items. Information about the measure and scoring can be found here: https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_The-Personality-Inventory-For-DSM-5-Brief-Form-Adult.pdf
 
-**REFERENCES**      
+## References
 - Doss, R. A., & Lowmaster, S. E. (2022). Validation of the DSM-5 Level 1 Cross-Cutting Symptom Measure in a Community  Sample. *Psychiatry Research*, *318*, 114935. [https://doi.org/10.1016/j.psychres.2022.114935](https://doi.org/10.1016/j.psychres.2022.114935)
 - Roche, M. J., Pincus, A. L., & Cole, P. E. (2019). Linking dimensions and dynamics in psychopathology research: An example using DSM-5 instruments. *Journal of Research in Personality*, *82*, 103852. [https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852](https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852)
