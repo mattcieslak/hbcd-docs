@@ -4,10 +4,10 @@ Substance use measures include ASSIST V1, ASSIST V2, and ASSIST V3 measures (**F
 
 | REDCap Name  | Construct | Respondant | Time | Visit |
 | - | - | - | - | - |
-| `Assist V1`| Substance use before and during pregnancy | pregnant person | 5 min | V1 |
-| `Assist V2` | Substance use (end of pregnancy and postnatal) | person who gave birth | 5 min | V2 |
-| `Assist V3` | Substance use after pregnancy | person who gave birth or primary caregiver | 3 min | V3 |
-| `TLFB` | Substance use before and during pregnancy | person who gave birth or primary caregiver | 10 min | V1, V2 |
+| `Assist V1`| <sup>Substance use before and during pregnancy</sup> | <sup>Pregnant person</sup> | 5 min | V1 |
+| `Assist V2` | <sup>Substance use (end of pregnancy and postnatal)</sup> | <sup>Person who gave birth</sup> | 5 min | V2 |
+| `Assist V3` | <sup>Substance use after pregnancy</sup> | <sup>Person who gave birth<br>or primary caregiver</sup> | 3 min | V3 |
+| `TLFB` | <sup>Substance use before and during pregnancy</sup> | <sup>Person who gave birth<br>or primary caregiver</sup> | 10 min | V1, V2 |
 
 In addition, the following implementations were common to all measures:  
 **Method of Administration**: RA administered in person (except in Alabama, where it was self-administered)     
