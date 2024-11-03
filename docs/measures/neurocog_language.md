@@ -1,4 +1,4 @@
-# Neurocognition & Language: Multilingual Language Development Screener
+# Multilingual Language Development Screener
 ## Measure Overview
 **Full Name**: Multilingual Language Development Screener    
 **Acronym/Brief Name**: MLDS    

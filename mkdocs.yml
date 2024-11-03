@@ -27,14 +27,17 @@ nav:
               - Perceived Stress/Social Support: measures/socenv_determinants/perceived_stress.md
               - Baby's First Year: measures/socenv_determinants/bfy.md
               - eHITS: measures/socenv_determinants/eHITS.md
-          - "Neurocognition & Language": measures/neurocog_language.md          
+          - "Neurocognition & Language": 
+              - Multilingual Language Development Screener: measures/neurocog_language.md          
           - Electroencephalogram (EEG): 
               - Video Resting State: measures/eeg/video_rs.md
               - Faces Task: measures/eeg/faces_task.md
               - Auditory Mismatch Negativity Task: measures/eeg/aud_mm.md
               - Visual Evoked Potential Task: measures/eeg/vis_ep_task.md
           - Magnetic Resonance Imaging (MRI): measures/mri.md
-          - "Novel Technologies & Wearable Sensors": measures/sensors.md
+          - "Novel Technologies & Wearable Sensors": 
+              - Wearable Sensors: measures/sensors/wearable_sensors.md
+              - Infant Sensor Questionnaire: measures/sensors/sensor_questionnaire.md
           - "Physical Health": measures/physhealth.md
           - "Behavior & Caregiver-Child Interaction": measures/behavior.md
           - "Pregnancy & Exposure": 
