@@ -6,7 +6,7 @@
 **Description**: The task consists of 2 blocks: 50 trials of upright faces & 50 trials of inverted faces and 50 trials of upright faces & 50 trials of objects. If the child loses attention, an attention getter may be played to bring the child’s focus back to the task. 
 
 **Face task images (Face vs. Object)**<br>
-![](./../images/eeg-facetask.png)
+![](images/eeg-facetask.png)
 
 **Face task schematic (Face vs. Object)**<br>
 **UNDER CONSTRUCTION**
