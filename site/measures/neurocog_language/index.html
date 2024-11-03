@@ -5,15 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>Neurocognition & Language - HBCD Data Release</title>
+    <title>Multilingual Language Development Screener - HBCD Data Release</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
-        <link href="../../css/custom.css" rel="stylesheet" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Neurocognition \u0026 Language";
+        var mkdocs_page_name = "Multilingual Language Development Screener";
         var mkdocs_page_input_path = "measures/neurocog_language.md";
         var mkdocs_page_url = null;
       </script>
@@ -41,54 +40,104 @@
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../..">About</a>
+                <li class="toctree-l1"><a class="reference internal" href="../..">ABOUT</a>
                 </li>
               </ul>
               <p class="caption"><span class="caption-text">Release Notes</span></p>
               <ul class="current">
                   <li class="toctree-l1 current"><a class="reference internal current" >Data Measures & Quality Control</a>
     <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../">Overview</a>
+                </li>
                 <li class="toctree-l2"><a class="reference internal" href="../demographics/">Demographics</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../socenv_determinants/">Social & Environmental Determinants</a>
+                <li class="toctree-l2"><a class="reference internal" >Social & Environmental Determinants</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../socenv_determinants/neighborhood_safety/">Neighborhood Safety</a>
                 </li>
-                <li class="toctree-l2 current"><a class="reference internal current" href="#">Neurocognition & Language</a>
+                <li class="toctree-l3"><a class="reference internal" href="../socenv_determinants/discrimination/">Discrimination</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../socenv_determinants/PACES/">PACES</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../socenv_determinants/perceived_stress/">Perceived Stress/Social Support</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../socenv_determinants/bfy/">Baby's First Year</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../socenv_determinants/eHITS/">eHITS</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" >Neurocognition & Language</a>
     <ul class="current">
-    <li class="toctree-l3"><a class="reference internal" href="#multilingual-language-development-screener">Multilingual Language Development Screener</a>
-        <ul>
-    <li class="toctree-l4"><a class="reference internal" href="#overview">Overview</a>
+                <li class="toctree-l3 current"><a class="reference internal current" href="#">Multilingual Language Development Screener</a>
+    <ul class="current">
+    <li class="toctree-l4"><a class="reference internal" href="#measure-overview">Measure Overview</a>
     </li>
-    <li class="toctree-l4"><a class="reference internal" href="#implementation">Implementation</a>
+    <li class="toctree-l4"><a class="reference internal" href="#implementation-data-collection">Implementation &amp; Data Collection</a>
     </li>
-    <li class="toctree-l4"><a class="reference internal" href="#data-collection">Data Collection</a>
-    </li>
-    <li class="toctree-l4"><a class="reference internal" href="#quality-control-qc">Quality Control (QC)</a>
-    </li>
-    <li class="toctree-l4"><a class="reference internal" href="#potential-issues-flagged-by-subject-matter-experts">Potential Issues Flagged by Subject Matter Experts</a>
-    </li>
-        </ul>
+    <li class="toctree-l4"><a class="reference internal" href="#quality-control-known-issues">Quality Control &amp; Known Issues</a>
     </li>
     </ul>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../eeg/">Electroencephalogram (EEG)</a>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Electroencephalogram (EEG)</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../eeg/video_rs/">Video Resting State</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../eeg/faces_task/">Faces Task</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../eeg/aud_mm/">Auditory Mismatch Negativity Task</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../eeg/vis_ep_task/">Visual Evoked Potential Task</a>
+                </li>
+    </ul>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../mri/">Magnetic Resonance Imaging (MRI)</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../sensors/">Novel Technologies & Wearable Sensors</a>
+                <li class="toctree-l2"><a class="reference internal" >Novel Technologies & Wearable Sensors</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../sensors/wearable_sensors/">Wearable Sensors</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../physhealth/">Physical Health</a>
+                <li class="toctree-l3"><a class="reference internal" href="../sensors/sensor_questionnaire/">Infant Sensor Questionnaire</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../behavior/">Behavior & Caregiver-Child Interaction</a>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Physical Health</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../physhealth/food_insecurity/">Food Insecurity</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../physhealth/breastfeeding/">Breastfeeding</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../physhealth/growth/">Growth</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Behavior & Caregiver-Child Interaction</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../beh_CG_interaction/IBQ-R/">IBQ-R (VSF)+BI</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../beh_CG_interaction/MAPS-TL/">MAPS-TL</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../beh_CG_interaction/ePROMIS/">ecPROMIS Child-Caregiver Interaction</a>
+                </li>
+    </ul>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" >Pregnancy & Exposure</a>
     <ul>
                 <li class="toctree-l3"><a class="reference internal" href="../pregexp/preghealth/">Pregnancy Health</a>
                 </li>
-                <li class="toctree-l3"><a class="reference internal" href="../pregexp/infant/">Infant Health</a>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/preghealth_all/">Pregnancy Health Measures</a>
                 </li>
-                <li class="toctree-l3"><a class="reference internal" href="../pregexp/mentalhealth/">Psychiatric Evaluation & History</a>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/infanthealth/">Infant Health- V2</a>
                 </li>
-                <li class="toctree-l3"><a class="reference internal" href="../pregexp/substanceuse/">Substance Use</a>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/psych_history/">Personal & Family Psychiatric History</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/APA/">APA 1/2</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/NSESSS/">NSESSS—PTSD and NSESSS—Acute Stress Disorder</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/edinburgh_postnatal_depression/">The Edinburgh Postnatal Depression Scale</a>
                 </li>
     </ul>
                 </li>
@@ -96,6 +145,8 @@
                   </li>
                   <li class="toctree-l1"><a class="reference internal" >MRI Protocols</a>
     <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/overview/">Overview</a>
+                </li>
                 <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/siemens/">Siemens Protocol</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/ge/">GE Protocol</a>
@@ -169,7 +220,8 @@
     <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
           <li class="breadcrumb-item">Release Notes</li>
           <li class="breadcrumb-item">Data Measures & Quality Control</li>
-      <li class="breadcrumb-item active">Neurocognition & Language</li>
+          <li class="breadcrumb-item">Neurocognition & Language</li>
+      <li class="breadcrumb-item active">Multilingual Language Development Screener</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -178,9 +230,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="neurocognition-language">Neurocognition &amp; Language</h1>
-<h2 id="multilingual-language-development-screener">Multilingual Language Development Screener</h2>
-<h3 id="overview">Overview</h3>
+                <h1 id="multilingual-language-development-screener">Multilingual Language Development Screener</h1>
+<h2 id="measure-overview">Measure Overview</h2>
 <p><strong>Full Name</strong>: Multilingual Language Development Screener  <br />
 <strong>Acronym/Brief Name</strong>: MLDS  <br />
 <strong>Construct</strong>: Multilingual exposure     <br />
@@ -197,27 +248,25 @@
 <li>neither Spanish nor English: child’s language environment has &lt; 30% Spanish AND &lt; 30% Englis</li>
 </ul>
 <p>The total frequency of Spanish and English was then computed by multiplying the percentage of English and Spanish language provided per environment by the total hours per week in both the home and other care environments. The values are provided for home and for the overall total child experience, combining home and other care environments.</p>
-<h3 id="implementation">Implementation</h3>
+<h2 id="implementation-data-collection">Implementation &amp; Data Collection</h2>
 <p><strong>Method of Administration</strong>: This measure is completed remotely by caregivers prior to when cognitive and language assessments will be performed. If the caregiver does not complete the assessment remotely, it is conducted at the visit to document the child’s language exposure environments. The instrument can be administered by an RA in person or via video as needed.  <br />
 <strong>REDCap Form Name</strong>: Child Language Exposure Survey  <br />
 <strong>Pilot Data Dictionary</strong>: ncl_ch_mlds<br />
 <strong>Spanish Translation</strong>: Existing <br />
 <strong>Child Specific/Unspecific Form</strong>: Child Specific<br />
-<strong>Respondent:</strong> Primary caregiver of the child</p>
-<h3 id="data-collection">Data Collection</h3>
-<p><strong>Visits Administered and corresponding age range of administration</strong>: V3, V4, V5, V6, V7, V8<br />
+<strong>Respondent:</strong> Primary caregiver of the child<br />
+<strong>Visits</strong>: V3, V4, V5, V6, V7, V8<br />
 <strong>Estimated length of time for completion</strong>: 3-10 minutes</p>
-<h3 id="quality-control-qc">Quality Control (QC)</h3>
+<h2 id="quality-control-known-issues">Quality Control &amp; Known Issues</h2>
 <p><strong>QC Procedures:</strong> Frequency of decline to answer and completeness was monitored during data collection.      <br />
-<strong>Common Issues Identified:</strong> Initial data shows that about 10% of questionnaires were not complete.</p>
-<h3 id="potential-issues-flagged-by-subject-matter-experts">Potential Issues Flagged by Subject Matter Experts</h3>
-<p>None</p>
+<strong>Common Issues Identified:</strong> Initial data shows that about 10% of questionnaires were not complete.  <br />
+<strong>Potential Issues Flagged by Subject Matter Experts:</strong> None</p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../socenv_determinants/" class="btn btn-neutral float-left" title="Social & Environmental Determinants"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../eeg/" class="btn btn-neutral float-right" title="Electroencephalogram (EEG)">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../socenv_determinants/eHITS/" class="btn btn-neutral float-left" title="eHITS"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../eeg/video_rs/" class="btn btn-neutral float-right" title="Video Resting State">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -240,10 +289,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../socenv_determinants/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../socenv_determinants/eHITS/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../eeg/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../eeg/video_rs/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

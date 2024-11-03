@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
-        <link href="../../css/custom.css" rel="stylesheet" />
     
       <script>
         // Current page data
@@ -41,54 +40,108 @@
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../..">About</a>
+                <li class="toctree-l1"><a class="reference internal" href="../..">ABOUT</a>
                 </li>
               </ul>
               <p class="caption"><span class="caption-text">Release Notes</span></p>
               <ul class="current">
                   <li class="toctree-l1 current"><a class="reference internal current" >Data Measures & Quality Control</a>
     <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../">Overview</a>
+                </li>
                 <li class="toctree-l2 current"><a class="reference internal current" href="#">Demographics</a>
     <ul class="current">
-    <li class="toctree-l3"><a class="reference internal" href="#overview">Overview</a>
+    <li class="toctree-l3"><a class="reference internal" href="#measure-overview">Measure Overview</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#implementation">Implementation</a>
+    <li class="toctree-l3"><a class="reference internal" href="#implementation-data-collection">Implementation &amp; Data Collection</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#data-collection">Data Collection</a>
+    <li class="toctree-l3"><a class="reference internal" href="#quality-control-known-issues">Quality Control &amp; Known Issues</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#quality-control-qc">Quality Control (QC)</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#potential-issues-flagged-by-subject-matter-experts">Potential Issues Flagged by Subject Matter Experts</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#appendix-source-information-for-demographic-measures">Appendix. Source Information for Demographic Measures</a>
+    <li class="toctree-l3"><a class="reference internal" href="#source-information-for-demographic-measures">Source Information for Demographic Measures</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#references">References</a>
     </li>
     </ul>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../socenv_determinants/">Social & Environmental Determinants</a>
+                <li class="toctree-l2"><a class="reference internal" >Social & Environmental Determinants</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../socenv_determinants/neighborhood_safety/">Neighborhood Safety</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../neurocog_language/">Neurocognition & Language</a>
+                <li class="toctree-l3"><a class="reference internal" href="../socenv_determinants/discrimination/">Discrimination</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../eeg/">Electroencephalogram (EEG)</a>
+                <li class="toctree-l3"><a class="reference internal" href="../socenv_determinants/PACES/">PACES</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../socenv_determinants/perceived_stress/">Perceived Stress/Social Support</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../socenv_determinants/bfy/">Baby's First Year</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../socenv_determinants/eHITS/">eHITS</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Neurocognition & Language</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../neurocog_language/">Multilingual Language Development Screener</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Electroencephalogram (EEG)</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../eeg/video_rs/">Video Resting State</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../eeg/faces_task/">Faces Task</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../eeg/aud_mm/">Auditory Mismatch Negativity Task</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../eeg/vis_ep_task/">Visual Evoked Potential Task</a>
+                </li>
+    </ul>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../mri/">Magnetic Resonance Imaging (MRI)</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../sensors/">Novel Technologies & Wearable Sensors</a>
+                <li class="toctree-l2"><a class="reference internal" >Novel Technologies & Wearable Sensors</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../sensors/wearable_sensors/">Wearable Sensors</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../physhealth/">Physical Health</a>
+                <li class="toctree-l3"><a class="reference internal" href="../sensors/sensor_questionnaire/">Infant Sensor Questionnaire</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../behavior/">Behavior & Caregiver-Child Interaction</a>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Physical Health</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../physhealth/food_insecurity/">Food Insecurity</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../physhealth/breastfeeding/">Breastfeeding</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../physhealth/growth/">Growth</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Behavior & Caregiver-Child Interaction</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../beh_CG_interaction/IBQ-R/">IBQ-R (VSF)+BI</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../beh_CG_interaction/MAPS-TL/">MAPS-TL</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../beh_CG_interaction/ePROMIS/">ecPROMIS Child-Caregiver Interaction</a>
+                </li>
+    </ul>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" >Pregnancy & Exposure</a>
     <ul>
                 <li class="toctree-l3"><a class="reference internal" href="../pregexp/preghealth/">Pregnancy Health</a>
                 </li>
-                <li class="toctree-l3"><a class="reference internal" href="../pregexp/infant/">Infant Health</a>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/preghealth_all/">Pregnancy Health Measures</a>
                 </li>
-                <li class="toctree-l3"><a class="reference internal" href="../pregexp/mentalhealth/">Psychiatric Evaluation & History</a>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/infanthealth/">Infant Health- V2</a>
                 </li>
-                <li class="toctree-l3"><a class="reference internal" href="../pregexp/substanceuse/">Substance Use</a>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/psych_history/">Personal & Family Psychiatric History</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/APA/">APA 1/2</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/NSESSS/">NSESSS—PTSD and NSESSS—Acute Stress Disorder</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../pregexp/edinburgh_postnatal_depression/">The Edinburgh Postnatal Depression Scale</a>
                 </li>
     </ul>
                 </li>
@@ -96,6 +149,8 @@
                   </li>
                   <li class="toctree-l1"><a class="reference internal" >MRI Protocols</a>
     <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/overview/">Overview</a>
+                </li>
                 <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/siemens/">Siemens Protocol</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../../mriprotocols/ge/">GE Protocol</a>
@@ -179,152 +234,147 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="demographics">Demographics</h1>
-<h2 id="overview">Overview</h2>
+<h2 id="measure-overview">Measure Overview</h2>
 <p><strong>Full Name</strong>: HBCD Demographics V01<br />
 <strong>Acronym/Brief Name</strong>: Demographics<br />
 <strong>Construct</strong>: Basic social characteristics related to the birthing parent, the other biological parent, and their household.<br />
 <strong>Description</strong>: The HBCD Study demographics survey is designed to gather comprehensive information on socioeconomic status and various demographic factors. Its primary purpose is to capture data on race, ethnicity, nativity, income, education, and occupation, as well as gender identity, sexual orientation, relationship status, primary residence, and household composition of the parent carrying the child, and some basic information on the other biological parent. </p>
-<p>From <a href="https://www.sciencedirect.com/science/article/pii/S1878929324000902">Cioffredi et al, <em>Developmental Cognitive Neuroscience,</em> 2024</a> (p. 2-4): </p>
+<p>From <a href="https://www.sciencedirect.com/science/article/pii/S1878929324000902">Cioffredi et al. 2024</a>: </p>
 <blockquote>
-<p>The HBCD Demographics survey was designed to collect social and economic information including race, ethnicity, nativity, income, maternal education, and occupation, as well as to characterize gender identity, sexual orientation, relationship status, primary residence, and household composition. The household composition matrix asks for details on all household members including age, gender, relationship to the child, relationship to the primary caregiver, and time spent caring for the child. Participants and families who endorse no primary residence, or that they are living in a shelter or treatment facility, are not asked to complete the household matrix. The survey includes a limited set of questions on the child’s “other biological parent” (i.e., race, ethnicity, nativity, education, occupation), provided the respondent endorsed an item indicating that they could answer this set of questions. Although there are no direct questions about the primary caregiver’s spouse/partner in the demographics, details of this relationship can be found within the household composition roster. The questions on Occupation ask for detailed information about exposures to environmental toxicants.  <br />
-Careful consideration was given to ensure that questions were inclusive of diverse populations and could capture a wide range of family structures and living situations that may impact child health outcomes. As a result, survey elements available within the PhenX Toolkit and other large-scale NIH studies were reviewed and modified by the Social and Environmental Determinants working group and the HBCD Diversity, Equity, and Inclusion (DEI) Committee to reduce bias and correct for embedded assumptions of heteronormative nuclear-family structures (see <strong>Table</strong> with sources, below). Future demographics surveys will repeat survey elements from Visit 4 for both the primary caregiver and the child.</p>
+<p><em>The HBCD Demographics survey was designed to collect social and economic information including race, ethnicity, nativity, income, maternal education, and occupation, as well as to characterize gender identity, sexual orientation, relationship status, primary residence, and household composition. The household composition matrix asks for details on all household members including age, gender, relationship to the child, relationship to the primary caregiver, and time spent caring for the child. Participants and families who endorse no primary residence, or that they are living in a shelter or treatment facility, are not asked to complete the household matrix. The survey includes a limited set of questions on the child’s “other biological parent” (i.e., race, ethnicity, nativity, education, occupation), provided the respondent endorsed an item indicating that they could answer this set of questions. Although there are no direct questions about the primary caregiver’s spouse/partner in the demographics, details of this relationship can be found within the household composition roster. The questions on Occupation ask for detailed information about exposures to environmental toxicants.</em>    </p>
+<p><em>Careful consideration was given to ensure that questions were inclusive of diverse populations and could capture a wide range of family structures and living situations that may impact child health outcomes. As a result, survey elements available within the PhenX Toolkit and other large-scale NIH studies were reviewed and modified by the Social and Environmental Determinants working group and the HBCD Diversity, Equity, and Inclusion (DEI) Committee to reduce bias and correct for embedded assumptions of heteronormative nuclear-family structures (see </em><em>Table</em><em> with sources below). Future demographics surveys will repeat survey elements from Visit 4 for both the primary caregiver and the child.</em></p>
 </blockquote>
 <p><strong>Summary</strong>: Demographic information is crucial for understanding the child’s environment and identifying how social, structural, and economic factors influence development over time in a longitudinal study of child development. By capturing detailed information, the Demographics survey provides key information on the child’s context. Repeating these measures allows researchers to track changes and study these changes in relation to development. </p>
-<h2 id="implementation">Implementation</h2>
+<h2 id="implementation-data-collection">Implementation &amp; Data Collection</h2>
 <p><strong>Method of Administration</strong>: RA administered in person   <br />
-<strong>REDCap Form Name</strong>: N/A<br />
-<strong>Pilot Data Dictionary</strong>: <br />
-<strong>Spanish Translation</strong>: <br />
 <strong>Child Specific/Unspecific Form</strong>: Child Unspecific<br />
-<strong>Respondent:</strong> adult participant</p>
-<h2 id="data-collection">Data Collection</h2>
-<p><strong>Visits Administered and corresponding age range of administration</strong>: V1: prenatal   <br />
+<strong>Respondent:</strong> Adult Participant <br />
+<strong>Visits</strong>: V01 (prenatal)   <br />
 <strong>Estimated length of time for completion</strong>: 10 minutes</p>
-<h2 id="quality-control-qc">Quality Control (QC)</h2>
+<h2 id="quality-control-known-issues">Quality Control &amp; Known Issues</h2>
 <p><strong>QC Procedures</strong>: QC procedures included monitoring the data dashboard for variable missingness and data consistency.<br>
-<strong>Common Issues Identified</strong>: High missing on income (although in line with expectations)</p>
-<h2 id="potential-issues-flagged-by-subject-matter-experts">Potential Issues Flagged by Subject Matter Experts</h2>
-<p>We learned through RA reports that some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g., options did not capture identity) and occupation (i.e., imperfect option for job type and number of hours). </p>
-<h2 id="appendix-source-information-for-demographic-measures">Appendix. Source Information for Demographic Measures</h2>
-<p><strong>DEMOGRAPHICS OF BIRTH PARENT</strong>  </p>
+<strong>Common Issues Identified</strong>: High missing on income (although in line with expectations) <br />
+<strong>Potential Issues Flagged by Subject Matter Experts</strong>: We learned through RA reports that some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g. options did not capture identity) and occupation (i.e. imperfect option for job type and number of hours). </p>
+<h2 id="source-information-for-demographic-measures">Source Information for Demographic Measures</h2>
+<p><strong>DEMOGRAPHICS OF BIRTH PARENT</strong></p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;"><strong>Construct</strong></th>
-<th style="text-align: left;"><strong>Measure Source</strong></th>
-<th style="text-align: left;"><strong>DEI Modifications</strong></th>
+<th>Construct</th>
+<th>Source</th>
+<th>DEI Modifications</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">Marital and Relationship Status</td>
-<td style="text-align: left;"><a href="https://www.phenxtoolkit.org/protocols/view/10903">PhenX</a><sup>1</sup></td>
-<td style="text-align: left;"><strong>For heteronormative bias:</strong> (1) Combine "Divorced/Seperated" (2) "Never Married" replaced by "Single" (3) "Member of an Unmarried Couple" replaced by "Partnered"</td>
+<td>Marital &amp; Relationship Status</td>
+<td><a href="https://www.phenxtoolkit.org/protocols/view/10903">PhenX</a><sup>1</sup></td>
+<td><sup><strong>Alterations to reduce heteronormative bias:</strong><br>(1) Combine "Divorced/Seperated"<br>(2) "Never Married" replaced by "Single"<br>(3) "Member of an Unmarried Couple" replaced by "Partnered"</sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Gender Identity</td>
-<td style="text-align: left;"><a href="https://www.phenxtoolkit.org/protocols/view/11801">PhenX</a><sup>1</sup></td>
-<td style="text-align: left;"><strong>For heteronormative bias:</strong> Transgender Man/Transgender Woman options moved to primary tier of a two-tier question</td>
+<td>Gender Identity</td>
+<td><a href="https://www.phenxtoolkit.org/protocols/view/11801">PhenX</a><sup>1</sup></td>
+<td><sup><strong>Alterations to reduce heteronormative bias:</strong> Transgender Man/<br>Transgender Woman options moved to primary tier of 2-tier question</sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Sexual Orientation</td>
-<td style="text-align: left;"><a href="https://www.phenxtoolkit.org/protocols/view/11701">PhenX</a><sup>1</sup></td>
-<td style="text-align: left;"><strong>Inclusion of diverse response options:</strong> Response categories capture sexual orientation across three dimensions of sexual orientation, including attraction, identity, and behavior. Participant can select all that apply.</td>
+<td>Sexual Orientation</td>
+<td><a href="https://www.phenxtoolkit.org/protocols/view/11701">PhenX</a><sup>1</sup></td>
+<td><sup><strong>Inclusion of diverse response options</strong> to capture sexual orientation<br>across three dimensions: attraction, identity, and behavior.<br>Participant can select all that apply.</sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Primary Residence</td>
-<td style="text-align: left;">HBCD<sup>2</sup></td>
-<td style="text-align: left;"><strong>Destigmatization of diverse living situations:</strong> Inclusion of options for individuals in treatment facilities, shelters, or unhoused</td>
+<td>Primary Residence</td>
+<td>HBCD<sup>2</sup></td>
+<td><sup><strong>Destigmatization of diverse living situations:</strong> Inclusion of options for<br>individuals in treatment facilities, shelters, or unhoused</sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Years At Current Address</td>
-<td style="text-align: left;">HBCD<sup>2</sup></td>
-<td style="text-align: left;">None</td>
+<td>Years At Current Address</td>
+<td>HBCD<sup>2</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Household Roster</td>
-<td style="text-align: left;"><a href="https://echochildren.org/wp-content/uploads/2024/02/ROSTER_Participant_Roster_20231010_v03.00_training1.pdf">ECHO</a><sup>3</sup></td>
-<td style="text-align: left;"><strong>For heteronormative bias and nuclear family assumptions:</strong> (1) Changed "Sex" to "Gender" and included Non-Binary and Transexual options (2) Expansion of family/caregiver roles</td>
+<td>Household Roster</td>
+<td><a href="https://echochildren.org/wp-content/uploads/2024/02/ROSTER_Participant_Roster_20231010_v03.00_training1.pdf">ECHO</a><sup>3</sup></td>
+<td><sup><strong>Alterations to reduce heteronormative bias and<br>nuclear family assumptions:</strong><br>(1) Changed "Sex" to "Gender"<br>(2) Included Non-Binary and Transexual options for Gender<br>(3) Expansion of family/caregiver roles</sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Birthplace and Heritage</td>
-<td style="text-align: left;"><a href="https://www.phenxtoolkit.org/protocols/view/10201">PhenX</a><sup>1</sup></td>
-<td style="text-align: left;">None</td>
+<td>Birthplace and Heritage</td>
+<td><a href="https://www.phenxtoolkit.org/protocols/view/10201">PhenX</a><sup>1</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Years Living in the United States</td>
-<td style="text-align: left;"><a href="https://www.phenxtoolkit.org/protocols/view/11201">PhenX</a><sup>1</sup></td>
-<td style="text-align: left;">None</td>
+<td>Years Living in the U.S.</td>
+<td><a href="https://www.phenxtoolkit.org/protocols/view/11201">PhenX</a><sup>1</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Race/Ethnicity</td>
-<td style="text-align: left;"><a href="https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/">OMB</a><sup>4</sup></td>
-<td style="text-align: left;"><strong>Inclusion of diverse racial and ethnic categories:</strong> This question aligns to the proposed recommendations for data collection under review by the OMB and includes a combined race and ethnicity variable with 7 response options. Participants may select all that apply.</td>
+<td>Race/Ethnicity</td>
+<td><a href="https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/">OMB</a><sup>4</sup></td>
+<td><sup><strong>Inclusion of diverse racial and ethnic categories</strong> aligned with proposed<br> OMB recommendations, using a combined race and ethnicity<br> variable with 7 response options. Participant can select all that apply.</sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Others Describe You</td>
-<td style="text-align: left;">BRFSS<sup>5</sup></td>
-<td style="text-align: left;"><strong>Alterations to include same categories as the race and ethnicity question</strong>  Includes 7 race and ethnicity response options</td>
+<td>Others Describe You</td>
+<td>BRFSS<sup>5</sup></td>
+<td><sup><strong>Include same 7 categories as the race and ethnicity question</strong></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Biological Parents Birthplace and Heritage</td>
-<td style="text-align: left;"><a href="https://www.phenxtoolkit.org/protocols/view/10301">PhenX</a><sup>1</sup></td>
-<td style="text-align: left;">None</td>
+<td>Birthplace of Parents</td>
+<td><a href="https://www.phenxtoolkit.org/protocols/view/10301">PhenX</a><sup>1</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Income</td>
-<td style="text-align: left;">ABCD<sup>6</sup></td>
-<td style="text-align: left;"><strong>Alteration of household income brackets</strong></td>
+<td>Income</td>
+<td>ABCD<sup>6</sup></td>
+<td><sup><strong>Alteration of household income brackets</strong></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Educational Attainment</td>
-<td style="text-align: left;"><a href="https://www.phenxtoolkit.org/protocols/view/11002">PhenX</a><sup>1</sup></td>
-<td style="text-align: left;">None</td>
+<td>Educational Attainment</td>
+<td><a href="https://www.phenxtoolkit.org/protocols/view/11002">PhenX</a><sup>1</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Active-Duty Military</td>
-<td style="text-align: left;">HBCD<sup>2</sup></td>
-<td style="text-align: left;">None</td>
+<td>Active-Duty Military</td>
+<td>HBCD<sup>2</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Currently Work for Pay</td>
-<td style="text-align: left;">Baby's First Years</td>
-<td style="text-align: left;">None</td>
+<td>Currently Work for Pay</td>
+<td>BFY<sup>7</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Total Hours of Work In Last Week</td>
-<td style="text-align: left;">HBCD<sup>2</sup></td>
-<td style="text-align: left;">None</td>
+<td>Total Work Hours In Last Week</td>
+<td>HBCD<sup>2</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Jobs During Pregnancy- All Jobs - Work 35+ Hours/Week</td>
-<td style="text-align: left;">HBCD<sup>2</sup></td>
-<td style="text-align: left;">None</td>
+<td>Jobs During Pregnancy-<br>All Jobs - 35+ hr/wk</td>
+<td>HBCD<sup>2</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Jobs During Pregnancy- At Least One Job At 20 Hours/Week For 1 Month</td>
-<td style="text-align: left;">HBCD<sup>2</sup></td>
-<td style="text-align: left;">None</td>
+<td>Jobs During Pregnancy-<br>At Least 1 Job at <br>20 hr/wk for 1 month</td>
+<td>HBCD<sup>2</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Jobs During Pregnancy- Type of Work</td>
-<td style="text-align: left;">HBCD<sup>2</sup></td>
-<td style="text-align: left;">None</td>
+<td>Jobs During Pregnancy-<br>Type of Work</td>
+<td>HBCD<sup>2</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Jobs During Pregnancy- Job Start/Stop Dates</td>
-<td style="text-align: left;">HBCD<sup>2</sup></td>
-<td style="text-align: left;">None</td>
+<td>Jobs During Pregnancy-<br>Job Start/Stop Dates</td>
+<td>HBCD<sup>2</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Jobs During Pregnancy- Typical Hours/Week</td>
-<td style="text-align: left;">HBCD<sup>2</sup></td>
-<td style="text-align: left;">None</td>
+<td>Jobs During Pregnancy-<br>Typical Hours/Week</td>
+<td>HBCD<sup>2</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Jobs During Pregnancy- Shift Schedule</td>
-<td style="text-align: left;">Baby's First Years</td>
-<td style="text-align: left;">BFY Year 1 Protocol - G39, SchedMain</td>
+<td>Jobs During Pregnancy-<br> Shift Schedule</td>
+<td>BFY<sup>8</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 </tbody>
 </table>
@@ -332,99 +382,91 @@ Careful consideration was given to ensure that questions were inclusive of diver
 <table>
 <thead>
 <tr>
-<th style="text-align: left;"><strong>Construct</strong></th>
-<th style="text-align: left;"><strong>Measure Source</strong></th>
-<th style="text-align: left;"><strong>DEI Modifications</strong></th>
+<th>Construct</th>
+<th>Source</th>
+<th>DEI Modifications</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">Age</td>
-<td style="text-align: left;">HBCD</td>
-<td style="text-align: left;">None</td>
+<td>Age</td>
+<td>HBCD<sup>2</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Race/Ethnicity</td>
-<td style="text-align: left;"><a href="https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/">OMB</a><sup>4</sup></td>
-<td style="text-align: left;"><strong>Inclusion of diverse racial and ethnic categories</strong>  This question aligns to proposed recommendations for data collection under review by the federal register and includes a combined race/ethnicity variable with 7 response options. Participants may select all that apply.</td>
+<td>Race/Ethnicity</td>
+<td><a href="https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/">OMB</a><sup>4</sup></td>
+<td><sup><strong>Inclusion of diverse racial and ethnic categories</strong> aligned with proposed<br> OMB recommendations, using a combined race and ethnicity<br> variable with 7 response options. Participant can select all that apply.</sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Birthplace and Heritage</td>
-<td style="text-align: left;"><a href="https://www.phenxtoolkit.org/protocols/view/10201">PhenX</a><sup>2</sup></td>
-<td style="text-align: left;">None</td>
+<td>Birthplace and Heritage</td>
+<td><a href="https://www.phenxtoolkit.org/protocols/view/10201">PhenX</a><sup>2</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Years Living in The United States</td>
-<td style="text-align: left;"><a href="https://www.phenxtoolkit.org/protocols/view/11201">PhenX</a><sup>2</sup></td>
-<td style="text-align: left;">None</td>
+<td>Years Living in the U.S.</td>
+<td><a href="https://www.phenxtoolkit.org/protocols/view/11201">PhenX</a><sup>2</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Biological Parents Country of Origin</td>
-<td style="text-align: left;"><a href="https://www.phenxtoolkit.org/protocols/view/10301">PhenX</a><sup>2</sup></td>
-<td style="text-align: left;">None</td>
+<td>Birthplace of Parents</td>
+<td><a href="https://www.phenxtoolkit.org/protocols/view/10301">PhenX</a><sup>2</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Educational Attainment</td>
-<td style="text-align: left;"><a href="https://www.phenxtoolkit.org/protocols/view/11002">PhenX</a><sup>2</sup></td>
-<td style="text-align: left;">None</td>
+<td>Educational Attainment</td>
+<td><a href="https://www.phenxtoolkit.org/protocols/view/11002">PhenX</a><sup>2</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Job At Conception- Work for Pay</td>
-<td style="text-align: left;">HBCD<sup>2</sup></td>
-<td style="text-align: left;">None</td>
+<td>Job At Conception-<br>Work for Pay</td>
+<td>HBCD<sup>2</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Job At Conception- Type of Work</td>
-<td style="text-align: left;">HBCD<sup>2</sup></td>
-<td style="text-align: left;">None</td>
+<td>Job At Conception-<br>Type of Work</td>
+<td>HBCD<sup>2</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Job At Conception- Full Time/Part Time</td>
-<td style="text-align: left;">HBCD<sup>2</sup></td>
-<td style="text-align: left;">None</td>
+<td>Job At Conception-<br>Full Time/Part Time</td>
+<td>HBCD<sup>2</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Active-Duty Military</td>
-<td style="text-align: left;">HBCD<sup>2</sup></td>
-<td style="text-align: left;">None</td>
+<td>Active-Duty Military</td>
+<td>HBCD<sup>2</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 <tr>
-<td style="text-align: left;">Help Out Financially</td>
-<td style="text-align: left;">HBCD<sup>2</sup></td>
-<td style="text-align: left;">None</td>
+<td>Help Out Financially</td>
+<td>HBCD<sup>2</sup></td>
+<td><sup><em>None</em></sup></td>
 </tr>
 </tbody>
 </table>
 <p><sup>1</sup> PhenX Toolkit (Hamilton et al. 2011)<br />
-<sup>2</sup> HBCD = HEALthy Brain and Child Development Study (Cioffredi et al. 2024)<br />
-<sup>3</sup> ECHO = Environmental Influences On Child Health Outcomes <br />
-<sup>4</sup> OMB = Office of Management And Budget (Federal Register 2023)<br />
-<sup>5</sup> BRFSS = Behavioral Risk Factor Surveillance System (Jones et al. 2008)<br />
-<sup>6</sup> ABCD = Adolescent Brain Child Development Study (Barch et al. 2018)</p>
+<sup>2</sup> HBCD: HEALthy Brain and Child Development Study (Cioffredi et al. 2024)<br />
+<sup>3</sup> ECHO: Environmental Influences On Child Health Outcomes <br />
+<sup>4</sup> OMB: Office of Management And Budget (Federal Register 2023)<br />
+<sup>5</sup> BRFSS: Behavioral Risk Factor Surveillance System (Jones et al. 2008)<br />
+<sup>6</sup> ABCD: Adolescent Brain Child Development Study (Barch et al. 2018)  <br />
+<sup>7</sup> BFY: Baby's First Years (BFY), Year 1 Protocol - G35, Mwork
+<sup>8</sup> BFY: Baby's First Years (BFY), Year 1 Protocol - G39, SchedMain</p>
 <h2 id="references">References</h2>
 <ul>
-<li>
-<p>Hamilton, et al. (2011) The PhenX Toolkit: Get the Most From Your Measures. American Journal of Epidemiology, 174(3), 253-60.</p>
-</li>
-<li>
-<p>Cioffredi, et al. (2024) Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD), Developmental Cognitive Neuroscience, 69</p>
-</li>
-<li>
-<p>Federal Register. (2023, January 27). Initial Proposals For Updating OMB’s Race and Ethnicity Statistical Standards (<a href="https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards">Document No. 2023-01635</a>). 88 FR 5375-5384.</p>
-</li>
-<li>
-<p>Jones, Camara P., Benedict I. Truman, Laurie D. ElamEvans, Camille A. Jones, Clara Y. Jones, Ruth Jiles, Susan F. Rumisha, and Geraldine Perry. 2008. “Using ‘Socially Assigned Race’ to Probe White Advantages in Health Status.” Ethnicity and Disease 18(4):496–504</p>
-</li>
-<li>
-<p>Barch DM, Albaugh MD, Avenevoli S, Chang L, Clark DB, Glantz MD, Hudziak JJ, Jernigan TL, Tapert SF, Yurgelun-Todd D, Alia-Klein N, Potter AS, Paulus MP, Prouty D, Zucker RA, Sher KJ. Demographic, physical and mental health assessments in the adolescent brain and cognitive development study: Rationale and description. Dev Cogn Neurosci. 2018 Aug;32:55-66. doi: 10.1016/j.dcn.2017.10.010. Epub 2017 Nov 3. PMID: 29113758; PMCID: PMC5934320. </p>
-</li>
+<li>Barch, D. M., Albaugh, M. D., Avenevoli, S., Chang, L., Clark, D. B., Glantz, M. D., Hudziak, J. J., Jernigan, T. L., Tapert, S. F., Yurgelun-Todd, D., Alia-Klein, N., Potter, A. S., Paulus, M. P., Prouty, D., Zucker, R. A., &amp; Sher, K. J. (2018). Demographic, physical and mental health assessments in the adolescent brain and cognitive development study: Rationale and description. <em>Developmental Cognitive Neuroscience</em>, 32, 55–66. <a href="https://doi.org/10.1016/j.dcn.2017.10.010">https://doi.org/10.1016/j.dcn.2017.10.010</a></li>
+<li>Cioffredi, L.-A., Yerby, L. G., Burris, H. H., Cole, K. M., Engel, S. M., Murray, T. M., Slopen, N., Volk, H. E., Acheson, A., &amp; HBCD Social and Environmental Determinants Working Group. (2024). Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD). <em>Developmental Cognitive Neuroscience</em>, 69(101429), 101429. <a href="https://doi.org/10.1016/j.dcn.2024.101429">https://doi.org/10.1016/j.dcn.2024.101429</a></li>
+<li>Federal Register. (2023, January 27). Initial Proposals For Updating OMB’s Race and Ethnicity Statistical Standards (<a href="https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards">Document No. 2023-01635</a>). 88 FR 5375-5384.</li>
+<li>Hamilton, C. M., Strader, L. C., Pratt, J. G., Maiese, D., Hendershot, T., Kwok, R. K., Hammond, J. A., Huggins, W., Jackman, D., Pan, H., Nettles, D. S., Beaty, T. H., Farrer, L. A., Kraft, P., Marazita, M. L., Ordovas, J. M., Pato, C. N., Spitz, M. R., Wagener, D., … Haines, J. (2011). The PhenX Toolkit: get the most from your measures. <em>American Journal of Epidemiology</em>, 174(3), 253–260. <a href="https://doi.org/10.1093/aje/kwr193">https://doi.org/10.1093/aje/kwr193</a></li>
+<li>Jones, C. P., Truman, B. I., Elam-Evans, L. D., Jones, C. A., Jones, C. Y., Jiles, R., Rumisha, S. F., &amp; Perry, G. S. (2008). Using “socially assigned race” to probe white advantages in health status. <em>Ethnicity &amp; Disease</em>, 18(4), 496–504. <a href="https://www.ncbi.nlm.nih.gov/pubmed/19157256">https://www.ncbi.nlm.nih.gov/pubmed/19157256</a></li>
 </ul>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../.." class="btn btn-neutral float-left" title="About"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../socenv_determinants/" class="btn btn-neutral float-right" title="Social & Environmental Determinants">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../" class="btn btn-neutral float-left" title="Overview"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../socenv_determinants/neighborhood_safety/" class="btn btn-neutral float-right" title="Neighborhood Safety">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -447,10 +489,10 @@ Careful consideration was given to ensure that questions were inclusive of diver
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../.." style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../socenv_determinants/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../socenv_determinants/neighborhood_safety/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

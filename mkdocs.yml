@@ -2,12 +2,14 @@ site_name: HBCD Data Release
 
 theme: readthedocs
 
-extra_css:
-  - css/custom.css
+# extra_css:
+#   - css/custom.css
 
 markdown_extensions:
   - toc:
-      permalink: true
+      permalink: True
+      baselevel: 2
+      separator: "_"
 
 plugins:
   - search
@@ -47,9 +49,10 @@ nav:
               - MAPS-TL: measures/beh_CG_interaction/MAPS-TL.md
               - ecPROMIS Child-Caregiver Interaction: measures/beh_CG_interaction/ePROMIS.md
           - "Pregnancy & Exposure": 
-              - Pregnancy Health: measures/pregexp/preghealth.md
-              - Infant Health- V2: measures/pregexp/infant.md
+              - Pregnancy Health Measures: measures/pregexp/preghealth_all.md
+              - Infant Health- V2: measures/pregexp/infanthealth.md
               - "Personal & Family Psychiatric History": measures/pregexp/psych_history.md
+              - Substance Use: measures/pregexp/substanceuse.md
               - APA 1/2: measures/pregexp/APA.md
               - NSESSS—PTSD and NSESSS—Acute Stress Disorder: measures/pregexp/NSESSS.md
               - The Edinburgh Postnatal Depression Scale: measures/pregexp/edinburgh_postnatal_depression.md
