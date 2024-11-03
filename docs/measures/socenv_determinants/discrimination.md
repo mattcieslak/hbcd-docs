@@ -8,18 +8,16 @@
 
 ## Implementation & Data Collection
 **Method of Administration**: Remote survey  
-**REDCap Form Name**: `sed_bm_phx_i_discr`; Phenx Discrimination (Experiences with Unfair Treatment) 
+**REDCap Form Name**: `sed_bm_phx_i_discr`; Phenx Discrimination (Experiences with Unfair Treatment)    
 **Pilot Data Dictionary**: `sed_bm_phx_i_discr`     
 **Spanish Translation**: Existing  
 **Child Specific/Unspecific Form**: Child Unspecific  
 **Respondent:** Parent on Self  
-**Visits**: V1 (2nd-3rd trimester and postnatal), V5 (10-17 months), V7 (16-31 months)     
+**Visits**: V01 (2nd-3rd trimester and postnatal), V05 (10-17 months), V07 (16-31 months)     
 **Estimated length of time for completion**: 3 minutes
 
-## Quality Control & Known Issues 
-**QC Procedures:**  TODO    
-**Common Issues Identified:** TODO      
-**Potential Issues Flagged by Subject Matter Experts**: None
+## Quality Control & Known Issues   
+No potential issues were flagged by subject matter experts.
 
 ## References
  - PhenX Toolkit. (2024 November 01). Discrimination, PhenX Toolkit. [https://www.phenxtoolkit.org/protocols/view/210302](https://www.phenxtoolkit.org/protocols/view/210302)

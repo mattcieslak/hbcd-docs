@@ -1,15 +1,7 @@
 site_name: HBCD Data Release
-
 theme: readthedocs
-
 extra_css:
   - css/custom.css
-
-# markdown_extensions:
-#   - toc:
-#       permalink: True
-#       baselevel: 2
-#       separator: "_"
 
 plugins:
   - search
@@ -20,14 +12,13 @@ nav:
   - ABOUT: index.md
   - Release Notes:
       - "Data Measures & Quality Control":
-          - Overview: measures/index.md
           - Demographics: measures/demographics.md
           - "Social & Environmental Determinants":
               - Neighborhood Safety: measures/socenv_determinants/neighborhood_safety.md
               - Discrimination: measures/socenv_determinants/discrimination.md
               - PACES: measures/socenv_determinants/PACES.md
               - Perceived Stress/Social Support: measures/socenv_determinants/perceived_stress.md
-              - Baby's First Year: measures/socenv_determinants/bfy.md
+              - Baby's First Years: measures/socenv_determinants/bfy.md
               - eHITS: measures/socenv_determinants/eHITS.md
           - "Neurocognition & Language": 
               - Multilingual Language Development Screener: measures/neurocog_language.md          

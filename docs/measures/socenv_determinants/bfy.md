@@ -1,4 +1,4 @@
-# Baby’s First Year
+# Baby’s First Years
 ## Measure Overview
 **Full Name**: Baby’s First Years – Benefits/Services/Economic Stress      
 **Acronym/Brief Name**: BFY    
@@ -17,10 +17,10 @@
 **Estimated length of time for completion**: 4 minutes
 
 ## Quality Control & Known Issues
-**QC Procedures**: Social and Environmental Working Group QC procedures included monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency.        
+**QC Procedures**: The data dashboard was monitored for variable missingness, possible coding errors, scoring verification when needed, and data consistency.        
 **Common Issues Identified**: None      
 **Potential Issues Flagged by Subject Matter Experts:** None
 
 ## References
 - Noble, K. G., Magnuson, K., Gennetian, L. A., Duncan, G. J., Yoshikawa, H., Fox, N. A., & Halpern-Meekin, S. (2021). Baby’s First Years: Design of a randomized controlled trial of poverty reduction in the United States. *Pediatrics*, 148(4), e2020049702. [https://doi.org/10.1542/peds.2020-049702](https://doi.org/10.1542/peds.2020-049702)
-- Sanbonmatsu L., Marvokov J., Porter N., Yang F., Adam E., Congdon W. J., Duncan G. J., Gennetian L. A., Katz L. F., Kling J. R., et al. The Long-Term Effects of Moving to Opportunity on Adult Health and Economic Self-Sufficiency. *Cityscape*. 2012;14 (2) :109-36.
+- Sanbonmatsu, L., Marvakov, J., Potter, N. A., Yang, F., Adam, E. K., Congdon, W. J., Duncan, G. J., Gennetian, L. A., Katz, L. F., Kling, J. R., Kessler, R. C., Lindau, S. T., Ludwig, J., & McDade, T. W. (2012). The long-term effects of moving to opportunity on adult health and economic self-sufficiency. *Cityscape: A Journal of Policy Development and Research*, 14, 109-136.

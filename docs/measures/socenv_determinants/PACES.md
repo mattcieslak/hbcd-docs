@@ -4,16 +4,16 @@
 **Acronym/Brief Name**: PACES (Current)     
 **Construct**: Protective Factors       
 **Description**: Assesses positive experiences during childhood through age 18  
-**Summary**: A 10 question scale with scores ranging between 0 and 10 assessing positive childhood experiences such as: relationships, feeling of connectedness, physical activity, engagement, environment, and opportunities
+**Summary**: A 10-question scale with scores ranging between 0 and 10 assessing positive childhood experiences such as: relationships, feeling of connectedness, physical activity, engagement, environment, and opportunities
 
 ## Implementation & Data Collection
-**Method of Administration**: RA administered in person, remote survey   
+**Method of Administration**: RA administered in person or via remote survey   
 **REDCap Form Name**: `sed_bm_paces`  
 **Pilot Data Dictionary**: PACES  
 **Spanish Translation**: BURG     
 **Child Specific/Unspecific Form**: Child Unspecific  
 **Respondent:** Parent on Self  
-**Visits**: V01 Prenatal (PACES Current)   
+**Visits**: V01 (prenatal)   
 
 ## Quality Control & Known Issues
 **QC Procedures:** Social and Environmental Working Group QC procedures included monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency.    

@@ -7,13 +7,13 @@
 **Summary**: This measure is a questionnaire to assess the respondent’s subjective perceptions about safety and crime in their neighborhoods. 
 
 ### Implementation & Data Collection
-**Method of Administration**: RA administered in person or remote survey  
+**Method of Administration**: RA-administered in person or via remote survey  
 **REDCap Form Name**: `sed_bm_nbhsaf`  
 **Pilot Data Dictionary**: Unknown  
 **Spanish Translation**: Existing  
 **Child Specific/Unspecific Form**: Child Unspecific  
 **Respondent:** Adult Participant   
-**Visits**: Visit 1 (prenatal), Visit 5 (10-17 months), Visit 7 (16-31 months), Visit 9 (32-46 months)    
+**Visits**: V01 (prenatal), V05 (10-17 months), V07 (16-31 months), V09 (32-46 months)    
 **Estimated length of time for completion**: 1 minute
 
 ## Quality Control & Known Issues
