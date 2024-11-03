@@ -1,0 +1,49 @@
+# Auditory Mismatch Negativity Task
+## Measure Overview
+**Full Name**: Auditory Mismatch Negativity Task  
+**Acronym/Brief Name**: MMN  
+**Construct**: The Auditory mismatch negativity (MMN) Task (v.11.29.23) facilitates examining auditory evoked potentials and habituation/dishabituation to auditory stimuli. The MMN captures differences in neural responses to standard (“ba”) and deviant (“da”) stimuli.  From this task the MMN difference wave is computed, which is also known as the Mismatch Response (MMR). The amplitude/latency of this difference wave has been linked to language (Choudhury & Benasich, 2011), temperament/personality (Gurrera et al., 2001; Marshall et al., 2009), internalizing problems (Reeb-Sutherland et al., 2009), externalizing/attention problems (Gumenyuk et al., 2005), and disorders including autism (Lepistö et al., 2005; Schwartz et al., 2018) and reading ability/dyslexia (Leppänen et al., 2010; Norton, Beach, et al., 2021). See Fox et al. (2024) for more information about the MMN task.   
+**Description**: An auditory presentation of human syllables including “ba” and “da”. A video is played on iPad as a distractor with brightness all the way up, in airplane mode, and not plugged in. The task runs for 11:30 minutes in V03 and 8:30 minutes in V04/6. The task may be paused if breaks are needed.   
+**Summary**: The MMN task (v.11.29.23) provides a comprehensive assessment of infant speech sound processing. The measure includes rigorous QC procedures to ensure data integrity and reliability.
+
+## Implementation & Data Collection
+**Method of Administration**: RA administered in person  
+**Child Specific/Unspecific Form**: Child Specific    
+**Visits**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)      
+**Estimated length of time for completion**: Approximately 11:30 minutes (V03) or 8:30 minutes (V04/6)
+
+## Quality Control & Known Issues 
+**QC Procedures** 
+
+  * Data are cleaned and preprocessed using the Maryland Analysis of Developmental EEG (MADE) pipeline (Debnath et al., 2019)  
+  * Ongoing QC monitoring via LORIS dashboard  
+  * Rate quality of EEG cap application for each recording  
+  * Site specific check ins and troubleshooting  
+  * See Fox et al. (2024) for more information on EEG data quality control procedures.   
+
+**Common Issues Identified**  
+
+  * Partial task completion due to infant fussing out  
+  * Irregular application of EEG sensors   
+  * Missing stimulus flags
+
+**Potential Issues Flagged by Subject Matter Experts**: Interstimulus interval (ISI) changes between V03 - V04/6. See Fox et al. (2024) and Morr et al. (2002) for more information about the ISI change. 
+
+## Additional Information
+- HBCD E-Prime Task Manual, Official EEG Acquisition Manual  
+- [E-Prime manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)  
+- [EEG Acquisition Manual](https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing)
+
+## References
+- Choudhury, N., & Benasich, A. A. (2011). Maturation of auditory evoked potentials from 6 to 48 months: Prediction to 3 and 4 year language and cognitive abilities. *Clinical Neurophysiology*, 122(2), 320–338. [https://doi.org/10.1016/j.clinph.2010.05.035](https://doi.org/10.1016/j.clinph.2010.05.035)
+- Fox, N. A., Pérez-Edgar, K., Morales, S., Brito, N. H., Campbell, A. M., Cavanagh, J. F., Gabard-Durnam, L. J., Hudac, C. M., Key, A. P., Larson-Prior, L. J., Pedapati, E. V., Norton, E. S., Reetzke, R., Roberts, T. P., Rutter, T. M., Scott, L. S., Shuffrey, L. C., Antúnez, M., Boylan, M. R., … Yoder, L. (2024). The development and structure of the Healthy Brain and Child Development (HBCD) study EEG Protocol. *Developmental Cognitive Neuroscience*, 69, 101447. [https://doi.org/10.1016/j.dcn.2024.101447](https://doi.org/10.1016/j.dcn.2024.101447)
+- Gumenyuk, V., Korzyukov, O., Escera, C., Hämäläinen, M., Huotilainen, M., Häyrinen, T., Oksanen, H., Näätänen, R., Von Wendt, L., & Alho, K. (2005). Electrophysiological evidence of enhanced distractibility in ADHD children. *Neuroscience Letters*, 374(3), 212–217. [https://doi.org/10.1016/j.neulet.2004.10.081](https://doi.org/10.1016/j.neulet.2004.10.081)
+- Gurrera, R. J., O’Donnell, B. F., Nestor, P. G., Gainski, J., & McCarley, R. W. (2001). The P3 auditory event–related brain potential indexes major personality traits. *Biological Psychiatry*, 49(11), 922–929. [https://doi.org/10.1016/S0006-3223(00)01067-2](https://doi.org/10.1016/S0006-3223(00)01067-2)
+- Lachmann, T., Berti, S., Kujala, T., & Schröger, E. (2005). Diagnostic subgroups of developmental dyslexia have different deficits in neural processing of tones and phonemes. *International Journal of Psychophysiology*, 55(2), 105–120. [https://doi.org/10.1016/j.ijpsycho.2004.11.005](https://doi.org/10.1016/j.ijpsycho.2004.11.005)
+- Lepistö, T., Kujala, T., Vanhala, R., Alku, P., Huotilainen, M., & Näätänen, R. (2005). The discrimination of and orienting to speech and non-speech sounds in children with autism. Brain Research, 1066(1–2), 147–157. [https://doi.org/10.1016/j.brainres.2005.10.052](https://doi.org/10.1016/j.brainres.2005.10.052)
+- Leppänen, P. H. T., Hämäläinen, J. A., Salminen, H. K., Eklund, K. M., Guttorm, T. K., Lohvansuu, K., Puolakanaho, A., & Lyytinen, H. (2010). Newborn brain event-related potentials revealing atypical processing of sound frequency and the subsequent association with later literacy skills in children with familial dyslexia. *Cortex; a Journal Devoted to the Study of the Nervous System and Behavior*, 46(10), 1362–1376. [https://doi.org/10.1016/j.cortex.2010.06.003](https://doi.org/10.1016/j.cortex.2010.06.003)
+- Marshall, P. J., Reeb, B. C., & Fox, N. A. (2009). Electrophysiological responses to auditory novelty in temperamentally different 9-month-old infants. *Developmental Science*, 12(4), 568–582. [https://doi.org/10.1111/j.1467-7687.2008.00808.x](https://doi.org/10.1111/j.1467-7687.2008.00808.x)
+- Morr, M. L., Shafer, V. L., Kreuzer, J. A., & Kurtzberg, D. (2002). Maturation of mismatch negativity in typically developing infants and preschool children. *Ear and Hearing*, 23(2), 118–136. [https://doi.org/10.1097/00003446-200204000-00005](https://doi.org/10.1097/00003446-200204000-00005)
+- Norton, E. S., Beach, S. D., Eddy, M. D., McWeeny, S., Ozernov-Palchik, O., Gaab, N., & Gabrieli, J. D. E. (2021). ERP mismatch negativity amplitude and asymmetry reflect phonological and rapid automatized naming skills in English-speaking kindergartners. *Frontiers in Human Neuroscience*, 15, 624617. [https://doi.org/10.3389/fnhum.2021.624617](https://doi.org/10.3389/fnhum.2021.624617)
+- Reeb-Sutherland, B. C., Vanderwert, R. E., Degnan, K. A., Marshall, P. J., Pérez-Edgar, K., Chronis-Tuscano, A., Pine, D. S., & Fox, N. A. (2009). Attention to novelty in behaviorally inhibited adolescents moderates risk for anxiety. *Journal of Child Psychology and Psychiatry, and Allied Disciplines*, 50(11), 1365–1372. [https://doi.org/10.1111/j.1469-7610.2009.02170.x](https://doi.org/10.1111/j.1469-7610.2009.02170.x)
+- Schwartz, S., Shinn-Cunningham, B., & Tager-Flusberg, H. (2018). Meta-analysis and systematic review of the literature characterizing auditory mismatch negativity in individuals with autism. *Neuroscience and Biobehavioral Reviews*, 87, 106–117. [https://doi.org/10.1016/j.neubiorev.2018.01.008](https://doi.org/10.1016/j.neubiorev.2018.01.008)
