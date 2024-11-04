@@ -1,38 +1,21 @@
 # Auditory Mismatch Negativity Task
+*See [Common Measure Details](measures_all.md) for information on implementation, data collection, quality control procedures, and additional information.*
+
 ## Measure Overview
 **Full Name**: Auditory Mismatch Negativity Task  
+
 **Acronym/Brief Name**: MMN  
+
 **Construct**: The Auditory mismatch negativity (MMN) Task (v.11.29.23) facilitates examining auditory evoked potentials and habituation/dishabituation to auditory stimuli. The MMN captures differences in neural responses to standard (“ba”) and deviant (“da”) stimuli.  From this task the MMN difference wave is computed, which is also known as the Mismatch Response (MMR). The amplitude/latency of this difference wave has been linked to language (Choudhury & Benasich, 2011), temperament/personality (Gurrera et al., 2001; Marshall et al., 2009), internalizing problems (Reeb-Sutherland et al., 2009), externalizing/attention problems (Gumenyuk et al., 2005), and disorders including autism (Lepistö et al., 2005; Schwartz et al., 2018) and reading ability/dyslexia (Leppänen et al., 2010; Norton, Beach, et al., 2021). See Fox et al. (2024) for more information about the MMN task.   
-**Description**: An auditory presentation of human syllables including “ba” and “da”. A video is played on iPad as a distractor with brightness all the way up, in airplane mode, and not plugged in. The task runs for 11:30 minutes in V03 and 8:30 minutes in V04/6. The task may be paused if breaks are needed.   
-**Summary**: The MMN task (v.11.29.23) provides a comprehensive assessment of infant speech sound processing. The measure includes rigorous QC procedures to ensure data integrity and reliability.
 
-## Implementation & Data Collection
-**Method of Administration**: RA administered in person  
-**Child Specific/Unspecific Form**: Child Specific    
-**Visits**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)      
-**Estimated length of time for completion**: Approximately 11:30 minutes (V03) or 8:30 minutes (V04/6)
+**Description**     
+An auditory presentation of human syllables including “ba” and “da”. A video is played on iPad as a distractor with brightness all the way up, in airplane mode, and not plugged in. The task runs for 11:30 minutes in V03 and 8:30 minutes in V04/6. The task may be paused if breaks are needed.   
 
-## Quality Control & Known Issues 
-**QC Procedures** 
+**Summary**     
+The MMN task (v.11.29.23) provides a comprehensive assessment of infant speech sound processing. The measure includes rigorous QC procedures to ensure data integrity and reliability.
 
-  * Data are cleaned and preprocessed using the Maryland Analysis of Developmental EEG (MADE) pipeline (Debnath et al., 2019)  
-  * Ongoing QC monitoring via LORIS dashboard  
-  * Rate quality of EEG cap application for each recording  
-  * Site specific check ins and troubleshooting  
-  * See Fox et al. (2024) for more information on EEG data quality control procedures.   
-
-**Common Issues Identified**  
-
-  * Partial task completion due to infant fussing out  
-  * Irregular application of EEG sensors   
-  * Missing stimulus flags
-
-**Potential Issues Flagged by Subject Matter Experts**: Interstimulus interval (ISI) changes between V03 - V04/6. See Fox et al. (2024) and Morr et al. (2002) for more information about the ISI change. 
-
-## Additional Information
-- HBCD E-Prime Task Manual, Official EEG Acquisition Manual  
-- [E-Prime manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)  
-- [EEG Acquisition Manual](https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing)
+## Known Issues
+Common issues identified from quality control were irregular application of EEG sensors, inclusion of partial task completion due to infant fussing, and missing stimulus flags. Subject matter experts additionally flagged interstimulus interval (ISI) changes between V03 - V04/6 as a potential issue (see Fox et al. (2024) and Morr et al. (2002) for more information about the ISI change). 
 
 ## References
 - Choudhury, N., & Benasich, A. A. (2011). Maturation of auditory evoked potentials from 6 to 48 months: Prediction to 3 and 4 year language and cognitive abilities. *Clinical Neurophysiology*, 122(2), 320–338. [https://doi.org/10.1016/j.clinph.2010.05.035](https://doi.org/10.1016/j.clinph.2010.05.035)

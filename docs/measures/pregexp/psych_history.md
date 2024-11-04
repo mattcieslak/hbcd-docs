@@ -16,9 +16,7 @@
 **Estimated length of time for completion**: 5 minutes
 
 ## Quality Control & Known Issues
-**QC Procedures**: Distributions for answers  
-**Common Issues Identified**: None  
-**Potential Issues Flagged by Subject Matter Experts**: None
+Distributions for answers were reviewed for quality control and no common issues were identified. No potential issues were flagged by subject matter experts.
 
 ## Additional Information
 From FHAM items for Antisocial Personality Disorder and Undifferentiated Psychiatric Disorder were not included.

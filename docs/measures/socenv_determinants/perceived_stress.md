@@ -3,8 +3,12 @@
 **Full Name**: Patient-Reported Outcome Measurement Information System  
 **Acronym/Brief Name**: Perceived Stress/Social Support     
 **Construct**: Perceived Stress/Social Support      
-**Description**: These measures of perceived stress and social support are a combination of the PROMIS emotional support 4a questionnaire and the Perceived Stress Scale – 4 (PSS-4). The first 4 questions are the PROMIS emotional support 4a questionnaire which measures the quality of the emotional support to which the participant has access. The last 4 questions (PSS-4) represent the shortened version of the PSS-14. This questionnaire measures perceived general stress in the past month. It has been used in many populations world wide including pregnant individuals and young families.   
-**Summary**: The Perceived Stress and Social support tools measure perceived stress and perceptions of emotional support by one’s social network in the caregivers in this study longitudinally.       
+
+**Description**     
+These measures of perceived stress and social support are a combination of the PROMIS emotional support 4a questionnaire and the Perceived Stress Scale – 4 (PSS-4). The first 4 questions are the PROMIS emotional support 4a questionnaire which measures the quality of the emotional support to which the participant has access. The last 4 questions (PSS-4) represent the shortened version of the PSS-14. This questionnaire measures perceived general stress in the past month. It has been used in many populations world wide including pregnant individuals and young families.   
+
+**Summary**     
+The Perceived Stress and Social support tools measure perceived stress and perceptions of emotional support by one’s social network in the caregivers in this study longitudinally.       
 
 ## Implementation & Data Collection
 **Method of Administration**: Remote survey       
@@ -16,10 +20,8 @@
 **Visits**: V01 (prenatal), V02 (0-1 month), V03 (3-9 months)   
 **Estimated length of time for completion**: 4 minutes 
 
-## Quality Control (QC) 
-**QC Procedures:** monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency.   
-**Common Issues Identified:** None  
-**Potential Issues Flagged by Subject Matter Experts:** None
+## Quality Control & Known Issues   
+Monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. No potential issues were identified via the QC procedures or flagged by subject matter experts.
 
 ## Additional Information
 Relevant Documents: Scoring Manuals

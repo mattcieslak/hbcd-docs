@@ -3,8 +3,12 @@
 **Full Name**: DSM-5 Self-Rated Level 1 and Level 2 (version 8a) Cross-Cutting Symptom Measure—Adult   
 **Acronym/Brief Name**: APA 1/2  
 **Construct**: Mental health   
-**Description**: This was a created to capture maternal mental health  
-**Summary**: This is a highly sensitive screening tool for use in community samples. This mental health screening instrument has two levels. Level 1 includes one to two questions for each of thirteen mental health conditions. When symptoms were reported for Level 1, the participant answered several subsequent questions, which asked about additional symptoms associated with each mental health condition, including anger, anxiety, depression, somatic symptoms, and sleep problems. Slight modifications were made due to the use of other measures and the study population. Specifically, the level 1 questions for personality functioning and substance use were not included; participants proceed automatically to level 2 measures. In addition, all participants answer the level 1 questions on depression but proceed to level 2 questions irrespective of answers.
+
+**Description**     
+This was a created to capture maternal mental health  
+
+**Summary**     
+This is a highly sensitive screening tool for use in community samples. This mental health screening instrument has two levels. Level 1 includes one to two questions for each of thirteen mental health conditions. When symptoms were reported for Level 1, the participant answered several subsequent questions, which asked about additional symptoms associated with each mental health condition, including anger, anxiety, depression, somatic symptoms, and sleep problems. Slight modifications were made due to the use of other measures and the study population. Specifically, the level 1 questions for personality functioning and substance use were not included; participants proceed automatically to level 2 measures. In addition, all participants answer the level 1 questions on depression but proceed to level 2 questions irrespective of answers.
 
 ## Implementation & Data Collection
 **Method of Administration**: self-administered in person or remote    
@@ -16,9 +20,7 @@
 **Estimated length of time for completion**: 5 minutes
 
 ## Quality Control & Known Issues 
-**QC Procedures**: Distributions for answers  
-**Common Issues Identified**: None  
-**Potential Issues Flagged by Subject Matter Experts**: None
+Distributions for answers were reviewed for quality control and no common issues were identified. No potential issues were flagged by subject matter experts.
 
 ## Additional Information
 When symptoms were reported for Level 1, the participant answered several subsequent questions, which asked about additional symptoms associated with each mental health condition, including anger, anxiety, depression, somatic symptoms, and sleep problems. Slight modifications were made due to the use of other measures and the study population. Specifically, the level 1 questions for personality functioning and substance use were not included; participants proceed automatically to level 2 measures. In addition, all participants answer the level 1 questions on depression but proceed to level 2 questions irrespective of answers.

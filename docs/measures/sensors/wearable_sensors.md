@@ -1,9 +1,10 @@
 # Wearable Sensors
 ## Measure Overview
 **Full Name**: Infant leg movement data collected by wearable sensors.   
-**Acronym/Brief Name**: N/A  
 **Construct**: motor behavior, physical activity, sleep   
-**Description**: Axivity AX6 sensors were used to record infant leg movements across 72 continuous hours. One sensor was placed on the distal right ankle and one sensor was placed on the distal left ankle, using legwarmers with a pocket to hold the sensor. Sensors were set to start recording at 10 am eastern/9 am central/8 am mountain/7 am pacific. Caregivers were instructed to go about their typical activities but to remove the sensors if the baby went into water (e.g., bathtub or pool) and replace them afterward.    
+
+**Description**     
+Axivity AX6 sensors were used to record infant leg movements across 72 continuous hours. One sensor was placed on the distal right ankle and one sensor was placed on the distal left ankle, using legwarmers with a pocket to hold the sensor. Sensors were set to start recording at 10 am eastern/9 am central/8 am mountain/7 am pacific. Caregivers were instructed to go about their typical activities but to remove the sensors if the baby went into water (e.g., bathtub or pool) and replace them afterward.    
 The sensors were set to record accelerometer (acceleration, range of +/- 16 g) and gyroscope (angular velocity, rate of rotation, +/- 2000 dps) data continuously at 25 samples per second. From this, we can estimate how frequently and how vigorously an infant is moving his or her legs, including an estimate of sedentary physical activity, light physical activity, moderate-to-vigorous activity, or asleep.    
 Before the 72 hours of data were collected, a calibration file was collected for each sensor. Instructions for collection of the calibration data were:
 
@@ -11,7 +12,8 @@ Before the 72 hours of data were collected, a calibration file was collected for
 
 Data files included in the data release are raw sensor data in BIDS format for the calibration and 72-hour files for the right leg and the left leg, as well as files containing processed data outputs. All are described below in “Additional Information” section.
 
-**Summary**: Wearable sensor data (accelerometer and gyroscope) were collected continuously across 72 hours from infants ankles to estimate how frequently and how vigorously an infant was moving and when the infant was asleep. 
+**Summary**     
+Wearable sensor data (accelerometer and gyroscope) were collected continuously across 72 hours from infants ankles to estimate how frequently and how vigorously an infant was moving and when the infant was asleep. 
 
 ## Implementation & Data Collection
 **Method of Administration**: RA placed sensors on child at visit, sensors then worn while 72 hours of data were collected across typical activities in the natural environment.    

@@ -16,6 +16,4 @@
 **Estimated length of time for completion**: 10 minutes
 
 ## Quality Control & Known Issues
-**QC Procedures**: Distributions for answers  
-**Common Issues Identified**: None  
-**Potential Issues Flagged by Subject Matter Experts**: Same issues identified at V1 for medications (difficulty with ICD codes (from BioPortal ICD) and medication names (from RxNORM)) apply to this visit as well.
+Distributions for answers were reviewed for quality control and no common issues were identified. The potential issues flagged by subject matter experts are the same identified at V1 for medications (difficulty with ICD codes (from BioPortal ICD) and medication names (from RxNORM)).

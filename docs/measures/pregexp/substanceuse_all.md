@@ -22,7 +22,7 @@ In addition, the following implementations were common to all measures:
 ### ASSIST V2
 **Description**: This was a created to capture maternal substance use between enrollment and delivery and postnatal (weeks 0-4) substance use.      
 **Summary**: Participants were first asked to update whether they had used any of the 18 substances of interest between V1 and delivery. If alcohol was reported during this period, the participant was further asked what type of alcohol they consumed (beer, hard cider, hard seltzer/wine/spirits). For each one, they were asked, on average, the volume of one typical glass/container that they consumed. United States defined ‘standard drinks’ were then calculated by dividing the amount reported by 12oz (beer, hard cider, hard seltzer), 5oz (wine) or 1.5 oz (spirits). Finally, if the participant reported opioids, they were asked the type of opioid used during the period, and typical quantities per occasion for the following: heroin (grams, bags), prescription opioids (pills), buprenorphine (pills, injectables, films), and methadone (mg). Any endorsement of substances between V1 and delivery triggered the Time Line Follow Back (TLFB).   
-In addition, participants were asked if they used any of the 18 substances between delivery and V2 (0-4 weeks postnatal). Response choices are: 0, Never | 1, Once or Twice | 2, Monthly | 3, Weekly | 4, Daily or Almost Daily.
+In addition, participants were asked if they used any of the 18 substances between delivery and V2 (0-4 weeks postnatal). Response choices are: 0 (Never), 1 (Once or Twice), 2 (Monthly), 3 (Weekly), 4 (Daily or Almost Daily).
 
 ### ASSIST V3
 **Description**: This was a created to capture maternal substance use throughout the rest of the study.  
@@ -34,18 +34,14 @@ In addition, participants were asked if they used any of the 18 substances betwe
 
 ## Quality Control & Known Issues
 ### ASSIST V1 & V2
-**QC Procedures**: Distributions for answers, cross with TLFB   
-**Common Issues Identified**: If a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it.      
-**Potential Issues Flagged by Subject Matter Experts**: To capture ‘standard drinks’ of alcohol, participants were asked to self-report their typical size of a single drink (in oz). This was difficult for some participants, and some reports are outside of expected range. Sites were queried on outliers, but participants were not always able to be re-contacted. 
+Distributions for answers were reviewed for quality control and crossed with TLFB. One common issue noted was that if a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it. One potential issue flagged by subject matter experts was that, to capture ‘standard drinks’ of alcohol, participants were asked to self-report their typical size of a single drink (in oz): this was difficult for some participants, and some reports are outside of expected range. Sites were queried on outliers, but participants were not always able to be re-contacted. 
 
 ### ASSIST V3
-**QC Procedures**: Distributions for answers  
-**Common Issues Identified**: None      
-**Potential Issues Flagged by Subject Matter Experts**: None
+Distributions for answers were reviewed for quality control and no common issues were identified. No potential issues were flagged by subject matter experts.
 
 ### Timeline Follow Back
-**QC Procedures**: Distributions for answers, cross with Assist     
-**Common Issues Identified**: If a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it.      
+Distributions for answers were reviewed for quality control and crossed with Assist. One common issue noted was that if a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it.   
+   
 **Potential Issues Flagged by Subject Matter Experts**  
 Important note for users: the TLFB was a sampling of weeks of use before (Weeks 1-2) and during (Weeks 3-9) pregnancy. It is completely reasonable that someone could endorse a substance during pregnancy, and it doesn’t appear on the TLFB because it didn’t happen to fall within a sampled week. Similarly, they may have a positive biospecimen but no data on the TLFB for the same reason. Sampling (before, early, mid and late pregnancy) was meant to minimize participant burden (and not request a 40-week TLFB) but capture portions of pregnancy where behaviors tend to change (before and after pregnancy recognition, late pregnancy). 
 

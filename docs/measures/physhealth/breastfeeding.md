@@ -16,6 +16,4 @@
 **Estimated length of time for completion**: 1 minute
 
 ## Quality Control & Known Issues
-**QC Procedures**: Monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency.    
-**Common Issues Identified**: None  
-**Potential Issues Flagged by Subject Matter Experts**: None
+The QC procedure involved monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. No common issues were identified with QC and no potential issues were flagged by subect matter experts.

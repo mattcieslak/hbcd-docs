@@ -1,40 +1,23 @@
 # Visual Evoked Potential Task
+*See [Common Measure Details](measures_all.md) for information on implementation, data collection, quality control procedures, and additional information.*
+
 ## Measure Overview
 **Full Name**: Visual Evoked Potential Task  
+
 **Acronym/Brief Name**: VEP  
+
 **Construct**: The Visual Evoked Potential Task (VEP) (v.11.29.23) measures cortical responses to flashing checkerboard visual stimuli. VEP amplitude and latency decreases with age during the first three years of life. The VEP has been associated with concurrent and later developmental outcomes as a function of prenatal substance exposures (Margolis et al., 2024), early visual enrichment or deprivation (Jensen et al., 2019), vision system maturation (Lippé et al., 2009), neurodevelopmental disorders (e.g., ASD and ADHD; Cremone- Caira et al., 2023; Nazhvani et al., 2013), and reading and learning disabilities (Shandiz et al., 2017). The morphology of the VEP likely reflects varying degrees of synaptic efficiency and as such, can be used as a readout of general cortical function. The task elicits a VEP response in the occipital area (Oz), consisting of the, N1 (first negative peak), P1 (first positive peak), and N2 (second negative peak) components. See Fox et al. (2024) for more information about the VEP task.  
-**Description**: A flashing black and white checkerboard is shown for the duration of the task.  
+
+**Description**     
+A flashing black and white checkerboard is shown for the duration of the task.  
 
 ![VEP checkerboard image](images/eeg-vep-checkerboard.png)
 
-**Summary**: The Visual Evoked Potential Task (v.11.29.23) measures development of visual cortex and response to stimuli, reflecting underlying cortical development. The measure includes rigorous QC procedures to ensure data integrity and reliability.
+**Summary**     
+The Visual Evoked Potential Task (v.11.29.23) measures development of visual cortex and response to stimuli, reflecting underlying cortical development. The measure includes rigorous QC procedures to ensure data integrity and reliability.
 
-## Implementation & Data Collection
-**Method of Administration**: RA administered in person  
-**Child Specific/Unspecific Form**: Child Specific  
-**Visits**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)  
-**Estimated length of time for completion**: Approximately 1 minute
-
-## Quality Control (QC) 
-**QC Procedures**  
-
-  * Data are cleaned and preprocessed using the Maryland Analysis of Developmental EEG (MADE) pipeline (Debnath et al., 2019)  
-  * Ongoing QC monitoring via LORIS dashboard  
-  * Rate quality of EEG cap application for each recording  
-  * Site specific check ins and troubleshooting  
-  * See Fox et al. (2024) for more information on EEG data quality control procedures.   
-
-**Common Issues Identified**  
-
-  * Irregular application of EEG sensors   
-  * Missing stimulus flags
-
-**Potential Issues Flagged by Subject Matter Experts:** None
-
-## Additional Information
-- HBCD E-Prime Task Manual, Official EEG Acquisition Manual  
-- [E-Prime manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)  
-- [EEG Acquisition Manual](https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing)
+## Known Issues
+The common issue identified from quality control was irregular application of EEG sensors. No potential issues were flagged by subject matter experts.
 
 ## References
 - Cremone-Caira, A., Braverman, Y., MacNaughton, G. A., Nikolaeva, J. I., & Faja, S. (2023). Reduced Visual Evoked Potential Amplitude in Autistic Children with Co-Occurring Features of Attention-Deficit/Hyperactivity Disorder. *Journal of Autism and Developmental Disorders*. [https://doi.org/10.1007/s10803-023-06005-7](https://doi.org/10.1007/s10803-023-06005-7)

@@ -16,9 +16,7 @@
 **Estimated length of time for completion**: 3 minutes
 
 ## Quality Control & Known Issues 
-**QC Procedures**: Distributions for answers  
-**Common Issues Identified**: None  
-**Potential Issues Flagged by Subject Matter Experts**: None
+Distributions for answers were reviewed for quality control and no common issues were identified. No potential issues were flagged by subject matter experts.
 
 ## References
 This measure is a combination of two measures: the Severity of Posttraumatic Stress Symptoms—Adult* National Stressful Events Survey PTSD Short Scale (NSESSS-PTSD) (questions 1-9) [**https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Posttraumatic-Stress-Symptoms-Adult.pdf**](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Posttraumatic-Stress-Symptoms-Adult.pdf)

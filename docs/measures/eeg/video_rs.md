@@ -1,8 +1,13 @@
 # Video Resting State
+*See [Common Measure Details](measures_all.md) for information on implementation, data collection, quality control procedures, and additional information.*
+
 ## Measure Overview
 **Full Name**: Video Resting State  
+
 **Acronym/Brief Name**: RS  
+
 **Construct**: The Video Resting State (v.11.29.23) task provides information about neural oscillations measured in EEG power across the scalp. Developmental changes in oscillatory activity reflect underlying developing large scale neural networks associated with early self-regulatory, cognitive, and affective processes and developmental outcomes (Gabard-Durnam et al., 2019; E. J. Jones et al., 2020; Whedon et al., 2020). The metrics derived from the resting EEG signal include power across the frequency spectrum (Gabard-Durnam et al., 2019) and relative power between different scalp locations (Davidson & Fox, 1982). See Fox et al. (2024) for more information about the RS.   
+
 **Description**: In V03, a silent video plays with a variety of colorful and abstract toys and visuals on screen. The child watches the video for the duration of the task.
 
 ![](images/eeg-RS-V03.png)
@@ -12,29 +17,8 @@ In V04/6, a silent video plays with a variety of marble run and construction vis
 
 **Summary**: The Resting State Task (v.11.29.23) provides assessment of the development of large scale neural networks during infancy and early childhood. It includes thorough QC procedures to ensure data accuracy and integrity.
 
-## Implementation & Data Collection
-**Method of Administration**: RA administered in person  
-**Child Specific/Unspecific Form**: Child Specific  
-**Visits**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)      
-**Estimated length of time for completion**: Approximately 3 minutes
-
-## Quality Control & Known Issues
-**QC Procedures** 
-
-  * Data are cleaned and preprocessed using the Maryland Analysis of Developmental EEG (MADE) pipeline (Debnath et al., 2019).   
-  * Ongoing QC monitoring via LORIS dashboard  
-  * Rate quality of EEG cap application for each recording  
-  * Site specific check ins and troubleshooting  
-  * See Fox et al. (2024) for more information on EEG data quality control procedures.   
-
-**Common Issues Identified**: Irregular application of EEG sensors 
-
-**Potential Issues Flagged by Subject Matter Experts**: Change in video content between V03 - V04/6
-
-## Additional Information
-- HBCD E-Prime Task Manual, Official EEG Acquisition Manual  
-- [E-Prime manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)  
-- [EEG Acquisition Manual](https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing)
+## Known Issues
+A common issue identified from quality control was irregular application of EEG sensors. Subject matter experts also flagged a change in video content between V03 - V04/6 as a potential issue.
 
 ## References
 - Davidson, R. J., & Fox, N. A. (1982). Asymmetrical Brain Activity Discriminates Between Positive and Negative Affective Stimuli in Human Infants. *Science*, 218(4578), 1235– 1237. [https://doi.org/10.1126/science.7146906](https://doi.org/10.1126/science.7146906)

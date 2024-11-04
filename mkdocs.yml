@@ -23,6 +23,7 @@ nav:
           - "Neurocognition & Language": 
               - Multilingual Language Development Screener: measures/neurocog_language.md          
           - Electroencephalogram (EEG): 
+              - Common Measure Details: measures/eeg/measures_all.md
               - Video Resting State: measures/eeg/video_rs.md
               - Faces Task: measures/eeg/faces_task.md
               - Auditory Mismatch Negativity Task: measures/eeg/aud_mm.md
@@ -44,7 +45,7 @@ nav:
               - Infant Health: measures/pregexp/infanthealth.md
               - "Personal & Family Psychiatric History": measures/pregexp/psych_history.md
               - Substance Use Measures (4): measures/pregexp/substanceuse_all.md
-              - Meantal Health: measures/pregexp/APA.md
+              - Meantal Health: measures/pregexp/mentalhealth.md
               - "NSESSS—PTSD & NSESSS—Acute Stress Disorder": measures/pregexp/NSESSS.md
               - Edinburgh Postnatal Depression Scale: measures/pregexp/edinburgh_postnatal_depression.md
       - "MRI Protocols": 

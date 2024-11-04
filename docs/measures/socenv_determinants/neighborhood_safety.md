@@ -3,8 +3,12 @@
 **Full Name**: PhenX+ Toolkit Neighborhood Safety  
 **Acronym/Brief Name**: Neighborhood Safety  
 **Construct**: Social Determinants of Health  
-**Description**: This measure is a three-item questionnaire to assess the respondent’s perceptions about safety, violence, and crime in their neighborhoods. Neighborhood safety may be relevant to a range of maternal and child health outcomes. The respondent’s perception of their neighborhood may also be used alongside geocoded measures of neighborhood crime statistics to help understand an individuals experience within a neighborhood.   
-**Summary**: This measure is a questionnaire to assess the respondent’s subjective perceptions about safety and crime in their neighborhoods. 
+
+**Description**     
+This measure is a three-item questionnaire to assess the respondent’s perceptions about safety, violence, and crime in their neighborhoods. Neighborhood safety may be relevant to a range of maternal and child health outcomes. The respondent’s perception of their neighborhood may also be used alongside geocoded measures of neighborhood crime statistics to help understand an individuals experience within a neighborhood.   
+
+**Summary**     
+This measure is a questionnaire to assess the respondent’s subjective perceptions about safety and crime in their neighborhoods. 
 
 ### Implementation & Data Collection
 **Method of Administration**: RA-administered in person or via remote survey  
@@ -17,9 +21,7 @@
 **Estimated length of time for completion**: 1 minute
 
 ## Quality Control & Known Issues
-**QC Procedures**: Monitoring missingness   
-**Common Issues Identified**: None  
-**Potential Issues Flagged by Subject Matter Experts**: None
+QC procedures involved monitoring missingness. No potential issues were identified via the QC procedures or flagged by subject matter experts.   
 
 ## References
 - Mujahid, M. S., Diez Roux, A. V., Morenoff, J. D., & Raghunathan, T. (2007). Assessing the measurement properties of neighborhood scales: from psychometrics to ecometrics. *American Journal of Epidemiology*, 165(8), 858–867. [https://doi.org/10.1093/aje/kwm040](https://doi.org/10.1093/aje/kwm040)

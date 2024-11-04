@@ -1,8 +1,13 @@
 # Faces Task
+*See [Common Measure Details](measures_all.md) for information on implementation, data collection, quality control procedures, and additional information.*
+
 ## Measure Overview
 **Full Name**: Faces task  
+
 **Acronym/Brief Name**: Face  
+
 **Construct**: The Faces task (v.11.29.23) assesses child and infant face processing abilities as well as the underlying neural activity supporting face and object processing. ERPs are computed as a function of repeated presentation of faces and objects. The ERPs index different stages of processing including attention, perception, categorization, individuation and memory. The ERP components elicited by the Faces task are the P1, N290, and P400 components. See Fox et al. (2024) for additional information on the rationale for task/stimulus development and ERP findings from pilot data.   
+
 **Description**: The task consists of 2 blocks: 50 trials of upright faces & 50 trials of inverted faces and 50 trials of upright faces & 50 trials of objects. If the child loses attention, an attention getter may be played to bring the child’s focus back to the task. 
 
 **Face task images (Face vs. Object)**<br>
@@ -13,33 +18,8 @@
 
 **Summary**: The Face task (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. It assesses child and infant face processing development including attention, perception, categorization, individuation and memory. The measure includes rigorous QC procedures to ensure data integrity and reliability.
 
-## Implementation & Data Collection
-**Method of Administration**: RA administered in person  
-**Child Specific/Unspecific Form**: Child Specific  
-**Visits**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)  
-**Estimated length of time for completion**: Approximately 5 minutes
-
-## Quality Control & Known Issues 
-**QC Procedures**  
-
-  * Data are cleaned and preprocessed using the Maryland Analysis of Developmental EEG (MADE) pipeline (Debnath et al., 2019)  
-  * Ongoing QC monitoring via LORIS dashboard  
-  * Rate quality of EEG cap application for each recording  
-  * Site specific check ins and troubleshooting  
-  * See Fox et al. (2024) for more information on EEG data quality control procedures.  
-
-**Common Issues Identified**
-
-  * Partial task completion due to infant fussing out  
-  * Irregular application of EEG sensors   
-  * Missing stimulus flags    
-
-**Potential Issues Flagged by Subject Matter Experts**: None
-
-## Additional Information
-- HBCD E-Prime Task Manual, Official EEG Acquisition Manual  
-- [E-Prime manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)  
-- [EEG Acquisition Manual](https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing)
+## Known Issues
+Common issues identified from quality control were irregular application of EEG sensors, inclusion of partial task completion due to infant fussing, and missing stimulus flags. No potential issues were flagged by subject matter experts.    
 
 ## References
 - Barry-Anwar, R., Riggins, T., & Scott, L. S. (2020). Electrophysiology in developmental populations: Key methods and findings. In K. Cohen Kadosh (Ed.), *The Oxford Handbook of Developmental Cognitive Neuroscience*. Oxford University Press. [https://doi.org/10.1093/oxfordhb/9780198827474.013.3](https://doi.org/10.1093/oxfordhb/9780198827474.013.3)
