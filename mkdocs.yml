@@ -14,6 +14,7 @@ nav:
   - DUC PROCESS: duc_process.md
   - FAQS: faq.md
   - CONTACT: contact.md
+  - RESPONSIBLE DATA USE: resp_data_use.md
   - Release Notes:
       - "Data Measures & Quality Control":
           - Demographics: measures/demographics.md
