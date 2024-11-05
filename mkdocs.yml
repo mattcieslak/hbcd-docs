@@ -10,6 +10,10 @@ docs_dir: docs
 
 nav: 
   - ABOUT: index.md
+  - HOW TO ACCESS DATA: data_access.md
+  - DUC PROCESS: ducprocess.md
+  - FAQS: faq.md
+  - CONTACT: contact.md
   - Release Notes:
       - "Data Measures & Quality Control":
           - Demographics: measures/demographics.md
@@ -70,8 +74,4 @@ nav:
           - Beta Release 3/V1.2: changelog/versions/v1.2.md
           - Beta Release 2/V1.1: changelog/versions/v1.1.md
           - Beta Release 1/V1.0: changelog/versions/v1.0.md
-
-  - "FAQ & Contact": 
-      - FAQ: faq.md
-      - Contact: contact.md
 
