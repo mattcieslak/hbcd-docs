@@ -3,8 +3,12 @@
 **Full Name**: Personal and family psychiatric history   
 **Acronym/Brief Name**: FAM MH  
 **Construct**: Personal and family mental health   
-**Description**: This was a created to capture maternal, paternal, and grandparents’ mental health conditions and diagnoses  
-**Summary**: This measure was created from combining and modifying the Family History Assessment Module (FHAM) and the All of Us Personal and Family Health History. It assesses self-reported diagnoses and mental health conditions of the biologic mother, father, maternal parents and paternal parents. 
+
+**Description**     
+This was a created to capture maternal, paternal, and grandparents’ mental health conditions and diagnoses 
+
+**Summary**     
+This measure was created from combining and modifying the Family History Assessment Module (FHAM) and the All of Us Personal and Family Health History. It assesses self-reported diagnoses and mental health conditions of the biologic mother, father, maternal parents and paternal parents. 
 
 ## Implementation & Data Collection
 **Method of Administration**: self-administered in person  
