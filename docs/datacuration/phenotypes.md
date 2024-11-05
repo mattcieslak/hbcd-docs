@@ -46,13 +46,15 @@ Below is additional information on the files and file contents provided for each
 <ul>
 <br>
 <i>Regarding biosample urine result files:</i>
-    <li>USDTL Urine results</li>
-    <li>Updated up to July 1st</li>
-    <li>File produced by BAH</li>
-    <li>Includes DCCID, Visit Label & Scannable code</li>
-    <li>‘bio’ domain prepended</li>
+    <li>USDTL Urine results produced by BAH (Booz-Allen Hamilton)</li>
+    <li>Includes DCCID, Visit Label, Scannable code, and other BioSpecimen result fields</li>
+    <li>‘bio’ domain prepended for all protocol elements</li>
 </ul>
 </details>
+
+
+
+Hi Lucille, the 'bio' domain is the domain which is prepended for all protocol elements. This is used by LASSO to route and display the correct domain for users. And yes, the above means that DCCID, Visit Label & Scannable code are included along with the other BioSpecimen result fields. BAH is 'Booz-Allen Hamilton', which is involved in the BioSpecimen workflow. July i1st is the date of the data lock for the Data Release. I can provide more descriptive text if needed.
 
 <details>
 <summary>Visit data files (<code>phenotype/visit_data</code>)</summary>
