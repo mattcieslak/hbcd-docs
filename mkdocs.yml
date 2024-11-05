@@ -15,6 +15,7 @@ nav:
   - FAQS: faq.md
   - CONTACT: contact.md
   - RESPONSIBLE DATA USE: resp_data_use.md
+  - DATA DICTIONARY EXPLORER: datadictionary.md
   - Release Notes:
       - "Data Measures & Quality Control":
           - Demographics: measures/demographics.md
