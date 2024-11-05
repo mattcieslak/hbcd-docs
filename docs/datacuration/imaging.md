@@ -8,7 +8,6 @@ DICOM images are converted using a [custom version](https://github.com/rordenlab
 
 ```
 root/
-|__ assembly_bids/
 |__ participants.tsv
 |__ participants.json
 |__ anat/
@@ -36,6 +35,23 @@ root/
 |__ func/
 |   |__ sub-<label>_ses-<label>_task-rest_dir-PA_run-<label>_bold.nii.gz
 |   |__ sub-<label>_ses-<label>_task-rest_dir-PA_run-<label>_bold.json
+```
+
+The above includes EPI fielmaps under `fmap/`. However, Siemens, GE, and Philips fieldmaps are different and will instead look like:
+```
+Siemens B1 Map
+|__ fmap/
+|   |__ sub-<label>_ses-<label>_acq-anat_run-<label>_TB1TFL.nii.gz 
+|   |__ sub-<label>_ses-<label>_acq-anat_run-<label>_TB1TFL.json 
+|   |__ sub-<label>_ses-<label>_acq-fmap_run-<label>_TB1TFL.nii.gz
+|   |__ sub-<label>_ses-<label>_acq-fmap_run-<label>_TB1TFL.json
+
+GE and Philips B1 Map
+|__ fmap/
+|   |__ sub-<label>_ses-<label>_acq-tr1_run-<label>_TB1AFI.nii.gz 
+|   |__ sub-<label>_ses-<label>_acq-tr1_run-<label>_TB1AFI.json 
+|   |__ sub-<label>_ses-<label>_acq-tr2_run-<label>_TB1AFI.nii.gz
+|   |__ sub-<label>_ses-<label>_acq-tr2_run-<label>_TB1AFI.json
 ```
 
 After conversion, the MRI protocol was checked to ensure the quality of the data. For example, a check to ensure that all images are acquired using a head coil was performed before including it in the BIDS dataset. Other exclusion criteria will be detailed in each of the image type sections below.
@@ -71,8 +87,8 @@ For Philips T1W images, the `RepetitionTime` value obtained after the dcm2niix c
 </details><br>
 
 ### MRS Localizer
-Axial MRS localizers: `anat/sub-<label>_ses-<label>_acq-mrsLocAx_run-<label>_T2w.<nii.gz/json>`      
-Coronal MRS localizers: `anat/sub-<label>_ses-<label>_acq-mrsLocCor_run-<label>_T2w.<nii.gz/json>`
+Axial MRS localizers: `anat/sub-<label>_ses-<label>_acq-mrsLocAx_run-<label>_T2w.nii.gz`      
+Coronal MRS localizers: `anat/sub-<label>_ses-<label>_acq-mrsLocCor_run-<label>_T2w.nii.gz`
 
 <details>
 <summary>Exclusion Criteria</summary>
@@ -85,7 +101,7 @@ Coronal MRS localizers: `anat/sub-<label>_ses-<label>_acq-mrsLocCor_run-<label>_
 </details><br>
 
 ### Quantitative MRI
-Filename: `sub-<label>_ses-<label>_run-<label>_inv-<label>_QALAS.nii.gz` 
+Filename: `anat/sub-<label>_ses-<label>_run-<label>_inv-<label>_QALAS.nii.gz` 
 
 **Post-Conversion Modifications**   
 Depending on the scanner manufacturer, dcm2niix produced either 5 NIfTI 3D files or 1 NIfTI 4D file with 5 volumes. In addition, some header information was missing from the JSON file produced by `dcm2niix`. Therefore, we took the files produced by `dcm2niix` and generated the QALAS NIfTI files that can be found in the BIDS dataset. Therefore, each QALAS series results in 5 NIfTI files with different inversion time (labeled using the `inv-<label>` BIDS tag). In addition, JSON sidecar file needed to have the following headers modified:
