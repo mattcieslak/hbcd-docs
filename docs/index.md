@@ -1,8 +1,8 @@
-# HBCD Data Release
+<p style="text-align: center; font-size: 1.5em">Welcome to the Data Release page for the HEALthy Brain and Child Development (HBCD) Study!</p>
+<br>
+<p style="text-align: center; font-size: 1.1em">Here we provide extensive information about the HBCD 1.0 data release and how to access the data. An overview of the HBCD Study can be found at <a href="https://hbcdstudy.org/">hbcdstudy.org</a>:</p> 
 
-This is the central documentation page for the HEALthy Brain and Child Development (HBCD) Study data release that describes the clinical and imaging measures in detail. 
+![](images/about-header-hbcd-text.png)
 
-**Please also see: [Central HBCD Study page](https://hbcdstudy.org/)** 
-
-
-
+[![](images/who-we-are-hbcd-text.png)](https://hbcdstudy.org/federal-partners/)
+![](images/who-we-are-map-hbcd.png)
