@@ -11,7 +11,7 @@ docs_dir: docs
 nav: 
   - ABOUT: index.md
   - HOW TO ACCESS DATA: data_access.md
-  - DUC PROCESS: ducprocess.md
+  - DUC PROCESS: duc_process.md
   - FAQS: faq.md
   - CONTACT: contact.md
   - Release Notes:
