@@ -1,13 +1,18 @@
-# Motion Data Curation & BIDS Conversion
-Axivity AX6 sensors were used to record infant leg movements across 72 continuous hours. One sensor was placed on the distal right ankle and one sensor was placed on the distal left ankle, using leg warmers with a pocket to hold the sensor. Sensors were set to start recording at 10 am eastern/9 am central/8 am mountain/7 am pacific. Caregivers were instructed to go about their typical activities but to remove the sensors if the baby went into water (e.g., bathtub or pool) and replace them afterward.  
-   
-The sensors were set to record accelerometer (acceleration, range of +/- 16 g) and gyroscope (angular velocity, rate of rotation, +/- 2000 dps) data continuously at 25 samples per second. From this, it is possible to estimate how frequently and how vigorously an infant is moving his or her legs, including an estimate of sedentary physical activity, light physical activity, moderate-to-vigorous activity, or asleep.  
-   
-Before the 72 hours of data were collected, a calibration file was collected for each sensor. Instructions for collection of the calibration data were: “There are 6 flat surfaces of the sensor and we want to record data with the sensor sitting still on each of its flat surfaces. To do this: place the sensor on a level, flat surface (e.g., the surface of a desk or table). Wait 10 seconds. Rotate it so that it is resting on its next flat surface. Wait 10 seconds. You should put the sensor in 6 different positions and collect 10 seconds of data in each position, so just over a minute of data in total (including the time to rotate it). It does not matter what order you do this in. I like to get the 4 longer sides and then the 2 shorter ends. It does not have to be an exact 10 seconds in each position, counting “1-Mississippi, 2-Mississipi….10-Mississipi” will be close enough!”  
-   
-Data files included in the data release are raw sensor data in BIDS format for the calibration and 72-hour files for the right leg and the left leg, as well as files containing processed data outputs. All are described below in the “Additional Information” section.
+# UNDER CONSTRUCTION - Motion Data Curation & BIDS Conversion
 
-Data structure for motion data:
+## BIDS Conversion
+Axivity AX6 sensor data provided in the data release include sensor recordings (`*_motion.tsv`) with corresponding `*_channels.tsv` files that describe each column of of the motion file. Each `.tsv` file is accompanied by a JSON sidecar containing recording-related metadata. BIDS entities represent the following:
+
+|       BIDS Entity   |    Label      |   Description  |   
+| ------------------  | ------------- | -----------------  |  
+| `acq-<label>`       | `calibration` | calibration sensor file |  
+| `acq-<label>`       | `primary` | 72-hr calibration file |  
+| `task-<label>`       | `LeftLegMovement` | left leg sensor |  
+| `task-<label>`       | `RightLegMovement` | right leg sensor |  
+| `desc-<label>`       | `calibrated_recording-20` | sensor data (`*_motion.tsv`) calibrated<br>using tsv recording and resampled at 20 Hz |  
+| `desc-<label>`       | `calibrated_recording-25` | sensor data (`*_motion.tsv`) calibrated<br>using tsv recording and resampled at 25 Hz |  
+
+The resulting data structure:
 ```
 root/  
 |__ participants.tsv  
@@ -19,10 +24,37 @@ root/
 |   |   |__ sub-<label>_ses-<label>_scans.tsv  
 |   |   |__ sub-<label>_ses-<label>_scans.json  
 |   |   |__ motion/  
-|   |   |   |__ sub-<label>_ses-<label>_task-<label>_tracksys-imu_acq-<label>_motion.tsv  
-|   |   |   |__ sub-<label>_ses-<label>_task-<label>_tracksys-imu_acq-<label>_motion.json  
-|   |   |   |__ sub-<label>_ses-<label>_task-<label>_tracksys-imu_acq-<label>_channels.tsv  
-|   |   |   |__ sub-<label>_ses-<label>_task-<label>_tracksys-imu_acq-<label>_channels.json
+|   |   |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-calibration_motion.tsv  
+|   |   |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-calibration_motion.json
+|   |   |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-calibration_channels.tsv  
+|   |   |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-calibration_channels.json
+
+|   |   |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-primary_motion.tsv  
+|   |   |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-primary_motion.json
+|   |   |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-primary_channels.tsv  
+|   |   |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-primary_channels.json
 ```
 
-For sensor recordings, an actual recording will be labeled as `sub-<label>_ses-<label>_task-<label>_tracksys-imu_acq-<label>_motion.tsv`. The *acquisition* label for the calibration files is `calibration `while the label for the data files is `primary`. The task label will be either `LeftLegMovement` or `RightLegMovement`. The JSON sidecar contains recording related metadata `*_channels.tsv` which describes each column of the corresponding `*_motion.tsv`. 
+## Detailed File Descriptions
+Calibration file: `*_acq-calibration_channels.json`     
+72-hour file: `*_acq-primary_channels.json`     
+Description: The reference frame in which the channels of the Inertial Measurement Unit sensor used to prepare sensor calibration dataset is represented (left/right leg movement): Anterior, Right, Superior each corresponding to X, Y, and Z axis.
+
+Calibration file: `*_acq-calibration_channels.tsv`     
+72-hour file: `*_acq-primary_channels.tsv`     
+Description: Includes measurement axis, sensor type, sensor position, unit, latency, and reference frame of each column in corresponding `*_motion.tsv` file   
+
+Calibration file: `*_acq-calibration_motion.tsv`     
+72-hour file: `*_acq-primary_motion.tsv`     
+Description: Actual recording of the sensor (~ 1 minute) to prepare calibration dataset of the left/right leg movement sensor. There will be seven columns, and the detail about each column is in LL-Calib-Cahnnels-Details/RL-Calib-Channels-Details.
+
+Calibration file: `*_acq-calibration_motion.json`     
+72-hour file: `*_acq-primary_motion.json`     
+Description: Recording related information: sampling frequency, effective sampling frequency, task name, task description, tracking system name, recording duration, accelerometer channel count, gyroscope channel count, latency channel count, manufacturer, sensor name, sensor’s serial number   
+
+72-hour files: `*_desc-calibrated_recording-20_motion.tsv` and `*_desc-calibrated_recording-25_motion.tsv`
+Description:  Movement sensor data calibrated using tsv recording and resampled at 20 Hz and 25 Hz respectively
+
+
+
+

@@ -5,25 +5,19 @@
 **Construct**: motor behavior, physical activity, sleep   
 
 **Description**     
-Survey was sent to primary caregiver once per day for 3 days during the 72 hour data collection of infant heart rate sensor data and infant leg movement sensor data. Surveys were automatically sent via email or text message (per caregiver preference) at 10 am eastern/9 am central/8 am mountain/7 am pacific. The surveys were sent after the sensors had been recording for 24, 48, and 72 hours. The survey asked about the preceding 24-hour period. It asked whether the sensors were worn for most of the time and about the daily activities of the infant (whether or not it was a fairly typical 24 hours for the infant, estimates of how much they napped and slept, how much they were in a car seat, swing or other restraining device, how much they were in a moving car or stroller or being carried, and whether or not their legs are swaddled during naps and sleep). This survey was created by the workgroup.   
+Please see [Pini et al. 2024](https://doi.org/10.1016/j.dcn.2024.101446) for a full description of this measure. Briefly, the Infant Sensor Questionnaire survey, developed by the working group, was automatically sent to primary caregivers after 24, 48, and 72 hours of sensor recording. The survey covered the preceding 24-hour period, asking if the sensors were worn for most of the time and gathering information about the infant's daily activities (e.g. whether the period was typical for the infant; estimates of how much they napped and slept; time spent in car seat, swing, or other restraining device; time spent in a moving car, stroller, or being carried; and whether their legs were swaddled during naps and sleep).
 
 **Summary**     
 The questionnaire was sent once per day for 3 days while the infant was wearing the heart rate sensor and infant leg movement sensors to obtain information about context of the sensor recordings.
 
 ## Implementation & Data Collection
-**Method of Administration**: RA marked preferred contact and preferred method of contact (email or text message) at visit, then surveys were sent automatically.  
+**Method of Administration**: Surveys were sent automatically to caregivers via their preferred method of contact (email or text message) marked by the RA at visit
 **REDCap Form Name**: `sens_ch_rcpt`  
 **Pilot Data Dictionary**: `nt_ch_sens_i_qtn_1`, `nt_ch_sens_i_qtn_2`, `nt_ch_sens_i_qtn_3`  
 **Spanish Translation**: Done by study  
-**Child Specific/Unspecific Form**: Caregiver answering questions about their child  
+**Child Specific/Unspecific Form**: Child Specific  
 **Respondent:** Caregiver   
 **Visits**: V02 (0-1 month) and V03 (3-8 months)  
 
-## Quality Control & Known Issues
-**QC Procedures**   
-Surveys were spot-checked during the data collection time frame. Only a small percentage of surveys were randomly checked each week as the process was manual. When checked, surveys were checked for the presence of responses. When no responses were provided, RA’s were contacted to confirm whether or not surveys had gone out to the participants as intended.  
-
-**Common Issues Identified**    
-Common issues identified during QC processes included surveys that had no responses. Sometimes this was human error (preferred contact or preferred method of communication not selected by RA) or potentially technological malfunction, and sometimes it was caregiver non-response. Caregiver non-response was the reason for the majority of the surveys without responses. Caregiver non-response was common.
-
-**Potential Issues Flagged by Subject Matter Experts:** None
+## Quality Control & Known Issues 
+A small percentage of surveys (due to the procedure being manual) were randomly spot-checked on a weekly basis to confirm presence of responses. When no responses were received, RAs were contacted to confirm whether the surveys had been sent to participants as intended. The most common cause of missing responses was caregiver non-response, and less commonly due to human error (preferred contact/contact method not selected by RA) or technological malfunction. No issues were flagged for this measure by subject matter experts.
