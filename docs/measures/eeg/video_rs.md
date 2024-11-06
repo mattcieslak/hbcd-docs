@@ -1,24 +1,25 @@
 # Video Resting State
-*See [Common Measure Details](measures_all.md) for information on implementation, data collection, quality control procedures, and additional information.*
+*See [Common Measure Details](measures_all.md) for information on implementation, data collection, quality control & known issues, and additional information.*
 
 ## Measure Overview
 **Full Name**: Video Resting State  
-
 **Acronym/Brief Name**: RS  
 
-**Construct**: The Video Resting State (v.11.29.23) task provides information about neural oscillations measured in EEG power across the scalp. Developmental changes in oscillatory activity reflect underlying developing large scale neural networks associated with early self-regulatory, cognitive, and affective processes and developmental outcomes (Gabard-Durnam et al., 2019; E. J. Jones et al., 2020; Whedon et al., 2020). The metrics derived from the resting EEG signal include power across the frequency spectrum (Gabard-Durnam et al., 2019) and relative power between different scalp locations (Davidson & Fox, 1982). See Fox et al. (2024) for more information about the RS.   
+**Construct**       
+The Video Resting State (v.11.29.23) task provides information about neural oscillations measured in EEG power across the scalp. Developmental changes in oscillatory activity reflect underlying developing large scale neural networks associated with early self-regulatory, cognitive, and affective processes and developmental outcomes (Gabard-Durnam et al., 2019; E. J. Jones et al., 2020; Whedon et al., 2020). The metrics derived from the resting EEG signal include power across the frequency spectrum (Gabard-Durnam et al., 2019) and relative power between different scalp locations (Davidson & Fox, 1982). See Fox et al. (2024) for more information about the RS.   
 
-**Description**: In V03, a silent video plays with a variety of colorful and abstract toys and visuals on screen. The child watches the video for the duration of the task.
+**Description**     
+In V03, a silent video plays with a variety of colorful and abstract toys and visuals on screen. The child watches the video for the duration of the task.
 
 ![](images/eeg-RS-V03.png)
+<br>
+<br>
 
 In V04/6, a silent video plays with a variety of marble run and construction visuals on screen. The child watches the video for the duration of the task.    
 ![](images/eeg-RS-V04.png)
 
-**Summary**: The Resting State Task (v.11.29.23) provides assessment of the development of large scale neural networks during infancy and early childhood. It includes thorough QC procedures to ensure data accuracy and integrity.
-
-## Known Issues
-A common issue identified from quality control was irregular application of EEG sensors. Subject matter experts also flagged a change in video content between V03 - V04/6 as a potential issue.
+**Summary**     
+The Resting State Task (v.11.29.23) provides assessment of the development of large scale neural networks during infancy and early childhood. It includes thorough QC procedures to ensure data accuracy and integrity.
 
 ## References
 - Davidson, R. J., & Fox, N. A. (1982). Asymmetrical Brain Activity Discriminates Between Positive and Negative Affective Stimuli in Human Infants. *Science*, 218(4578), 1235– 1237. [https://doi.org/10.1126/science.7146906](https://doi.org/10.1126/science.7146906)

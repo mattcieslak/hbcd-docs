@@ -6,8 +6,15 @@
 **Visits**: V03 (3-9 months), V04 (9-15 months), V06 (15-48 months)  
 **Estimated length of time for completion**: Video RS 3 min, Faces task 5 min, Auditory Mismatch Negativity Task 11.5 min V03 & 8.5 minutes V04/6, VEP 1 min    
 
-## Quality Control Procedures
+## Quality Control & Known Issues
+**QC Procedures**       
 QC procedures for the HBCD Study EEG protocol are described in [Fox et al. (2024)](https://doi.org/10.1016/j.dcn.2024.101447). In brief, QC metrics (such as EEG cap application quality ratings for each recording) are monitored via a LORIS dashboard to facilitate ongoing QC. Site-specific check-ins and troubleshooting are performed to ensure protocol and data quality consistency across sites.
+
+**Common Issues Identified**        
+A common issue that arose during QC for all tasks was irregular application of EEG sensors. In addition, inclusion of partial task completion due to infant fussing and missing stimulus flags were commonly noted for the faces and auditory mismatch negativity tasks.
+
+**Potential Issues**        
+Potential issues flagged by subject matter experts include changes between V03 and V04/6 in (1) video content of the video RS task and (2) the interstimulus interval (ISI) of the auditory mismatch negativity task (see Fox et al. (2024) and Morr et al. (2002) for more information about the ISI change). No potential issues were flagged for the faces and visual evoked potential tasks.
 
 ## Additional Information
 - [HBCD E-Prime Task Manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)  
