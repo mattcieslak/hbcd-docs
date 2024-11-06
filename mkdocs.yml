@@ -38,6 +38,9 @@ nav:
               - Common Measure Details: measures/mri/mri_measures_all.md
               - Structural MRI: measures/mri/smri.md
               - Functional MRI: measures/mri/fmri.md
+              - Diffusion MRI: measures/mri/dmri.md
+              - Quantitative MRI: measures/mri/qalas.md
+              - Magnetic Resonance Spectroscopy: measures/mri/mrs.md
           - "Novel Technologies & Wearable Sensors": 
               - Wearable Sensors: measures/sensors/wearable_sensors.md
               - Infant Sensor Questionnaire: measures/sensors/sensor_questionnaire.md
