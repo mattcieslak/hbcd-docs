@@ -12,7 +12,7 @@
 **Spanish Translation**: Translated  
 **Child Specific/Unspecific Form**: Child Specific  
 **Respondent:** Caregiver   
-**Visits**: pre-V2 (0-1m), pre-V3 (3-9m), pre-V4 (9-15m), pre-v6 (15-30m), pre-v8 (31-45m)     
+**Visits**: pre-V02 (0-1 months), pre-V03 (3-9 months), pre-V04 (9-15 months), pre-V06 (15-30 months), pre-V08 (31-45 months)     
 **Estimated length of time for completion**: 1 minute
 
 ## Quality Control & Known Issues

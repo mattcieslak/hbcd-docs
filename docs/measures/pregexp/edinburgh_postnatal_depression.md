@@ -5,7 +5,7 @@
 **Construct**: Pregnancy/postnatal depression  
 
 **Description**   
-This was a created to capture symptoms of maternal depression  
+EPDS, available [here](https://downloads.aap.org/AAP/PDF/Postnatal%20Depression%20Scale.pdf), was a created to capture symptoms of maternal depression  
 
 **Summary**   
 The Edinburgh Postnatal Depression Scale (EPDS), a sensitive, 10-item screening tool for prenatal and postpartum depression symptoms, was selected due to its ease of administration and widely accepted use.

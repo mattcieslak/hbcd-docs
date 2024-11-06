@@ -20,7 +20,7 @@ The IBQ-R+BI is scored in 4 domains: Surgency, Negative Affect, Effortful Contro
 | 6 | Almost always |
 | 7 | Always |
 
-*Scale scores*, generated for each domain, are the mean score of all scale items applicable to the child as judged by the caregiver (`sum of item scores / total # of items` per domain). Importantly, this calculation only includes items with scores of 1 through 7: items where the caregiver selects "does not apply" or “choose not to respond" receive no numerical score and are not included in the total number of items for the scale. Items with an “R” are reverse scored and already implemented in the HBCD scoring algorithm.
+Scale scores generated for each domain are the mean score of all scale items applicable to the child as judged by the caregiver (`sum of item scores / total # of items` per domain). Importantly, this calculation only includes items with scores of 1 through 7: items where the caregiver selects "does not apply" or “choose not to respond" receive no numerical score and are not included in the total number of items for the scale. Items with an “R” are reverse scored and already implemented in the HBCD scoring algorithm.
 
 **Summary**   
 The IBQ provides a comprehensive assessment of early temperament, focusing on key traits that influence development and behavior during the early years.
@@ -35,19 +35,8 @@ The IBQ provides a comprehensive assessment of early temperament, focusing on ke
 **Visits**: V03, V05, validated for ages 3 months 0 days to 17 months 30 days (for HBCD purposes)  
 **Estimated length of time for completion**: Approximately 7-10 minutes     
 
-## Quality Control & Known Issues
-**QC Procedures**:
-
-  - Examine the range of the child’s age to ensure that it falls in the age range 3 to 18 months
-  - Examine missingness. Count the number of items answered for each participant
-  - Calculate sum scores and means applying appropriate rules to account formissing data
-  - Generate summary statistics and visualizations for item-level frequencies, age, and scores
-  - Calculate Cronbach's Alpha for reliability  
-
-**Common Issues Identified**    
-Scoring not accurately applied to observations with missing responses and incorrect administration ages, missing data patterns that may be site specific.
-
-**Potential Issues Flagged by Subject Matter Experts**: None
+## Quality Control & Known Issues    
+QC procedures included examining the range of the child’s age to ensure that it falls within 3 to 18 months; examining missingness; generating summary statistics and visualizations for item-level frequencies, age, and scores; and using Calculate Cronbach's Alpha for reliability. A common error noted during QC was that scoring was not accurately applied to observations with missing responses and incorrect administration ages. No potential issues were flagged by subject matter experts.
 
 ## Additional Information
  * [Mary Rothbart's Temperament Questionnaires](https://research.bowdoin.edu/rothbart-temperament-questionnaires)

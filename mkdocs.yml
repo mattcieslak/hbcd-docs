@@ -51,9 +51,9 @@ nav:
               - Infant Health: measures/pregexp/infanthealth.md
               - "Personal & Family Psychiatric History": measures/pregexp/psych_history.md
               - Substance Use Measures (4): measures/pregexp/substanceuse_all.md
-              - Meantal Health: measures/pregexp/mentalhealth.md
+              - Mental Health: measures/pregexp/mentalhealth.md
               - "NSESSS—PTSD & NSESSS—Acute Stress Disorder": measures/pregexp/NSESSS.md
-              - Edinburgh Postnatal Depression Scale: measures/pregexp/edinburgh_postnatal_depression.md
+              - EPDS: measures/pregexp/edinburgh_postnatal_depression.md
       - "MRI Protocols": 
           - Overview: mriprotocols/overview.md
           - Siemens Protocol: mriprotocols/siemens.md
@@ -76,4 +76,6 @@ nav:
           - Beta Release 3/V1.2: changelog/versions/v1.2.md
           - Beta Release 2/V1.1: changelog/versions/v1.1.md
           - Beta Release 1/V1.0: changelog/versions/v1.0.md
-
+      - Visit Measure Changes: 
+          - Visit 1: 
+                - "Pregnancy & Exposure": changelog/visits/visit1/pregexp.md

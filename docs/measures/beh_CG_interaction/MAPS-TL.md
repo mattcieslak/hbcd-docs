@@ -26,7 +26,7 @@ A **sum score** is generated when the caregiver provides a numerical score of 1 
 **Spanish Translation**: Yes  
 **Child Specific/Unspecific Form**: Child Specific  
 **Respondent:** Primary Caregiver   
-**Visits**: V03 (3 months 0 days to 9 months  0 days)  
+**Visits**: V03 (3-9 months)  
 **Estimated length of time for completion**: 5 minutes 
 
 ## Quality Control & Known Issues 

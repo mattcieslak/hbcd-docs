@@ -11,7 +11,7 @@
 **REDCap Form Name**: N/A (entered into Loris)      
 **Pilot Data Dictionary**: Height/Weight/Head Circumference    
 **Child Specific/Unspecific Form**: Child Specific  
-**Visits**: V2 (0-1m), V3 (3-9m), V4 (9-15m), V6 (15-30m), V8 (31-45m)     
+**Visits**: V02 (0-1 months), V03 (3-9 months), V04 (9-15 months), V06 (15-30 months), V08 (31-45 months)   
 **Estimated length of time for completion**: 5 minutes
 
 ## Quality Control & Known Issues
