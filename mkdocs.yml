@@ -34,7 +34,13 @@ nav:
               - Faces Task: measures/eeg/faces_task.md
               - Auditory Mismatch Negativity Task: measures/eeg/aud_mm.md
               - Visual Evoked Potential Task: measures/eeg/vis_ep_task.md
-          - Magnetic Resonance Imaging (MRI): measures/mri.md
+          - Magnetic Resonance Imaging (MRI):
+              - Common Measure Details: measures/mri/mri_measures_all.md
+              - Structural MRI: measures/mri/smri.md
+              - Functional MRI: measures/mri/fmri.md
+              - Diffusion MRI: measures/mri/dmri.md
+              - Quantitative MRI: measures/mri/qalas.md
+              - Magnetic Resonance Spectroscopy: measures/mri/mrs.md
           - "Novel Technologies & Wearable Sensors": 
               - Wearable Sensors: measures/sensors/wearable_sensors.md
               - Infant Sensor Questionnaire: measures/sensors/sensor_questionnaire.md
@@ -56,9 +62,10 @@ nav:
               - EPDS: measures/pregexp/edinburgh_postnatal_depression.md
       - "MRI Protocols": 
           - Overview: mriprotocols/overview.md
-          - Siemens Protocol: mriprotocols/siemens.md
-          - GE Protocol: mriprotocols/ge.md
-      - HBCD BIDS Dataset:
+          - Siemens: mriprotocols/siemens.md
+          - GE: mriprotocols/ge.md
+          - Philips: mriprotocols/philips.md
+      - BIDS Dataset:
           - Overview: datacuration/bids.md
           - Imaging: datacuration/imaging.md
           - EEG: datacuration/eeg.md
