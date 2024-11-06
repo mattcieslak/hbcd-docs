@@ -5,14 +5,12 @@
 **Full Name**: Faces task  
 **Acronym/Brief Name**: Face  
 
-**Construct**       
-The Faces task (v.11.29.23) assesses child and infant face processing abilities as well as the underlying neural activity supporting face and object processing. ERPs are computed as a function of repeated presentation of faces and objects. The ERPs index different stages of processing including attention, perception, categorization, individuation and memory. The ERP components elicited by the Faces task are the P1, N290, and P400 components. See Fox et al. (2024) for additional information on the rationale for task/stimulus development and ERP findings from pilot data.   
-
-**Description**     
-The task consists of 2 blocks: 50 trials of upright faces & 50 trials of inverted faces and 50 trials of upright faces & 50 trials of objects. If the child loses attention, an attention getter may be played to bring the child’s focus back to the task. 
-
-**Face task schematic (Face vs. Object)**<br>
+**Description**      
+The Faces task (v.11.29.23) assesses child and infant face processing abilities as well as the underlying neural activity supporting face and object processing. The task consists of 2 blocks: 50 trials of upright faces & 50 trials of inverted faces and 50 trials of upright faces & 50 trials of objects. If the child loses attention, an attention getter may be played to bring the child’s focus back to the task.        
+>>>>>**Face task schematic (Face vs. Object)**<br>
 ![](images/eeg-facetask.png)
+
+ERPs are computed as a function of repeated presentation of faces and objects. The ERPs index different stages of processing including attention, perception, categorization, individuation and memory. The ERP components elicited by the Faces task are the P1, N290, and P400 components. See Fox et al. (2024) for additional information on the rationale for task/stimulus development and ERP findings from pilot data.   
 
 **Summary**     
 The Face task (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. It assesses child and infant face processing development including attention, perception, categorization, individuation and memory. The measure includes rigorous QC procedures to ensure data integrity and reliability. 
