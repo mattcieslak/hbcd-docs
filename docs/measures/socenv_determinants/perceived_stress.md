@@ -21,7 +21,7 @@ The Perceived Stress and Social support tools measure perceived stress and perce
 **Estimated length of time for completion**: 4 minutes 
 
 ## Quality Control & Known Issues   
-Monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. No potential issues were identified via the QC procedures or flagged by subject matter experts.
+QC procedures involved monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. No potential issues were identified via the QC procedures or flagged by subject matter experts.
 
 ## Additional Information
 Relevant Documents: Scoring Manuals

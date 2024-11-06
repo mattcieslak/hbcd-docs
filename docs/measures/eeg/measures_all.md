@@ -7,18 +7,10 @@
 **Estimated length of time for completion**: Video RS 3 min, Faces task 5 min, Auditory Mismatch Negativity Task 11.5 min V03 & 8.5 minutes V04/6, VEP 1 min    
 
 ## Quality Control Procedures
-  * Data are cleaned and preprocessed using the Maryland Analysis of Developmental EEG (MADE) pipeline (Debnath et al., 2019).   
-  * Ongoing QC monitoring via LORIS dashboard  
-  * Rate quality of EEG cap application for each recording  
-  * Site specific check ins and troubleshooting  
-  * See Fox et al. (2024) for more information on EEG data quality control procedures.   
+QC procedures for the HBCD Study EEG protocol are described in [Fox et al. (2024)](https://doi.org/10.1016/j.dcn.2024.101447). In brief, QC metrics (such as EEG cap application quality ratings for each recording) are monitored via a LORIS dashboard to facilitate ongoing QC. Site-specific check-ins and troubleshooting are performed to ensure protocol and data quality consistency across sites.
 
 ## Additional Information
-- HBCD E-Prime Task Manual, Official EEG Acquisition Manual  
-- [E-Prime manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)  
-- [EEG Acquisition Manual](https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing)
-
-
-
+- [HBCD E-Prime Task Manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)  
+- [Official EEG Acquisition Manual](https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing)
 
 

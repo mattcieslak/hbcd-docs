@@ -21,7 +21,7 @@ This measure is a questionnaire to assess the respondent’s subjective percepti
 **Estimated length of time for completion**: 1 minute
 
 ## Quality Control & Known Issues
-QC procedures involved monitoring missingness. No potential issues were identified via the QC procedures or flagged by subject matter experts.   
+QC procedures involved monitoring missingness. No common or potential issues were identified via the QC procedures or flagged by subject matter experts.   
 
 ## References
 - Mujahid, M. S., Diez Roux, A. V., Morenoff, J. D., & Raghunathan, T. (2007). Assessing the measurement properties of neighborhood scales: from psychometrics to ecometrics. *American Journal of Epidemiology*, 165(8), 858–867. [https://doi.org/10.1093/aje/kwm040](https://doi.org/10.1093/aje/kwm040)

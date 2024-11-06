@@ -83,7 +83,7 @@ We learned through RA reports that some participants reported challenges in answ
 <sup>4</sup> OMB: Office of Management And Budget (Federal Register 2023)  
 <sup>5</sup> BRFSS: Behavioral Risk Factor Surveillance System (Jones et al. 2008)  
 <sup>6</sup> ABCD: Adolescent Brain Child Development Study (Barch et al. 2018)    
-<sup>7</sup> BFY: Baby's First Years (BFY), Year 1 Protocol - G35, Mwork
+<sup>7</sup> BFY: Baby's First Years (BFY), Year 1 Protocol - G35, Mwork        
 <sup>8</sup> BFY: Baby's First Years (BFY), Year 1 Protocol - G39, SchedMain
 
 ## References

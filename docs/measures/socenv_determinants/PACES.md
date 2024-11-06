@@ -5,10 +5,10 @@
 **Construct**: Protective Factors       
 
 **Description**    
-Assesses positive experiences during childhood through age 18  
+Assesses positive experiences during childhood through age 18.  
 
 **Summary**     
-A 10-question scale with scores ranging between 0 and 10 assessing positive childhood experiences such as: relationships, feeling of connectedness, physical activity, engagement, environment, and opportunities
+A 10-question scale with scores ranging between 0 and 10 assessing positive childhood experiences such as: relationships, feeling of connectedness, physical activity, engagement, environment, and opportunities.
 
 ## Implementation & Data Collection
 **Method of Administration**: RA administered in person or via remote survey   
