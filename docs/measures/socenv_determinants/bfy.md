@@ -17,7 +17,7 @@ Selected questions from the [Year 1 protocol](https://www.babysfirstyears.com/_f
 **Spanish Translation**: Publisher BURG     
 **Child Specific/Unspecific Form**: Child Unpecific  
 **Respondent:** Parent on Self    
-**Visits**: V01 (prenatal)        
+**Visits**: Visit 1 (prenatal), Visit 5 (10-17 months), Visit 7 (16-31 months)        
 **Estimated length of time for completion**: 4 minutes
 
 ## Quality Control & Known Issues

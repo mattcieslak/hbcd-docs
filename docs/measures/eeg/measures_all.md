@@ -8,7 +8,7 @@
 
 ## Quality Control & Known Issues
 **QC Procedures**       
-QC procedures for the HBCD Study EEG protocol are described in [Fox et al. (2024)](https://doi.org/10.1016/j.dcn.2024.101447). In brief, QC metrics (such as EEG cap application quality ratings for each recording) are monitored via a LORIS dashboard to facilitate ongoing QC. Site-specific check-ins and troubleshooting are performed to ensure protocol and data quality consistency across sites.
+QC procedures for the HBCD Study EEG protocol are described in [Fox et al. (2024)](https://doi.org/10.1016/j.dcn.2024.101447). In brief, data are cleaned and preprocessed using the Maryland Analysis of Developmental EEG (MADE) pipeline, which generates metrics useful for QC such as outlier statistics for a given task epoch (Debnath et al., 2019).  Additional QC metrics recorded during acquisition include EEG cap application quality ratings for each recording. Statistics and ratings are monitored via a LORIS dashboard to facilitate ongoing QC. Site-specific check-ins and troubleshooting are performed to ensure protocol and data quality consistency across sites. 
 
 **Common Issues Identified**        
 A common issue that arose during QC for all tasks was irregular application of EEG sensors. In addition, inclusion of partial task completion due to infant fussing and missing stimulus flags were commonly noted for the faces and auditory mismatch negativity tasks.
