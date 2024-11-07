@@ -8,7 +8,7 @@
 This was a created to capture maternal, paternal, and grandparents’ mental health conditions and diagnoses 
 
 **Summary**     
-This measure was created from combining and modifying the Family History Assessment Module (FHAM) and the All of Us Personal and Family Health History. It assesses self-reported diagnoses and mental health conditions of the biologic mother, father, maternal parents and paternal parents. 
+This measure was created from combining and modifying the [Family History Assessment Module (FHAM)](https://arc.psych.wisc.edu/self-report/family-history-assessment-module-fham/) and the [All of Us Personal and Family Health History](https://www.researchallofus.org/wp-content/themes/research-hub-wordpress-theme/media/2023/PaFHH_Survey_English.pdf). It assesses self-reported diagnoses and mental health conditions of the biologic mother, father, maternal parents and paternal parents. 
 
 ## Implementation & Data Collection
 **Method of Administration**: self-administered in person  

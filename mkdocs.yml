@@ -86,3 +86,5 @@ nav:
       - Visit Measure Changes: 
           - Visit 1: 
                 - "Pregnancy & Exposure": changelog/visits/visit1/pregexp.md
+                - "Social & Environmental Determinants": changelog/visits/visit1/socenvdeterminants.md
+          - Visit 7: changelog/visits/visit7.md

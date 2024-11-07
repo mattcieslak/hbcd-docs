@@ -5,10 +5,10 @@
 **Construct**: Benefits/Services/Economic Stress    
 
 **Description**     
-10 Likert Scale questions on economic stress, financial instability, inability to meet basic needs, and benefits or social services received over the past 12 months.      
+10 Likert Scale questions on economic stress, financial instability, inability to meet basic needs, and benefits or social services received over the past 12 months.       
 
 **Summary**     
-Selected questions from the Year 1 protocol of the NIH-funded Baby’s First Years study of infant and child development and originated from the Moving to Opportunity (MTO) study. Assessing economic stress, financial instability, ability to meet basic needs, and benefits/services received. Some slight modifications were made for the HBCD study by removing the Medicaid coverage question asked elsewhere in the study and adding a question asking whether anyone in the family receives free and reduced lunch.
+Selected questions from the [Year 1 protocol](https://www.babysfirstyears.com/_files/ugd/88a466_5a28f2b284e74fa4b61b2c483008416e.docx?dn=BFY_Age%201%20Survey.docx) of the NIH-funded Baby’s First Years study of infant and child development and originated from the Moving to Opportunity (MTO) study. Assessing economic stress, financial instability, ability to meet basic needs, and benefits/services received. Some slight modifications were made for the HBCD study by removing the Medicaid coverage question asked elsewhere in the study and adding a question asking whether anyone in the family receives free and reduced lunch.
 
 ## Implementation & Data Collection
 **Method of Administration**: In Person     

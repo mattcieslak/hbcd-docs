@@ -25,5 +25,6 @@ Social and Environmental Working Group QC procedures included monitoring the dat
 ## References
 - Chan, C. C., Chan, Y. C., Au, A., & Cheung, G. O. C. (2010). Reliability and validity of the “Extended - Hurt, Insult, Threaten, Scream” (E-hits) screening tool in detecting intimate partner violence in hospital emergency departments in Hong Kong. *Hong Kong Journal of Emergency Medicine*, 17(2), 109–117. [https://doi.org/10.1177/102490791001700202](https://doi.org/10.1177/102490791001700202)
 - Portnoy, G. A., Haskell, S. G., King, M. W., Maskin, R., Gerber, M. R., & Iverson, K. M. (2018). Accuracy and acceptability of a screening tool for identifying intimate partner violence perpetration among women veterans: A pre-implementation evaluation. *Women’s Health Issues: Official Publication of the Jacobs Institute of Women’s Health*. [https://doi.org/10.1016/j.whi.2018.04.003](https://doi.org/10.1016/j.whi.2018.04.003)
+- Sherin, K. M., Sinacore, J. M., Li, X. Q., Zitter, R. E., & Shakil, A. (1998). HITS: a short domestic violence screening tool for use in a family practice setting. *Family Medicine*, 30(7), 508–512.
 
 

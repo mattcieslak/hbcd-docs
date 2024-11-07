@@ -1,22 +1,31 @@
-# Mental Health [APA 1/2]
-**S1 General Wording Changes & Impact on Interpretation of Results**
+# Pregnancy & Exposure
 
-- Removed Level 1 gates from ‘personality functioning’ to go straight to Level 2 LEVEL 2—Repetitive Thoughts and Behaviors—Adult (adapted from the Florida Obsessive-Compulsive Inventory [FOCI] Severity Scale [Part B])
-- Removed gates from ‘Somatic symptoms’ to go straight to ‘LEVEL 2—Somatic Symptom—Adult (Patient Health Questionnaire 15 Somatic Symptom Severity [PHQ-15])’
-- Removed ‘substance use’ from Level 1-2 as its queried in other measures.
+## Mental Health [APA 1/2]
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Global Measure Changes</u></b></p>
+<ul>
+The APA 1/2 measure was modified in the following ways:
+    <ul>
+      <li>Removed Level 1 gates from ‘personality functioning’ to go straight to Level 2 LEVEL 2—Repetitive Thoughts and Behaviors—Adult (adapted from the Florida Obsessive-Compulsive Inventory [FOCI] Severity Scale [Part B])</li>
+      <li>Removed gates from ‘Somatic symptoms’ to go straight to ‘LEVEL 2—Somatic Symptom—Adult (Patient Health Questionnaire 15 Somatic Symptom Severity [PHQ-15])’</li>
+      <li>Removed ‘substance use’ from Level 1-2 as its queried in other measures</li>
+    </ul>
+</ul>
+To acknowledged these changes in future publications: removal of Level 1-2 substance use (section XIII) as well as gates for sections V (somatic) and XII (personality) should be noted.
 
-**How to Note in Publications**: It is recommended that these measure changes (removal of Level 1-2 substance use (section XIII) as well as gates for sections V (somatic) and XII (personality)) be noted in future publications. 
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Answer/Response Option Changes</u></b></p>
+  The option ‘refuse to answer’ was added to all questions. Note that this does not impact scoring (questions answered with ‘refuse to answer’ are skipped).
+<br>
+<br>
 
-**S3 Detailed Answer/Response Option Changes**: The option ‘refuse to answer’ was added to all questions. Note that this does not impact scoring (questions answered with ‘refuse to answer’ are skipped). 
+--------------------------
+## Substance Use [Assist V1]
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Global Measure Changes</u></b></p>
+This instrument was modified from the [NIDA Quick Screen (Modified Assist)](https://nida.nih.gov/sites/default/files/pdf/nmassist.pdf). The original quick screen was scored; however, our version is not scored. To acknowledged these changes in future publications: authors can note that questions were motivated from the NIDA Modified Assist.
 
-
-# Substance Use [Assist V1]
-**S1 General Wording Changes & Impact on Interpretation of Results**: This instrument was modified from the [NIDA Quick Screen (Modified Assist)](https://nida.nih.gov/sites/default/files/pdf/nmassist.pdf). The original quick screen was scored; however, our version is not scored.
-
-**How to Note in Publications**: Authors can note that questions were motivated from the NIDA Modified Assist.
-
-**S2 Detailed Instruction and Assessment Item Changes**   
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Instruction/Assessment Item Modifications</u></b></p>  
 The NIDA quick screen tool (have you used alcohol, tobacco, prescription drugs, or illegal drugs in the last year) was removed and replaced by questions to assess more details regarding substances used and the timeline of their use before and during pregnancy. Please expand each section below to see specifics on added options/questions:
+
+<div style="margin-bottom: 5px;">
 <details>
 <summary>Added additional substance options added to Question 1 and 3 additional questions at end</summary>
 <ul>
@@ -40,7 +49,9 @@ The NIDA quick screen tool (have you used alcohol, tobacco, prescription drugs, 
   <li>Kratom</li>
 </ul>
 </details>
+</div>
 
+<div style="margin-bottom: 5px;">
 <details>
 <summary>Replaced questions 2-8 with questions to assess lifetime use</summary>
 <ul>
@@ -52,7 +63,9 @@ The NIDA quick screen tool (have you used alcohol, tobacco, prescription drugs, 
 	<li>Have you EVER taken (prescribed or otherwise) medication(s) as treatment for a problem substance</li>
 </ul>
 </details>
+</div>
 
+<div style="margin-bottom: 5px;">
 <details>
 <summary>Added 3 additional questions to screen for any substance use in the 3 months prior to pregnancy or during pregnancy, which then triggers a timeline follow back</summary>
 <ul>
@@ -60,8 +73,29 @@ The NIDA quick screen tool (have you used alcohol, tobacco, prescription drugs, 
 	<li>DURING YOUR PREGNANCY, which of the following substances have you ever used for any reason? (and same options as in #1)</li>
 	<li>When you were using alcohol during the THREE MONTHS BEFORE or DURING YOUR PREGNANCY, please select the specific substances you used below: breaks apart type of alcohol, cannabinoid, stimulant, tobacco, hallucinogen, and opioid.</li>
 </ul>
-</details><br>
+</details>
+</div>
+<br>
+
+------------------
+## EPDS
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Answer/Response Option Changes</u></b></p>
+The option ‘refuse to answer’ was added to all questions. Note that this does not impact scoring (questions answered with ‘refuse to answer’ are skipped). 
+<br>
+
+--------------------------
+## Personal and Family Psychiatric History [FAM MH]
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Global Measure Changes</u></b></p>
+This measure was created from combining and modifying the [Family History Assessment Module (FHAM)](https://arc.psych.wisc.edu/self-report/family-history-assessment-module-fham/) and the [All of Us Personal and Family Health History](https://www.researchallofus.org/wp-content/themes/research-hub-wordpress-theme/media/2023/PaFHH_Survey_English.pdf).
+
+To acknowledged these changes in future publications, authors can note that questions were motivated from those measures, but this is not a scored scale; its simply descriptive for family history.
+
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Instruction/Assessment Item Modifications</u></b></p>
+- Only selected alcohol-schizophrenia from FHAM; dropped ‘trouble with law’ and ‘nervous breakdown’.
+- From all of us, we were only interested in a few mental health outcomes (AUD, anxiety, ASD, BPD, depression, SUD, schizophrenia and ADHD). Also, we were not interested in age of diagnosis or medications to treat.
+
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Answer/Response Option Changes</u></b></p>
+- FHAM: response options (*originally parents, grandparents, siblings, aunts, uncles, and cousins*) modified to include only biological mom, dad and grandparents 
+- All of Us: response options (*originally mom, dad, sibling, daughter, son, and grandparent*) modified to include only biological mom and dad
 
 
-# EPDS
-**S3 Detailed Answer/Response Option Changes**: The option ‘refuse to answer’ was added to all questions. Note that this does not impact scoring (questions answered with ‘refuse to answer’ are skipped). 

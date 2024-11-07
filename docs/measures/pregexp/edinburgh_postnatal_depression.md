@@ -1,4 +1,4 @@
-# The Edinburgh Postnatal Depression Scale 
+# The Edinburgh Postnatal Depression Scale (EPDS)
 ## Measure Overview  
 **Full Name**: The Edinburgh Postnatal Depression Scale   
 **Acronym/Brief Name**: EPDS  
