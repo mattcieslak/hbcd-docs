@@ -20,6 +20,34 @@ Selected questions from the [Year 1 protocol](https://www.babysfirstyears.com/_f
 **Visits**: Visit 1 (prenatal), Visit 5 (10-17 months), Visit 7 (16-31 months)        
 **Estimated length of time for completion**: 4 minutes
 
+## HBCD Modifications
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Instruction/Assessment Item Modifications</u></b></p>
+<table>
+  <tr>
+    <th>Original Text</th>
+    <th>Modified Text</th>
+  </tr>
+  <tr>
+    <td style="width: 400px; word-wrap: break-word; white-space: normal;">
+      <small>I am going to read a list of services, government benefits, and support. Please tell me after each one if you receive it or not</small>
+    </td>
+    <td style="width: 400px; word-wrap: break-word; white-space: normal;">
+      <small>Have you received any of these services in the past 12 months</small>
+    </td>
+  </tr>
+    <tr>
+    <td style="width: 400px; word-wrap: break-word; white-space: normal;">
+      <small>Since [CHILDNAMEF]’s birth, have you EVER been forced to leave or were evicted from your home?</small>
+    </td>
+    <td style="width: 400px; word-wrap: break-word; white-space: normal;">
+      <small>In the past 12 months, have you EVER been forced to leave or were evicted from your home?</small>
+    </td>
+  </tr>
+</table>
+
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Answer/Response Option Changes</u></b></p>
+Options "Don't Know" and "Decline to Answer" were added for both questions shown in the section above. The response option "Free or reduced school lunch" was also added for the first question about services.
+
 ## Quality Control & Known Issues
 The data dashboard was monitored for variable missingness, possible coding errors, scoring verification when needed, and data consistency. No potential issues were identified via the QC procedures or flagged by subject matter experts.
 

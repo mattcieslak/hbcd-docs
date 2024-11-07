@@ -19,6 +19,10 @@ The Edinburgh Postnatal Depression Scale (EPDS), a sensitive, 10-item screening 
 **Visits**:  V01, V02, V03  
 **Estimated length of time for completion**: 3 minutes
 
+## HBCD Modifications
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Answer/Response Option Changes</u></b></p>
+The option ‘refuse to answer’ was added to all questions. Note that this does not impact scoring (questions answered with ‘refuse to answer’ are skipped). 
+
 ## Quality Control & Known Issues 
 Distributions for answers were reviewed for quality control and no common issues were identified. No potential issues were flagged by subject matter experts.
 

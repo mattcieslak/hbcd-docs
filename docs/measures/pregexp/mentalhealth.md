@@ -23,6 +23,22 @@ The mental health screening instrument has two levels. Level 1 includes one to t
 **Visits**: V1, V2, V3
 **Estimated length of time for completion**: 5 minutes
 
+## HBCD Modifications
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Global Measure Changes</u></b></p>
+<ul>
+The APA 1/2 measure was modified in the following ways:
+    <ul>
+      <li>Removed Level 1 gates from ‘personality functioning’ to go straight to Level 2 LEVEL 2—Repetitive Thoughts and Behaviors—Adult (adapted from the Florida Obsessive-Compulsive Inventory [FOCI] Severity Scale [Part B])</li>
+      <li>Removed gates from ‘Somatic symptoms’ to go straight to ‘LEVEL 2—Somatic Symptom—Adult (Patient Health Questionnaire 15 Somatic Symptom Severity [PHQ-15])’</li>
+      <li>Removed ‘substance use’ from Level 1-2 as its queried in other measures</li>
+    </ul>
+</ul>
+To acknowledged these changes in future publications: removal of Level 1-2 substance use (section XIII) as well as gates for sections V (somatic) and XII (personality) should be noted.
+
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Answer/Response Option Changes</u></b></p>
+  The option ‘refuse to answer’ was added to all questions. Note that this does not impact scoring (questions answered with ‘refuse to answer’ are skipped).
+<br>
+
 ## Quality Control & Known Issues 
 Distributions for answers were reviewed for quality control and no common issues were identified. No potential issues were flagged by subject matter experts.
 

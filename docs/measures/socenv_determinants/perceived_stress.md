@@ -20,6 +20,15 @@ The Perceived Stress and Social support tools measure perceived stress and perce
 **Visits**: V01 (prenatal), V02 (0-1 month), V03 (3-9 months)   
 **Estimated length of time for completion**: 4 minutes 
 
+## HBCD Modifications
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Answer/Response Option Changes</u></b></p>
+Addition of “Don’t know” and “Decline to answer”
+
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Scoring Changes</u></b></p>
+Orignally, all items had to be completed to allow for scoring via the tables provided in the manual. For HBCD, this was updated so that items with “don’t know” answers will not have a total score reported.
+
+For the PROMIS emotional support, complete data is necessary to use scoring tables provided in the manual. If scoring will utilize the PROMIS HealthMeasures Scoring Service, total scores can include missing data (this can be done by individual investigators). Complete data is always necessary to calculate a score PSS-4, therefore should not be reported for participants who answer any questions “don’t know.”
+
 ## Quality Control & Known Issues   
 QC procedures involved monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. No potential issues were identified via the QC procedures or flagged by subject matter experts.
 

@@ -19,6 +19,16 @@ A 10-question scale with scores ranging between 0 and 10 assessing positive chil
 **Respondent:** Parent on Self  
 **Visits**: V01 (prenatal)   
 
+## HBCD Modifications
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Instruction/Assessment Item Modifications</u></b></p>
+The following language was updated:
+
+- Original: "When answering these questions, think about the last 12 months. On a scale of 1 to 5, fill the circle of the number that best describes how often each of the items occurred."  
+- HBCD: "When answering these questions, think about the last 12 months. Please select the response that best describes you."
+
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Answer/Response Option Changes</u></b></p>
+“Declined to answer” added as a response.
+
 ## Quality Control & Known Issues
 Social and Environmental Working Group QC procedures included monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. No potential issues were identified via the QC procedures or flagged by subject matter experts.   
 

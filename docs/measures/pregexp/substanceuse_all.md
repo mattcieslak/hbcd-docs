@@ -14,6 +14,81 @@ In addition, the following implementations were common to all measures:
 **Spanish Translation**: Created  
 **Child Specific/Unspecific Form**: Unspecific  
 
+## HBCD Modifications
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Assist: Global Measure Changes</u></b></p>
+
+The **Assist measures** were created from combining the Family History Assessment Module (FHAM) and the All of Us Personal and Family Health History, which was then modified from the [NIDA Quick Screen (Modified Assist)](https://nida.nih.gov/sites/default/files/pdf/nmassist.pdf). The original quick screen was scored; however, our version is not scored. To acknowledged these changes in future publications: authors can note that questions were motivated from the NIDA Modified Assist.
+
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Assist: Instruction/Assessment Item Modifications</u></b></p>  
+The NIDA quick screen tool (have you used alcohol, tobacco, prescription drugs, or illegal drugs in the last year) was removed and replaced by questions to assess more details regarding substances used and the timeline of their use before and during pregnancy. Please expand each section below to see specifics on added options/questions:
+
+<div style="margin-bottom: 5px;">
+<details>
+<summary>Added additional substance options for questions listing substance options</summary>
+<ul>
+  <li>Nicotine or tobacco products (cigarettes, e-cigarettes, chewing tobacco, cigars, etc.)</li>
+  <li>Alcoholic beverages (beer, wine, spirits, etc.)</li>
+  <li>Cannabis (marijuana, weed, pot, hash, wax, blunts, dabs, gummies, vapes, etc.)</li>
+  <li>Cannabidiol (CBD; not containing THC)</li>
+  <li>Synthetic cannabinoids (K2, spice, etc.)</li>
+  <li>Prescription opioids (oxycodone, morphine, codeine, fentanyl, tramadol, etc.)</li>
+  <li>Heroin or other illicit opioids (fentanyl, oxycodone, etc.)</li>
+  <li>Methadone</li>
+  <li>Buprenorphine</li>
+  <li>Benzodiazepines, sedatives, or sleeping pills (Valium, Xanax, Ambien, barbiturates, etc.)</li>
+  <li>Cocaine (coke, crack, etc.)</li>
+  <li>Amphetamine type stimulants (speed, Adderall, diet pills, etc.)</li>
+  <li>Methamphetamine (meth, crystal meth, etc.)</li>
+  <li>Inhalants (nitrous, glue, petrol, paint thinner, etc.)</li>
+  <li>Hallucinogens or club drugs (LSD, acid, mushrooms, psilocybin, MDMA, molly, ecstasy, Special K, GHB, etc.)</li>
+  <li>Androgenic anabolic steroids (for performance enhancement)</li>
+  <li>Phencyclidine (PCP)</li>
+  <li>Kratom</li>
+</ul>
+</details>
+</div>
+
+
+<div style="margin-bottom: 5px;">
+<details>
+<summary>Replaced questions 2-8 with questions specific to Assist V1, V2, and V3</summary>
+<ul>
+<br>
+<u>For Assist V1, questions 2-8 were replaced with the following to assess lifetime use:</u>
+	<li>Have you EVER been concerned about your use of this substance or worried it was problematic use?</li>
+	<li>Has a friend, relative, or anyone else EVER expressed concern about your use of this substance</li>
+	<li>Have you EVER tried and failed to control, cut down, or stop using this substance?</li>
+	<li>Have you EVER sought or received treatment related to your use of this substance by a medical provider, spiritual leader, community mutual help group (like AA or SMART Recovery), counselors, or in other settings</li>
+	<li>Have you EVER been clinically diagnosed with abuse, dependence, or a substance use disorder related to your use of this substance</li>
+	<li>Have you EVER taken (prescribed or otherwise) medication(s) as treatment for a problem substance</li>
+<u>For Assist V2, questions 2-8 were replaced with the following to assess use after pregnancy:</u>
+	<li>FROM THE TIME THAT YOU DELIVERED your child until now, how often have you used any of the following substances for any reason [followed by list of substance options from section above]</li>
+<u>For Assist V3, questions 2-8 were replaced with the following to assess impact of substance use after pregnancy:</u>
+	<li>DURING THE PAST THREE MONTHS, has your use of this substance led to physical or mental health, social,or financial problems?</li>
+    <li>DURING THE PAST THREE MONTHS, have you ever failed to do what was normally expected of you  (like work, go to school, be a parent, or household tasks) because of your use of this substance?</li>
+</ul>
+</details>
+</div>
+
+<div style="margin-bottom: 5px;">
+<details>
+<summary>Assist V1 only: Added 3 additional questions to screen for any substance use in the 3 months prior to pregnancy or during pregnancy, which then triggers a timeline follow back</summary>
+<ul>
+	<li>IN THE THREE MONTHS BEFORE YOU BECAME PREGNANT, which of the following substances have you ever used for any reason (and same options as in #1)</li>
+	<li>DURING YOUR PREGNANCY, which of the following substances have you ever used for any reason? (and same options as in #1)</li>
+	<li>When you were using alcohol during the THREE MONTHS BEFORE or DURING YOUR PREGNANCY, please select the specific substances you used below: breaks apart type of alcohol, cannabinoid, stimulant, tobacco, hallucinogen, and opioid.</li>
+</ul>
+</details>
+</div><br>
+
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>TFLB Modifications for HBCD</u></b></p>
+The [original TLFB](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) was modified to meet the needs of the HBCD study. The original TLFB covers the last 7 days. For the HBCD study, the following timeframes are queried:
+
+- Visit 1: LMP – 4 through LMP – 2, LMP + 2 through LMP + 6, Last week prior to V1 (enrollment)
+- Visist 2: Last 2 full calendar weeks prior to delivery (to mask the child’s DOB)
+
+In addition, regarding answer/response option changes: for all substances except Alcohol, instead of getting Y/N per day, we ask number of times used/day (frequency of use).
+
 ## Detailed Descriptions
 ### ASSIST V1
 **Description**     

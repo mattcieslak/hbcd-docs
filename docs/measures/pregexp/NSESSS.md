@@ -27,5 +27,12 @@ The Severity of Posttraumatic/Acute Stress Symptoms is a measure that assesses t
 **Visits**:  V01, V02, V03   
 **Estimated length of time for completion**: 3 minutes
 
+## HBCD Modifications
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Global Measure Changes</u></b></p>
+In future publications, authors should note that this measure is a combination of NSESSS-PTSD and  NSESSS-Acute Stress Disorder as described above.
+
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Scoring Changes</u></b></p>
+We added ‘refuse to answer’, but not ‘don’t know.’ Scoring has always allowed skips when done on paper, and the authors are not specific for how to deal with that.
+
 ## Quality Control & Known Issues 
 Distributions for answers were reviewed for quality control and no common issues were identified. No potential issues were flagged by subject matter experts.

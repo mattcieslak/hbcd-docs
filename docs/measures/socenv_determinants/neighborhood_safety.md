@@ -20,6 +20,13 @@ This measure is a questionnaire to assess the respondent’s subjective percepti
 **Visits**: V01 (prenatal), V05 (10-17 months), V07 (16-31 months), V09 (32-46 months)    
 **Estimated length of time for completion**: 1 minute
 
+## HBCD Modifications
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Answer/Response Option Changes</u></b></p>
+Addition of “Don’t know” and “Decline to answer”.
+
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Scoring Changes</u></b></p>
+The original measure was scored by averaging all three items. No scoring is used in HBCD - all responses are item-level only. 
+
 ## Quality Control & Known Issues
 QC procedures involved monitoring missingness. No common or potential issues were identified via the QC procedures or flagged by subject matter experts.   
 

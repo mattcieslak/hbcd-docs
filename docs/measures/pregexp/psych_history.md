@@ -19,6 +19,18 @@ This measure was created from combining and modifying the [Family History Assess
 **Visits**: V1 (pregnancy)  
 **Estimated length of time for completion**: 5 minutes
 
+## HBCD Modifications
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Global Measure Changes</u></b></p>
+For future publications, authors should note that this measure is a combination of FHAM and All of Us, as described above, but this is not a scored scale; its simply descriptive for family history.
+
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Instruction/Assessment Item Modifications</u></b></p>
+- Only selected alcohol-schizophrenia from FHAM; dropped ‘trouble with law’ and ‘nervous breakdown’.
+- From All of Us, we were only interested in a few mental health outcomes (AUD, anxiety, ASD, BPD, depression, SUD, schizophrenia and ADHD). Also, we were not interested in age of diagnosis or medications to treat.
+
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Answer/Response Option Changes</u></b></p>
+- FHAM: response options (*originally parents, grandparents, siblings, aunts, uncles, and cousins*) modified to include only biological mom, dad and grandparents 
+- All of Us: response options (*originally mom, dad, sibling, daughter, son, and grandparent*) modified to include only biological mom and dad
+
 ## Quality Control & Known Issues
 Distributions for answers were reviewed for quality control and no common issues were identified. No potential issues were flagged by subject matter experts.
 
