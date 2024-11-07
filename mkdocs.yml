@@ -23,7 +23,7 @@ nav:
               - Neighborhood Safety: measures/socenv_determinants/neighborhood_safety.md
               - Discrimination: measures/socenv_determinants/discrimination.md
               - PACES: measures/socenv_determinants/PACES.md
-              - Perceived Stress/Social Support: measures/socenv_determinants/perceived_stress.md
+              - PROMIS: measures/socenv_determinants/perceived_stress.md
               - Baby's First Years: measures/socenv_determinants/bfy.md
               - eHITS: measures/socenv_determinants/eHITS.md
           - "Neurocognition & Language": 
@@ -58,7 +58,7 @@ nav:
               - "Personal & Family Psychiatric History": measures/pregexp/psych_history.md
               - Substance Use Measures (4): measures/pregexp/substanceuse_all.md
               - Mental Health: measures/pregexp/mentalhealth.md
-              - "NSESSS—PTSD & NSESSS—Acute Stress Disorder": measures/pregexp/NSESSS.md
+              - DSM5 PTSD/short stress scale: measures/pregexp/NSESSS.md
               - EPDS: measures/pregexp/edinburgh_postnatal_depression.md
       - "MRI Protocols": 
           - Overview: mriprotocols/overview.md

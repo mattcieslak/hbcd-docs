@@ -1,5 +1,9 @@
 # Social & Environmental Determinants
 ## Discrimination
+**Full Name**: PhenX+ Toolkit Discrimination    
+**Acronym/Brief Name**: PhenX+ Discrimination   
+**Construct**: Discrimination 
+
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Instruction/Assessment Item Modifications</u></b></p>
 <table>
   <tr>
@@ -50,7 +54,10 @@ For the *Everyday Discrimination Scale* and *Major Experiences of Discrimination
 <br>
 
 --------------------------------------------------
-## Baby's First Years (Vist 1, 5, 7)
+## Baby's First Years
+**Full Name**: Baby’s First Years – Benefits/Services/Economic Stress      
+**Acronym/Brief Name**: BFY    
+**Construct**: Benefits/Services/Economic Stress  
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Instruction/Assessment Item Modifications</u></b></p>
 <table>
   <tr>
@@ -82,6 +89,9 @@ Options "Don't Know" and "Decline to Answer" were added for both questions shown
 
 --------------------------------------------------
 ## eHITS
+**Full Name**: BExtended – Hurt, Insult, Threaten, Scream      
+**Acronym/Brief Name**: eHITS    
+**Construct**: Intimate Partner Violence  
 
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Global Measure Changes</u></b></p>
 Various research groups made minor word changes. Sherin and colleagues developed the original instrument, HITS, published in 1998. Chan and colleagues expanded HITS to include a question regarding forced sexual activity (eHITS) ([Chan et al. 2010](https://doi.org/10.1177/102490791001700202)).
@@ -186,6 +196,9 @@ If a respondent selects “Don’t know” for one or more questions, a clinical
 
 --------------------------------------------------
 ## Neighborhood Safety
+**Full Name**: PhenX+ Toolkit Neighborhood Safety  
+**Acronym/Brief Name**: Neighborhood Safety  
+**Construct**: Social Determinants of Health 
 
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Answer/Response Option Changes</u></b></p>
 Addition of “Don’t know” and “Decline to answer”.
@@ -197,6 +210,10 @@ The original measure was scored by averaging all three items. No scoring is used
 
 --------------------------------------------------
 ## PACES
+**Full Name**: Protective and Compensatory Experience     
+**Acronym/Brief Name**: PACES (Current)     
+**Construct**: Protective Factors  
+
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Instruction/Assessment Item Modifications</u></b></p>
 The following language was updated:
 
@@ -209,6 +226,9 @@ The following language was updated:
 
 --------------------------------------------------
 ## PROMIS
+**Full Name**: Patient-Reported Outcome Measurement Information System  
+**Acronym/Brief Name**: PROMIS    
+**Construct**: Perceived Stress/Social Support 
 
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Answer/Response Option Changes</u></b></p>
 Addition of “Don’t know” and “Decline to answer”

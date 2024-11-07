@@ -1,4 +1,4 @@
-# NSESSS—PTSD and NSESSS—Acute Stress Disorder
+# DSM5 PTSD/short stress scale
 ## Measure Overview
 **Full Name**: Severity of Posttraumatic/Acute Stress Symptoms- National Stressful Events Survey PTSD Short Scale (NSESSS-PTSD) and National Stressful Events Survey Acute Stress Disorder Short Scale (NSESSS-Acute Stress Disorder)  
 **Acronym/Brief Name**: NSESSS—PTSD and NSESSS—Acute Stress Disorder  

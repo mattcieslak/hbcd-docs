@@ -1,6 +1,10 @@
 # Pregnancy & Exposure
 
-## Mental Health [APA 1/2]
+## Mental Health
+**Full Name**: DSM-5 Self-Rated Level 1 and Level 2 (version 8a) Cross-Cutting Symptom Measure—Adult    
+**Acronym/Brief Name**: APA 1/2   
+**Construct**: Mental health
+
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Global Measure Changes</u></b></p>
 <ul>
 The APA 1/2 measure was modified in the following ways:
@@ -18,7 +22,11 @@ To acknowledged these changes in future publications: removal of Level 1-2 subst
 <br>
 
 --------------------------
-## Substance Use [Assist V1]
+## Substance Use
+**Full Name**: NIDA-modified Alcohol, Smoking and Substance Involvement Screening Test (ASSIST) V1    
+**Acronym/Brief Name**: Assist V1   
+**Construct**: Substance use before and during pregnancy
+
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Global Measure Changes</u></b></p>
 This instrument was modified from the [NIDA Quick Screen (Modified Assist)](https://nida.nih.gov/sites/default/files/pdf/nmassist.pdf). The original quick screen was scored; however, our version is not scored. To acknowledged these changes in future publications: authors can note that questions were motivated from the NIDA Modified Assist.
 
@@ -79,6 +87,10 @@ The NIDA quick screen tool (have you used alcohol, tobacco, prescription drugs, 
 
 --------------------------
 ## TLFB
+**Full Name**: Timeline Follow Back    
+**Acronym/Brief Name**: TLFB   
+**Construct**: Substance use before and during pregnancy
+
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Global Measure Changes</u></b></p>
 The [original TLFB](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) was modofied to meet the needs of the HBCD study. The original TLFB covers the last 7 days. For the HBCD study, the following timeframes are queried:
 
@@ -92,12 +104,20 @@ For all substances except Alcohol, instead of getting Y/N per day, we ask number
 
 ------------------
 ## EPDS
+**Full Name**: The Edinburgh Postnatal Depression Scale   
+**Acronym/Brief Name**: EPDS  
+**Construct**: Pregnancy/postnatal depression  
+
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Answer/Response Option Changes</u></b></p>
 The option ‘refuse to answer’ was added to all questions. Note that this does not impact scoring (questions answered with ‘refuse to answer’ are skipped). 
 <br>
 
 --------------------------
-## Personal and Family Psychiatric History [FAM MH]
+## Personal and Family Psychiatric History
+**Full Name**: Personal and family psychiatric history   
+**Acronym/Brief Name**: FAM MH  
+**Construct**: Personal and family mental health 
+
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Global Measure Changes</u></b></p>
 This measure was created from combining and modifying the [Family History Assessment Module (FHAM)](https://arc.psych.wisc.edu/self-report/family-history-assessment-module-fham/) and the [All of Us Personal and Family Health History](https://www.researchallofus.org/wp-content/themes/research-hub-wordpress-theme/media/2023/PaFHH_Survey_English.pdf).
 
@@ -113,7 +133,11 @@ To acknowledged these changes in future publications, authors can note that ques
 <br>
 
 ------------------
-## DSM5 PTSD
+## DSM5 PTSD/short stress scale
+**Full Name**: Severity of Posttraumatic/Acute Stress Symptoms- National Stressful Events Survey PTSD Short Scale (NSESSS-PTSD) and National Stressful Events Survey Acute Stress Disorder Short Scale (NSESSS-Acute Stress Disorder)  
+**Acronym/Brief Name**: NSESSS—PTSD and NSESSS—Acute Stress Disorder  
+**Construct**: PTSD/acute stress disorder symptom severity  
+
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Global Measure Changes</u></b></p>
 This measure is a combination of two measures: the [Severity of Posttraumatic Stress Symptoms National Stressful Events Survey PTSD Short scale](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Posttraumatic-Stress-Symptoms-Adult.pdf) (questions 1-9) and the [Severity of Acute Stress Symptoms—Adult National Stressful Events Survey Acute Stress Disorder Short Scale (NSESSS)](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Acute-Stress-Symptoms-Adult.pdf) 
 

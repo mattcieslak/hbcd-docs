@@ -1,6 +1,6 @@
 # Substance Use Measures
 ## Constructs & Implementation
-Substance use measures include ASSIST V1, ASSIST V2, and ASSIST V3 measures (**Full Name**: NIDA-modified Alcohol, Smoking and Substance Involvement Screening Test (ASSIST) V1.0/V2.0/V3.0) and TLFB (**Full Name**: Timeline Follow Back). Here is a summary of each construct and their implementation:
+Substance use measures include Assist V1, Assist V2, and Assist V3 measures (**Full Name**: NIDA-modified Alcohol, Smoking and Substance Involvement Screening Test (ASSIST) V1.0/V2.0/V3.0) and TLFB (**Full Name**: Timeline Follow Back). Here is a summary of each construct and their implementation:
 
 | REDCap Name  | Construct | Respondant | Time | Visit |
 | - | - | - | - | - |

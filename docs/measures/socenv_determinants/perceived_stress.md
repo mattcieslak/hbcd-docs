@@ -1,7 +1,7 @@
 # Perceived Stress/Social Support
 ## Measure Overview
 **Full Name**: Patient-Reported Outcome Measurement Information System  
-**Acronym/Brief Name**: Perceived Stress/Social Support     
+**Acronym/Brief Name**: PROMIS    
 **Construct**: Perceived Stress/Social Support      
 
 **Description**     
