@@ -187,43 +187,36 @@ If a respondent selects “Don’t know” for one or more questions, a clinical
 --------------------------------------------------
 ## Neighborhood Safety
 
-Addition of “Don’t know”.
-Addition of “Decline to answer”.
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Answer/Response Option Changes</u></b></p>
+Addition of “Don’t know” and “Decline to answer”.
 
-Scoring procedure: The original measure was scored by averaging all three items. No scoring is used in HBCD - all responses are item-level only. 
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Scoring Changes</u></b></p>
+The original measure was scored by averaging all three items. No scoring is used in HBCD - all responses are item-level only. 
 
 <br>
 
 --------------------------------------------------
 ## PACES
-Section 2: Detailed Instruction and Assessment Item Changes
-OLD:When answering these questions, think about the last 12 months.  On a scale of 1 to 5, fill the circle of the number that best describes how often each of the items occurred.  
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Instruction/Assessment Item Modifications</u></b></p>
+The following language was updated:
 
-NEW:When answering these questions, think about the last 12 months. Please select the response that best describes you.
+- Original: "When answering these questions, think about the last 12 months. On a scale of 1 to 5, fill the circle of the number that best describes how often each of the items occurred."  
+- HBCD: "When answering these questions, think about the last 12 months. Please select the response that best describes you."
 
-Resonse Options updates
-
-“Declined to answer” also added as a response.
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Answer/Response Option Changes</u></b></p>
+“Declined to answer” added as a response.
 <br>
 
 --------------------------------------------------
 ## PROMIS
 
-Full Name: Patient-Reported Outcome Measurement Information System
-
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Answer/Response Option Changes</u></b></p>
-Addition of “Don’t know” 
-Addition of “Decline to answer”
+Addition of “Don’t know” and “Decline to answer”
 
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Scoring Changes</u></b></p>
+Orignally, all items had to be completed to allow for scoring via the tables provided in the manual. For HBCD, this was updated so that items with “don’t know” answers will not have a total score reported.
 
-<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Scoring</u></b></p>
-
-OLD: All items must be completed to allow for scoring via the tables provided in the manual.
-
-NEW: Those with “don’t know” answers will not have a total score reported
-
-other comments:
-For the PROMIS emotional support, complete data is necessary to use scoring tables provided in the manual. If scoring will utilize the PROMIS HealthMeasures Scoring Service total scores can include missing data (this could be done by individual investigators). Complete data is always necessary to calculate a score PSS-4 always, therefore should not be reported for participants who answer any questions “don’t know”
+For the PROMIS emotional support, complete data is necessary to use scoring tables provided in the manual. If scoring will utilize the PROMIS HealthMeasures Scoring Service, total scores can include missing data (this can be done by individual investigators). Complete data is always necessary to calculate a score PSS-4, therefore should not be reported for participants who answer any questions “don’t know.”
 
 
 

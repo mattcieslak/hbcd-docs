@@ -82,34 +82,11 @@ The NIDA quick screen tool (have you used alcohol, tobacco, prescription drugs, 
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Global Measure Changes</u></b></p>
 The [original TLFB](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) was modofied to meet the needs of the HBCD study. The original TLFB covers the last 7 days. For the HBCD study, the following timeframes are queried:
 
-Visit 1:
-LMP – 4 through LMP – 2
-LMP + 2 through LMP + 6
-Last week prior to V1 (enrollment)
-
-Visist 2:
-Last 2 full calendar weeks prior to delivery (to mask the child’s DOB)
-
-
-<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Instruction/Assessment Item Modifications</u></b></p>
-
-OLD: Complete questions on the form each day for 7 days or as directed by clinical personnel. 
-
-NEW: We modified the TLFB to meet the needs of the study. The original TLFB covers the last 7 days. For the HBCD study, the following timeframes are queried:
-
-Visit 1:
-LMP – 4 through LMP – 2
-LMP + 2 through LMP + 6
-Last week prior to V1 (enrollment)
-
-Visist 2:
-Last 2 full calendar weeks prior to delivery (to mask the child’s DOB)
-
+- Visit 1: LMP – 4 through LMP – 2, LMP + 2 through LMP + 6, Last week prior to V1 (enrollment)
+- Visist 2: Last 2 full calendar weeks prior to delivery (to mask the child’s DOB)
 
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Answer/Response Option Changes</u></b></p>
-For Alcohol, no changes.
-For other substances, instead of getting Y/N per day, we ask number of times used/day (frequency of use)
-
+For all substances except Alcohol, instead of getting Y/N per day, we ask number of times used/day (frequency of use).
 
 <br>
 
@@ -133,24 +110,17 @@ To acknowledged these changes in future publications, authors can note that ques
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Answer/Response Option Changes</u></b></p>
 - FHAM: response options (*originally parents, grandparents, siblings, aunts, uncles, and cousins*) modified to include only biological mom, dad and grandparents 
 - All of Us: response options (*originally mom, dad, sibling, daughter, son, and grandparent*) modified to include only biological mom and dad
-
+<br>
 
 ------------------
 ## DSM5 PTSD
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Global Measure Changes</u></b></p>
-This measure is a combination of two measures: the Severity of Posttraumatic Stress Symptoms* National Stressful Events Survey PTSD Short scale (questions 1-9) https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Posttraumatic-Stress-Symptoms-Adult.pdf
+This measure is a combination of two measures: the [Severity of Posttraumatic Stress Symptoms National Stressful Events Survey PTSD Short scale](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Posttraumatic-Stress-Symptoms-Adult.pdf) (questions 1-9) and the [Severity of Acute Stress Symptoms—Adult National Stressful Events Survey Acute Stress Disorder Short Scale (NSESSS)](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Acute-Stress-Symptoms-Adult.pdf) 
 
-And the Severity of Acute Stress Symptoms—Adult*National Stressful Events Survey Acute Stress Disorder Short Scale (NSESSS) https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Acute-Stress-Symptoms-Adult.pdf
+The latter is a 7-item scale, 6 of which are overlapping from both scales, with one additional question unique to the Acute Stress scale. Thus, the scales are as follows:
 
-The latter is a 7-item scale, 6 of which are from the PTSD short scale, with one additional question. 
-
-Thus, the scales are as follows:
-Total Raw Score Acute Stress (Total of Questions 1, 2, 3, 7, 8, 9, 10)
-Total Raw Score PTSD (Total of Questions 1, 2, 3, 4, 5, 6, 7, 8, 9)
-
-
-We combined the two questionnaires, which had 6 overlapping questions and 4 unique questions, into 1 measure for HBCD. 
+- Total Raw Score Acute Stress (Total of Questions 1, 2, 3, 7, 8, 9, 10)
+- Total Raw Score PTSD (Total of Questions 1, 2, 3, 4, 5, 6, 7, 8, 9)
 
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Scoring Changes</u></b></p>
-
-We added ‘refuse to answer’, not ‘don’t know’. Scoring has always allowed skips when done on paper, and the authors are not specific for how to deal with that.
+We added ‘refuse to answer’, but not ‘don’t know.’ Scoring has always allowed skips when done on paper, and the authors are not specific for how to deal with that.
