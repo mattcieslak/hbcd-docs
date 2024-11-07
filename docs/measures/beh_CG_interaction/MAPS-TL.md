@@ -29,6 +29,12 @@ A **sum score** is generated when the caregiver provides a numerical score of 1 
 **Visits**: V03 (3-9 months)  
 **Estimated length of time for completion**: 5 minutes 
 
+## HBCD Modifications
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Global Measure Changes</u></b></p>
+Measure instructions and individuals items that reference gendered pronouns (‘his/hers’, ‘he/she’) were edited to either eliminate the pronouns entirely, or edited to replace gendered pronouns with ‘my child’ when eliminating pronouns was not grammatically possible. Items referencing “parent” were edited to “parent/caregiver.”
+
+Because MAPS-TL psychometric validation was done using original MAPS-TL items, it is important that publications account for edits made to individual items as part of HBCD DEI review.
+
 ## Quality Control & Known Issues 
 **QC Procedures**
 
