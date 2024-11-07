@@ -18,6 +18,49 @@ A **sum score** is generated when the caregiver answers at least 3 out of the 5 
 **Visits**: V03 (<12 months in age)  
 **Estimated length of time for completion**: 1-2 minutes
 
+## HBCD Modifications
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Global Measure Changes</u></b></p>
+Alterations were made to items for use of gender-neutral terms. Individual items containing gendered pronouns (‘his/hers’, ‘he/she’) were edited to either eliminate the pronouns entirely or replace gendered pronouns with ‘my baby’ when eliminating pronouns was not grammatically possible. 
+The original ecPROMIS – Child Caregiver Interaction items reference ‘my child’ rather than ‘my baby’, as the original measure is intended for 1-5-year-old children. To be developmentally appropriate for the pre-V03 age window (3 months – 9 months), however, items were adapted per the guidance of ecPROMIS developers Dr. Dave Cella and Dr. Courtney Blackwell to reference ‘my baby.’
+
+Because ecPROMIS measures are copyrighted, it is important that future publications account for edits made to individual items as part of both HBCD DEI review and for developmental appropriateness.
+
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Instruction/Assessment Item Modifications</u></b></p>
+<table dir="ltr" border="1" cellspacing="0" cellpadding="0" data-sheets-root="1" data-sheets-baot="1"><colgroup><col width="100" /><col width="100" /><col width="100" /><col width="100" /><col width="100" /><col width="100" /></colgroup>
+<tbody>
+<tr>
+<td>Item</td>
+<td>Original Item Text</td>
+<td colspan="4" rowspan="1">HBCD Item Text</td>
+</tr>
+<tr>
+<td>ecpromis1</td>
+<td>My child was good at expressing his/her needs to me or other parent.</td>
+<td colspan="4" rowspan="1">My baby was good at expressing needs to me or other parent.</td>
+</tr>
+<tr>
+<td>ecpromis2</td>
+<td>My child was affectionate with me or other parent.</td>
+<td colspan="4" rowspan="1">My baby was affectionate with me or other parent.</td>
+</tr>
+<tr>
+<td>ecpromis3</td>
+<td>My child sought comfort from me or other parent.</td>
+<td colspan="4" rowspan="1">My baby sought comfort from me or other parent.</td>
+</tr>
+<tr>
+<td>ecpromis4</td>
+<td>My child came to me or other parent for help when he/she needed it.</td>
+<td colspan="4" rowspan="1">My baby let me know when my baby needed help.</td>
+</tr>
+<tr>
+<td>ecpromis5</td>
+<td>My child was excited to spend time with me or other parent.</td>
+<td colspan="4" rowspan="1">My baby was excited to see me or other parent after being apart.</td>
+</tr>
+</tbody>
+</table>
+
 ## Quality Control & Known Issues
 **QC Procedures**   
 
@@ -37,6 +80,7 @@ The missingness rule not being correctly implemented leads to incorrect scores. 
 HealthMeasures, the creators of ecPROMIS have an [Assessment Center API](https://www.healthmeasures.net/index.php?option=com_content&view=category&layout=blog&id=190&Itemid=1214) that translates sum scores into T-scores. When administered in REDCap, sum scores can be auto-calculated, and trigger an API call to obtain corresponding T-scores. Higher T-scores represent more of the phenomenon being measured. In this case, higher T-scores indicate increased child/caregiver interaction. 
 
 ## References
+- Blackwell, C. K., Lai, J.-S., Kallen, M., Bevans, K. B., Davis, M. M., Wakschlag, L. S., & Cella, D. (2022). Measuring PROMIS® Social Relationships in early childhood. Journal of Pediatric Psychology, 47(5), 573–584. [https://doi.org/10.1093/jpepsy/jsac031](https://doi.org/10.1093/jpepsy/jsac031)
 - Cella, D., Blackwell, C. K., & Wakschlag, L. S. (2022). Bringing PROMIS to Early Childhood: Introduction and qualitative methods for the development of Early Childhood Parent Report instruments. *Journal of Pediatric Psychology*, 47(5), 500–509. [https://doi.org/10.1093/jpepsy/jsac027](https://doi.org/10.1093/jpepsy/jsac027)
 - Lai, J.-S., Kallen, M. A., Blackwell, C. K., Wakschlag, L. S., & Cella, D. (2022). Psychometric considerations in developing PROMIS® measures for early childhood. *Journal of Pediatric Psychology*, 47(5), 510–522. [https://doi.org/10.1093/jpepsy/jsac025](https://doi.org/10.1093/jpepsy/jsac025)
 - Park, C. H., Blaisdell, C. J., & Gillman, M. W. (2022). The NIH ECHO program: An impetus for the development of early childhood PROMIS tools. *Journal of Pediatric Psychology*, 47(5), 497–499. [https://doi.org/10.1093/jpepsy/jsac010](https://doi.org/10.1093/jpepsy/jsac010)

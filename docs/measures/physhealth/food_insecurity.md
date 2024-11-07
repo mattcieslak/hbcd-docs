@@ -16,6 +16,13 @@
 **Visits**: V02 (0-1 months), V03 (3-9 months)    
 **Estimated length of time for completion**: 1 minute
 
+## HBCD Modifications
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Global Measure Changes</u></b></p>
+When the child is mentioned, pronouns were changed from he/she to “the child”
+
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Scoring Changes</u></b></p>
+Although the addition of “don’t know” does not impact scoring, because the screen is not scored in HBCD. Researchers should be aware that the validated measure uses “yes” “no” answers and does not speak to missing data. 
+
 ## Quality Control & Known Issues
 The QC procedure involved monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. No common issues were identified with QC and no potential issues were flagged by subect matter experts.
 

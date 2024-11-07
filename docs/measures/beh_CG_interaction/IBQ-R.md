@@ -35,6 +35,30 @@ The IBQ provides a comprehensive assessment of early temperament, focusing on ke
 **Visits**: V03, V05, validated for ages 3 months 0 days to 17 months 30 days (for HBCD purposes)  
 **Estimated length of time for completion**: Approximately 7-10 minutes     
 
+## HBCD Modifications
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Global Measure Changes</u></b></p>
+Alterations were made to items when the item referred to the child/baby as “s/he” or “her/him”. These pronouns were changed to “the baby/child,” “they/them” as fit the item wording. In addition, “Parent” was changed to “parent/caregiver” where appropriate.
+
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Instruction/Assessment Item Modifications</u></b></p>
+In addition to the overall Surgency, Negative Affect and Effortful Control scales that are derived from the validated IBQ-R-VSF, the HBCD Workgroup and measure experts added a Behavior Inhibition (or Social Fear) scale using items from the long form of the IBQ-R (IBQ-R-LF): 
+
+<details>
+<summary>Items added to IBQ-R-VSF from IBQ-R-LF</summary>
+<ul>
+<li>38. When introduced to an unfamiliar adult, how often did the baby hang back from the adult?</li>
+<li>39. When introduced to an unfamiliar adult, how often did the baby never “warm up” to the unfamiliar adult?</li>
+<li>40. When in the presence of several unfamiliar adults, how often did the baby cry?</li>
+<li>41. When in the presence of several unfamiliar adults, how often did the baby continue to be upset for 10 minutes or longer?</li>
+<li>42. When visiting a new place, how often did the baby show distress for the first few minutes?</li>
+<li>43. When visiting a new place, how often did the baby continue to be upset for 10 minutes or more?</li>
+<li>44. When your baby was approached by an unfamiliar person when you and your baby were out (for example, shopping), how often did the baby show distress?</li>
+<li>45. When your baby was approached by an unfamiliar person when you and your baby were out (for example, shopping), how often did the baby cry?</li>
+<li>46R. When an unfamiliar person came to your home or apartment, how often did your baby allow themselves to be picked up without protest?</li>
+<li>47. When an unfamiliar person came to your home or apartment, how often did your baby cry when the visitor attempted to pick them up?</li>
+</ul>
+</details><br>
+
+
 ## Quality Control & Known Issues    
 QC procedures included examining the range of the child’s age to ensure that it falls within 3 to 18 months; examining missingness; generating summary statistics and visualizations for item-level frequencies, age, and scores; and using Calculate Cronbach's Alpha for reliability. A common error noted during QC was that scoring was not accurately applied to observations with missing responses and incorrect administration ages. No potential issues were flagged by subject matter experts.
 

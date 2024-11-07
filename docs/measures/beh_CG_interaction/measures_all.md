@@ -8,3 +8,4 @@
   - Calculate sum scores and means applying appropriate rules to account formissing data
   - Generate summary statistics and visualizations for item-level frequencies, age, and scores
   - Calculate Cronbach's Alpha for reliability  
+
