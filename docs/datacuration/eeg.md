@@ -17,7 +17,7 @@ assembly_bids/
 ```
 <br>
 
-## EEG2BIDS Wizard
+## EEG2BIDS Wizard Details
 ### Data Conversion
 During EEG data acquisition, raw data are collected using Netstation acquisition software and stored in the form of .mff files. When data are uploaded to the Wizard, the initial step involves converting data from the native .mff file format to the .set format. The .set format is compatible with BIDS and necessary for subsequent EEG preprocessing with the HBCD-MADE pipeline.  
 
