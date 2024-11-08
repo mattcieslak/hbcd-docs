@@ -3,22 +3,21 @@ As much as possible, HBCD processing utilizes the [Brain Imaging Data Structure]
 
 ```
 assembly_bids/ 
-└─── participants.tsv
-└─── participants.json 
-└─── sub-<label>/
-│   │   sub-<label>_sessions.tsv
-│   │   sub-<label>_sessions.json
-│   │
-│   └─── ses-<label>/
-│       │   anat/
-│       │   dwi/
-│       │   eeg/
-│       │   fmap/
-│       │   func/
-│       │   motion/
-│       │   mrs/
-│       │   sub-<label>_ses-<label>_scans.tsv
-│       │   sub-<label>_ses-<label>_scans.json
+|__ participants.tsv
+|__ participants.json 
+|__ sub-<label>/
+|   |__ sub-<label>_sessions.tsv
+|   |__ sub-<label>_sessions.json
+|   |__ ses-<label>/
+|       |__ anat/
+|       |__ dwi/
+|       |__ eeg/
+|       |__ fmap/
+|       |__ func/
+|       |__ motion/
+|       |__ mrs/
+|       |__ sub-<label>_ses-<label>_scans.tsv
+|       |__ sub-<label>_ses-<label>_scans.json
 ```
 
 As expected in a large infant study, many subjects will have missing data elements, resulting in variations in the number of folders and files available for each subject and session. Additionally, the HBCD acquisition involves multiple modalities, some of which are collected at different times. Even within a single modality, certain acquisitions may occur on different days.
