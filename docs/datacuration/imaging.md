@@ -61,33 +61,35 @@ SIEMENS ONLY:
 ```
 
 ## Post-Conversion Modifications
-In some instances, the NIfTI and JSON files obtained from the `dcm2niix` conversion needed to be altered by in-house scripts to resolve conversion errors.
-
-**Missing/Incorrect Header Information**    
-The following headers were hardcoded post-conversion either due to missing or incorrectly set values (hard-coded headers are also listed in the `HardCodedValues` field of the JSON sidecar file of the acquisition): 
-
-- Philips:
-    - T1W: `RepetitionTime`
-    - DWI: `PhaseEncodingDirection`, `TotalReadoutTime`, & `SliceTiming` (`SmallDelta` and `LargeDelta` also added)
-    - EPI: `PhaseEncodingDirection` & `TotalReadoutTime`
-    - BOLD:	`PhaseEncodingDirection`, `TotalReadoutTime`, & `SliceTiming`
-- GE:
-    - B1 Map: `RepetitionTime` (hard-coded to 0.015 for `acq-tr1` and 0.075 for `acq-tr2`)
-
-
-**Quantitative MRI**    
-Depending on scanner manufacturer, QALAS conversion resulted in either five 3D NIfTI files or one 4D NIfTIs with 5 volumes. All QALAS series were thus converted to five NIfTIs with different inversion times (labeled using the `inv-<label>` BIDS entity) and the JSON sidecar was modified with the following:
+<details>
+<summary><b>Hard-coded fields for missing/incorrect header information</b></summary>
+<br>
+In some instances, the NIfTI and JSON files obtained from the <code>dcm2niix</code> conversion needed to be altered by in-house scripts to resolve conversion errors. One common error was JSON headers that were either missing or incorrectly set. The headers for the filetypes listed below were hard-coded post-conversion to resolve these errors. Hard-coded headers are also listed in the <code>HardCodedValues</code> field of the JSON sidecar file.  
+<br>
+<br>
+<ul>
+<b>Philips</b>
+	<li>T1W: `RepetitionTime`</li>
+	<li>DWI: `PhaseEncodingDirection`, `TotalReadoutTime`, &amp; `SliceTiming` (`SmallDelta` and `LargeDelta` also added)</li>
+	<li>EPI: `PhaseEncodingDirection` &amp; `TotalReadoutTime`</li>
+	<li>BOLD:	`PhaseEncodingDirection`, `TotalReadoutTime`, &amp; `SliceTiming`</li>
+<br>
+<b>GE</b>
+	<li>T1W: `RepetitionTime`</li>
+</ul>
+</details>
 
 <details>
-<summary><i>[Click to expand]</i></summary>
+<summary><b>Quantitative MRI</b></summary><br>
+Depending on scanner manufacturer, QALAS conversion resulted in either five 3D NIfTI files or one 4D NIfTIs with 5 volumes. All QALAS series were thus converted to five NIfTIs with different inversion times (labeled using the <code>inv-&lt;label&gt;</code> BIDS entity) and the JSON sidecar was modified with the following:
 <ul>
 <br>
-`InversionTime` values were hard-coded as follows:
-  <li>0 in the `inv-0` QALAS file</li>
-  <li>0.1 in the `inv-1` QALAS file</li>
-  <li>1 in the `inv-2` QALAS file</li>
-  <li>1.9 in the `inv-3` QALAS file</li>
-  <li>2.7 in the `inv-4` QALAS file</li><br>
-`T2Prep` was hard-coded as 0.1 in the `inv-0` QALAS file
+<code>InversionTime</code> values were hard-coded as follows:
+  <li>0 in the <code>inv-0</code> QALAS file</li>
+  <li>0.1 in the <code>inv-1</code> QALAS file</li>
+  <li>1 in the <code>inv-2</code> QALAS file</li>
+  <li>1.9 in the <code>inv-3</code> QALAS file</li>
+  <li>2.7 in the <code>inv-4</code> QALAS file</li><br>
+<code>T2Prep</code> hard-coded as 0.1 in the <code>inv-0</code> QALAS file
 </ul>
 </details><br>
