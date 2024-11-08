@@ -1,7 +1,7 @@
 # Imaging Data Curation & BIDS Conversion
 
 ## BIDS Conversion
-DICOM images are converted using a [custom version](https://github.com/rordenlab/dcm2niix/tree/c5caaa9f858b704b61d3ff4a7989282922dd712e) of the [dcm2niix](https://github.com/rordenlab/dcm2niix) tool that included bug fixes for some modalities acquired in HBCD. The resulting data structure is (note that each file is accompanied by a JSON sidecar file (`.json`) containing relevant header information about the acquisition):
+DICOM images are converted using a [custom version](https://github.com/rordenlab/dcm2niix/tree/c5caaa9f858b704b61d3ff4a7989282922dd712e) of the [dcm2niix](https://github.com/rordenlab/dcm2niix) tool customized for HBCD. The resulting data structure is: 
 
 ```
 assembly_bids/ 
@@ -42,7 +42,7 @@ assembly_bids/
 |       |__ sub-<label>_ses-<label>_scans.json
 ```
 
-The above includes EPI fielmaps under `fmap/`. However, Siemens, GE, and Philips fieldmaps are different and will instead look like:
+The above includes EPI fieldmaps under `fmap/`. However, Siemens, GE, and Philips fieldmaps are different and will instead look like:
 ```
 Siemens B1 Map
 |__ fmap/
@@ -58,9 +58,6 @@ GE and Philips B1 Map
 |   |__ sub-<label>_ses-<label>_acq-tr2_run-<label>_TB1AFI.nii.gz
 |   |__ sub-<label>_ses-<label>_acq-tr2_run-<label>_TB1AFI.json
 ```
-
-After conversion, the MRI protocol was checked to ensure the quality of the data. For example, a check to ensure that all images are acquired using a head coil was performed before including it in the BIDS dataset. Other exclusion criteria will be detailed in each of the image type sections below.
-
 In some instances, the NIfTI and JSON files obtained from the dcm2niix conversion needed to be altered by in-house script to include additional header information. Those changes are listed below in each of the image type sections below. Any hard-coded headers are listed in the `HardCodedValues` field of the JSON sidecar file of the acquisition.
 
 ## Modalities
@@ -71,39 +68,9 @@ T2w: `anat/sub-<label>_ses-<label>_run-<label>_T2w.nii.gz`
 **Post-Conversion Modifications**        
 For Philips T1W images, the `RepetitionTime` value obtained after the dcm2niix conversion was incorrectly set and needed to be hardcoded to reflect the actual repetition time of the acquisition.
 
-<details>
-<summary>T1w Exclusion Criteria</summary>
-<ul>
-  <li>TR outside of range 2.3-2.41</li>
-  <li>TE outside of range 0.002-0.0035</li>
-  <li>TI outside of range 1.06-1.1</li>
-  <li>Slice thickness not being 0.8</li>
-</ul>
-</details>
-
-<details>
-<summary>T2w Exclusion Criteria</summary>
-<ul>
-  <li>TR outside of range 2.5-4.5</li>
-  <li>TE outside of range 0.09-0.15</li>
-  <li>TI outside of range 0.29-0.33</li>
-  <li>Slice thickness outside of range 0.563-0.565</li>
-</ul>
-</details><br>
-
 ### MRS Localizer
 Axial MRS localizers: `anat/sub-<label>_ses-<label>_acq-mrsLocAx_run-<label>_T2w.nii.gz`      
 Coronal MRS localizers: `anat/sub-<label>_ses-<label>_acq-mrsLocCor_run-<label>_T2w.nii.gz`
-
-<details>
-<summary>Exclusion Criteria</summary>
-<ul>
-  <li>TR outside of range 2.5-4.5</li>
-  <li>TE outside of range 0.09-0.15</li>
-  <li>TI outside of range 0.29-0.33</li>
-  <li>Slice thickness outside of range 0.563-0.565</li>
-</ul>
-</details><br>
 
 ### Quantitative MRI
 Filename: `anat/sub-<label>_ses-<label>_run-<label>_inv-<label>_QALAS.nii.gz` 
@@ -127,16 +94,6 @@ Acquired in PA phase encoding direction: `dwi/sub-<label>_ses-<label>_dir-PA_run
 **Post-Conversion Modifications**     
 After `dcm2niix` conversion, Philips DWI files were missing `PhaseEncodingDirection`, `TotalReadoutTime`, and `SliceTiming` header information. These headers have been hard-coded into the JSON sidecar file for Philips DWI acquisitions. `SmallDelta` and `LargeDelta` header values have also been added to all DWI JSON sidecar files.
 
-<details>
-<summary>Exclusion Criteria</summary>
-<ul>
-  <li>TR not being set to 4.8</li>
-  <li>TE outside of range 0.0880-0.0980</li>
-  <li>Slice thickness not being set to 1.7</li>
-  <li>The total number of volumes between DWI AP and DWI PA is below 90 volumes</li>
-</ul>
-</details><br>
-
 ### Fieldmap Images
 #### EPI Images
 EPI acquired in the AP phase encoding direction: `fmap/sub-<label>_ses-<label>_dir-AP_run-<label>_epi.nii.gz`    
@@ -144,16 +101,6 @@ EPI acquired in the PA phase encoding direction: `fmap/sub-<label>_ses-<label>_d
 
 **Post-Conversion Modifications**   
 After `dcm2niix` conversion, Philips EPI files were missing `PhaseEncodingDirection` and `TotalReadoutTime` header information. These headers have now been hard-coded into the JSON sidecar file for Philips EPI acquisitions.
-
-<details>
-<summary>Exclusion Criteria</summary>
-<ul>
-  <li>TR outside of range 8.4-9.2</li>
-  <li>TE outside of range 0.064-0.0661</li>
-  <li>TI not being set to 2</li>
-  <li>Slice thickness outside of range 0.563-0.565</li>
-</ul>
-</details><br>
 
 #### Siemens B1 Map
 Anatomical (like) image for acquisition: `fmap/sub-<label>_ses-<label>_acq-anat_run-<label>_TB1TFL.nii.gz`       
@@ -175,16 +122,6 @@ Filenames: `func/sub-<label>_ses-<label>_task-rest_dir-PA_run-<label>_bold.nii.g
 
 **Post-Conversion Modifications**   
 Philips BOLD files obtained after the `dcm2niix` conversion were missing the `PhaseEncodingDirection`, `TotalReadoutTime`, and `SliceTiming` header information. Those headers have been hard-coded in the JSON sidecar file for Philips BOLD acquisitions.
-
-<details>
-<summary>Exclusion Criteria</summary>
-<ul>
-  <li>TR not being set to 1.725</li>
-  <li>TE outside of range 0.0369-0.0371</li>
-  <li>Slice thickness not being set to 2</li>
-  <li>fMRI is shorter than 87 volumes (approximately less than 2.5 minutes long)</li>
-</ul>
-</details><br>
 
 ### Spectroscopy
 

@@ -19,7 +19,6 @@ assembly_bids/
 |       |__ sub-<label>_ses-<label>_scans.tsv
 |       |__ sub-<label>_ses-<label>_scans.json
 ```
-
 As expected in a large infant study, many subjects will have missing data elements, resulting in variations in the number of folders and files available for each subject and session. Additionally, the HBCD acquisition involves multiple modalities, some of which are collected at different times. Even within a single modality, certain acquisitions may occur on different days.
 
 **Participant-Level Data**<br>
