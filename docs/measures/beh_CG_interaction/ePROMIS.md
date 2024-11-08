@@ -15,15 +15,18 @@ A **sum score** is generated when the caregiver answers at least 3 out of the 5 
 **Spanish Translation**: Yes    
 **Child Specific/Unspecific Form**: Child Specific    
 **Respondent:** Primary Caregiver   
-**Visits**: V03 (<12 months in age)  
+**Visits**: Visit 3 (<12 months in age), Visit 4, Visit 6  
 **Estimated length of time for completion**: 1-2 minutes
 
 ## HBCD Modifications
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Global Measure Changes</u></b></p>
 Alterations were made to items for use of gender-neutral terms. Individual items containing gendered pronouns (‘his/hers’, ‘he/she’) were edited to either eliminate the pronouns entirely or replace gendered pronouns with ‘my baby’ when eliminating pronouns was not grammatically possible. 
+
 The original ecPROMIS – Child Caregiver Interaction items reference ‘my child’ rather than ‘my baby’, as the original measure is intended for 1-5-year-old children. To be developmentally appropriate for the pre-V03 age window (3 months – 9 months), however, items were adapted per the guidance of ecPROMIS developers Dr. Dave Cella and Dr. Courtney Blackwell to reference ‘my baby.’
 
-Because ecPROMIS measures are copyrighted, it is important that future publications account for edits made to individual items as part of both HBCD DEI review and for developmental appropriateness.
+Per the HBCD DEI Committee’s recommendations: (1) the variable `peer_yn` was added (unique to HBCD) and (2) for Self-Regulation- Flexibility, the item queue order for original items 1-5 was rearranged to the order: 2, 3, 4, 5, 1.
+
+Because ecPROMIS measures are copyrighted, it is important that future publications account for edits made to individual items as part of both HBCD DEI review and for developmental appropriateness. Especially if investigators filter by the `peer_yn` variable, it should be acknowledged that this item was not part of the original measure.
 
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Instruction/Assessment Item Modifications</u></b></p>
 <table dir="ltr" border="1" cellspacing="0" cellpadding="0" data-sheets-root="1" data-sheets-baot="1"><colgroup><col width="100" /><col width="100" /><col width="100" /><col width="100" /><col width="100" /><col width="100" /></colgroup>
@@ -32,6 +35,11 @@ Because ecPROMIS measures are copyrighted, it is important that future publicati
 <td>Item</td>
 <td>Original Item Text</td>
 <td colspan="4" rowspan="1">HBCD Item Text</td>
+</tr>
+<tr>
+<td>peer_yn**</td>
+<td>NA - item added specifically for HBCD</td>
+<td colspan="4" rowspan="1">My child had opportunities to interact with other children.</td>
 </tr>
 <tr>
 <td>ecpromis1</td>
@@ -60,6 +68,7 @@ Because ecPROMIS measures are copyrighted, it is important that future publicati
 </tr>
 </tbody>
 </table>
+<i>**Added to the beginning of the survey instrument per the HBCD DEI Committee’s recommendation. `peer_yn` is not scored: possible responses include 0 (No), 1, (Yes), and Decline to Answer</i>
 
 ## Quality Control & Known Issues
 **QC Procedures**   
