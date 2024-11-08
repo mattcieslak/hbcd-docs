@@ -24,7 +24,7 @@ The Edinburgh Postnatal Depression Scale (EPDS), a sensitive, 10-item screening 
 The option ‘refuse to answer’ was added to all questions. Note that this does not impact scoring (questions answered with ‘refuse to answer’ are skipped). 
 
 ## Quality Control & Known Issues 
-Distributions for answers were reviewed for quality control and no common issues were identified. No potential issues were flagged by subject matter experts.
+Response distributions were reviewed for outliers and no common issues were identified. No potential issues were flagged by subject matter experts.
 
 ## Additional Information
 Note: the following scores on the EPDS triggered a clinical alert for study staff:  

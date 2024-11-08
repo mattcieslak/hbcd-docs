@@ -35,4 +35,4 @@ In future publications, authors should note that this measure is a combination o
 We added ‘refuse to answer’, but not ‘don’t know.’ Scoring has always allowed skips when done on paper, and the authors are not specific for how to deal with that.
 
 ## Quality Control & Known Issues 
-Distributions for answers were reviewed for quality control and no common issues were identified. No potential issues were flagged by subject matter experts.
+Response distributions were reviewed for outliers and no common issues were identified. No potential issues were flagged by subject matter experts.

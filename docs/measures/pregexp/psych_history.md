@@ -32,7 +32,7 @@ For future publications, authors should note that this measure is a combination 
 - All of Us: response options (*originally mom, dad, sibling, daughter, son, and grandparent*) modified to include only biological mom and dad
 
 ## Quality Control & Known Issues
-Distributions for answers were reviewed for quality control and no common issues were identified. No potential issues were flagged by subject matter experts.
+Response distributions were reviewed for outliers and no common issues were identified. No potential issues were flagged by subject matter experts.
 
 ## Additional Information
 From FHAM items for Antisocial Personality Disorder and Undifferentiated Psychiatric Disorder were not included.

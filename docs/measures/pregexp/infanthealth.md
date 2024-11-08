@@ -20,4 +20,4 @@ Captures infant birth weight and length, nights in hospital, newborn conditions 
 **Estimated length of time for completion**: 10 minutes
 
 ## Quality Control & Known Issues
-Distributions for answers were reviewed for quality control and no common issues were identified. The potential issues flagged by subject matter experts are the same identified at V01 for medications (difficulty with ICD codes from BioPortal ICD and medication names from RxNORM).
+Response distributions were reviewed for outliers and no common issues were identified. Potential issues flagged by subject matter experts are the same identified at V01 for medications (difficulty with ICD codes from BioPortal ICD and medication names from RxNORM).

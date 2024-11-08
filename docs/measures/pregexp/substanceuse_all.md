@@ -121,13 +121,13 @@ Participants who reported any substance use in the three months before or during
 
 ## Quality Control & Known Issues
 ### ASSIST V1 & V2
-Distributions for answers were reviewed for quality control and crossed with TLFB. One common issue noted was that if a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it. One potential issue flagged by subject matter experts was that, to capture ‘standard drinks’ of alcohol, participants were asked to self-report their typical size of a single drink (in oz): this was difficult for some participants, and some reports are outside of expected range. Sites were queried on outliers, but participants were not always able to be re-contacted. 
+Response distributions were reviewed for outliers and crossed with TLFB. One common issue noted was that if a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it. One potential issue flagged by subject matter experts was that, to capture ‘standard drinks’ of alcohol, participants were asked to self-report their typical size of a single drink (in oz): this was difficult for some participants, and some reports are outside of expected range. Sites were queried on outliers, but participants were not always able to be re-contacted. 
 
 ### ASSIST V3
-Distributions for answers were reviewed for quality control and no common issues were identified. No potential issues were flagged by subject matter experts.
+Response distributions were reviewed for outliers and no common issues were identified nor were any potential issues flagged by subject matter experts.
 
 ### Timeline Follow Back
-Distributions for answers were reviewed for quality control and crossed with Assist. One common issue noted was that if a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it.   
+Response distributions were reviewed for outliers and crossed with Assist. One common issue noted was that if a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it.   
    
 **Potential Issues Flagged by Subject Matter Experts**  
 Important note for users: the TLFB was a sampling of weeks of use before (Weeks 1-2) and during (Weeks 3-9) pregnancy. It is completely reasonable that someone could endorse a substance during pregnancy, and it doesn’t appear on the TLFB because it didn’t happen to fall within a sampled week. Similarly, they may have a positive biospecimen but no data on the TLFB for the same reason. Sampling (before, early, mid and late pregnancy) was meant to minimize participant burden (and not request a 40-week TLFB) but capture portions of pregnancy where behaviors tend to change (before and after pregnancy recognition, late pregnancy). 

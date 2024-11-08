@@ -40,7 +40,7 @@ To acknowledged these changes in future publications: removal of Level 1-2 subst
 <br>
 
 ## Quality Control & Known Issues 
-Distributions for answers were reviewed for quality control and no common issues were identified. No potential issues were flagged by subject matter experts.
+Response distributions were reviewed for outliers and no common issues were identified. No potential issues were flagged by subject matter experts.
 
 ## Additional Information
 When symptoms were reported for Level 1, the participant answered several subsequent questions, which asked about additional symptoms associated with each mental health condition, including anger, anxiety, depression, somatic symptoms, and sleep problems. Slight modifications were made due to the use of other measures and the study population. Specifically, the level 1 questions for personality functioning and substance use were not included; participants proceed automatically to level 2 measures. In addition, all participants answer the level 1 questions on depression but proceed to level 2 questions irrespective of answers.
