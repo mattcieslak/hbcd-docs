@@ -42,27 +42,22 @@ assembly_bids/
 |       |__ sub-<label>_ses-<label>_scans.json
 ```
 
-### B1 fieldmaps
-In addition to what's shown above, Siemens, GE, and Philips include acquisition of B1 fieldmaps, which were converted following the [BIDS specification for quantitative MRI](https://bids-specification.readthedocs.io/en/stable/appendices/qmri.html#quantitative-mri):
-
-**SIEMENS**   
-Anatomical (like) images and scaled flip angle maps are annotated with `acq-anat` and `acq-fmap` labels, respectively (see [TB1TFL and TB1RFM specific notes](https://bids-specification.readthedocs.io/en/stable/appendices/qmri.html#tb1tfl-and-tb1rfm-specific-notes) of BIDS spec):
+### B1 Fieldmaps
+Siemens, GE, and Philips will include additional files under `fmap/` due to acquisition of B1 fieldmaps, which were converted following the BIDS specification for quantitative MRI (see BIDS specific notes for [TB1TFL and TB1RFM](https://bids-specification.readthedocs.io/en/stable/appendices/qmri.html#tb1tfl-and-tb1rfm-specific-notes) and [TB1AFI](https://bids-specification.readthedocs.io/en/stable/appendices/qmri.html#tb1afi-specific-notes)). The Siemens label `acq-<anat/fmap>` denotes the anatomical (like) image and scaled flip angle map and the GE and Philips label `acq-tr<1/2>` denotes the first and second TR image.
 ```
 |__ fmap/
-|   |__ sub-<label>_ses-<label>_acq-anat_run-<label>_TB1TFL.nii.gz 
-|   |__ sub-<label>_ses-<label>_acq-anat_run-<label>_TB1TFL.json 
-|   |__ sub-<label>_ses-<label>_acq-fmap_run-<label>_TB1TFL.nii.gz
-|   |__ sub-<label>_ses-<label>_acq-fmap_run-<label>_TB1TFL.json
-```
-
-**GE and PHILIPS**    
-The first and second TR image are annotated with `acq-tr1` and `acq-tr2`, respectively (see [TB1AFI specific notes](https://bids-specification.readthedocs.io/en/stable/appendices/qmri.html#tb1afi-specific-notes) of BIDS spec): 
-```
-|__ fmap/
-|   |__ sub-<label>_ses-<label>_acq-tr1_run-<label>_TB1AFI.nii.gz 
-|   |__ sub-<label>_ses-<label>_acq-tr1_run-<label>_TB1AFI.json 
-|   |__ sub-<label>_ses-<label>_acq-tr2_run-<label>_TB1AFI.nii.gz
-|   |__ sub-<label>_ses-<label>_acq-tr2_run-<label>_TB1AFI.json
+    |
+SIEMENS ONLY:
+    |__ sub-<label>_ses-<label>_acq-anat_run-<label>_TB1TFL.nii.gz
+    |__ sub-<label>_ses-<label>_acq-anat_run-<label>_TB1TFL.json
+    |__ sub-<label>_ses-<label>_acq-fmap_run-<label>_TB1TFL.nii.gz
+    |__ sub-<label>_ses-<label>_acq-fmap_run-<label>_TB1TFL.json
+    |
+  GE/PHILIPS ONLY:
+    |__ sub-<label>_ses-<label>_acq-tr1_run-<label>_TB1AFI.nii.gz 
+    |__ sub-<label>_ses-<label>_acq-tr1_run-<label>_TB1AFI.json 
+    |__ sub-<label>_ses-<label>_acq-tr2_run-<label>_TB1AFI.nii.gz
+    |__ sub-<label>_ses-<label>_acq-tr2_run-<label>_TB1AFI.json
 ```
 
 ## Post-Conversion Modifications
