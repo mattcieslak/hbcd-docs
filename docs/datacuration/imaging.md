@@ -42,9 +42,11 @@ assembly_bids/
 |       |__ sub-<label>_ses-<label>_scans.json
 ```
 
-The above includes EPI fieldmaps under `fmap/`. However, Siemens, GE, and Philips have B1 fieldmaps and follow [BIDS specification for quantitative MRI](https://bids-specification.readthedocs.io/en/stable/appendices/qmri.html#quantitative-mri):
+### B1 fieldmaps
+In addition to what's shown above, Siemens, GE, and Philips include acquisition of B1 fieldmaps, which were converted following the [BIDS specification for quantitative MRI](https://bids-specification.readthedocs.io/en/stable/appendices/qmri.html#quantitative-mri):
 
-For **Siemens**, anatomical (like) images and scaled flip angle maps are annotated with `acq-anat` and `acq-fmap` labels, respectively (see [BIDS spec](https://bids-specification.readthedocs.io/en/stable/appendices/qmri.html#tb1tfl-and-tb1rfm-specific-notes)):
+**SIEMENS**   
+Anatomical (like) images and scaled flip angle maps are annotated with `acq-anat` and `acq-fmap` labels, respectively (see [TB1TFL and TB1RFM specific notes](https://bids-specification.readthedocs.io/en/stable/appendices/qmri.html#tb1tfl-and-tb1rfm-specific-notes) of BIDS spec):
 ```
 |__ fmap/
 |   |__ sub-<label>_ses-<label>_acq-anat_run-<label>_TB1TFL.nii.gz 
@@ -53,7 +55,8 @@ For **Siemens**, anatomical (like) images and scaled flip angle maps are annotat
 |   |__ sub-<label>_ses-<label>_acq-fmap_run-<label>_TB1TFL.json
 ```
 
-For **GE and Philips**, the first and second TR image are annotated with `acq-tr1` and `acq-tr2`, respectively: 
+**GE and PHILIPS**    
+The first and second TR image are annotated with `acq-tr1` and `acq-tr2`, respectively (see [TB1AFI specific notes](https://bids-specification.readthedocs.io/en/stable/appendices/qmri.html#tb1afi-specific-notes) of BIDS spec): 
 ```
 |__ fmap/
 |   |__ sub-<label>_ses-<label>_acq-tr1_run-<label>_TB1AFI.nii.gz 
