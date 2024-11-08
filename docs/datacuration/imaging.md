@@ -63,12 +63,22 @@ For **GE and Philips**, the first and second TR image are annotated with `acq-tr
 ```
 
 ## Post-Conversion Modifications
-In some instances, the NIfTI and JSON files obtained from the dcm2niix conversion needed to be altered by in-house script to include additional header information. Any hard-coded headers are listed in the `HardCodedValues` field of the JSON sidecar file of the acquisition.
+In some instances, the NIfTI and JSON files obtained from the `dcm2niix` conversion needed to be altered by in-house scripts to resolve conversion errors.
 
-### ANAT/      
-**Philips T1W**: `RepetitionTime` incorrectly set, so was hardcoded to reflect the actual repetition time of the acquisition
+**Missing/Incorrect Header Information**    
+The following headers were hardcoded post-conversion either due to missing or incorrectly set values (hard-coded headers are also listed in the `HardCodedValues` field of the JSON sidecar file of the acquisition): 
 
-**Quantitative MRI**: Either 5 NIfTI 3D files or 1 NIfTI 4D file with 5 volumes produced depending on scanner manufacturer and there was missing header information from JSON. All QALAS series were thus converted to 5 NIfTI files with different inversion times (labeled using the `inv-<label>` BIDS entity) and the JSON sidecar was modified with the following:
+- Philips:
+    - T1W: `RepetitionTime`
+    - DWI: `PhaseEncodingDirection`, `TotalReadoutTime`, & `SliceTiming` (`SmallDelta` and `LargeDelta` also added)
+    - EPI: `PhaseEncodingDirection` & `TotalReadoutTime`
+    - BOLD:	`PhaseEncodingDirection`, `TotalReadoutTime`, & `SliceTiming`
+- GE:
+    - B1 Map: `RepetitionTime` (hard-coded to 0.015 for `acq-tr1` and 0.075 for `acq-tr2`)
+
+
+**Quantitative MRI**    
+Depending on scanner manufacturer, QALAS conversion resulted in either five 3D NIfTI files or one 4D NIfTIs with 5 volumes. All QALAS series were thus converted to five NIfTIs with different inversion times (labeled using the `inv-<label>` BIDS entity) and the JSON sidecar was modified with the following:
 
 <details>
 <summary><i>[Click to expand]</i></summary>
@@ -83,15 +93,3 @@ In some instances, the NIfTI and JSON files obtained from the dcm2niix conversio
 `T2Prep` was hard-coded as 0.1 in the `inv-0` QALAS file
 </ul>
 </details><br>
-
-### DWI/     
-**Philips DWI**: `PhaseEncodingDirection`, `TotalReadoutTime`, and `SliceTiming` header information missing, so were hard-coded into JSON sidecar file. `SmallDelta` and `LargeDelta` header values have also been added to all DWI JSON sidecar files.
-
-### FMAP/
-**Philips EPI Images**: `PhaseEncodingDirection` and `TotalReadoutTime` header information missing, so were hard-coded into JSON sidecar file
-
-**GE B1 Map**: `RepetitionTime` field needed to be hard-coded to 0.015 for `acq-tr1` and 0.075 for `acq-tr2` as it was not properly populated by the conversion tool
-
-### FUNC/
-**Philips BOLD**: `PhaseEncodingDirection`, `TotalReadoutTime`, and `SliceTiming` header information missing. Those headers have been hard-coded in the JSON sidecar file for Philips BOLD acquisitions.
-
