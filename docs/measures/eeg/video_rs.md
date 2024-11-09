@@ -1,7 +1,6 @@
 # Video Resting State
 *See [Common Measure Details](measures_all.md) for information on implementation, data collection, quality control & known issues, and additional information.*
 
-## Measure Overview
 **Full Name**: Video Resting State  
 **Acronym/Brief Name**: RS  
 
@@ -19,9 +18,59 @@ In V04/6, a silent video plays with a variety of marble run and construction vis
 **Summary**     
 The Resting State Task (v.11.29.23) provides assessment of the development of large scale neural networks during infancy and early childhood. It includes thorough QC procedures to ensure data accuracy and integrity.
 
-## References
-- Davidson, R. J., & Fox, N. A. (1982). Asymmetrical Brain Activity Discriminates Between Positive and Negative Affective Stimuli in Human Infants. *Science*, 218(4578), 1235– 1237. [https://doi.org/10.1126/science.7146906](https://doi.org/10.1126/science.7146906)
-- Fox, N. A., Pérez-Edgar, K., Morales, S., Brito, N. H., Campbell, A. M., Cavanagh, J. F., Gabard-Durnam, L. J., Hudac, C. M., Key, A. P., Larson-Prior, L. J., Pedapati, E. V., Norton, E. S., Reetzke, R., Roberts, T. P., Rutter, T. M., Scott, L. S., Shuffrey, L. C., Antúnez, M., Boylan, M. R., … Yoder, L. (2024). The development and structure of the Healthy Brain and Child Development (HBCD) study EEG Protocol. *Developmental Cognitive Neuroscience*, 69, 101447. [https://doi.org/10.1016/j.dcn.2024.101447](https://doi.org/10.1016/j.dcn.2024.101447)
-- Gabard-Durnam, L. J., Wilkinson, C., Kapur, K., Tager-Flusberg, H., Levin, A. R., & Nelson, C. A. (2019). Longitudinal EEG power in the first postnatal year differentiates autism outcomes. *Nature Communications*, 10(1), Article 1. [https://doi.org/10.1038/s41467-019-12202-9](https://doi.org/10.1038/s41467-019-12202-9)
-- Jones, E. J. H., Goodwin, A., Orekhova, E., Charman, T., Dawson, G., Webb, S. J., & Johnson, M. H. (2020). Infant EEG theta modulation predicts childhood intelligence. *Scientiﬁc Reports*, 10(1), 11232. [https://doi.org/10.1038/s41598-020-67687-y](https://doi.org/10.1038/s41598-020-67687-y)
-- Whedon, M., Perry, N. B., & Bell, M. A. (2020). Relations between frontal EEG maturation and inhibitory control in preschool in the prediction of children’s early academic skills. *Brain and Cognition*, 145, 105636. [https://doi.org/10.1016/j.bandc.2020.105636](https://doi.org/10.1016/j.bandc.2020.105636) 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collapsible Section</title>
+  <style>
+    .collapsible {
+      background-color: #f1f1f1;
+      color: #333;
+      cursor: pointer;
+      padding: 10px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 16px;
+    }
+
+    .active, .collapsible:hover {
+      background-color: #ddd;
+    }
+
+    .content {
+      padding: 0 15px;
+      display: none;
+      overflow: hidden;
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+
+<button type="button" class="collapsible"><b>REFERENCES <i>(click to expand)</i></b></button>
+<div class="content">
+  <ul>
+    <li>Davidson, R. J., & Fox, N. A. (1982). Asymmetrical Brain Activity Discriminates Between Positive and Negative Affective Stimuli in Human Infants. <em>Science</em>, 218(4578), 1235–1237. <a href="https://doi.org/10.1126/science.7146906" target="_blank">https://doi.org/10.1126/science.7146906</a></li>
+    <li>Fox, N. A., Pérez-Edgar, K., Morales, S., Brito, N. H., Campbell, A. M., Cavanagh, J. F., Gabard-Durnam, L. J., Hudac, C. M., Key, A. P., Larson-Prior, L. J., Pedapati, E. V., Norton, E. S., Reetzke, R., Roberts, T. P., Rutter, T. M., Scott, L. S., Shuffrey, L. C., Antúnez, M., Boylan, M. R., … Yoder, L. (2024). The development and structure of the Healthy Brain and Child Development (HBCD) study EEG Protocol. <em>Developmental Cognitive Neuroscience</em>, 69, 101447. <a href="https://doi.org/10.1016/j.dcn.2024.101447" target="_blank">https://doi.org/10.1016/j.dcn.2024.101447</a></li>
+    <li>Gabard-Durnam, L. J., Wilkinson, C., Kapur, K., Tager-Flusberg, H., Levin, A. R., & Nelson, C. A. (2019). Longitudinal EEG power in the first postnatal year differentiates autism outcomes. <em>Nature Communications</em>, 10(1), Article 1. <a href="https://doi.org/10.1038/s41467-019-12202-9" target="_blank">https://doi.org/10.1038/s41467-019-12202-9</a></li>
+    <li>Jones, E. J. H., Goodwin, A., Orekhova, E., Charman, T., Dawson, G., Webb, S. J., & Johnson, M. H. (2020). Infant EEG theta modulation predicts childhood intelligence. <em>Scientific Reports</em>, 10(1), 11232. <a href="https://doi.org/10.1038/s41598-020-67687-y" target="_blank">https://doi.org/10.1038/s41598-020-67687-y</a></li>
+    <li>Whedon, M., Perry, N. B., & Bell, M. A. (2020). Relations between frontal EEG maturation and inhibitory control in preschool in the prediction of children’s early academic skills. <em>Brain and Cognition</em>, 145, 105636. <a href="https://doi.org/10.1016/j.bandc.2020.105636" target="_blank">https://doi.org/10.1016/j.bandc.2020.105636</a></li>
+  </ul>
+</div>
+
+<script>
+  const coll = document.querySelector('.collapsible');
+  coll.addEventListener('click', function() {
+    this.classList.toggle('active');
+    const content = this.nextElementSibling;
+    content.style.display = content.style.display === 'block' ? 'none' : 'block';
+  });
+</script>
+
+</body>
+</html>
+<br>
