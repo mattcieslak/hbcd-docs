@@ -21,18 +21,18 @@ root/
 |   |__ sub-<label>_sessions.tsv  
 |   |__ sub-<label>_sessions.json  
 |   |__ ses-<label>/  
-|   |   |__ sub-<label>_ses-<label>_scans.tsv  
-|   |   |__ sub-<label>_ses-<label>_scans.json  
-|   |   |__ motion/  
-|   |   |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-calibration_motion.tsv  
-|   |   |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-calibration_motion.json
-|   |   |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-calibration_channels.tsv  
-|   |   |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-calibration_channels.json
+|       |__ sub-<label>_ses-<label>_scans.tsv  
+|       |__ sub-<label>_ses-<label>_scans.json  
+|       |__ motion/  
+|       |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-calibration_motion.tsv  
+|       |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-calibration_motion.json
+|       |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-calibration_channels.tsv  
+|       |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-calibration_channels.json
 
-|   |   |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-primary_motion.tsv  
-|   |   |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-primary_motion.json
-|   |   |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-primary_channels.tsv  
-|   |   |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-primary_channels.json
+|       |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-primary_motion.tsv  
+|       |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-primary_motion.json
+|       |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-primary_channels.tsv  
+|       |   |__ sub-<label>_ses-<label>_task-<LeftLegMovement/RightLegMovement>_tracksys-imu_acq-primary_channels.json
 ```
 
 ## Detailed File Descriptions

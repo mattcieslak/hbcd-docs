@@ -4,19 +4,22 @@
 
 The data structure of the phenotypic data is as follows:
 ```
-root/
-|__ assembly_bids/
+assembly_bids/ 
 |__ participants.tsv
-|__ participants.json
-|__ phenotype/
-|   |__ biosample_urine.tsv
-|   |__ biosample_urine.json
-|   |__ sed_basic_demographics.tsv
-|   |__ sed_basic_demographics.json
-|   |__ visit_data.tsv
-|   |__ visit_data.json
-|   |__ <instrument_name>.tsv (repeat for all selected instruments)
-|   |__ <instrument_name>.json (repeat for all selected instruments)
+|__ participants.json 
+|__ sub-<label>/
+|   |__ sub-<label>_sessions.tsv
+|   |__ sub-<label>_sessions.json
+|   |__ ses-<label>/
+|       |__ phenotype/
+|       |   |__ biosample_urine.tsv
+|       |   |__ biosample_urine.json
+|       |   |__ sed_basic_demographics.tsv
+|       |   |__ sed_basic_demographics.json
+|       |   |__ visit_data.tsv
+|       |   |__ visit_data.json
+|       |   |__ <instrument_name>.tsv (repeat for all selected instruments)
+|       |   |__ <instrument_name>.json (repeat for all selected instruments)
 ```
 
 Below is additional information on the files and file contents provided for each phenotype:
@@ -51,10 +54,6 @@ Below is additional information on the files and file contents provided for each
     <li>‘bio’ domain prepended for all protocol elements</li>
 </ul>
 </details>
-
-
-
-Hi Lucille, the 'bio' domain is the domain which is prepended for all protocol elements. This is used by LASSO to route and display the correct domain for users. And yes, the above means that DCCID, Visit Label & Scannable code are included along with the other BioSpecimen result fields. BAH is 'Booz-Allen Hamilton', which is involved in the BioSpecimen workflow. July i1st is the date of the data lock for the Data Release. I can provide more descriptive text if needed.
 
 <details>
 <summary>Visit data files (<code>phenotype/visit_data</code>)</summary>
