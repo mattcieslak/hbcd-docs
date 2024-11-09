@@ -24,14 +24,7 @@ Demographic information is crucial for understanding the child’s environment a
 **Estimated length of time for completion**: 10 minutes
 
 ## Quality Control & Known Issues
-**QC Procedures**   
-The data dashboard was monitored for variable missingness and data consistency for QC. 
-
-**Common Issues Identified**    
-High missing on income (although in line with expectations)   
-
-**Potential Issues Flagged by Subject Matter Experts**  
-We learned through RA reports that some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g. options did not capture identity) and occupation (i.e. imperfect option for job type and number of hours). 
+QC was performed by monitoring the data dashboard for variable missingness and data consistency. The only common issue noted was high missingness for income, although this is in line with expectations. Subject matter experts flagged the following as a potential issue with this measure: RA reports show that some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g. options did not capture identity) and occupation (i.e. imperfect option for job type and number of hours). 
 
 ## Measure Sources & Modifications
 **DEMOGRAPHICS OF BIRTH PARENT**
