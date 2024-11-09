@@ -63,7 +63,7 @@ Siemens, GE, and Philips will include additional files under `fmap/` due to acqu
 ```
 
 ### MR Spectroscopy
-Unlike the other MRI modalities, MRS data was converted to BIDS using [spec2nii v0.7.0](https://github.com/wtclarke/spec2nii). The BIDS files include two sets of metabolite (`*_svs.nii.gz`) and water reference (`*_ref.nii.gz`) data aqcuired via short-echo-time (TE = 35 ms) (`acq-shortTE`) and HERCULES (spectral-edited, TE = 80 ms) (`acq-hercules`). The JSON sidecar files include the dimensions of the NIfTI-MRS data array, holding different coil elements in dimension 5 and different transients in dimension 6.
+For MRS, vendor-specific raw data formats (Siemens .dat; Philips data/list; GE P-file) were converted to BIDS using [spec2nii v0.7.0](https://github.com/wtclarke/spec2nii). Output files include metabolite and water reference (`*_<svs/ref>.nii.gz`) data aqcuired via short-echo-time (TE = 35 ms) and HERCULES (spectral-edited, TE = 80 ms) (`acq-<shortTE/hercules>`). The JSON sidecar files include the dimensions of the NIfTI-MRS data array, holding different coil elements in dimension 5 and different transients in dimension 6.
 ```
 ...
 |   |__ ses-<label>/
