@@ -89,7 +89,7 @@ Below is additional information on the files and file contents provided for each
 
 
 ## Excluded Elements & General Rules
-Below is a list of static elements (i.e. precisely identified hard-coded elements including participants, instruments, and instrument fields) and dynamic elements excluded during the data release process as well as general rules applied to all data:
+Below is a list of static elements (i.e. precisely identified hard-coded elements such as participants, instruments, and instrument fields) and dynamic elements excluded during the data release process as well as general rules applied to all data:
 
 <details>
 <summary>Static Element Exclusions</summary>
