@@ -8,7 +8,8 @@
 The Video Resting State (v.11.29.23) task provides information about neural oscillations measured in EEG power across the scalp. Developmental changes in oscillatory activity reflect underlying developing large scale neural networks associated with early self-regulatory, cognitive, and affective processes and developmental outcomes (Gabard-Durnam et al., 2019; E. J. Jones et al., 2020; Whedon et al., 2020). The metrics derived from the resting EEG signal include power across the frequency spectrum (Gabard-Durnam et al., 2019) and relative power between different scalp locations (Davidson & Fox, 1982). See Fox et al. (2024) for more information about the RS.       
 
 In V03, a silent video plays with a variety of colorful and abstract toys and visuals on screen. The child watches the video for the duration of the task:
->>>>>![](images/eeg-RS-V03.png)
+
+>>![](images/eeg-RS-V03.png)
 <br>
 <br>
 
@@ -23,36 +24,35 @@ The Resting State Task (v.11.29.23) provides assessment of the development of la
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Collapsible Section</title>
+  <title>REFERENCES</title>
   <style>
     .collapsible {
-      background-color: #f1f1f1;
-      color: #333;
-      cursor: pointer;
+      background-color: #7cceb3;
       padding: 10px;
-      width: 100%;
-      border: none;
-      text-align: left;
-      outline: none;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    details {
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin: 10px 1;
+      border-radius: 5px;
+    }
+    summary {
       font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
     }
-
-    .active, .collapsible:hover {
-      background-color: #ddd;
-    }
-
-    .content {
-      padding: 0 15px;
-      display: none;
-      overflow: hidden;
-      background-color: #f9f9f9;
+    a {
+      color: #007BFF;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
-
-<button type="button" class="collapsible"><b>REFERENCES <i>(click to expand)</i></b></button>
-<div class="content">
+<details class="collapsible">  
+  <summary><b>REFERENCES <i>(click to expand)</i></b></summary> 
+  <br> 
   <ul>
     <li>Davidson, R. J., & Fox, N. A. (1982). Asymmetrical Brain Activity Discriminates Between Positive and Negative Affective Stimuli in Human Infants. <em>Science</em>, 218(4578), 1235–1237. <a href="https://doi.org/10.1126/science.7146906" target="_blank">https://doi.org/10.1126/science.7146906</a></li>
     <li>Fox, N. A., Pérez-Edgar, K., Morales, S., Brito, N. H., Campbell, A. M., Cavanagh, J. F., Gabard-Durnam, L. J., Hudac, C. M., Key, A. P., Larson-Prior, L. J., Pedapati, E. V., Norton, E. S., Reetzke, R., Roberts, T. P., Rutter, T. M., Scott, L. S., Shuffrey, L. C., Antúnez, M., Boylan, M. R., … Yoder, L. (2024). The development and structure of the Healthy Brain and Child Development (HBCD) study EEG Protocol. <em>Developmental Cognitive Neuroscience</em>, 69, 101447. <a href="https://doi.org/10.1016/j.dcn.2024.101447" target="_blank">https://doi.org/10.1016/j.dcn.2024.101447</a></li>
@@ -60,17 +60,7 @@ The Resting State Task (v.11.29.23) provides assessment of the development of la
     <li>Jones, E. J. H., Goodwin, A., Orekhova, E., Charman, T., Dawson, G., Webb, S. J., & Johnson, M. H. (2020). Infant EEG theta modulation predicts childhood intelligence. <em>Scientific Reports</em>, 10(1), 11232. <a href="https://doi.org/10.1038/s41598-020-67687-y" target="_blank">https://doi.org/10.1038/s41598-020-67687-y</a></li>
     <li>Whedon, M., Perry, N. B., & Bell, M. A. (2020). Relations between frontal EEG maturation and inhibitory control in preschool in the prediction of children’s early academic skills. <em>Brain and Cognition</em>, 145, 105636. <a href="https://doi.org/10.1016/j.bandc.2020.105636" target="_blank">https://doi.org/10.1016/j.bandc.2020.105636</a></li>
   </ul>
-</div>
-
-<script>
-  const coll = document.querySelector('.collapsible');
-  coll.addEventListener('click', function() {
-    this.classList.toggle('active');
-    const content = this.nextElementSibling;
-    content.style.display = content.style.display === 'block' ? 'none' : 'block';
-  });
-</script>
-
+</details>
 </body>
 </html>
 <br>

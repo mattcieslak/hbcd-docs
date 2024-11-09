@@ -65,7 +65,52 @@ QC procedures included examining the range of the child’s age to ensure that i
 ## Additional Information
  * [Mary Rothbart's Temperament Questionnaires](https://research.bowdoin.edu/rothbart-temperament-questionnaires)
 
-## References 
-- Gartstein, M. A., & Rothbart, M. K. (2003). Studying infant temperament via the Revised Infant Behavior Questionnaire. *Infant Behavior & Development*, 26(1), 64–86. [https://doi.org/10.1016/s0163-6383(02)00169-8](https://doi.org/10.1016/s0163-6383(02)00169-8)
-- Putnam, S. P., Helbig, A. L., Gartstein, M. A., Rothbart, M. K., & Leerkes, E. (2014). Development and assessment of short and very short forms of the infant behavior questionnaire-revised. *Journal of Personality Assessment*, 96(4), 445–458. [https://doi.org/10.1080/00223891.2013.841171](https://doi.org/10.1080/00223891.2013.841171)
-- Rothbart, M. K. (1981). Measurement of temperament in infancy. *Child Development*, 52(2), 569–578. [https://doi.org/10.1111/j.1467-8624.1981.tb03082.x](https://doi.org/10.1111/j.1467-8624.1981.tb03082.x)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collapsible References</title>
+  <style>
+    details {
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    summary {
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<details>  
+<summary><b>REFERENCES <i>(click to expand)</i></b></summary> 
+  <ul>  
+    <li>Gartstein, M. A., & Rothbart, M. K. (2003). Studying infant temperament via the Revised Infant Behavior Questionnaire. <i>Infant Behavior & Development</i>, 26(1), 64–86. <a href="https://doi.org/10.1016/s0163-6383(02)00169-8" target="_blank">https://doi.org/10.1016/s0163-6383(02)00169-8</a></li>  
+    <li>Putnam, S. P., Helbig, A. L., Gartstein, M. A., Rothbart, M. K., & Leerkes, E. (2014). Development and assessment of short and very short forms of the infant behavior questionnaire-revised. <i>Journal of Personality Assessment</i>, 96(4), 445–458. <a href="https://doi.org/10.1080/00223891.2013.841171" target="_blank">https://doi.org/10.1080/00223891.2013.841171</a></li>  
+    <li>Rothbart, M. K. (1981). Measurement of temperament in infancy. <i>Child Development</i>, 52(2), 569–578. <a href="https://doi.org/10.1111/j.1467-8624.1981.tb03082.x" target="_blank">https://doi.org/10.1111/j.1467-8624.1981.tb03082.x</a></li>  
+  </ul>  
+</details>  
+
+</body>
+</html>
+<br>

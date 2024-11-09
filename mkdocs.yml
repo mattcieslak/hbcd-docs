@@ -1,5 +1,8 @@
 site_name: HBCD Data Release
-theme: readthedocs
+
+theme:
+  name: readthedocs
+
 extra_css:
   - css/custom.css
 
@@ -18,6 +21,7 @@ nav:
   - DATA DICTIONARY EXPLORER: datadictionary.md
   - Release Notes:
       - "Data Measures & Quality Control":
+          - Overview: measures/index.md
           - Demographics: measures/demographics.md
           - "Social & Environmental Determinants":
               - Neighborhood Safety: measures/socenv_determinants/neighborhood_safety.md
@@ -26,7 +30,6 @@ nav:
               - PROMIS: measures/socenv_determinants/perceived_stress.md
               - Baby's First Years: measures/socenv_determinants/bfy.md
               - eHITS: measures/socenv_determinants/eHITS.md
-              - Other: measures/socenv_determinants/other.md
           - "Neurocognition & Language": 
               - Multilingual Language Development Screener: measures/neurocog_language.md          
           - Electroencephalogram (EEG): 
@@ -49,12 +52,10 @@ nav:
               - Food Insecurity: measures/physhealth/food_insecurity.md
               - Breastfeeding: measures/physhealth/breastfeeding.md
               - Growth: measures/physhealth/growth.md
-              - Other: measures/physhealth/other.md
           - "Behavior & Caregiver-Child Interaction": 
               - IBQ-R (VSF)+BI: measures/beh_CG_interaction/IBQ-R.md
               - MAPS-TL: measures/beh_CG_interaction/MAPS-TL.md
               - ecPROMIS: measures/beh_CG_interaction/ePROMIS.md
-              - Other: measures/beh_CG_interaction/other.md
           - "Pregnancy & Exposure": 
               - Pregnancy Health Measures (7): measures/pregexp/preghealth_all.md
               - Infant Health: measures/pregexp/infanthealth.md

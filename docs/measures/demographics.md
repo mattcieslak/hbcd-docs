@@ -8,10 +8,44 @@
 **Description**     
 The HBCD Study demographics survey is designed to gather comprehensive information on socioeconomic status and various demographic factors. Its primary purpose is to capture data on race, ethnicity, nativity, income, education, and occupation, as well as gender identity, sexual orientation, relationship status, primary residence, and household composition of the parent carrying the child, and some basic information on the other biological parent. 
 
-From [Cioffredi et al. 2024](https://www.sciencedirect.com/science/article/pii/S1878929324000902): 
-> *The HBCD Demographics survey was designed to collect social and economic information including race, ethnicity, nativity, income, maternal education, and occupation, as well as to characterize gender identity, sexual orientation, relationship status, primary residence, and household composition. The household composition matrix asks for details on all household members including age, gender, relationship to the child, relationship to the primary caregiver, and time spent caring for the child. Participants and families who endorse no primary residence, or that they are living in a shelter or treatment facility, are not asked to complete the household matrix. The survey includes a limited set of questions on the child’s “other biological parent” (i.e., race, ethnicity, nativity, education, occupation), provided the respondent endorsed an item indicating that they could answer this set of questions. Although there are no direct questions about the primary caregiver’s spouse/partner in the demographics, details of this relationship can be found within the household composition roster. The questions on Occupation ask for detailed information about exposures to environmental toxicants.*    
-
-> *Careful consideration was given to ensure that questions were inclusive of diverse populations and could capture a wide range of family structures and living situations that may impact child health outcomes. As a result, survey elements available within the PhenX Toolkit and other large-scale NIH studies were reviewed and modified by the Social and Environmental Determinants working group and the HBCD Diversity, Equity, and Inclusion (DEI) Committee to reduce bias and correct for embedded assumptions of heteronormative nuclear-family structures (see **Table** with sources below). Future demographics surveys will repeat survey elements from Visit 4 for both the primary caregiver and the child.*
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>From Cioffredi et al. 2024</title>
+  <style>
+    .collapsible {
+      background-color: #7cceb3;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    details {
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin: 10px 1;
+      border-radius: 5px;
+    }
+    summary {
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+<details class="collapsible">  
+  <summary><b>From Cioffredi et al. 2024 <i>(click to expand)</i></b></summary>  
+<br><i>The HBCD Demographics survey was designed to collect social and economic information including race, ethnicity, nativity, income, maternal education, and occupation, as well as to characterize gender identity, sexual orientation, relationship status, primary residence, and household composition. The household composition matrix asks for details on all household members including age, gender, relationship to the child, relationship to the primary caregiver, and time spent caring for the child. Participants and families who endorse no primary residence, or that they are living in a shelter or treatment facility, are not asked to complete the household matrix. The survey includes a limited set of questions on the child’s “other biological parent” (i.e., race, ethnicity, nativity, education, occupation), provided the respondent endorsed an item indicating that they could answer this set of questions. Although there are no direct questions about the primary caregiver’s spouse/partner in the demographics, details of this relationship can be found within the household composition roster. The questions on Occupation ask for detailed information about exposures to environmental toxicants.</i><br>
+<br><i>Careful consideration was given to ensure that questions were inclusive of diverse populations and could capture a wide range of family structures and living situations that may impact child health outcomes. As a result, survey elements available within the PhenX Toolkit and other large-scale NIH studies were reviewed and modified by the Social and Environmental Determinants working group and the HBCD Diversity, Equity, and Inclusion (DEI) Committee to reduce bias and correct for embedded assumptions of heteronormative nuclear-family structures (see Table with sources below). Future demographics surveys will repeat survey elements from Visit 4 for both the primary caregiver and the child.</i>
+</details>
+</body>
+</html>
 
 **Summary**     
 Demographic information is crucial for understanding the child’s environment and identifying how social, structural, and economic factors influence development over time in a longitudinal study of child development. By capturing detailed information, the Demographics survey provides key information on the child’s context. Repeating these measures allows researchers to track changes and study these changes in relation to development. 
@@ -84,36 +118,34 @@ QC was performed by monitoring the data dashboard for variable missingness and d
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Collapsible Section</title>
+  <title>REFERENCES</title>
   <style>
     .collapsible {
-      background-color: #f1f1f1;
-      color: #333;
-      cursor: pointer;
+      background-color: #7cceb3;
       padding: 10px;
-      width: 100%;
-      border: none;
-      text-align: left;
-      outline: none;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    details {
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin: 10px 1;
+      border-radius: 5px;
+    }
+    summary {
       font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
     }
-
-    .active, .collapsible:hover {
-      background-color: #ddd;
-    }
-
-    .content {
-      padding: 0 15px;
-      display: none;
-      overflow: hidden;
-      background-color: #f9f9f9;
+    a {
+      color: #007BFF;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
-
-<button type="button" class="collapsible"><b>REFERENCES (<i>click to expand</i>)</b></button>
-<div class="content">
+<details class="collapsible">  
+  <summary><b>REFERENCES <i>(click to expand)</i></b></summary>  
   <ul>
     <li>Barch, D. M., Albaugh, M. D., Avenevoli, S., Chang, L., Clark, D. B., Glantz, M. D., Hudziak, J. J., Jernigan, T. L., Tapert, S. F., Yurgelun-Todd, D., Alia-Klein, N., Potter, A. S., Paulus, M. P., Prouty, D., Zucker, R. A., & Sher, K. J. (2018). Demographic, physical and mental health assessments in the adolescent brain and cognitive development study: Rationale and description. <em>Developmental Cognitive Neuroscience</em>, 32, 55–66. <a href="https://doi.org/10.1016/j.dcn.2017.10.010" target="_blank">https://doi.org/10.1016/j.dcn.2017.10.010</a></li>
     <li>Cioffredi, L.-A., Yerby, L. G., Burris, H. H., Cole, K. M., Engel, S. M., Murray, T. M., Slopen, N., Volk, H. E., Acheson, A., & HBCD Social and Environmental Determinants Working Group. (2024). Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD). <em>Developmental Cognitive Neuroscience</em>, 69(101429), 101429. <a href="https://doi.org/10.1016/j.dcn.2024.101429" target="_blank">https://doi.org/10.1016/j.dcn.2024.101429</a></li>
@@ -121,17 +153,6 @@ QC was performed by monitoring the data dashboard for variable missingness and d
     <li>Hamilton, C. M., Strader, L. C., Pratt, J. G., Maiese, D., Hendershot, T., Kwok, R. K., Hammond, J. A., Huggins, W., Jackman, D., Pan, H., Nettles, D. S., Beaty, T. H., Farrer, L. A., Kraft, P., Marazita, M. L., Ordovas, J. M., Pato, C. N., Spitz, M. R., Wagener, D., … Haines, J. (2011). The PhenX Toolkit: get the most from your measures. <em>American Journal of Epidemiology</em>, 174(3), 253–260. <a href="https://doi.org/10.1093/aje/kwr193" target="_blank">https://doi.org/10.1093/aje/kwr193</a></li>
     <li>Jones, C. P., Truman, B. I., Elam-Evans, L. D., Jones, C. A., Jones, C. Y., Jiles, R., Rumisha, S. F., & Perry, G. S. (2008). Using “socially assigned race” to probe white advantages in health status. <em>Ethnicity & Disease</em>, 18(4), 496–504. <a href="https://www.ncbi.nlm.nih.gov/pubmed/19157256" target="_blank">https://www.ncbi.nlm.nih.gov/pubmed/19157256</a></li>
   </ul>
-</div>
-
-<script>
-  const coll = document.querySelector('.collapsible');
-  coll.addEventListener('click', function() {
-    this.classList.toggle('active');
-    const content = this.nextElementSibling;
-    content.style.display = content.style.display === 'block' ? 'none' : 'block';
-  });
-</script>
-
+</details>
 </body>
-</html>
-<br>
+</html><br>

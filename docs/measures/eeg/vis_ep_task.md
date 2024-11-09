@@ -14,44 +14,40 @@ VEP amplitude and latency decreases with age during the first three years of lif
 The Visual Evoked Potential Task (v.11.29.23) measures development of visual cortex and response to stimuli, reflecting underlying cortical development. The measure includes rigorous QC procedures to ensure data integrity and reliability.
 
 
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Collapsible Section</title>
+  <title>REFERENCES</title>
   <style>
     .collapsible {
-      background-color: #f1f1f1;
-      color: #333;
-      cursor: pointer;
+      background-color: #7cceb3;
       padding: 10px;
-      width: 100%;
-      border: none;
-      text-align: left;
-      outline: none;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    details {
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin: 10px 1;
+      border-radius: 5px;
+    }
+    summary {
       font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
     }
-
-    .active, .collapsible:hover {
-      background-color: #ddd;
-    }
-
-    .content {
-      padding: 0 15px;
-      display: none;
-      overflow: hidden;
-      background-color: #f9f9f9;
+    a {
+      color: #007BFF;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
-
-<button type="button" class="collapsible"><b>REFERENCES <i>(click to expand)</i></b></button>
-<div class="content">
+<details class="collapsible">  
+  <summary><b>REFERENCES <i>(click to expand)</i></b></summary> 
+  <br> 
   <ul>
     <li>Cremone-Caira, A., Braverman, Y., MacNaughton, G. A., Nikolaeva, J. I., & Faja, S. (2023). Reduced Visual Evoked Potential Amplitude in Autistic Children with Co-Occurring Features of Attention-Deficit/Hyperactivity Disorder. <em>Journal of Autism and Developmental Disorders</em>. <a href="https://doi.org/10.1007/s10803-023-06005-7" target="_blank">https://doi.org/10.1007/s10803-023-06005-7</a></li>
     <li>Fox, N.A., Pérez-Edgar, K., Morales, S., Brito, N. H., Campbell, A. M., Cavanagh, J. F., Gabard-Durnam, L. J., Hudac, C. M., Key, A. P., Larson-Prior, L. J., Pedapati, E. V., Norton, E. S., Reetzke, R., Roberts, T. P., Rutter, T. M., Scott, L. S., Shuffrey, L. C., Antúnez, M., Boylan, M. R., … Yoder, L. (2024). The development and structure of the Healthy Brain and Child Development (HBCD) study EEG Protocol. <em>Developmental Cognitive Neuroscience</em>, 69, 101447. <a href="https://doi.org/10.1016/j.dcn.2024.101447" target="_blank">https://doi.org/10.1016/j.dcn.2024.101447</a></li>
@@ -61,17 +57,7 @@ The Visual Evoked Potential Task (v.11.29.23) measures development of visual cor
     <li>Nazhvani, A. D., Boostani, R., Afrasiabi, S., & Sadatnezhad, K. (2013). Classification of ADHD and BMD patients using visual evoked potential. <em>Clinical Neurology and Neurosurgery</em>, 115(11), 2329–2335. <a href="https://doi.org/10.1016/j.clineuro.2013.08.009" target="_blank">https://doi.org/10.1016/j.clineuro.2013.08.009</a></li>
     <li>Shandiz, J. H., Heyrani, M., Sobhani-Rad, D., Salehinejad, Z., Shojaei, S., Khoshsima, M. J., Azimi, A., Yekta, A. A., & Yazdi, S. H. H. (2017). Pattern Visual Evoked Potentials in Dyslexic Children. <em>Journal of Ophthalmic & Vision Research</em>, 12(4), 402–406. <a href="https://doi.org/10.4103/jovr.jovr_106_16" target="_blank">https://doi.org/10.4103/jovr.jovr_106_16</a></li>
   </ul>
-</div>
-
-<script>
-  const coll = document.querySelector('.collapsible');
-  coll.addEventListener('click', function() {
-    this.classList.toggle('active');
-    const content = this.nextElementSibling;
-    content.style.display = content.style.display === 'block' ? 'none' : 'block';
-  });
-</script>
-
+</details>
 </body>
-</html>
-<br>
+</html><br>
+

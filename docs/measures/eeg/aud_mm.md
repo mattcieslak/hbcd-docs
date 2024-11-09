@@ -10,17 +10,24 @@ The Auditory mismatch negativity (MMN) Task (v.11.29.23) facilitates examining a
 **Summary**     
 The MMN task (v.11.29.23) provides a comprehensive assessment of infant speech sound processing. The measure includes rigorous QC procedures to ensure data integrity and reliability.
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Collapsible References</title>
+  <title>REFERENCES</title>
   <style>
+    .collapsible {
+      background-color: #7cceb3;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
     details {
       background-color: #f1f1f1;
       padding: 10px;
-      margin: 10px 0;
+      margin: 10px 1;
       border-radius: 5px;
     }
     summary {
@@ -28,27 +35,17 @@ The MMN task (v.11.29.23) provides a comprehensive assessment of infant speech s
       font-weight: bold;
       cursor: pointer;
     }
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    li {
-      margin: 10px 0;
-    }
     a {
       color: #007BFF;
       text-decoration: none;
     }
-    a:hover {
-      text-decoration: underline;
-    }
   </style>
 </head>
 <body>
-
-<details>  
-  <summary><b>REFERENCES <i>(click to expand)</i></b></summary>  
-  <ul>  
+<details class="collapsible">  
+  <summary><b>REFERENCES <i>(click to expand)</i></b></summary> 
+  <br> 
+<ul>  
     <li>Choudhury, N., & Benasich, A. A. (2011). Maturation of auditory evoked potentials from 6 to 48 months: Prediction to 3 and 4 year language and cognitive abilities. <i>Clinical Neurophysiology</i>, 122(2), 320–338. <a href="https://doi.org/10.1016/j.clinph.2010.05.035" target="_blank">https://doi.org/10.1016/j.clinph.2010.05.035</a></li>  
     <li>Fox, N. A., Pérez-Edgar, K., Morales, S., Brito, N. H., Campbell, A. M., Cavanagh, J. F., Gabard-Durnam, L. J., Hudac, C. M., Key, A. P., Larson-Prior, L. J., Pedapati, E. V., Norton, E. S., Reetzke, R., Roberts, T. P., Rutter, T. M., Scott, L. S., Shuffrey, L. C., Antúnez, M., Boylan, M. R., … Yoder, L. (2024). The development and structure of the Healthy Brain and Child Development (HBCD) study EEG Protocol. <i>Developmental Cognitive Neuroscience</i>, 69, 101447. <a href="https://doi.org/10.1016/j.dcn.2024.101447" target="_blank">https://doi.org/10.1016/j.dcn.2024.101447</a></li>  
     <li>Gumenyuk, V., Korzyukov, O., Escera, C., Hämäläinen, M., Huotilainen, M., Häyrinen, T., Oksanen, H., Näätänen, R., Von Wendt, L., & Alho, K. (2005). Electrophysiological evidence of enhanced distractibility in ADHD children. <i>Neuroscience Letters</i>, 374(3), 212–217. <a href="https://doi.org/10.1016/j.neulet.2004.10.081" target="_blank">https://doi.org/10.1016/j.neulet.2004.10.081</a></li>  
@@ -62,8 +59,7 @@ The MMN task (v.11.29.23) provides a comprehensive assessment of infant speech s
     <li>Reeb-Sutherland, B. C., Vanderwert, R. E., Degnan, K. A., Marshall, P. J., Pérez-Edgar, K., Chronis-Tuscano, A., Pine, D. S., & Fox, N. A. (2009). Attention to novelty in behaviorally inhibited adolescents moderates risk for anxiety. <i>Journal of Child Psychology and Psychiatry</i>, 50(11), 1365–1372. <a href="https://doi.org/10.1111/j.1469-7610.2009.02170.x" target="_blank">https://doi.org/10.1111/j.1469-7610.2009.02170.x</a></li>  
     <li>Schwartz, S., Shinn-Cunningham, B., & Tager-Flusberg, H. (2018). Meta-analysis and systematic review of the literature characterizing auditory mismatch negativity in individuals with autism. <i>Neuroscience and Biobehavioral Reviews</i>, 87, 106–117. <a href="https://doi.org/10.1016/j.neubiorev.2018.01.008" target="_blank">https://doi.org/10.1016/j.neubiorev.2018.01.008</a></li>  
   </ul>  
-</details>  
-
+</details>
 </body>
 </html>
 <br>
