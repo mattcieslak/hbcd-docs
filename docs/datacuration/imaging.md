@@ -45,19 +45,37 @@ assembly_bids/
 ### B1 Fieldmaps
 Siemens, GE, and Philips will include additional files under `fmap/` due to acquisition of B1 fieldmaps, which were converted following the BIDS specification for quantitative MRI (see BIDS specific notes for [TB1TFL and TB1RFM](https://bids-specification.readthedocs.io/en/stable/appendices/qmri.html#tb1tfl-and-tb1rfm-specific-notes) and [TB1AFI](https://bids-specification.readthedocs.io/en/stable/appendices/qmri.html#tb1afi-specific-notes)). The Siemens label `acq-<anat/fmap>` denotes the anatomical (like) image and scaled flip angle map and the GE and Philips label `acq-tr<1/2>` denotes the first and second TR image.
 ```
-|__ fmap/
-    |
-SIEMENS ONLY:
-    |__ sub-<label>_ses-<label>_acq-anat_run-<label>_TB1TFL.nii.gz
-    |__ sub-<label>_ses-<label>_acq-anat_run-<label>_TB1TFL.json
-    |__ sub-<label>_ses-<label>_acq-fmap_run-<label>_TB1TFL.nii.gz
-    |__ sub-<label>_ses-<label>_acq-fmap_run-<label>_TB1TFL.json
-    |
-  GE/PHILIPS ONLY:
-    |__ sub-<label>_ses-<label>_acq-tr1_run-<label>_TB1AFI.nii.gz 
-    |__ sub-<label>_ses-<label>_acq-tr1_run-<label>_TB1AFI.json 
-    |__ sub-<label>_ses-<label>_acq-tr2_run-<label>_TB1AFI.nii.gz
-    |__ sub-<label>_ses-<label>_acq-tr2_run-<label>_TB1AFI.json
+...
+|   |__ ses-<label>/
+|       |__ fmap/
+|           |
+|     SIEMENS ONLY:
+|           |__ sub-<label>_ses-<label>_acq-anat_run-<label>_TB1TFL.nii.gz
+|           |__ sub-<label>_ses-<label>_acq-anat_run-<label>_TB1TFL.json
+|           |__ sub-<label>_ses-<label>_acq-fmap_run-<label>_TB1TFL.nii.gz
+|           |__ sub-<label>_ses-<label>_acq-fmap_run-<label>_TB1TFL.json
+|           |
+|     GE/PHILIPS ONLY:
+|           |__ sub-<label>_ses-<label>_acq-tr1_run-<label>_TB1AFI.nii.gz 
+|           |__ sub-<label>_ses-<label>_acq-tr1_run-<label>_TB1AFI.json 
+|           |__ sub-<label>_ses-<label>_acq-tr2_run-<label>_TB1AFI.nii.gz
+|           |__ sub-<label>_ses-<label>_acq-tr2_run-<label>_TB1AFI.json
+```
+
+### MR Spectroscopy
+Unlike the other MRI modalities, MRS data was converted to BIDS using [spec2nii v0.7.0](https://github.com/wtclarke/spec2nii). The BIDS files include two sets of metabolite (`*_svs.nii.gz`) and water reference (`*_ref.nii.gz`) data aqcuired via short-echo-time (TE = 35 ms) (`acq-shortTE`) and HERCULES (spectral-edited, TE = 80 ms) (`acq-hercules`). The JSON sidecar files include the dimensions of the NIfTI-MRS data array, holding different coil elements in dimension 5 and different transients in dimension 6.
+```
+...
+|   |__ ses-<label>/
+|       |__ mrs/
+|       |   |__ sub-<label>_ses-<label>_acq-shortTE_run-<label>_svs.nii.gz
+|       |   |__ sub-<label>_ses-<label>_acq-shortTE_run-<label>_svs.json
+|       |   |__ sub-<label>_ses-<label>_acq-shortTE_run-<label>_ref.nii.gz
+|       |   |__ sub-<label>_ses-<label>_acq-shortTE_run-<label>_ref.json
+|       |   |__ sub-<label>_ses-<label>_acq-hercules_run-<label>_svs.nii.gz
+|       |   |__ sub-<label>_ses-<label>_acq-hercules_run-<label>_svs.json
+|       |   |__ sub-<label>_ses-<label>_acq-hercules_run-<label>_ref.nii.gz
+|       |   |__ sub-<label>_ses-<label>_acq-hercules_run-<label>_ref.json
 ```
 
 ## Post-Conversion Modifications
