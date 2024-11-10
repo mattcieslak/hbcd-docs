@@ -49,59 +49,6 @@ The HBCD Study demographics survey is designed to gather comprehensive informati
 **Summary**     
 Demographic information is crucial for understanding the child’s environment and identifying how social, structural, and economic factors influence development over time in a longitudinal study of child development. By capturing detailed information, the Demographics survey provides key information on the child’s context. Repeating these measures allows researchers to track changes and study these changes in relation to development. 
 
-## Implementation & Data Collection
-**Method of Administration**: RA administered in person     
-**Child Specific/Unspecific Form**: Child Unspecific  
-**Respondent:** Adult Participant   
-**Visits**: V01 (prenatal)     
-**Estimated length of time for completion**: 10 minutes
-
-## Quality Control & Known Issues
-QC was performed by monitoring the data dashboard for variable missingness and data consistency. The only common issue noted was high missingness for income, although this is in line with expectations. Subject matter experts flagged the following as a potential issue with this measure: RA reports show that some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g. options did not capture identity) and occupation (i.e. imperfect option for job type and number of hours). 
-
-## Measure Sources & Modifications
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Table 1. Demographics of Birth Parent</title>
-  <style>
-    details {
-      background-color: #FFFFFF;
-      padding: 10px;
-      margin: 10px 0;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-    }
-    summary {
-      font-weight: bold;
-      cursor: pointer;
-      font-size: 18px;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 10px;
-    }
-    th, td {
-      border: 1px solid #ddd;
-      padding: 8px;
-      text-align: left;
-    }
-    th {
-      background-color: #7cceb3;
-    }
-      td ul {
-    margin: 0; /* Remove extra margins */
-  }
-  td ul li {
-    line-height: 1.2; /* Reduce line spacing */
-  }
-  </style>
-</head>
-<body>
 
 <details>
   <summary>Table 1. Demographics of Birth Parent</summary>
@@ -245,6 +192,16 @@ QC was performed by monitoring the data dashboard for variable missingness and d
       </tr>
     </tbody>
   </table>
+<small>  
+<sup>1</sup> PhenX Toolkit (Hamilton et al. 2011)<br>  
+<sup>2</sup> HBCD: HEALthy Brain and Child Development Study (Cioffredi et al. 2024)<br> 
+<sup>3</sup> ECHO: Environmental Influences On Child Health Outcomes<br> 
+<sup>4</sup> OMB: Office of Management And Budget (Federal Register 2023)<br> 
+<sup>5</sup> BRFSS: Behavioral Risk Factor Surveillance System (Jones et al. 2008)<br>
+<sup>6</sup> ABCD: Adolescent Brain Child Development Study (Barch et al. 2018)<br> 
+<sup>7</sup> BFY: Baby's First Years (BFY), Year 1 Protocol - G35, Mwork<br> 
+<sup>8</sup> BFY: Baby's First Years (BFY), Year 1 Protocol - G39, SchedMain<br> 
+</small>
 </details>
 
 <details>
@@ -270,22 +227,22 @@ QC was performed by monitoring the data dashboard for variable missingness and d
       </tr>
       <tr>
         <td>Birthplace and Heritage</td>
-        <td><a href="https://www.phenxtoolkit.org/protocols/view/10201">PhenX</a><sup>2</sup></td>
+        <td><a href="https://www.phenxtoolkit.org/protocols/view/10201">PhenX</a><sup>1</sup></td>
         <td><small><i>None</i></small></td>
       </tr>
       <tr>
         <td>Years Living in the U.S.</td>
-        <td><a href="https://www.phenxtoolkit.org/protocols/view/11201">PhenX</a><sup>2</sup></td>
+        <td><a href="https://www.phenxtoolkit.org/protocols/view/11201">PhenX</a><sup>1</sup></td>
         <td><small><i>None</i></small></td>
       </tr>
       <tr>
         <td>Birthplace of Parents</td>
-        <td><a href="https://www.phenxtoolkit.org/protocols/view/10301">PhenX</a><sup>2</sup></td>
+        <td><a href="https://www.phenxtoolkit.org/protocols/view/10301">PhenX</a><sup>1</sup></td>
         <td><small><i>None</i></small></td>
       </tr>
       <tr>
         <td>Educational Attainment</td>
-        <td><a href="https://www.phenxtoolkit.org/protocols/view/11002">PhenX</a><sup>2</sup></td>
+        <td><a href="https://www.phenxtoolkit.org/protocols/view/11002">PhenX</a><sup>1</sup></td>
         <td><small><i>None</i></small></td>
       </tr>
       <tr>
@@ -315,16 +272,66 @@ QC was performed by monitoring the data dashboard for variable missingness and d
       </tr>
     </tbody>
   </table>
+<small>  
+<sup>1</sup> PhenX Toolkit (Hamilton et al. 2011)<br>  
+<sup>2</sup> HBCD: HEALthy Brain and Child Development Study (Cioffredi et al. 2024)<br> 
+<sup>4</sup> OMB: Office of Management And Budget (Federal Register 2023)<br> 
+</small>
 </details>
 </html>
-<sup>1</sup> PhenX Toolkit (Hamilton et al. 2011)  
-<sup>2</sup> HBCD: HEALthy Brain and Child Development Study (Cioffredi et al. 2024)  
-<sup>3</sup> ECHO: Environmental Influences On Child Health Outcomes   
-<sup>4</sup> OMB: Office of Management And Budget (Federal Register 2023)  
-<sup>5</sup> BRFSS: Behavioral Risk Factor Surveillance System (Jones et al. 2008)  
-<sup>6</sup> ABCD: Adolescent Brain Child Development Study (Barch et al. 2018)    
-<sup>7</sup> BFY: Baby's First Years (BFY), Year 1 Protocol - G35, Mwork        
-<sup>8</sup> BFY: Baby's First Years (BFY), Year 1 Protocol - G39, SchedMain
+
+
+## Implementation & Data Collection
+**Method of Administration**: RA administered in person     
+**Child Specific/Unspecific Form**: Child Unspecific  
+**Respondent:** Adult Participant   
+**Visits**: V01 (prenatal)     
+**Estimated length of time for completion**: 10 minutes
+
+## Quality Control & Known Issues
+QC was performed by monitoring the data dashboard for variable missingness and data consistency. The only common issue noted was high missingness for income, although this is in line with expectations. Subject matter experts flagged the following as a potential issue with this measure: RA reports show that some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g. options did not capture identity) and occupation (i.e. imperfect option for job type and number of hours). 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table 1. Demographics of Birth Parent</title>
+  <style>
+    details {
+      background-color: #FFFFFF;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    summary {
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 18px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #7cceb3;
+    }
+      td ul {
+    margin: 0; /* Remove extra margins */
+  }
+  td ul li {
+    line-height: 1.2; /* Reduce line spacing */
+  }
+  </style>
+</head>
+<body>
 
 <!DOCTYPE html>
 <html lang="en">
