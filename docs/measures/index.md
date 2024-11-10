@@ -55,4 +55,4 @@ For measures that include surveys, all surveys were translated to Spanish for HB
     - [Substance Use Measures (4)](pregexp/substanceuse_all.md)
     - [Mental Health](pregexp/mentalhealth.md)
     - [DSM5 PTSD/short stress scale](pregexp/NSESSS.md)
-    - [EPDS](pregexp/edinburgh_postnatal_depression.md)
+    - [EPDS](pregexp/EPDS.md)
