@@ -1,37 +1,94 @@
 # Substance Use Measures
-## Constructs & Implementation
-Substance use measures include Assist V1, Assist V2, and Assist V3 measures (**Full Name**: NIDA-modified Alcohol, Smoking and Substance Involvement Screening Test (ASSIST) V1.0/V2.0/V3.0) and TLFB (**Full Name**: Timeline Follow Back). Here is a summary of each construct and their implementation:
+Substance use measures include NIDA-modified Alcohol, Smoking and Substance Involvement Screening Test (ASSIST) V1.0/V2.0/V3.0 and Timeline Follow Back (TLFB):
 
-| REDCap Name  | Construct | Respondant | Time | Visit |
-| - | - | - | - | - |
-| `Assist V1`| <sup>Substance use before and during pregnancy</sup> | <sup>Pregnant person</sup> | 5 min | V1 |
-| `Assist V2` | <sup>Substance use (end of pregnancy and postnatal)</sup> | <sup>Person who gave birth</sup> | 5 min | V2 |
-| `Assist V3` | <sup>Substance use after pregnancy</sup> | <sup>Person who gave birth<br>or primary caregiver</sup> | 3 min | V3 |
-| `TLFB` | <sup>Substance use before and during pregnancy</sup> | <sup>Person who gave birth<br>or primary caregiver</sup> | 10 min | V1, V2 |
+<table dir="ltr" border="1" cellspacing="0" cellpadding="0" data-sheets-root="1" data-sheets-baot="1"><colgroup><col width="104" /><col width="555" /><col width="110" /><col width="142" /></colgroup>
+<tbody>
+<tr>
+  <td><strong>Measure</strong></td>
+  <td><strong>Construct</strong></td>
+  <td><strong>Respondant</strong></td>
+  <td><strong>Visit(s)</strong></td>
+</tr>
+<tr>
+  <td>Assist V1</td>
+  <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Substance use and problematic use before and during pregnancy</small></td>
+  <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Pregnant person</small></td>
+  <td>V1</td>
+</tr>
+<tr>
+  <td>Assist V2</td>
+  <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Substance use during end of pregnancy ( between V1 and delivery) and postnatal (weeks 0-4, between delivery and V2)</small></td>
+  <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Person who gave birth</small></td>
+  <td>V2</td>
+</tr>
+<tr>
+  <td>Assist V3</td>
+  <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Substance use after pregnancy</small></td>
+  <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Person who gave birth or primary caregiver</small></td>
+  <td>V3</td>
+</tr>
+<tr>
+  <td>TLFB</td>
+  <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Substance use before and during pregnancy</small></td>
+  <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Person who gave birth or primary caregiver</small></td>
+  <td>V1, V2</td>
+</tr>
+</tbody>
+</table>
 
-In addition, the following implementations were common to all measures:  
-**Method of Administration**: RA administered in person (except in Alabama, where it was self-administered)     
-**Spanish Translation**: Created  
-**Child Specific/Unspecific Form**: Unspecific  
+For the Assist measures, the number of substances listed for response options was vastly expanded. For each substance, participants were asked about use with response choices: 0 (Never), 1 (Once or Twice), 2 (Monthly), 3 (Weekly), 4 (Daily or Almost Daily). For substances that participants reported using, they were asked to specify modes of use and, for alcohol and opioids, typical quantity of consumption - please see <a href="#hbcd-modifications">HBCD Modifications</a> for details. They were then asked a series of questions about disordered use or use causing problems in their lives. Any endorsement of substances in the three months before or during pregnancy triggered the Time Line Follow Back (TLFB).
 
-## HBCD Modifications
-<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Assist: Global Measure Changes</u></b></p>
+TLFB, modified from the [original TLFB](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) (please see <a href="#hbcd-modifications">HBCD Modifications</a> for details) was a created to capture maternal substance use before and during pregnancy if triggered from Assist responses. Participants were instructed to report their substance use during 9 weeks in total for each substance reported on the ASSIST, disaggregated into product type (e.g. edible cannabis products). The sampled weeks captured 9 weeks in total, including: pre-pregnancy use (Weeks 1-2: four weeks before LMP through two weeks before LMP), early pregnancy use (Weeks 3-6: two weeks after LMP through six weeks after LMP), and current use (Week 7: the week prior to V1). The TLFB was repeated at V2 to capture substance use during the last two full weeks of gestation (Weeks 8-9).
 
-The **Assist measures** were created from combining the Family History Assessment Module (FHAM) and the All of Us Personal and Family Health History, which was then modified from the [NIDA Quick Screen (Modified Assist)](https://nida.nih.gov/sites/default/files/pdf/nmassist.pdf). The original quick screen was scored; however, our version is not scored. To acknowledged these changes in future publications: authors can note that questions were motivated from the NIDA Modified Assist.
+<details>
+<summary>Implementation & Data Collection Details</summary>
+<ul>
+<br>
+<p><strong>Method of Administration</strong>: RA-administered in person (except in Alabama, where participants were trained too self-administer) <br />
+<strong>REDCap Form Names</strong>: `Assist V1`; `Assist V2`; `Assist V3`; `TLFB` <br />
+<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
+<strong>Child Specific/Unspecific Form</strong>: Child Unspecific <br />
+<strong>Estimated length of time for completion</strong>: 5 min (Assist V1/2); 3 min (Assist V3); 10 min (TLFB)</p>
+</details>
 
-<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Assist: Instruction/Assessment Item Modifications</u></b></p>  
-The NIDA quick screen tool (have you used alcohol, tobacco, prescription drugs, or illegal drugs in the last year) was removed and replaced by questions to assess more details regarding substances used and the timeline of their use before and during pregnancy. Please expand each section below to see specifics on added options/questions:
+<details>
+<summary>References</summary>
+<ul>
+<br>
+<li>National Institute on Drug Abuse. (n.d.). <em>NIDA Modified ASSIST</em>.</li>
+<li>Sobell, L., &amp; Sobell, M. (2000). Alcohol timeline follow-back (TLFB). In <em>Handbook of psychiatric measures.</em> (p. 477). American Psychiatric Association.</li>
+</ul>
+</details>
+<br>
+
+
+### HBCD Modifications
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b>Assist</b></p>
+
+The **Assist V1, V2, & V3 measures** were created from combining the Family History Assessment Module (FHAM) and the All of Us Personal and Family Health History, which was then modified from the [NIDA Quick Screen (Modified Assist)](https://nida.nih.gov/sites/default/files/pdf/nmassist.pdf). The original quick screen was scored; however, our version is not scored. To acknowledged these changes in future publications, authors can note that questions were motivated from the NIDA Modified Assist.
+
+<p style="font-size: 1em; margin: 0 0 5px;"><b>Instruction/Assessment Item Modifications</b></p>  
+The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs, or illegal drugs in the last year*) was removed and replaced by questions to assess more details regarding substances used and the timeline of their use before and during pregnancy. Please expand each section below to see specifics on added options/questions:
 
 <div style="margin-bottom: 5px;">
 <details>
 <summary>Added additional substance options for questions listing substance options</summary>
+<br>
 <ul>
   <li>Nicotine or tobacco products (cigarettes, e-cigarettes, chewing tobacco, cigars, etc.)</li>
-  <li>Alcoholic beverages (beer, wine, spirits, etc.)</li>
+  <li>Alcoholic beverages (beer, wine, spirits, etc.)
+        <ul>
+            <li><b>IF ENDORSED:</b> specify type and average volume of one glass/container typically consumed (U.S.-defined ‘standard drinks’ were then calculated by dividing the amount reported by 12oz (beer, hard cider, hard seltzer), 5oz (wine) or 1.5 oz (spirits))</li>
+        </ul>
+  </li>
   <li>Cannabis (marijuana, weed, pot, hash, wax, blunts, dabs, gummies, vapes, etc.)</li>
   <li>Cannabidiol (CBD; not containing THC)</li>
-  <li>Synthetic cannabinoids (K2, spice, etc.)</li>
-  <li>Prescription opioids (oxycodone, morphine, codeine, fentanyl, tramadol, etc.)</li>
+  <li>Synthetic cannabinoids (K2, spice, etc.)
+  <li>Prescription opioids (oxycodone, morphine, codeine, fentanyl, tramadol, etc.)
+        <ul>
+            <li><b>IF ENDORSED:</b> specify type of opioid used and typical quantities per occasion for the following: heroin (grams, bags), prescription opioids (pills), buprenorphine (pills, injectables, films), and methadone (mg)</li>
+        </ul>
+  </li>
   <li>Heroin or other illicit opioids (fentanyl, oxycodone, etc.)</li>
   <li>Methadone</li>
   <li>Buprenorphine</li>
@@ -81,52 +138,22 @@ The NIDA quick screen tool (have you used alcohol, tobacco, prescription drugs, 
 </details>
 </div><br>
 
-<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>TFLB Modifications for HBCD</u></b></p>
+<p style="font-size: 1.2em; margin: 0 0 5px;"><b>TLFB</b></p>
 The [original TLFB](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) was modified to meet the needs of the HBCD study. The original TLFB covers the last 7 days. For the HBCD study, the following timeframes are queried:
 
 - Visit 1: LMP – 4 through LMP – 2, LMP + 2 through LMP + 6, Last week prior to V1 (enrollment)
 - Visist 2: Last 2 full calendar weeks prior to delivery (to mask the child’s DOB)
 
-In addition, regarding answer/response option changes: for all substances except Alcohol, instead of getting Y/N per day, we ask number of times used/day (frequency of use).
+The number of occasions of use per day was captured for all products except for cigarettes and cigarillos (number per day) and alcohol (number of single servings per day). 
 
-## Detailed Descriptions
-### ASSIST V1
-**Description**     
-This was a created to capture maternal substance use before, during and after pregnancy  
-
-**Summary**     
-Lifetime and problematic use, pre-pregnancy and pregnancy use was expanded into the following substances: nicotine or tobacco products, alcohol, cannabis, cannabidiol, synthetic cannabinoids, prescription opioids, heroin or other illicit opioids, methadone, buprenorphine, benzodiazepines, cocaine, amphetamine type stimulants, methamphetamine, inhalants, hallucinogens or club drugs, androgenic anabolic steroids, phencyclidine, and kratom. Participants were asked for each substance whether they had ever used it, and for those endorsed, a series of questions about disordered use or use causing problems in their lives. Information was obtained about modes of use specific to each substance. For example, for tobacco, participants were asked to report the type of product used, such as cigarettes or e-cigarettes. Likewise, participants who used cannabis were asked what types of products they used, such as smoking marijuana flower, vaping, or consuming edibles. If alcohol was reported during this period, the participant was further asked what type of alcohol they consumed (beer, hard cider, hard seltzer/wine/spirits). For each one, they were asked, on average, the volume of one typical glass/container that they consumed. United States defined ‘standard drinks’ were then calculated by dividing the amount reported by 12oz (beer, hard cider, hard seltzer), 5oz (wine) or 1.5 oz (spirits). Finally, if the participant reported opioids, they were asked the type of opioid used during the period, and typical quantities per occasion for the following: heroin (grams, bags), prescription opioids (pills), buprenorphine (pills, injectables, films), and methadone (mg). Any endorsement of substances in the 3 months prior to pregnancy or during pregnancy triggered the Time Line Follow Back (TLFB).
-
-### ASSIST V2
-**Description**     
-This was a created to capture maternal substance use between enrollment and delivery and postnatal (weeks 0-4) substance use.      
-
-**Summary**     
-Participants were first asked to update whether they had used any of the 18 substances of interest between V1 and delivery. If alcohol was reported during this period, the participant was further asked what type of alcohol they consumed (beer, hard cider, hard seltzer/wine/spirits). For each one, they were asked, on average, the volume of one typical glass/container that they consumed. United States defined ‘standard drinks’ were then calculated by dividing the amount reported by 12oz (beer, hard cider, hard seltzer), 5oz (wine) or 1.5 oz (spirits). Finally, if the participant reported opioids, they were asked the type of opioid used during the period, and typical quantities per occasion for the following: heroin (grams, bags), prescription opioids (pills), buprenorphine (pills, injectables, films), and methadone (mg). Any endorsement of substances between V1 and delivery triggered the Time Line Follow Back (TLFB).   
-In addition, participants were asked if they used any of the 18 substances between delivery and V2 (0-4 weeks postnatal). Response choices are: 0 (Never), 1 (Once or Twice), 2 (Monthly), 3 (Weekly), 4 (Daily or Almost Daily).
-
-### ASSIST V3
-**Description**     
-This was a created to capture maternal substance use throughout the rest of the study.  
-
-**Summary**     
-Participants were asked if they used any of the 18 substances in the last 3 months. Response choices are: 0 (Never), 1 (Once or Twice), 2 (Monthly), 3 (Weekly), 4 (Daily or Almost Daily).
-
-### Timeline Follow Back 
-**Description**     
-This was a created to capture maternal substance use before and during pregnancy. The [original TLFB](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) was modified for HBCD as described in the Visit Measure Changes of the Change Log.  
-
-**Summary**         
-Participants who reported any substance use in the three months before or during pregnancy were interviewed about their use of each substance with a TLFB approach.  They were instructed to report their substance use during 9 weeks in total for each substance reported on the ASSIST, disaggregated into product type (e.g. edible cannabis products). The number of occasions of use per day was captured for all products except for cigarettes and cigarillos (number per day) and alcohol (number of single servings per day). The sampled weeks captured 9 weeks in total and were as follows: pre-pregnancy use (Weeks 1-2: four weeks before LMP through two weeks before LMP), early pregnancy use (Weeks 3-6: two weeks after LMP through six weeks after LMP), and current use (Week 7: the week prior to V1). The TLFB was repeated at V2 to capture substance use during the last two full weeks of gestation (Weeks 8-9). While for most participants, the TLFB was administered by study staff, at the site where prenatal substance use was reportable by study staff, participants received training to enter their use directly into the TLFB.  
-
-## Quality Control & Known Issues
-### ASSIST V1 & V2
+### Quality Control & Known Issues
+#### ASSIST V1 & V2
 Response distributions were reviewed for outliers and crossed with TLFB. One common issue noted was that if a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it. One potential issue flagged by subject matter experts was that, to capture ‘standard drinks’ of alcohol, participants were asked to self-report their typical size of a single drink (in oz): this was difficult for some participants, and some reports are outside of expected range. Sites were queried on outliers, but participants were not always able to be re-contacted. 
 
-### ASSIST V3
+#### ASSIST V3
 Response distributions were reviewed for outliers and no common issues were identified nor were any potential issues flagged by subject matter experts.
 
-### Timeline Follow Back
+#### Timeline Follow Back
 Response distributions were reviewed for outliers and crossed with Assist. One common issue noted was that if a participant endorsed a substance on the TLFB, it should have been noted on the Assist. Sometimes it was not, which triggered a query to the site to correct it.   
    
 **Potential Issues Flagged by Subject Matter Experts**  
@@ -136,6 +163,33 @@ Also of note- participants were asked to report occasions (except cigarettes/ ci
 
 The TLFB data should be combined with the biospecimen and Assist data. One could also create trajectories of use from the TLFB with assumptions by using data on early pregnancy (weeks 3-6) carried forward until stated pregnancy recognition (V1 Health), then using enrollment (week 7) information and carrying that forward until late pregnancy (weeks 8-9). 
 
-## References
-- National Institute on Drug Abuse. (n.d.). *NIDA Modified ASSIST*.
-- Sobell, L., & Sobell, M. (2000). Alcohol timeline follow-back (TLFB). In *Handbook of psychiatric measures.* (p. 477). American Psychiatric Association.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REFERENCES</title>
+  <style>
+    .collapsible {
+      background-color: #7cceb399;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    details {
+      background-color: #7cceb366;
+      padding: 10px;
+      margin: 10px 1;
+      border-radius: 5px;
+    }
+    summary {
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+  </style>
+</html>

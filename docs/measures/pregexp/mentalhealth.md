@@ -63,6 +63,47 @@ Other:
  * Listed in this section as well is the Personality Inventory for DSM-5 Brief. It assesses 5 personality trait domains including negative affect, detachment, antagonism, disinhibition,  
 and psychoticism, with each trait domain consisting of 5 items. Information about the measure and scoring can be found here: https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_The-Personality-Inventory-For-DSM-5-Brief-Form-Adult.pdf
 
-## References
-- Doss, R. A., & Lowmaster, S. E. (2022). Validation of the DSM-5 Level 1 Cross-Cutting Symptom Measure in a Community  Sample. *Psychiatry Research*, *318*, 114935. [https://doi.org/10.1016/j.psychres.2022.114935](https://doi.org/10.1016/j.psychres.2022.114935)
-- Roche, M. J., Pincus, A. L., & Cole, P. E. (2019). Linking dimensions and dynamics in psychopathology research: An example using DSM-5 instruments. *Journal of Research in Personality*, *82*, 103852. [https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852](https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REFERENCES</title>
+  <style>
+    .collapsible {
+      background-color: #7cceb3;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    details {
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin: 10px 1;
+      border-radius: 5px;
+    }
+    summary {
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+<details class="collapsible">  
+  <summary><b>REFERENCES <i>(click to expand)</i></b></summary> 
+  <br> 
+<ul>
+<li>Doss, R. A., &amp; Lowmaster, S. E. (2022). Validation of the DSM-5 Level 1 Cross-Cutting Symptom Measure in a Community  Sample. <em>Psychiatry Research</em>, <em>318</em>, 114935. <a href="https://doi.org/10.1016/j.psychres.2022.114935">https://doi.org/10.1016/j.psychres.2022.114935</a></li>
+
+<li>Roche, M. J., Pincus, A. L., &amp; Cole, P. E. (2019). Linking dimensions and dynamics in psychopathology research: An example using DSM-5 instruments. <em>Journal of Research in Personality</em>, <em>82</em>, 103852. <a href="https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852">https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852</a></li>
+</ul>
+</details>
+</body>
+</html>
+<br>

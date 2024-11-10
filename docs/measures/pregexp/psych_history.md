@@ -1,42 +1,75 @@
 # Personal and Family Psychiatric History 
-## Measure Overview
 **Full Name**: Personal and family psychiatric history   
 **Acronym/Brief Name**: FAM MH  
 **Construct**: Personal and family mental health   
-
-**Description**     
-This was a created to capture maternal, paternal, and grandparents’ mental health conditions and diagnoses 
-
-**Summary**     
+**Description**: Captures maternal, paternal, and grandparents’ mental health conditions and diagnoses 
+    
 This measure was created from combining and modifying the [Family History Assessment Module (FHAM)](https://arc.psych.wisc.edu/self-report/family-history-assessment-module-fham/) and the [All of Us Personal and Family Health History](https://www.researchallofus.org/wp-content/themes/research-hub-wordpress-theme/media/2023/PaFHH_Survey_English.pdf). It assesses self-reported diagnoses and mental health conditions of the biologic mother, father, maternal parents and paternal parents. 
 
-## Implementation & Data Collection
-**Method of Administration**: self-administered in person  
-**REDCap Form Name**: Personal and family psych history  
-**Spanish Translation**: Created  
-**Child Specific/Unspecific Form**: Unspecific  
-**Respondent:** pregnant person   
-**Visits**: V1 (pregnancy)  
-**Estimated length of time for completion**: 5 minutes
+<details>
+<summary>Implementation & Data Collection Details</summary>
+<ul>
+<br>
+<p><strong>Method of Administration</strong>: Self-administered in person <br />
+<strong>REDCap Form Name</strong>: Personal and family psych history <br />
+<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
+<strong>Child Specific/Unspecific Form</strong>: Unspecific <br />
+<strong>Respondent:</strong> Pregnant person <br />
+<strong>Visits</strong>: Visit 1 (pregnancy) <br />
+<strong>Estimated length of time for completion</strong>: 5 minutes</p>
+</details>
 
-## HBCD Modifications
-<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Global Measure Changes</u></b></p>
-For future publications, authors should note that this measure is a combination of FHAM and All of Us, as described above, but this is not a scored scale; its simply descriptive for family history.
+<details>
+<summary>References</summary>
+<ul>
+<br>
+  <ul>
+    <li>Rice, J. P., Reich, T., Bucholz, K., Neuman, R. J., Fishman, R., Rochberg, N., Hesselbrock, V. M., Numberger, J. I., Shuckit, M. A., & Begleiter, H. (1995). Comparison of Direct Interview and Family History Diagnoses of Alcohol Dependence.  <em>Alcoholism: Clinical and Experimental Research</em>, <em>19</em>, 1018-1023. <a href="https://doi.org/10.1111/j.1530-0277.1995.tb00983.x">https://doi.org/10.1111/j.1530-0277.1995.tb00983.x</a></li>
+    </ul>
+</details>
+<br>
 
-<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Instruction/Assessment Item Modifications</u></b></p>
-- Only selected alcohol-schizophrenia from FHAM; dropped ‘trouble with law’ and ‘nervous breakdown’.
-- From All of Us, we were only interested in a few mental health outcomes (AUD, anxiety, ASD, BPD, depression, SUD, schizophrenia and ADHD). Also, we were not interested in age of diagnosis or medications to treat.
+### HBCD Modifications
+<p style="font-size: 1em; margin: 0 0 5px;"><b>Global Measure Changes</b></p>
+For future publications, authors should note that this measure, as noted in the prior section, is a combination of FHAM and All of Us. It is also not a scored scale, but simply descriptive for family history.
 
-<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Answer/Response Option Changes</u></b></p>
-- FHAM: response options (*originally parents, grandparents, siblings, aunts, uncles, and cousins*) modified to include only biological mom, dad and grandparents 
-- All of Us: response options (*originally mom, dad, sibling, daughter, son, and grandparent*) modified to include only biological mom and dad
+<p style="font-size: 1em; margin: 0 0 5px;"><b>Instruction/Assessment Item Modifications</b></p>
+From FHAM, only alcohol-schizophrenia were selected; items for Antisocial Personality Disorder and Undifferentiated Psychiatric Disorder were not included. Additionally, ‘trouble with law’ and ‘nervous breakdown’ were excluded.
+From All of Us, we were only interested in a few mental health outcomes (AUD, anxiety, ASD, BPD, depression, SUD, schizophrenia and ADHD) and were not interested in age of diagnosis or medications to treat.
 
-## Quality Control & Known Issues
-Response distributions were reviewed for outliers and no common issues were identified. No potential issues were flagged by subject matter experts.
+<p style="font-size: 1em; margin: 0 0 5px;"><b>Answer/Response Option Changes</b></p>
+For FHAM response options (originally including 'parents', 'grandparents', 'siblings', 'aunts', 'uncles', and 'cousins') were modified to include only biological mom, dad and grandparents. For All of Us, response options (originally 'mom', 'dad', 'sibling', 'daughter', 'son', and 'grandparent') were modified to include only biological mom and dad.
 
-## Additional Information
-From FHAM items for Antisocial Personality Disorder and Undifferentiated Psychiatric Disorder were not included.
+### Quality Control & Known Issues
+Response distributions were reviewed for outliers and no common issues were identified. In addition, no potential issues were flagged by subject matter experts.
 
-## References
-- [**https://arc.psych.wisc.edu/self-report/family-history-assessment-module-fham/**](https://arc.psych.wisc.edu/self-report/family-history-assessment-module-fham/)
-- [**https://www.researchallofus.org/wp-content/themes/research-hub-wordpress-theme/media/2023/PaFHH_Survey_English.pdf**](https://www.researchallofus.org/wp-content/themes/research-hub-wordpress-theme/media/2023/PaFHH_Survey_English.pdf)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REFERENCES</title>
+  <style>
+    .collapsible {
+      background-color: #7cceb399;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    details {
+      background-color: #7cceb366;
+      padding: 10px;
+      margin: 10px 1;
+      border-radius: 5px;
+    }
+    summary {
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+  </style>
+</html>

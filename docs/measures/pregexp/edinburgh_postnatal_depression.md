@@ -34,5 +34,46 @@ Note: the following scores on the EPDS triggered a clinical alert for study staf
 
 The EPDS was scored as follows: [https://med.stanford.edu/content/dam/sm/ppc/documents/DBP/EDPS_text_added.pdf](https://med.stanford.edu/content/dam/sm/ppc/documents/DBP/EDPS_text_added.pdf)
 
-## References
-- Cox, J. L., Holden, J. M., & Sagovsky, R. (1987). Detection of postnatal depression . Development of the 10-item Edinburgh Postnatal Depression Scale. *British Journal of Psychiatry*, *150*, 782–786. [https://doi.org/10.1192/bjp.150.6.782](https://doi.org/10.1192/bjp.150.6.782)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REFERENCES</title>
+  <style>
+    .collapsible {
+      background-color: #7cceb3;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    details {
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin: 10px 1;
+      border-radius: 5px;
+    }
+    summary {
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+<details class="collapsible">  
+  <summary><b>REFERENCES <i>(click to expand)</i></b></summary> 
+  <br> 
+<ul>
+<li>Cox, J. L., Holden, J. M., &amp; Sagovsky, R. (1987). Detection of postnatal depression . Development of the 10-item Edinburgh Postnatal Depression Scale. <em>British Journal of Psychiatry</em>, <em>150</em>, 782–786. <a href="https://doi.org/10.1192/bjp.150.6.782">https://doi.org/10.1192/bjp.150.6.782</a></li>
+</ul>
+</details>
+</body>
+</html>
+<br>
+

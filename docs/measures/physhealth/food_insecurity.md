@@ -26,5 +26,45 @@ Although the addition of “don’t know” does not impact scoring, because the
 ## Quality Control & Known Issues
 The QC procedure involved monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. No common issues were identified with QC and no potential issues were flagged by subect matter experts.
 
-## References
-- Hager, E. R., Quigg, A. M., Black, M. M., Coleman, S. M., Heeren, T., Rose-Jacobs, R., Cook, J. T., Ettinger de Cuba, S. A., Casey, P. H., Chilton, M., Cutts, D. B., Meyers, A. F., & Frank, D. A. (2010). Development and validity of a 2-item screen to identify families at risk for food insecurity. *Pediatrics*, 126(1), e26-32. [https://doi.org/10.1542/peds.2009-3146](https://doi.org/10.1542/peds.2009-3146)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REFERENCES</title>
+  <style>
+    .collapsible {
+      background-color: #7cceb3;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    details {
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin: 10px 1;
+      border-radius: 5px;
+    }
+    summary {
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+<details class="collapsible">  
+  <summary><b>REFERENCES <i>(click to expand)</i></b></summary> 
+  <br> 
+<ul>
+<li>Hager, E. R., Quigg, A. M., Black, M. M., Coleman, S. M., Heeren, T., Rose-Jacobs, R., Cook, J. T., Ettinger de Cuba, S. A., Casey, P. H., Chilton, M., Cutts, D. B., Meyers, A. F., &amp; Frank, D. A. (2010). Development and validity of a 2-item screen to identify families at risk for food insecurity. <em>Pediatrics</em>, 126(1), e26-32. <a href="https://doi.org/10.1542/peds.2009-3146">https://doi.org/10.1542/peds.2009-3146</a></li>
+</ul>
+</details>
+</body>
+</html>
+<br>

@@ -123,9 +123,48 @@ If a respondent selects “Don’t know” for one or more questions, a clinical
 ## Quality Control & Known Issues     
 Social and Environmental Working Group QC procedures included monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. eHITS has a summary score. No potential issues were identified via the QC procedures or flagged by subject matter experts.     
 
-## References
-- Chan, C. C., Chan, Y. C., Au, A., & Cheung, G. O. C. (2010). Reliability and validity of the “Extended - Hurt, Insult, Threaten, Scream” (E-hits) screening tool in detecting intimate partner violence in hospital emergency departments in Hong Kong. *Hong Kong Journal of Emergency Medicine*, 17(2), 109–117. [https://doi.org/10.1177/102490791001700202](https://doi.org/10.1177/102490791001700202)
-- Portnoy, G. A., Haskell, S. G., King, M. W., Maskin, R., Gerber, M. R., & Iverson, K. M. (2018). Accuracy and acceptability of a screening tool for identifying intimate partner violence perpetration among women veterans: A pre-implementation evaluation. *Women’s Health Issues: Official Publication of the Jacobs Institute of Women’s Health*. [https://doi.org/10.1016/j.whi.2018.04.003](https://doi.org/10.1016/j.whi.2018.04.003)
-- Sherin, K. M., Sinacore, J. M., Li, X. Q., Zitter, R. E., & Shakil, A. (1998). HITS: a short domestic violence screening tool for use in a family practice setting. *Family Medicine*, 30(7), 508–512.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REFERENCES</title>
+  <style>
+    .collapsible {
+      background-color: #7cceb3;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    details {
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin: 10px 1;
+      border-radius: 5px;
+    }
+    summary {
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+<details class="collapsible">  
+  <summary><b>REFERENCES <i>(click to expand)</i></b></summary> 
+  <br> 
+<ul>
+<li>Chan, C. C., Chan, Y. C., Au, A., &amp; Cheung, G. O. C. (2010). Reliability and validity of the “Extended - Hurt, Insult, Threaten, Scream” (E-hits) screening tool in detecting intimate partner violence in hospital emergency departments in Hong Kong. <em>Hong Kong Journal of Emergency Medicine</em>, 17(2), 109–117. <a href="https://doi.org/10.1177/102490791001700202">https://doi.org/10.1177/102490791001700202</a></li>
 
+<li>Portnoy, G. A., Haskell, S. G., King, M. W., Maskin, R., Gerber, M. R., &amp; Iverson, K. M. (2018). Accuracy and acceptability of a screening tool for identifying intimate partner violence perpetration among women veterans: A pre-implementation evaluation. <em>Women’s Health Issues: Official Publication of the Jacobs Institute of Women’s Health</em>. <a href="https://doi.org/10.1016/j.whi.2018.04.003">https://doi.org/10.1016/j.whi.2018.04.003</a></li>
 
+<li>Sherin, K. M., Sinacore, J. M., Li, X. Q., Zitter, R. E., &amp; Shakil, A. (1998). HITS: a short domestic violence screening tool for use in a family practice setting. <em>Family Medicine</em>, 30(7), 508–512. <a href="https://www.ncbi.nlm.nih.gov/pubmed/9669164">https://www.ncbi.nlm.nih.gov/pubmed/9669164</a></li>
+</ul>
+</details>
+</body>
+</html>
+<br>

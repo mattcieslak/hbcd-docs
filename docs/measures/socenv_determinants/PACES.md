@@ -32,6 +32,46 @@ The following language was updated:
 ## Quality Control & Known Issues
 Social and Environmental Working Group QC procedures included monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. No potential issues were identified via the QC procedures or flagged by subject matter experts.   
 
-## References
-- Morris, A. S., Hays-Grudo, J., Zapata, M. I., Treat, A., & Kerr, K. L. (2021). Adverse and protective childhood experiences and parenting attitudes: The role of cumulative protection in understanding resilience. *Adversity and Resilience Science*, 2(3), 181–192. [https://doi.org/10.1007/s42844-021-00036-8](https://doi.org/10.1007/s42844-021-00036-8)
-- Morris, A. S., Treat, A., Hays-Grudo, J., Chesher, T., Williamson, A. C., & Mendez, J. (2018). Integrating research and theory on early relationships to guide intervention and prevention. In *Building Early Social and Emotional Relationships with Infants and Toddlers* (pp. 1–25). Springer International Publishing. [https://doi.org/10.1007/978-3-030-03110-7_1](https://doi.org/10.1007/978-3-030-03110-7_1)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REFERENCES</title>
+  <style>
+    .collapsible {
+      background-color: #7cceb3;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    details {
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin: 10px 1;
+      border-radius: 5px;
+    }
+    summary {
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+<details class="collapsible">  
+  <summary><b>REFERENCES <i>(click to expand)</i></b></summary> 
+  <br> 
+    <ul>
+    <li>Morris, A. S., Hays-Grudo, J., Zapata, M. I., Treat, A., &amp; Kerr, K. L. (2021). Adverse and protective childhood experiences and parenting attitudes: The role of cumulative protection in understanding resilience. <em>Adversity and Resilience Science</em>, 2(3), 181–192. <a href="https://doi.org/10.1007/s42844-021-00036-8">https://doi.org/10.1007/s42844-021-00036-8</a></li>
+    <li>Morris, A. S., Treat, A., Hays-Grudo, J., Chesher, T., Williamson, A. C., &amp; Mendez, J. (2018). Integrating research and theory on early relationships to guide intervention and prevention. In <em>Building Early Social and Emotional Relationships with Infants and Toddlers</em> (pp. 1–25). Springer International Publishing. <a href="https://doi.org/10.1007/978-3-030-03110-7_1">https://doi.org/10.1007/978-3-030-03110-7_1</a></li>
+</ul>
+</details>
+</body>
+</html>
+<br>

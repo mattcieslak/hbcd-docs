@@ -14,7 +14,7 @@ For measures that include surveys, all surveys were translated to Spanish for HB
     - [Neighborhood Safety](socenv_determinants/neighborhood_safety.md)
     - [Discrimination](socenv_determinants/discrimination.md)
     - [PACES](socenv_determinants/PACES.md)
-    - [PROMIS](socenv_determinants/perceived_stress.md)
+    - [PROMIS](socenv_determinants/PROMIS.md)
     - [Baby's First Years](socenv_determinants/bfy.md)
     - [eHITS](socenv_determinants/eHITS.md)
 

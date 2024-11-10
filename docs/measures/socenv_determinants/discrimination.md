@@ -72,7 +72,49 @@ For the *Everyday Discrimination Scale* and *Major Experiences of Discrimination
 ## Quality Control & Known Issues   
 No potential issues were flagged by subject matter experts.
 
-## References
- - PhenX Toolkit. (2024 November 01). Discrimination, PhenX Toolkit. [https://www.phenxtoolkit.org/protocols/view/210302](https://www.phenxtoolkit.org/protocols/view/210302)
- - Sternthal, M. J., Slopen, N., & Williams, D. R. (2011). Racial disparities in health. *Du Bois Review: Social Science Research on Race*, 8(1), 95–113. [https://doi.org/10.1017/s1742058x11000087](https://doi.org/10.1017/s1742058x11000087)
- - Williams, D. R. (2015). Measuring discrimination resource. [http://scholar.harvard.edu/davidrwilliams/node/32777](http://scholar.harvard.edu/davidrwilliams/node/32777)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REFERENCES</title>
+  <style>
+    .collapsible {
+      background-color: #7cceb3;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    details {
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin: 10px 1;
+      border-radius: 5px;
+    }
+    summary {
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+<details class="collapsible">  
+  <summary><b>REFERENCES <i>(click to expand)</i></b></summary> 
+  <br> 
+<ul>
+<li>PhenX Toolkit. (2024 November 01). Discrimination, PhenX Toolkit. <a href="https://www.phenxtoolkit.org/protocols/view/210302">https://www.phenxtoolkit.org/protocols/view/210302</a></li>
+
+<li>Sternthal, M. J., Slopen, N., &amp; Williams, D. R. (2011). Racial disparities in health. <em>Du Bois Review: Social Science Research on Race</em>, 8(1), 95–113. <a href="https://doi.org/10.1017/s1742058x11000087">https://doi.org/10.1017/s1742058x11000087</a></li>
+
+<li>Williams, D. R. (2015). Measuring discrimination resource. <a href="http://scholar.harvard.edu/davidrwilliams/node/32777">http://scholar.harvard.edu/davidrwilliams/node/32777</a></li>
+</ul>
+</details>
+</body>
+</html>
+<br>

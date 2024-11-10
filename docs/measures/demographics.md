@@ -341,16 +341,14 @@ QC was performed by monitoring the data dashboard for variable missingness and d
   <title>REFERENCES</title>
   <style>
     .collapsible {
-      background-color: #7cceb3;
+      background-color: #7cceb399;
       padding: 10px;
       margin: 10px 0;
-      border-radius: 5px;
     }
     details {
       background-color: #f1f1f1;
       padding: 10px;
       margin: 10px 1;
-      border-radius: 5px;
     }
     summary {
       font-size: 16px;
@@ -365,7 +363,7 @@ QC was performed by monitoring the data dashboard for variable missingness and d
 </head>
 <body>
 <details class="collapsible">  
-  <summary><b>REFERENCES <i>(click to expand)</i></b></summary>  
+  <summary>REFERENCES <i>(click to expand)</i></summary>  
   <ul>
     <li>Barch, D. M., Albaugh, M. D., Avenevoli, S., Chang, L., Clark, D. B., Glantz, M. D., Hudziak, J. J., Jernigan, T. L., Tapert, S. F., Yurgelun-Todd, D., Alia-Klein, N., Potter, A. S., Paulus, M. P., Prouty, D., Zucker, R. A., & Sher, K. J. (2018). Demographic, physical and mental health assessments in the adolescent brain and cognitive development study: Rationale and description. <em>Developmental Cognitive Neuroscience</em>, 32, 55–66. <a href="https://doi.org/10.1016/j.dcn.2017.10.010" target="_blank">https://doi.org/10.1016/j.dcn.2017.10.010</a></li>
     <li>Cioffredi, L.-A., Yerby, L. G., Burris, H. H., Cole, K. M., Engel, S. M., Murray, T. M., Slopen, N., Volk, H. E., Acheson, A., & HBCD Social and Environmental Determinants Working Group. (2024). Assessing prenatal and early childhood social and environmental determinants of health in the HEALthy Brain and Child Development Study (HBCD). <em>Developmental Cognitive Neuroscience</em>, 69(101429), 101429. <a href="https://doi.org/10.1016/j.dcn.2024.101429" target="_blank">https://doi.org/10.1016/j.dcn.2024.101429</a></li>

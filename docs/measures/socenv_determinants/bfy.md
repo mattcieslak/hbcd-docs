@@ -51,6 +51,46 @@ Options "Don't Know" and "Decline to Answer" were added for both questions shown
 ## Quality Control & Known Issues
 The data dashboard was monitored for variable missingness, possible coding errors, scoring verification when needed, and data consistency. No potential issues were identified via the QC procedures or flagged by subject matter experts.
 
-## References
-- Noble, K. G., Magnuson, K., Gennetian, L. A., Duncan, G. J., Yoshikawa, H., Fox, N. A., & Halpern-Meekin, S. (2021). Baby’s First Years: Design of a randomized controlled trial of poverty reduction in the United States. *Pediatrics*, 148(4), e2020049702. [https://doi.org/10.1542/peds.2020-049702](https://doi.org/10.1542/peds.2020-049702)
-- Sanbonmatsu, L., Marvakov, J., Potter, N. A., Yang, F., Adam, E. K., Congdon, W. J., Duncan, G. J., Gennetian, L. A., Katz, L. F., Kling, J. R., Kessler, R. C., Lindau, S. T., Ludwig, J., & McDade, T. W. (2012). The long-term effects of moving to opportunity on adult health and economic self-sufficiency. *Cityscape: A Journal of Policy Development and Research*, 14, 109-136.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REFERENCES</title>
+  <style>
+    .collapsible {
+      background-color: #7cceb3;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    details {
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin: 10px 1;
+      border-radius: 5px;
+    }
+    summary {
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+<details class="collapsible">  
+  <summary><b>REFERENCES <i>(click to expand)</i></b></summary> 
+  <br> 
+<ul>
+<li>Noble, K. G., Magnuson, K., Gennetian, L. A., Duncan, G. J., Yoshikawa, H., Fox, N. A., &amp; Halpern-Meekin, S. (2021). Baby’s First Years: Design of a randomized controlled trial of poverty reduction in the United States. <em>Pediatrics</em>, 148(4), e2020049702. <a href="https://doi.org/10.1542/peds.2020-049702">https://doi.org/10.1542/peds.2020-049702</a></li>
+
+<li>Sanbonmatsu, L., Marvakov, J., Potter, N. A., Yang, F., Adam, E. K., Congdon, W. J., Duncan, G. J., Gennetian, L. A., Katz, L. F., Kling, J. R., Kessler, R. C., Lindau, S. T., Ludwig, J., &amp; McDade, T. W. (2012). The long-term effects of moving to opportunity on adult health and economic self-sufficiency. <em>Cityscape: A Journal of Policy Development and Research</em>, 14, 109-136.</li>
+</ul>
+</details>
+</body>
+</html>
+<br>
