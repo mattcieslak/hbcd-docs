@@ -1,4 +1,4 @@
-# UNDER CONSTRUCTION - Motion Data Curation & BIDS Conversion
+# Motion Data Curation & BIDS Conversion
 
 ## BIDS Conversion
 Axivity AX6 sensor data provided in the data release include sensor recordings (`*_motion.tsv`) with corresponding `*_channels.tsv` files that describe each column of of the motion file. Each `.tsv` file is accompanied by a JSON sidecar containing recording-related metadata. BIDS entities represent the following:
