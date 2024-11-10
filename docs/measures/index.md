@@ -39,9 +39,9 @@ For measures that include surveys, all surveys were translated to Spanish for HB
     - [Infant Sensor Questionnaire](sensors/sensor_questionnaire.md)
 
 - PHYSICAL HEALTH 
-    - [Food Insecurity](physhealth/food_insecurity.md)
-    - [Breastfeeding](physhealth/breastfeeding.md)
-    - [Growth](physhealth/growth.md)
+    - [Food Insecurity](physicalhealth.md#food-insecurity)
+    - [Growth](physicalhealth.md#growth)
+    - [Breastfeeding](physicalhealth.md#breastfeeding)
 
 - BEHAVIOR & CAREGIVER-CHILD INTERACTION
     - [IBQ-R (VSF)+BI](beh_CG_interaction/IBQ-R.md)

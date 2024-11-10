@@ -1,27 +1,40 @@
 # Discrimination
-## Measure Overview
 **Full Name**: PhenX+ Toolkit Discrimination    
 **Acronym/Brief Name**: PhenX+ Discrimination   
 **Construct**: Discrimination   
 
-**Description**     
-This measure can be used by respondents to report discriminatory experiences. Discrimination is an important factor in an individual’s health because it affects access to employment, housing, and education opportunities and can affect self-esteem and cause stress.    
+This measure is a questionnaire to assess perceived discriminatory experiences. Discrimination is an important factor in an individual’s health because it affects access to employment, housing, and education opportunities and can affect self-esteem and cause stress. No potential issues were flagged by subject matter experts for this measure.    
 
-**Summary**     
-This measure is a questionnaire to assess perceived discriminatory experiences.
+<details>
+<summary>Implementation & Data Collection Details</summary>
+<ul>
+<br>
+<p><strong>Method of Administration</strong>: Remote survey <br />
+<strong>REDCap Form Name</strong>: sed<em>bm</em>phx<em>i</em>discr; Phenx Discrimination (Experiences with Unfair Treatment) <br />
+<strong>Pilot Data Dictionary</strong>: sed<em>bm</em>phx<em>i</em>discr <br />
+<strong>Spanish Translation</strong>: Existing <br />
+<strong>Child Specific/Unspecific Form</strong>: Child Unspecific <br />
+<strong>Respondent:</strong> Parent on Self <br />
+<strong>Visits</strong>: V01 (2nd-3rd trimester and postnatal), V05 (10-17 months), V07 (16-31 months) <br />
+<strong>Estimated length of time for completion</strong>: 3 minutes</p>
+</details>
 
-## Implementation & Data Collection
-**Method of Administration**: Remote survey  
-**REDCap Form Name**: `sed_bm_phx_i_discr`; Phenx Discrimination (Experiences with Unfair Treatment)    
-**Pilot Data Dictionary**: `sed_bm_phx_i_discr`     
-**Spanish Translation**: Existing  
-**Child Specific/Unspecific Form**: Child Unspecific  
-**Respondent:** Parent on Self  
-**Visits**: V01 (2nd-3rd trimester and postnatal), V05 (10-17 months), V07 (16-31 months)     
-**Estimated length of time for completion**: 3 minutes
+<details>
+<summary>References</summary>
+<br>
+<ul>
+<li>PhenX Toolkit. (2024 November 01). Discrimination, PhenX Toolkit. <a href="https://www.phenxtoolkit.org/protocols/view/210302">https://www.phenxtoolkit.org/protocols/view/210302</a></li>
 
-## HBCD Modifications
-<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Instruction/Assessment Item Modifications</u></b></p>
+<li>Sternthal, M. J., Slopen, N., &amp; Williams, D. R. (2011). Racial disparities in health. <em>Du Bois Review: Social Science Research on Race</em>, 8(1), 95–113. <a href="https://doi.org/10.1017/s1742058x11000087">https://doi.org/10.1017/s1742058x11000087</a></li>
+
+<li>Williams, D. R. (2015). Measuring discrimination resource. <a href="http://scholar.harvard.edu/davidrwilliams/node/32777">http://scholar.harvard.edu/davidrwilliams/node/32777</a></li>
+</ul>
+</details>
+
+<br>
+
+### HBCD Modifications
+<p style="font-size: 1em; margin: 0 0 5px;"><b>Instruction/Assessment Item Modifications</b></p>
 <table>
   <tr>
     <th>Original Text</th>
@@ -37,7 +50,7 @@ This measure is a questionnaire to assess perceived discriminatory experiences.
   </tr>
 </table>
 
-<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Answer/Response Option Changes</u></b></p>
+<p style="font-size: 1em; margin: 0 0 5px;"><b>Answer/Response Option Changes</b></p>
 Modifications made to the Everyday Discrimination Scale ("What do you think is the main reason for these experiences?") include:
 <table style="border-collapse: collapse;">
   <tr>
@@ -66,11 +79,8 @@ Modifications made to the Everyday Discrimination Scale ("What do you think is t
 </table>
 **Added based on participant feedback/comments
 
-<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Scoring Changes</u></b></p>
+<p style="font-size: 1em; margin: 0 0 5px;"><b>Scoring Changes</b></p>
 For the *Everyday Discrimination Scale* and *Major Experiences of Discrimination*, the Follow-up Question ("What do you think is the main reason for these experiences?") was asked once after both were complete to capture the main reasons for any items marked “a few times a year” (*Everyday Discrimination Scale*) or “yes” (*Major Experiences of Discrimination*). The original logic asked this question at the end of each individual scale.
-
-## Quality Control & Known Issues   
-No potential issues were flagged by subject matter experts.
 
 
 <!DOCTYPE html>
@@ -81,13 +91,13 @@ No potential issues were flagged by subject matter experts.
   <title>REFERENCES</title>
   <style>
     .collapsible {
-      background-color: #7cceb3;
+      background-color: #7cceb399;
       padding: 10px;
       margin: 10px 0;
       border-radius: 5px;
     }
     details {
-      background-color: #f1f1f1;
+      background-color: #7cceb366;
       padding: 10px;
       margin: 10px 1;
       border-radius: 5px;
@@ -102,19 +112,4 @@ No potential issues were flagged by subject matter experts.
       text-decoration: none;
     }
   </style>
-</head>
-<body>
-<details class="collapsible">  
-  <summary><b>REFERENCES <i>(click to expand)</i></b></summary> 
-  <br> 
-<ul>
-<li>PhenX Toolkit. (2024 November 01). Discrimination, PhenX Toolkit. <a href="https://www.phenxtoolkit.org/protocols/view/210302">https://www.phenxtoolkit.org/protocols/view/210302</a></li>
-
-<li>Sternthal, M. J., Slopen, N., &amp; Williams, D. R. (2011). Racial disparities in health. <em>Du Bois Review: Social Science Research on Race</em>, 8(1), 95–113. <a href="https://doi.org/10.1017/s1742058x11000087">https://doi.org/10.1017/s1742058x11000087</a></li>
-
-<li>Williams, D. R. (2015). Measuring discrimination resource. <a href="http://scholar.harvard.edu/davidrwilliams/node/32777">http://scholar.harvard.edu/davidrwilliams/node/32777</a></li>
-</ul>
-</details>
-</body>
 </html>
-<br>

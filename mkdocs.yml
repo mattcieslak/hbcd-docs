@@ -48,10 +48,7 @@ nav:
           - "Novel Technologies & Wearable Sensors": 
               - Wearable Sensors: measures/sensors/wearable_sensors.md
               - Infant Sensor Questionnaire: measures/sensors/sensor_questionnaire.md
-          - "Physical Health": 
-              - Food Insecurity: measures/physhealth/food_insecurity.md
-              - Breastfeeding: measures/physhealth/breastfeeding.md
-              - Growth: measures/physhealth/growth.md
+          - Physical Health: measures/physicalhealth.md
           - "Behavior & Caregiver-Child Interaction": 
               - IBQ-R (VSF)+BI: measures/beh_CG_interaction/IBQ-R.md
               - MAPS-TL: measures/beh_CG_interaction/MAPS-TL.md
