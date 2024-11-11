@@ -15,7 +15,7 @@ This instrument involves a series of questionnaires that assess parental concern
 <strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
 <strong>Child Specific/Unspecific Form</strong>: Child Specific <br />
 <strong>Respondent:</strong> Primary caregiver of the child <br />
-<strong>Visits</strong>: Visit 3 (3-9 months), Visit 4, Visit 5 (10-17 months), Visit 6, Visit 7 (16-31 months), Visit 8 <br />
+<strong>Visits</strong>: V03, V04, V05, V07 <br />
 <strong>Estimated length of time for completion</strong>: 3-10 minutes</p>
 </details>
 <br>

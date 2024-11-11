@@ -15,7 +15,7 @@ This questionnaire asks about the ways the child sensory systems contribute to d
 <strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
 <strong>Child Specific/Unspecific Form</strong>: Child Specific <br />
 <strong>Respondent:</strong> Caregiver <br />
-<strong>Visits</strong>: Visit 3 (3-9 months), Visit 5 (10-17 months) <br />
+<strong>Visits</strong>: V03, V05 <br />
 <strong>Estimated length of time for completion</strong>: 12 minutes</p>
 </details>
 

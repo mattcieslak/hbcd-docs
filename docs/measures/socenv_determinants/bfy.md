@@ -15,7 +15,7 @@ BFY assesses economic stress, financial instability, ability to meet basic needs
 <strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
 <strong>Child Specific/Unspecific Form</strong>: Child Unspecific <br />
 <strong>Respondent:</strong> Parent on Self <br />
-<strong>Visits</strong>: Visit 1 (prenatal), Visit 5 (10-17 months), Visit 7 (16-31 months) <br />
+<strong>Visits</strong>: V01, V05, V07 <br />
 <strong>Estimated length of time for completion</strong>: 4 minutes</p>
 </details>
 

@@ -15,7 +15,7 @@ Infant health- V2 captures infant birth weight and length, nights in hospital, n
 <strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
 <strong>Child Specific/Unspecific Form</strong>: Child specific <br />
 <strong>Respondent:</strong> person who gave birth or primary caregiver <br />
-<strong>Visits</strong>:  V02 (0-1 month postnatal visit) <br />
+<strong>Visits</strong>:  V02 <br />
 <strong>Estimated length of time for completion</strong>: 10 minutes</p>
 </details>
 <br>

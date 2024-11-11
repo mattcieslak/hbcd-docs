@@ -16,7 +16,7 @@ Food Insecurity, based on two items assessing the availability of food, is a scr
 <strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
 <strong>Child Specific/Unspecific Form</strong>: Child Specific <br />
 <strong>Respondent:</strong> Caregiver <br />
-<strong>Visits</strong>: V02 (0-1 months), V03 (3-9 months) <br />
+<strong>Visits</strong>: V02, V03 <br />
 <strong>Estimated length of time for completion</strong>: 1 minute</p>
 </details>
 

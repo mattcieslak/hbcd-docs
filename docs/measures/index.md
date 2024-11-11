@@ -2,10 +2,17 @@
 
 In this section we provide a brief overview of each data measure provided in the data release, including, where applicable, details of implementation and data collection, scoring procedures, quality control procedures and known issues, and references.
 
-For measures that include surveys, all surveys were translated to Spanish for HBCD by BURG.
+For measures that include surveys, all surveys were translated to Spanish for HBCD by BURG. The visits where measures are administered are noted for each section. The corresponding ages of the infant/child for each visit are:
+>>>
+Visit 1 (V01): Prenatal <br>
+Visit 2 (V02): 0-1 months <br>
+Visit 3 (V03): 3-9 months <br>
+Visit 4 (V04): 9-15 months <br>
+Visit 5 (V05): 10-17 months <br>
+Visit 7 (V07): 16-31 months <br>
+Visit 9 (V09): 32-46 months <br>
 
 ## HBCD Workgroups and Associated Data Measures
-
 - [DEMOGRAPHICS](demographics.md)
 
 - SOCIAL & ENVIRONMENTAL DETERMINANTS

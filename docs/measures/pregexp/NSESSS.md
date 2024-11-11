@@ -19,7 +19,7 @@ Note that scores on these scales do not differentiate between symptoms of PTSD v
 <strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
 <strong>Child Specific/Unspecific Form</strong>: Child Unspecific <br />
 <strong>Respondant</strong>: Pregnant person/person who gave birth/primary caregiver <br />
-<strong>Visits</strong>: Visits 1, 2, 3 <br />
+<strong>Visits</strong>: V01, V02, V03 <br />
 <strong>Estimated length of time for completion</strong>: 3 min</p>
 </details>
 <br>

@@ -15,7 +15,7 @@ The Perceived Stress and Social support tools measure perceived stress and perce
 <strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
 <strong>Child Specific/Unspecific Form</strong>: Child Specific <br />
 <strong>Respondent:</strong> Caregiver <br />
-<strong>Visits</strong>: Visit 1 (prenatal), Visit 2 (0-1 months), Visit 3 (3-9 months) <br />
+<strong>Visits</strong>: V01, V02, V03 <br />
 <strong>Estimated length of time for completion</strong>: 4 minutes</p>
 </details>
 

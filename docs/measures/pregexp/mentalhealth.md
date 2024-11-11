@@ -32,7 +32,7 @@ The mental health screening instrument has two levels. Level 1 includes one to t
 <strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
 <strong>Child Specific/Unspecific Form</strong>: Child Unspecific <br />
 <strong>Respondent:</strong> pregnant person/person who gave birth/primary caregiver <br />
-<strong>Visits</strong>:  Visits 1, 2, 3 <br />
+<strong>Visits</strong>:  V01, V02, V03 <br />
 <strong>Estimated length of time for completion</strong>: 5 minutes</p>
 </details>
 

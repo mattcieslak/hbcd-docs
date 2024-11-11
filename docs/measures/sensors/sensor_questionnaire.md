@@ -15,7 +15,7 @@ The Infant Sensor Questionnaire, developed by the HBCD Workgroup, was sent daily
 <strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
 <strong>Child Specific/Unspecific Form</strong>: Child Specific <br />
 <strong>Respondent:</strong> Caregiver <br />
-<strong>Visits</strong>: V02 (0-1 month) and V03 (3-8 months) </p>
+<strong>Visits</strong>: V02, V03 </p>
 </details>
 
 ## Quality Control & Known Issues 

@@ -15,7 +15,7 @@ This measure was created from combining and modifying the [Family History Assess
 <strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
 <strong>Child Specific/Unspecific Form</strong>: Unspecific <br />
 <strong>Respondent:</strong> Pregnant person <br />
-<strong>Visits</strong>: Visit 1 (pregnancy) <br />
+<strong>Visits</strong>: V01 <br />
 <strong>Estimated length of time for completion</strong>: 5 minutes</p>
 </details>
 

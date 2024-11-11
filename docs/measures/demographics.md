@@ -22,7 +22,7 @@ Demographic information is crucial for understanding the child’s environment a
 <p><strong>Method of Administration</strong>: RA administered in person <br />
 <strong>Child Specific/Unspecific Form</strong>: Child Unspecific <br />
 <strong>Respondent:</strong> Adult Participant <br />
-<strong>Visits</strong>: V01 (prenatal) <br />
+<strong>Visits</strong>: V01 <br />
 <strong>Estimated length of time for completion</strong>: 10 minutes</p>
 </details>
 

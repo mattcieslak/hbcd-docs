@@ -16,7 +16,7 @@ This measure is a questionnaire to assess perceived discriminatory experiences. 
 <strong>Spanish Translation</strong>: Existing <br />
 <strong>Child Specific/Unspecific Form</strong>: Child Unspecific <br />
 <strong>Respondent:</strong> Parent on Self <br />
-<strong>Visits</strong>: V01 (2nd-3rd trimester and postnatal), V05 (10-17 months), V07 (16-31 months) <br />
+<strong>Visits</strong>: V01, V05, V07 <br />
 <strong>Estimated length of time for completion</strong>: 3 minutes</p>
 </details>
 

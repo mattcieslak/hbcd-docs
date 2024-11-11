@@ -15,7 +15,7 @@ This measure is a three-item questionnaire to assess the respondent’s percepti
 <strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
 <strong>Child Specific/Unspecific Form</strong>: Child Unspecific <br />
 <strong>Respondent:</strong> Adult Participant <br />
-<strong>Visits</strong>: Visit 1 (prenatal), Visit 2 (10-17 months), Visit 7 (16-31 months), Visit 9 (32-46 months) <br />
+<strong>Visits</strong>: V01, V02, V07, V09 <br />
 <strong>Estimated length of time for completion</strong>: 1 minute</p>
 </details>
 

@@ -15,7 +15,7 @@ PACES is a 10-question scale with scores ranging between 0 and 10 assessing posi
 <strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
 <strong>Child Specific/Unspecific Form</strong>: Child Unspecific <br />
 <strong>Respondent:</strong> Parent on Self <br />
-<strong>Visits</strong>: V01 (prenatal) </p>
+<strong>Visits</strong>: V01 </p>
 </details>
 
 ## HBCD Modifications

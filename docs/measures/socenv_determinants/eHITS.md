@@ -14,7 +14,7 @@ The eHITS is a self-administered 5 question Likert scale screener for experience
 <strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
 <strong>Child Specific/Unspecific Form</strong>: Child Unpecific <br />
 <strong>Respondent:</strong> Parent on Self <br />
-<strong>Visits</strong>: V01 (prenatal) <br />
+<strong>Visits</strong>: V01 <br />
 <strong>Estimated length of time for completion</strong>: 2 minutes</p>
 </details>
 

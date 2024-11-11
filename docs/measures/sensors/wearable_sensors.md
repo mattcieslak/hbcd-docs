@@ -10,7 +10,7 @@ Wearable sensor data (accelerometer and gyroscope) were collected continuously o
 <ul>
 <br>
 <p><strong>Method of Administration</strong>: RA placed sensors on child at visit, sensors then worn while 72 hours of data were collected across typical activities in the natural environment. <br />
-<strong>Visits</strong>: V02 (0-1 month) and V03 (3-8 months) </p>
+<strong>Visits</strong>: V02, V03 </p>
 </details>
 </p>
 
