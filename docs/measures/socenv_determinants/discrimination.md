@@ -1,7 +1,6 @@
 # Discrimination
 
-
-**Full Name**: PhenX+ Toolkit Discrimination    
+**Full Name**: [PhenX+ Toolkit Discrimination](https://www.phenxtoolkit.org/protocols/view/210302)    
 **Acronym/Brief Name**: PhenX+ Discrimination   
 **Construct**: Discrimination   
 
