@@ -19,18 +19,7 @@ This measure was created from combining and modifying the [Family History Assess
 <strong>Estimated length of time for completion</strong>: 5 minutes</p>
 </details>
 
-<details>
-<summary>References</summary>
-<ul>
-<br>
-  <ul>
-    <li>Rice, J. P., Reich, T., Bucholz, K., Neuman, R. J., Fishman, R., Rochberg, N., Hesselbrock, V. M., Numberger, J. I., Shuckit, M. A., & Begleiter, H. (1995). Comparison of Direct Interview and Family History Diagnoses of Alcohol Dependence.  <em>Alcoholism: Clinical and Experimental Research</em>, <em>19</em>, 1018-1023. <a href="https://doi.org/10.1111/j.1530-0277.1995.tb00983.x">https://doi.org/10.1111/j.1530-0277.1995.tb00983.x</a></li>
-    </ul>
-</details>
-<br>
-
-### HBCD Modifications
-<p style="font-size: 1em; margin: 0 0 5px;"><b>Global Measure Changes</b></p>
+## HBCD Modifications
 For future publications, authors should note that this measure, as noted in the prior section, is a combination of FHAM and All of Us. It is also not a scored scale, but simply descriptive for family history.
 
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Instruction/Assessment Item Modifications</b></p>
@@ -40,36 +29,13 @@ From All of Us, we were only interested in a few mental health outcomes (AUD, an
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Answer/Response Option Changes</b></p>
 For FHAM response options (originally including 'parents', 'grandparents', 'siblings', 'aunts', 'uncles', and 'cousins') were modified to include only biological mom, dad and grandparents. For All of Us, response options (originally 'mom', 'dad', 'sibling', 'daughter', 'son', and 'grandparent') were modified to include only biological mom and dad.
 
-### Quality Control & Known Issues
+## Quality Control & Known Issues
 Response distributions were reviewed for outliers and no common issues were identified. In addition, no potential issues were flagged by subject matter experts.
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>REFERENCES</title>
-  <style>
-    .collapsible {
-      background-color: #7cceb399;
-      padding: 10px;
-      margin: 10px 0;
-      border-radius: 5px;
-    }
-    details {
-      background-color: #7cceb366;
-      padding: 10px;
-      margin: 10px 1;
-      border-radius: 5px;
-    }
-    summary {
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-  </style>
-</html>
+<details class="collapsible references">
+  <summary class="references">References</summary>
+  <ul>
+    <li>Rice, J. P., Reich, T., Bucholz, K., Neuman, R. J., Fishman, R., Rochberg, N., Hesselbrock, V. M., Numberger, J. I., Shuckit, M. A., & Begleiter, H. (1995). Comparison of Direct Interview and Family History Diagnoses of Alcohol Dependence.  <em>Alcoholism: Clinical and Experimental Research</em>, <em>19</em>, 1018-1023. <a href="https://doi.org/10.1111/j.1530-0277.1995.tb00983.x">https://doi.org/10.1111/j.1530-0277.1995.tb00983.x</a></li>
+    </ul>
+</details>
+<br>

@@ -1,4 +1,4 @@
-<h1>Demographics</h1>
+# Demographics
 
 **Full Name**: HBCD Demographics V01  
 **Acronym/Brief Name**: Demographics  
@@ -26,10 +26,10 @@ Demographic information is crucial for understanding the child’s environment a
 <strong>Estimated length of time for completion</strong>: 10 minutes</p>
 </details>
 
-<h2>Quality Control & Known Issues</h2>
+## Quality Control & Known Issues
 QC was performed by monitoring the data dashboard for variable missingness and data consistency. The only common issue noted was high missingness for income, although this is in line with expectations. Subject matter experts flagged the following as a potential issue with this measure: RA reports show that some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g. options did not capture identity) and occupation (i.e. imperfect option for job type and number of hours). 
 
-<h2>Demographic Protocol Sources & DEI Modifications</h2>
+## Demographic Protocol Sources & DEI Modifications
 <details>
   <summary>Table 1. Demographics of Birth Parent</summary>
   <table class="docutils">
@@ -261,10 +261,6 @@ QC was performed by monitoring the data dashboard for variable missingness and d
 </details>
 </html>
 </p>
-
-
-
-<p>
 
 <details class="collapsible references">
   <summary class="references">References</summary>

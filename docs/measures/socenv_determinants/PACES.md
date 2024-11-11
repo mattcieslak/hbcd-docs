@@ -18,58 +18,23 @@ PACES is a 10-question scale with scores ranging between 0 and 10 assessing posi
 <strong>Visits</strong>: V01 (prenatal) </p>
 </details>
 
-<details>
-<summary>References</summary>
-<br>
-    <ul>
+## HBCD Modifications
+<ul>
+The following language was updated for this assessment item:
+    <li>Original: "When answering these questions, think about the last 12 months. On a scale of 1 to 5, fill the circle of the number that best describes how often each of the items occurred."</li>
+    <li>HBCD: "When answering these questions, think about the last 12 months. Please select the response that best describes you."</li>
+</ul>
+</details>
+
+For responses options, “Declined to answer” was added as an option.
+
+## Quality Control & Known Issues
+Social and Environmental Working Group QC procedures included monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. No potential issues were identified via the QC procedures or flagged by subject matter experts.   
+
+<details class="collapsible references">
+  <summary class="references">References</summary>
+<ul>
     <li>Morris, A. S., Hays-Grudo, J., Zapata, M. I., Treat, A., &amp; Kerr, K. L. (2021). Adverse and protective childhood experiences and parenting attitudes: The role of cumulative protection in understanding resilience. <em>Adversity and Resilience Science</em>, 2(3), 181–192. <a href="https://doi.org/10.1007/s42844-021-00036-8">https://doi.org/10.1007/s42844-021-00036-8</a></li>
     <li>Morris, A. S., Treat, A., Hays-Grudo, J., Chesher, T., Williamson, A. C., &amp; Mendez, J. (2018). Integrating research and theory on early relationships to guide intervention and prevention. In <em>Building Early Social and Emotional Relationships with Infants and Toddlers</em> (pp. 1–25). Springer International Publishing. <a href="https://doi.org/10.1007/978-3-030-03110-7_1">https://doi.org/10.1007/978-3-030-03110-7_1</a></li>
 </ul>
 </details>
-
-<br>
-
-### HBCD Modifications
-<p style="font-size: 1em; margin: 0 0 5px;"><b>Instruction/Assessment Item Modifications</b></p>
-The following language was updated:
-
-- Original: "When answering these questions, think about the last 12 months. On a scale of 1 to 5, fill the circle of the number that best describes how often each of the items occurred."  
-- HBCD: "When answering these questions, think about the last 12 months. Please select the response that best describes you."
-
-<p style="font-size: 1em; margin: 0 0 5px;"><b>Answer/Response Option Changes</b></p>
-“Declined to answer” added as a response.
-
-### Quality Control & Known Issues
-Social and Environmental Working Group QC procedures included monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. No potential issues were identified via the QC procedures or flagged by subject matter experts.   
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>REFERENCES</title>
-  <style>
-    .collapsible {
-      background-color: #7cceb399;
-      padding: 10px;
-      margin: 10px 0;
-      border-radius: 5px;
-    }
-    details {
-      background-color: #7cceb366;
-      padding: 10px;
-      margin: 10px 1;
-      border-radius: 5px;
-    }
-    summary {
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-  </style>
-</html>

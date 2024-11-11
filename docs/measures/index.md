@@ -1,12 +1,10 @@
-<p style="font-size: 2em; margin: 2 0 5px;">Overview</p>
+# Overview
 
 In this section we provide a brief overview of each data measure provided in the data release, including, where applicable, details of implementation and data collection, scoring procedures, quality control procedures and known issues, and references.
 
 For measures that include surveys, all surveys were translated to Spanish for HBCD by BURG.
 
----------------
-
-<p style="font-size: 1.5em; margin: 2 0 5px;">HBCD Workgroups and Associated Data Measures</p>
+## HBCD Workgroups and Associated Data Measures
 
 - [DEMOGRAPHICS](demographics.md)
 

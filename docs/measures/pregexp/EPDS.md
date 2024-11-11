@@ -1,4 +1,4 @@
-# The Edinburgh Postnatal Depression Scale (EPDS)
+# The Edinburgh Postnatal Depression Scale
 **Full Name**: The Edinburgh Postnatal Depression Scale   
 **Acronym/Brief Name**: EPDS  
 **Construct**: Pregnancy/postnatal depression  
@@ -23,49 +23,16 @@ The Edinburgh Postnatal Depression Scale (<a href="https://downloads.aap.org/AAP
 <strong>Estimated length of time for completion</strong>: 3 min </p>
 </details>
 
-<details>
-<summary>References</summary>
-<br>
-<ul>
+## HBCD Modifications
+The option ‘refuse to answer’ was added to all questions. Note that this does not impact scoring (questions answered with ‘refuse to answer’ are skipped). 
+
+## Quality Control & Known Issues 
+Response distributions were reviewed for outliers and no common issues were identified. No potential issues were flagged by subject matter experts.
+
+<details class="collapsible references">
+  <summary class="references">References</summary>
+ <ul>
 <li>Cox, J. L., Holden, J. M., &amp; Sagovsky, R. (1987). Detection of postnatal depression . Development of the 10-item Edinburgh Postnatal Depression Scale. <em>British Journal of Psychiatry</em>, <em>150</em>, 782–786. <a href="https://doi.org/10.1192/bjp.150.6.782">https://doi.org/10.1192/bjp.150.6.782</a></li>
 </ul>
 </details>
 <br>
-
-### HBCD Modifications
-The option ‘refuse to answer’ was added to all questions. Note that this does not impact scoring (questions answered with ‘refuse to answer’ are skipped). 
-
-### Quality Control & Known Issues 
-Response distributions were reviewed for outliers and no common issues were identified. No potential issues were flagged by subject matter experts.
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>REFERENCES</title>
-  <style>
-    .collapsible {
-      background-color: #7cceb399;
-      padding: 10px;
-      margin: 10px 0;
-      border-radius: 5px;
-    }
-    details {
-      background-color: #7cceb366;
-      padding: 10px;
-      margin: 10px 1;
-      border-radius: 5px;
-    }
-    summary {
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-  </style>
-</html>
-

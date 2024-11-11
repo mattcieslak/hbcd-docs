@@ -1,4 +1,4 @@
-<p style="font-size: 2em; margin: 2 0 5px;">Discrimination</p>
+# Discrimination
 
 
 **Full Name**: PhenX+ Toolkit Discrimination    
@@ -21,21 +21,8 @@ This measure is a questionnaire to assess perceived discriminatory experiences. 
 <strong>Estimated length of time for completion</strong>: 3 minutes</p>
 </details>
 
-<p>
-<details>
-<summary>References</summary>
-<br>
-<ul>
-<li>PhenX Toolkit. (2024 November 01). Discrimination, PhenX Toolkit. <a href="https://www.phenxtoolkit.org/protocols/view/210302">https://www.phenxtoolkit.org/protocols/view/210302</a></li>
-<li>Sternthal, M. J., Slopen, N., &amp; Williams, D. R. (2011). Racial disparities in health. <em>Du Bois Review: Social Science Research on Race</em>, 8(1), 95–113. <a href="https://doi.org/10.1017/s1742058x11000087">https://doi.org/10.1017/s1742058x11000087</a></li>
-<li>Williams, D. R. (2015). Measuring discrimination resource. <a href="http://scholar.harvard.edu/davidrwilliams/node/32777">http://scholar.harvard.edu/davidrwilliams/node/32777</a></li>
-</ul>
-</details>
-</p>
 
-----------------
-
-<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>HBCD Modifications</u></b></p>
+## HBCD Modifications
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Instruction/Assessment Item Modifications</b></p>
 <table>
   <tr>
@@ -84,34 +71,11 @@ Modifications made to the Everyday Discrimination Scale ("What do you think is t
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Scoring Changes</b></p>
 For the *Everyday Discrimination Scale* and *Major Experiences of Discrimination*, the Follow-up Question ("What do you think is the main reason for these experiences?") was asked once after both were complete to capture the main reasons for any items marked “a few times a year” (*Everyday Discrimination Scale*) or “yes” (*Major Experiences of Discrimination*). The original logic asked this question at the end of each individual scale.
 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>REFERENCES</title>
-  <style>
-    .collapsible {
-      background-color: #7cceb399;
-      padding: 10px;
-      margin: 10px 0;
-      border-radius: 5px;
-    }
-    details {
-      background-color: #7cceb366;
-      padding: 10px;
-      margin: 10px 1;
-      border-radius: 5px;
-    }
-    summary {
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-  </style>
-</html>
+<details class="collapsible references">
+  <summary class="references">References</summary>
+<ul>
+<li>PhenX Toolkit. (2024 November 01). Discrimination, PhenX Toolkit. <a href="https://www.phenxtoolkit.org/protocols/view/210302">https://www.phenxtoolkit.org/protocols/view/210302</a></li>
+<li>Sternthal, M. J., Slopen, N., &amp; Williams, D. R. (2011). Racial disparities in health. <em>Du Bois Review: Social Science Research on Race</em>, 8(1), 95–113. <a href="https://doi.org/10.1017/s1742058x11000087">https://doi.org/10.1017/s1742058x11000087</a></li>
+<li>Williams, D. R. (2015). Measuring discrimination resource. <a href="http://scholar.harvard.edu/davidrwilliams/node/32777">http://scholar.harvard.edu/davidrwilliams/node/32777</a></li>
+</ul>
+</details>

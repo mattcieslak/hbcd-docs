@@ -9,6 +9,7 @@ This is a highly sensitive screening tool for use in community samples. It combi
 
 The mental health screening instrument has two levels. Level 1 includes one to two questions for each of thirteen mental health conditions. When symptoms were reported for Level 1, the participant answered several subsequent questions pertaining to additional symptoms associated with each mental health condition, including anger, anxiety, depression, somatic symptoms, and sleep problems. Slight modifications were made due to the use of other measures and the study population (see [HBCD Modifications](#hbcd-modifications) for details). Alerts for study staff were triggered when APA suicide ('Thoughts of actually hurting yourself?') and/or APA depression (from 'I felt worthless' to 'I felt that nothing could cheer me up') were scored greater than 0 and 32, respectively.
 
+<p>
 <details>
 <summary>Additional Level Scale/Scoring Details and Resources</summary>
 <br>
@@ -20,6 +21,7 @@ The mental health screening instrument has two levels. Level 1 includes one to t
 <li>The <a href="https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_The-Personality-Inventory-For-DSM-5-Brief-Form-Adult.pdf">Personality Inventory for DSM-5 Brief</a> assesses 5 personality trait domains including negative affect, detachment, antagonism, disinhibition, and psychoticism, with each trait domain consisting of 5 items.</li>
 </ul>
 </details>
+</p>
 
 <details>
 <summary>Implementation & Data Collection Details</summary>
@@ -34,51 +36,18 @@ The mental health screening instrument has two levels. Level 1 includes one to t
 <strong>Estimated length of time for completion</strong>: 5 minutes</p>
 </details>
 
-<details>
-<summary>References</summary>
-<br>
-<ul>
-<li>Doss, R. A., &amp; Lowmaster, S. E. (2022). Validation of the DSM-5 Level 1 Cross-Cutting Symptom Measure in a Community  Sample. <em>Psychiatry Research</em>, <em>318</em>, 114935. <a href="https://doi.org/10.1016/j.psychres.2022.114935">https://doi.org/10.1016/j.psychres.2022.114935</a></li>
-<li>Roche, M. J., Pincus, A. L., &amp; Cole, P. E. (2019). Linking dimensions and dynamics in psychopathology research: An example using DSM-5 instruments. <em>Journal of Research in Personality</em>, <em>82</em>, 103852. <a href="https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852">https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852</a></li>
-</ul>
-</details>
-<br>
-
-### HBCD Modifications
+## HBCD Modifications
 The APA 1/2 measure was modified to account for the use of other measures and the study population. Level 1 questions for personality functioning and substance use (as this is queried in other measures) were removed to proceed automatically to LEVEL 2—Repetitive Thoughts and Behaviors—Adult (adapted from the Florida Obsessive-Compulsive Inventory [FOCI] Severity Scale [Part B]). All participants answer the level 1 questions on depression, but proceed to level 2 questions irrespective of answers. Gates were also removed from ‘Somatic symptoms’ to go straight to ‘LEVEL 2—Somatic Symptom—Adult (Patient Health Questionnaire 15 Somatic Symptom Severity [PHQ-15]).’
 
 In addition, the option ‘refuse to answer’ was added to all questions. Note that this does not impact scoring (questions answered with ‘refuse to answer’ are skipped). To acknowledged these changes in future publications: removal of Level 1-2 substance use (section XIII) as well as gates for sections V (somatic) and XII (personality) should be noted.
 
-### Quality Control & Known Issues 
+## Quality Control & Known Issues 
 Response distributions were reviewed for outliers and no common issues were identified. No potential issues were flagged by subject matter experts.
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>REFERENCES</title>
-  <style>
-    .collapsible {
-      background-color: #7cceb399;
-      padding: 10px;
-      margin: 10px 0;
-      border-radius: 5px;
-    }
-    details {
-      background-color: #7cceb366;
-      padding: 10px;
-      margin: 10px 1;
-      border-radius: 5px;
-    }
-    summary {
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-  </style>
-</html>
+<details class="collapsible references">
+  <summary class="references">References</summary>
+ <ul>
+<li>Doss, R. A., &amp; Lowmaster, S. E. (2022). Validation of the DSM-5 Level 1 Cross-Cutting Symptom Measure in a Community  Sample. <em>Psychiatry Research</em>, <em>318</em>, 114935. <a href="https://doi.org/10.1016/j.psychres.2022.114935">https://doi.org/10.1016/j.psychres.2022.114935</a></li>
+<li>Roche, M. J., Pincus, A. L., &amp; Cole, P. E. (2019). Linking dimensions and dynamics in psychopathology research: An example using DSM-5 instruments. <em>Journal of Research in Personality</em>, <em>82</em>, 103852. <a href="https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852">https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852</a></li>
+</ul>
+</details>

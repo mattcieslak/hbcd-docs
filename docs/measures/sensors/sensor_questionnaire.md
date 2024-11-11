@@ -17,41 +17,6 @@ The Infant Sensor Questionnaire, developed by the HBCD Workgroup, was sent daily
 <strong>Respondent:</strong> Caregiver <br />
 <strong>Visits</strong>: V02 (0-1 month) and V03 (3-8 months) </p>
 </details>
-<br>
 
-### Quality Control & Known Issues 
+## Quality Control & Known Issues 
 A small percentage of surveys (due to the procedure being manual) were randomly spot-checked on a weekly basis to confirm presence of responses. When no responses were received, RAs were contacted to confirm whether the surveys had been sent to participants as intended. The most common cause of missing responses was caregiver non-response, and less commonly due to human error (preferred contact/contact method not selected by RA) or technological malfunction. No issues were flagged for this measure by subject matter experts.
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>REFERENCES</title>
-  <style>
-    .collapsible {
-      background-color: #7cceb399;
-      padding: 10px;
-      margin: 10px 0;
-      border-radius: 5px;
-    }
-    details {
-      background-color: #7cceb366;
-      padding: 10px;
-      margin: 10px 1;
-      border-radius: 5px;
-    }
-    summary {
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-  </style>
-</html>

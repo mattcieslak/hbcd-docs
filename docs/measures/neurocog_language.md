@@ -18,9 +18,8 @@ This instrument involves a series of questionnaires that assess parental concern
 <strong>Visits</strong>: Visit 3 (3-9 months), Visit 4, Visit 5 (10-17 months), Visit 6, Visit 7 (16-31 months), Visit 8 <br />
 <strong>Estimated length of time for completion</strong>: 3-10 minutes</p>
 </details>
-<br>
 
-<p style="font-size: 1.2em; margin: 0 0 5px;"><b>Non-Parental Childcare Arrangement Scoring Procedure</b></p>
+### Non-Parental Childcare Arrangement Scoring Procedure
 Total days per week and total hours per day were calculated for up to 10 non-parental childcare arrangements (Daycare, With Babysitter, With other family members outside of the household, and Other non-parental childcare arrangement).The language environment for each non-parental childcare arrangement was described based on the percentage of Spanish vs Enlgish spoken in the environment:
 
 | Child's Language Environment | % Spanish/English Spoken |
@@ -34,37 +33,5 @@ Total days per week and total hours per day were calculated for up to 10 non-par
 
  The total frequency of Spanish and English was computed by multiplying the percentage of English and Spanish language provided per environment by the total hours per week in both the home and other care environments. The values are provided for home and for the overall total child experience, combining home and other care environments. 
 
-### Quality Control & Known Issues
+## Quality Control & Known Issues
 For QC, frequency of decline to answer and completeness was monitored during data collection. A common issue identified was that initial data shows that about 10% of questionnaires were not complete. No potential issues were flagged by subject matter experts.   
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>REFERENCES</title>
-  <style>
-    .collapsible {
-      background-color: #7cceb399;
-      padding: 10px;
-      margin: 10px 0;
-      border-radius: 5px;
-    }
-    details {
-      background-color: #7cceb366;
-      padding: 10px;
-      margin: 10px 1;
-      border-radius: 5px;
-    }
-    summary {
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-  </style>
-</html>

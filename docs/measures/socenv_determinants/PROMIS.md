@@ -19,53 +19,18 @@ The Perceived Stress and Social support tools measure perceived stress and perce
 <strong>Estimated length of time for completion</strong>: 4 minutes</p>
 </details>
 
-<details>
-<summary>References</summary>
-<br>
-<ul>
-<li>Cohen, S., Kamarck, T., &amp; Mermelstein, R. (1983). A global measure of perceived stress. <em>Journal of Health and Social Behavior</em>, 24(4), 385–396. <a href="https://doi.org/10.2307/2136404">https://doi.org/10.2307/2136404</a></li>
-
-<li>Hahn, E. A., Cella, D., Bode, R. K., &amp; Hanrahan, R. T. (2010). Measuring social well-being in people with chronic illness. <em>Social Indicators Research</em>, 96(3), 381–401. <a href="https://doi.org/10.1007/s11205-009-9484-z">https://doi.org/10.1007/s11205-009-9484-z</a></li>
-</ul>
-</details>
-
-<br>
-
-### HBCD Modifications
+## HBCD Modifications
 Orignally, all items had to be completed to allow for scoring via the tables provided in the manual. For HBCD, with the addition of response options “Don’t know” and “Decline to answer,” this was updated so that items with “don’t know” answers will not have a total score reported.
 
 For the PROMIS emotional support, complete data is necessary to use scoring tables provided in the manual. If scoring will utilize the PROMIS HealthMeasures Scoring Service, total scores can include missing data (this can be done by individual investigators). Complete data is always necessary to calculate a score PSS-4, therefore should not be reported for participants who answer any questions “don’t know.”
 
-### Quality Control & Known Issues   
+## Quality Control & Known Issues   
 QC procedures involved monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. No potential issues were identified via the QC procedures or flagged by subject matter experts.
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>REFERENCES</title>
-  <style>
-    .collapsible {
-      background-color: #7cceb399;
-      padding: 10px;
-      margin: 10px 0;
-      border-radius: 5px;
-    }
-    details {
-      background-color: #7cceb366;
-      padding: 10px;
-      margin: 10px 1;
-      border-radius: 5px;
-    }
-    summary {
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-  </style>
-</html>
+<details class="collapsible references">
+  <summary class="references">References</summary>
+<ul>
+<li>Cohen, S., Kamarck, T., &amp; Mermelstein, R. (1983). A global measure of perceived stress. <em>Journal of Health and Social Behavior</em>, 24(4), 385–396. <a href="https://doi.org/10.2307/2136404">https://doi.org/10.2307/2136404</a></li>
+<li>Hahn, E. A., Cella, D., Bode, R. K., &amp; Hanrahan, R. T. (2010). Measuring social well-being in people with chronic illness. <em>Social Indicators Research</em>, 96(3), 381–401. <a href="https://doi.org/10.1007/s11205-009-9484-z">https://doi.org/10.1007/s11205-009-9484-z</a></li>
+</ul>
+</details>

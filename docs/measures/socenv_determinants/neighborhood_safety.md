@@ -19,54 +19,17 @@ This measure is a three-item questionnaire to assess the respondent’s percepti
 <strong>Estimated length of time for completion</strong>: 1 minute</p>
 </details>
 
-----------------
-
-<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>HBCD Modifications</u></b></p>
+## HBCD Modifications
 Response options for HBCD include the addition of “Don’t know” and “Decline to answer.” In addition, the original measure was scored by averaging all three items, but no scoring is used in HBCD - all responses are item-level only. 
 
-<p style="font-size: 1.2em; margin: 0 0 5px;"><b><u>Quality Control & Known Issues</u></b></p>
+## Quality Control & Known Issues
 QC procedures involved monitoring missingness. No common QC or potential issues flagged by subject matter experts were identified.
 
-
-<p>
-<details>
-<summary>References</summary>
-<br>
-<ul>
+<details class="collapsible references">
+  <summary class="references">References</summary>
+ <ul>
 <li>Mujahid, M. S., Diez Roux, A. V., Morenoff, J. D., &amp; Raghunathan, T. (2007). Assessing the measurement properties of neighborhood scales: from psychometrics to ecometrics. <em>American Journal of Epidemiology</em>, 165(8), 858–867. <a href="https://doi.org/10.1093/aje/kwm040">https://doi.org/10.1093/aje/kwm040</a></li>
 <li>PhenX Toolkit. (2024 November 01). Neighborhood Safety, PhenX Toolkit. <a href="https://www.phenxtoolkit.org/protocols/view/210901">https://www.phenxtoolkit.org/protocols/view/210901</a></li>
 </ul>
 </details>
-</p>
 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>REFERENCES</title>
-  <style>
-    .collapsible {
-      background-color: #7cceb399;
-      padding: 10px;
-      margin: 10px 0;
-      border-radius: 5px;
-    }
-    details {
-      background-color: #7cceb366;
-      padding: 10px;
-      margin: 10px 1;
-      border-radius: 5px;
-    }
-    summary {
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-  </style>
-</html>

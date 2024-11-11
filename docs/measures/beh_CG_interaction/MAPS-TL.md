@@ -19,58 +19,18 @@ Each of the 17 items for MAPS-TL is answered on a scale of 1-6: 1 [Never], 2 [Ra
 <strong>Estimated length of time for completion</strong>: 5 minutes </p>
 </details>
 
-<details>
-<summary>References</summary>
-<br>
-<ul>
+## HBCD Modifications
+Measure instructions and individuals items that reference gendered pronouns (‘his/hers’, ‘he/she’) were edited to either eliminate the pronouns entirely, or edited to replace gendered pronouns with ‘my child’ when eliminating pronouns was not grammatically possible. Items referencing “parent” were edited to “parent/caregiver.” Because MAPS-TL psychometric validation was done using original MAPS-TL items, it is important that publications account for edits made to individual items as part of HBCD DEI review.
+
+## Quality Control & Known Issues 
+QC procedures included examining the range of the child’s age to ensure that it falls within 3 to 9 months; examining missingness; calculate sum scores and means applying our prorated scoring rule; generating summary statistics and visualizations for item-level frequencies, age, and scores; and using Calculate Cronbach's Alpha for reliability. 
+
+Common QC issues included incorrect ages and prorated scoring not being applied to observations with missing responses. Subject matter experts noted the missingness rule not being correctly implemented, leading to incorrect scores. Measure administration has a strict age cutoff. Age auto-generation needs to be fixed so that QC can ensure the measure is being administered to correct target population.
+
+<details class="collapsible references">
+  <summary class="references">References</summary>
+ <ul>
 <li>Krogh-Jespersen, S., Kaat, A. J., Petitclerc, A., Perlman, S. B., Briggs-Gowan, M. J., Burns, J. L., Adam, H., Nili, A., Gray, L., &amp; Wakschlag, L. S. (2022). Calibrating temper loss severity in the transition to toddlerhood: Implications for developmental science. <em>Applied Developmental Science</em>, 26(4), 785–798. <a href="https://doi.org/10.1080/10888691.2021.1995386">https://doi.org/10.1080/10888691.2021.1995386</a></li>
 </ul>
 </details>
 <br>
-
-### HBCD Modifications
-Measure instructions and individuals items that reference gendered pronouns (‘his/hers’, ‘he/she’) were edited to either eliminate the pronouns entirely, or edited to replace gendered pronouns with ‘my child’ when eliminating pronouns was not grammatically possible. Items referencing “parent” were edited to “parent/caregiver.” Because MAPS-TL psychometric validation was done using original MAPS-TL items, it is important that publications account for edits made to individual items as part of HBCD DEI review.
-
-### Quality Control & Known Issues 
-<ul>
-Quality control procedures involved the following:
-<li>Examine the range of the child’s age to ensure that it falls in the age range 3 to 9 months  </li>
-<li>Examine missingness. Count the number of items answered for each participant  </li>
-<li>Calculate sum scores and means applying our prorated scoring rule  </li>
-<li>Generate summary statistics and visualizations for item-level frequencies, age, and scores  </li>
-<li>Calculate Cronbach's Alpha for reliability  </li>
-</ul>
-
-Common QC issues included incorrect ages and prorated scoring not being applied to observations with missing responses. Subject matter experts noted the missingness rule not being correctly implemented, leading to incorrect scores. Measure administration has a strict age cutoff. Age auto-generation needs to be fixed so that QC can ensure the measure is being administered to correct target population.
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>REFERENCES</title>
-  <style>
-    .collapsible {
-      background-color: #7cceb399;
-      padding: 10px;
-      margin: 10px 0;
-      border-radius: 5px;
-    }
-    details {
-      background-color: #7cceb366;
-      padding: 10px;
-      margin: 10px 1;
-      border-radius: 5px;
-    }
-    summary {
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-  </style>
-</html>
-

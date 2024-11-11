@@ -53,18 +53,7 @@ When triggered by Assist responses, the [Time Line Follow Back (TLFB)](https://c
 <strong>Estimated length of time for completion</strong>: 5 min (Assist V1/2); 3 min (Assist V3); 10 min (TLFB)</p>
 </details>
 
-<details>
-<summary>References</summary>
-<ul>
-<br>
-<li>National Institute on Drug Abuse. (n.d.). <em>NIDA Modified ASSIST</em>.</li>
-<li>Sobell, L., &amp; Sobell, M. (2000). Alcohol timeline follow-back (TLFB). In <em>Handbook of psychiatric measures.</em> (p. 477). American Psychiatric Association.</li>
-</ul>
-</details>
-<br>
-
-
-### HBCD Modifications
+## HBCD Modifications
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b>Assist V1/V2/V3</b></p>
 
 The **Assist V1, V2, & V3 measures** were created from combining the Family History Assessment Module (FHAM) and the All of Us Personal and Family Health History, which was then modified from the [NIDA Quick Screen (Modified Assist)](https://nida.nih.gov/sites/default/files/pdf/nmassist.pdf). The original quick screen was scored; however, our version is not scored. To acknowledged these changes in future publications, authors can note that questions were motivated from the NIDA Modified Assist.
@@ -145,7 +134,7 @@ The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs,
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b>TLFB</b></p>
 The [original TLFB](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) is designed to cover the last 7 days from when the survey is administered and was adapted for HBCD to instead cover timeframes appropriate for Visit 1 (LMP - 4 through LMP - 2, LMP + 2 through LMP + 6, and the week before enrollment (V1)) and Visit 2 (he last two full weeks before delivery, masking the child’s DOB). Daily usage frequency was recorded for all products except for cigarettes/cigarillos (count per day) and alcohol (single servings per day).
 
-### Quality Control & Known Issues
+## Quality Control & Known Issues
 For all measures, QC procedures involved review of response distributions (crossed with TLFB for Assist V1/V2 and vice versa) for outlier detection. One common issue noted was that reported substances used on the TLFB were not always noted on the Assist V1/V2, which triggered a query to the site to correct it. 
 
 Subject matter experts note that it was difficult for some participants to self-report the typical size of a single drink (in oz) to capture ‘standard drinks’ of alcohol for Assist. Some reports are therefore outside expected range. In addition, occasions of substance use is difficult to report for substances such as electronic cigarette devices, also resulting in outliers. Sites were queried on outliers, but participants were not always able to be re-contacted. 
@@ -154,33 +143,11 @@ For the TLFB, note that it samples only specific weeks before (Weeks 1-2) and du
 
 The TLFB data should be combined with the biospecimen and Assist data. One could also create trajectories of use from the TLFB with assumptions by using data on early pregnancy (weeks 3-6) carried forward until stated pregnancy recognition (V1 Health), then using enrollment (week 7) information and carrying that forward until late pregnancy (weeks 8-9). 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>REFERENCES</title>
-  <style>
-    .collapsible {
-      background-color: #7cceb399;
-      padding: 10px;
-      margin: 10px 0;
-      border-radius: 5px;
-    }
-    details {
-      background-color: #7cceb366;
-      padding: 10px;
-      margin: 10px 1;
-      border-radius: 5px;
-    }
-    summary {
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-  </style>
-</html>
+<details class="collapsible references">
+  <summary class="references">References</summary>
+ <ul>
+<li>National Institute on Drug Abuse. (n.d.). <em>NIDA Modified ASSIST</em>.</li>
+<li>Sobell, L., &amp; Sobell, M. (2000). Alcohol timeline follow-back (TLFB). In <em>Handbook of psychiatric measures.</em> (p. 477). American Psychiatric Association.</li>
+</ul>
+</details>
+<br>
