@@ -15,7 +15,7 @@ A sum score is generated when the caregiver answers at least 3 out of the 5 item
 <strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
 <strong>Child Specific/Unspecific Form</strong>: Child Specific <br />
 <strong>Respondent:</strong> Primary Caregiver <br />
-<strong>Visits</strong>: Visit 3 (< 12 months in age), Visit 4, Visit 6 <br />
+<strong>Visits</strong>: V03, V04, V06 <br />
 <strong>Estimated length of time for completion</strong>: 1-2 minutes</p>
 </details>
 

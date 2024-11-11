@@ -13,25 +13,25 @@ Substance use measures include NIDA-modified Alcohol, Smoking and Substance Invo
   <td>Assist V1</td>
   <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Substance use and problematic use before and during pregnancy</small></td>
   <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Pregnant person</small></td>
-  <td>V1</td>
+  <td>V01</td>
 </tr>
 <tr>
   <td>Assist V2</td>
   <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Substance use during end of pregnancy ( between V1 and delivery) and postnatal (weeks 0-4, between delivery and V2)</small></td>
   <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Person who gave birth</small></td>
-  <td>V2</td>
+  <td>V02</td>
 </tr>
 <tr>
   <td>Assist V3</td>
   <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Substance use after pregnancy</small></td>
   <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Person who gave birth or primary caregiver</small></td>
-  <td>V3</td>
+  <td>V03</td>
 </tr>
 <tr>
   <td>TLFB</td>
   <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Substance use before and during pregnancy</small></td>
   <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Person who gave birth or primary caregiver</small></td>
-  <td>V1, V2</td>
+  <td>V01, V02</td>
 </tr>
 </tbody>
 </table>

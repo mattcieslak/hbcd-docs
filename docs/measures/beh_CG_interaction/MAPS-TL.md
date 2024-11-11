@@ -15,7 +15,7 @@ Each of the 17 items for MAPS-TL is answered on a scale of 1-6: 1 [Never], 2 [Ra
 <strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
 <strong>Child Specific/Unspecific Form</strong>: Child Specific <br />
 <strong>Respondent</strong>: Primary Caregiver <br />
-<strong>Visits</strong>: V03 (3-9 months) <br />
+<strong>Visits</strong>: V03 <br />
 <strong>Estimated length of time for completion</strong>: 5 minutes </p>
 </details>
 

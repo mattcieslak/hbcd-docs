@@ -13,7 +13,7 @@ This measure is a questionnaire to assess perceived discriminatory experiences. 
 <p><strong>Method of Administration</strong>: Remote survey <br />
 <strong>REDCap Form Name</strong>: sed<em>bm</em>phx<em>i</em>discr; Phenx Discrimination (Experiences with Unfair Treatment) <br />
 <strong>Pilot Data Dictionary</strong>: sed<em>bm</em>phx<em>i</em>discr <br />
-<strong>Spanish Translation</strong>: Existing <br />
+<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
 <strong>Child Specific/Unspecific Form</strong>: Child Unspecific <br />
 <strong>Respondent:</strong> Parent on Self <br />
 <strong>Visits</strong>: V01, V05, V07 <br />

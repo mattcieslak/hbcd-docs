@@ -4,7 +4,8 @@
 **Full Name**: 2-item Food Insecurity   
 **Acronym/Brief Name**: USDA short form  
 **Construct**: Food Insecurity   
-Food Insecurity, based on two items assessing the availability of food, is a screening measure used across many populations indicating risk of food insecurity in the last 12 months. Each question uses the same response options.  
+
+Food Insecurity, based on two items assessing the availability of food, is a screening measure used across many populations indicating risk of food insecurity in the last 12 months. Each question uses the same response options. This measure was modified slightly for HBCD to use gender-neutral terms (children aare referred to as “the child” in place of gendered pronouns) as well as inclusion of "Don't know" as a response option to survey questions. Researchers should be aware that the validated measure uses Yes/No answers and does not account for missing data. 
 
 <details>
 <summary>Implementation & Data Collection Details</summary>
@@ -20,9 +21,6 @@ Food Insecurity, based on two items assessing the availability of food, is a scr
 <strong>Estimated length of time for completion</strong>: 1 minute</p>
 </details>
 
-### HBCD Modifications
-When the child is mentioned, pronouns were changed from he/she to “the child.” The response option "don't know" was also added to the survey, which does not impact scoring because the screen is not scored in HBCD. Researchers should be aware that the validated measure uses “yes” “no” answers and does not speak to missing data. 
-
 ## Growth
 **Full Name**: Height/Weight/Head Circumference       
 **Acronym/Brief Name**: growth    
@@ -37,7 +35,7 @@ Growth is a standard direct measure of child height or length (in cm), weight (i
 <strong>REDCap Form Name</strong>: N/A (entered into Loris) <br />
 <strong>Pilot Data Dictionary</strong>: Height/Weight/Head Circumference <br />
 <strong>Child Specific/Unspecific Form</strong>: Child Specific <br />
-<strong>Visits</strong>: V02 (0-1 months), V03 (3-9 months), V04 (9-15 months), V06 (15-30 months), V08 (31-45 months) <br />
+<strong>Visits</strong>: V02, V03, V04, V06, V08 (31-45 months) <br />
 <strong>Estimated length of time for completion</strong>: 5 minutes</p>
 </details>
 
@@ -57,7 +55,7 @@ Breastfeeding measures initiation, exclusivity, and cessation of breast milk fee
 <strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
 <strong>Child Specific/Unspecific Form</strong>: Child Specific <br />
 <strong>Respondent:</strong> Caregiver <br />
-<strong>Visits</strong>: Visit 2 (0-1 months), Visit 3 (3-9 months), Visit 4 (9-15 months), Visit 6 (15-30 months), Visit 8 (31-45 months) <br />
+<strong>Visits</strong>: V02, V03, V04, V06, V08 (31-45 months) <br />
 <strong>Estimated length of time for completion</strong>: 1 minute</p>
 </details>
 

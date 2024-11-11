@@ -16,7 +16,7 @@
             <th style="white-space: normal;">Construct</th>
             <th style="white-space: normal;">Administration</th>
             <th style="white-space: normal;">Time (min)</th>
-            <th style="white-space: normal;">Visit**</th>
+            <th style="white-space: normal;">Visit</th>
         </tr>
         <tr>
             <td style="white-space: normal;">Pregnancy Health</td>
@@ -24,7 +24,7 @@
             <td style="white-space: normal;">Pre-pregnancy and pregnancy health</td>
             <td style="white-space: normal;">self</td>
             <td style="white-space: normal;">5</td>
-            <td style="white-space: normal;">V1</td>
+            <td style="white-space: normal;">V01</td>
         </tr>
         <tr>
             <td style="white-space: normal;">PH-Vaccines</td>
@@ -32,7 +32,7 @@
             <td style="white-space: normal;">Vaccines in pregnancy</td>
             <td style="white-space: normal;">self</td>
             <td style="white-space: normal;">3</td>
-            <td style="white-space: normal;">V1</td>
+            <td style="white-space: normal;">V01</td>
         </tr>
         <tr>
             <td style="white-space: normal;">PH-Chronic Conditions</td>
@@ -40,7 +40,7 @@
             <td style="white-space: normal;">Chronic conditions and sexually transmitted infections in pregnancy</td>
             <td style="white-space: normal;">self</td>
             <td style="white-space: normal;">3</td>
-            <td style="white-space: normal;">V1</td>
+            <td style="white-space: normal;">V01</td>
         </tr>
         <tr>
             <td style="white-space: normal;">PH-Illness</td>
@@ -48,7 +48,7 @@
             <td style="white-space: normal;">Illness in pregnancy</td>
             <td style="white-space: normal;">RA</td>
             <td style="white-space: normal;">3</td>
-            <td style="white-space: normal;">V1</td>
+            <td style="white-space: normal;">V01</td>
         </tr>
         <tr>
             <td style="white-space: normal;">PH-ER/Hospitalizations</td>
@@ -56,7 +56,7 @@
             <td style="white-space: normal;">ER visit or hospitalization in pregnancy</td>
             <td style="white-space: normal;">RA</td>
             <td style="white-space: normal;">5</td>
-            <td style="white-space: normal;">V1</td>
+            <td style="white-space: normal;">V01</td>
         </tr>
         <tr>
             <td style="white-space: normal;">PH-Medications</td>
@@ -64,7 +64,7 @@
             <td style="white-space: normal;">Prescription and over the counter medications in pregnancy</td>
             <td style="white-space: normal;">RA</td>
             <td style="white-space: normal;">5</td>
-            <td style="white-space: normal;">V1</td>
+            <td style="white-space: normal;">V01</td>
         </tr>
         <tr>
             <td style="white-space: normal;">PH-V2 (End of Pregnancy)</td>
@@ -72,13 +72,12 @@
             <td style="white-space: normal;">Updates information between enrollment and delivery</td>
             <td style="white-space: normal;">RA</td>
             <td style="white-space: normal;">10</td>
-            <td style="white-space: normal;">V2</td>
+            <td style="white-space: normal;">V02</td>
         </tr>
     </tbody>
 </table>
-<sup>* V1 visits occurred during pregnancy and V2 occurred 0-1 months postnatal</sup> 
 
-Implementation parameters consistent across all pregnancy health measures include **Spanish Translation** (*Created*), **Child Specific/Unspecific Form** (*Unspecific*), and **Respondent** (*Pregnant Person*).
+The pregnant person is the respondant for all pregnancy health measures and surveys were translated to Spanish for HBCD by BURG.
 
 ## Details & Known Issues
 **Pregnancy Health**      
