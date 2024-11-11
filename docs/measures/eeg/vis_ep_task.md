@@ -1,8 +1,8 @@
 # Visual Evoked Potential Task
-*See [Common Measure Details](measures_all.md) for information on implementation, data collection, quality control & known issues, and additional information.*
-
 **Full Name**: Visual Evoked Potential Task  
 **Acronym/Brief Name**: VEP  
+
+See [Overview](overview.md) for information on implementation, data collection, quality control & known issues, and resources.
  
 The Visual Evoked Potential Task (v.11.29.23) measures development of visual cortex and response to stimuli, reflecting underlying cortical development via measurement of cortical responses to flashing checkerboard visual stimuli, shown for the duration of the task: 
 >>>>>![VEP checkerboard image](images/eeg-vep-checkerboard.png)

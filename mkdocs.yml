@@ -33,13 +33,13 @@ nav:
           - "Neurocognition & Language": 
               - Multilingual Language Development Screener: measures/neurocog_language.md          
           - Electroencephalogram (EEG): 
-              - Common Measure Details: measures/eeg/measures_all.md
+              - Overview: measures/eeg/overview.md
               - Video Resting State: measures/eeg/video_rs.md
               - Faces Task: measures/eeg/faces_task.md
               - Auditory Mismatch Negativity Task: measures/eeg/aud_mm.md
               - Visual Evoked Potential Task: measures/eeg/vis_ep_task.md
           - Magnetic Resonance Imaging (MRI):
-              - Common Measure Details: measures/mri/mri_measures_all.md
+              - Overview: measures/mri/overview.md
               - Structural MRI: measures/mri/smri.md
               - Functional MRI: measures/mri/fmri.md
               - Diffusion MRI: measures/mri/dmri.md

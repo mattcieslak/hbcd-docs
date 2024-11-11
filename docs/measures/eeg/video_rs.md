@@ -1,8 +1,8 @@
 # Video Resting State
-*See [Common Measure Details](measures_all.md) for information on implementation, data collection, quality control & known issues, and additional information.*
-
 **Full Name**: Video Resting State  
 **Acronym/Brief Name**: RS  
+
+See [Overview](overview.md) for information on implementation, data collection, quality control & known issues, and resources.
         
 The Video Resting State (v.11.29.23) task provides assessment of the development of large scale neural networks during infancy and early childhood via information about neural oscillations measured in EEG power across the scalp. Developmental changes in oscillatory activity reflect underlying developing large scale neural networks associated with early self-regulatory, cognitive, and affective processes and developmental outcomes (Gabard-Durnam et al., 2019; E. J. Jones et al., 2020; Whedon et al., 2020). The metrics derived from the resting EEG signal include power across the frequency spectrum (Gabard-Durnam et al., 2019) and relative power between different scalp locations (Davidson & Fox, 1982). See Fox et al. (2024) for more information about the RS.       
 

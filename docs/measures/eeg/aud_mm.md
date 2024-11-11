@@ -1,8 +1,8 @@
 # Auditory Mismatch Negativity Task
-*See [Common Measure Details](measures_all.md) for information on implementation, data collection, quality control & known issues, and additional information.*
-
 **Full Name**: Auditory Mismatch Negativity Task  
 **Acronym/Brief Name**: MMN  
+
+See [Overview](overview.md) for information on implementation, data collection, quality control & known issues, and resources.
    
 The Auditory mismatch negativity (MMN) Task (v.11.29.23) provides a comprehensive assessment of infant speech sound processing and includes rigorous QC procedures to ensure data integrity and reliability. The MMN facilitates examining auditory evoked potentials and habituation/dishabituation to auditory stimuli by capturing differences in neural responses to standard (“ba”) and deviant (“da”) stimuli. During auditory presentation of syllables, a video is played on an iPad as a distractor (with brightness all the way up, in airplane mode, and not plugged in). From this task the MMN difference wave is computed, which is also known as the Mismatch Response (MMR). The amplitude/latency of this difference wave has been linked to language (Choudhury & Benasich, 2011), temperament/personality (Gurrera et al., 2001; Marshall et al., 2009), internalizing problems (Reeb-Sutherland et al., 2009), externalizing/attention problems (Gumenyuk et al., 2005), and disorders including autism (Lepistö et al., 2005; Schwartz et al., 2018) and reading ability/dyslexia (Leppänen et al., 2010; Norton, Beach, et al., 2021). See Fox et al. (2024) for more information about the MMN task.   
 

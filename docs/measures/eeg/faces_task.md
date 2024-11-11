@@ -1,8 +1,8 @@
 # Faces Task
-*See [Common Measure Details](measures_all.md) for information on implementation, data collection, quality control & known issues, and additional information.*
-
 **Full Name**: Faces task  
 **Acronym/Brief Name**: Face  
+
+See [Overview](overview.md) for information on implementation, data collection, quality control & known issues, and resources.
 
 The Face task (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. It assesses child and infant face processing development including attention, perception, categorization, individuation and memory. The measure includes rigorous QC procedures to ensure data integrity and reliability. T assess child and infant face processing abilities as well as the underlying neural activity supporting face and object processing, the task involves 2 blocks: 50 trials of upright faces & 50 trials of inverted faces and 50 trials of upright faces & 50 trials of objects. If the child loses attention, an attention getter may be played to bring the child’s focus back to the task.        
 >>>>>**Face task schematic (Face vs. Object)**<br>
