@@ -17,7 +17,8 @@ For measures that include surveys, all surveys were translated to Spanish for HB
     - [eHITS](socenv_determinants/eHITS.md)
 
 - NEUROCOGNITION & LANGUAGE 
-    - [Multilingual Language Development Screener](neurocog_language.md) 
+    - [Multilingual Language Development Screener](neurocog/MLDS.md) 
+    - [Sensory Processing Measure](neurocog/SPM2.md) 
 
 - ELECTROENCEPHALOGRAM (EEG) 
     - [Video Resting State](eeg/video_rs.md)
