@@ -24,6 +24,7 @@ assembly_bids/
 
 Below is additional information on the files and file contents provided for each phenotype:
 
+<p>
 <details>
 <summary>Demographics files (<code>phenotype/sed_basic_demographics</code>)</summary>
 <ul>
@@ -43,6 +44,7 @@ Below is additional information on the files and file contents provided for each
     </li>
 </ul>
 </details>
+</p>
 
 <details>
 <summary>Biosample Urine Result files (<code>phenotype/biosample_urine</code>)</summary>
@@ -55,6 +57,7 @@ Below is additional information on the files and file contents provided for each
 </ul>
 </details>
 
+<p>
 <details>
 <summary>Visit data files (<code>phenotype/visit_data</code>)</summary>
 <ul>
@@ -74,6 +77,7 @@ Below is additional information on the files and file contents provided for each
     <li>Participant Protocol Exception Information: If there was a protocol exception, the type, and the date</li>
 </ul>
 </details>
+</p>
 
 <details>
 <summary>Instrument data files (<code>phenotype/instrument_name</code>)</summary>
@@ -86,11 +90,10 @@ Below is additional information on the files and file contents provided for each
 </details><br>
 
 
-
-
 ## Excluded Elements & General Rules
 Below is a list of static elements (i.e. precisely identified hard-coded elements such as participants, instruments, and instrument fields) and dynamic elements excluded during the data release process as well as general rules applied to all data:
 
+<p>
 <details>
 <summary>Static Element Exclusions</summary>
 <ul>
@@ -119,9 +122,12 @@ Below is a list of static elements (i.e. precisely identified hard-coded element
     <li>REDCap Complete status ('complete')</li>
 </ul>
 </details>
+</p>
 
+<p>
 <details>
 <summary>Dynamic Element Exclusions</summary>
+</p>
 <ul>
     <li>No brain rating or brain rating noted “abnormal” are not selected</li>
     <li>Only active participants and sessions are selected</li>
@@ -132,8 +138,11 @@ Below is a list of static elements (i.e. precisely identified hard-coded element
 </ul>
 </details>
 
+<p>
 <details>
 <summary>General Rules Applied to All Data</summary>
+</p>
+<p>
 <ul>
     <li>All participants having only one active visit that is V01 will have their sex changed to “Other” instead of “Male” or “Female”</li>
     <li>All empty string “” or missing values will be replaced with the default ReproSchema-compliant string “n/a”</li>
@@ -153,3 +162,36 @@ Below is a list of static elements (i.e. precisely identified hard-coded element
     </li>
 </ul>
 </details><br>
+</p>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REFERENCES</title>
+  <style>
+    .collapsible {
+      background-color: #7cceb399;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    details {
+      background-color: #7cceb366;
+      padding: 10px;
+      margin: 10px 1;
+      border-radius: 5px;
+    }
+    summary {
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+  </style>
+</html>

@@ -79,6 +79,7 @@ For MRS, vendor-specific raw data formats (Siemens .dat; Philips data/list; GE P
 ```
 
 ## Post-Conversion Modifications
+<p>
 <details>
 <summary><b>Hard-coded fields for missing/incorrect header information</b></summary>
 <br>
@@ -96,6 +97,7 @@ In some instances, the NIfTI and JSON files obtained from the <code>dcm2niix</co
 	<li>T1W: `RepetitionTime`</li>
 </ul>
 </details>
+</p>
 
 <details>
 <summary><b>Quantitative MRI</b></summary><br>
@@ -111,3 +113,35 @@ Depending on scanner manufacturer, QALAS conversion resulted in either five 3D N
 <code>T2Prep</code> hard-coded as 0.1 in the <code>inv-0</code> QALAS file
 </ul>
 </details><br>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REFERENCES</title>
+  <style>
+    .collapsible {
+      background-color: #7cceb399;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    details {
+      background-color: #7cceb366;
+      padding: 10px;
+      margin: 10px 1;
+      border-radius: 5px;
+    }
+    summary {
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+  </style>
+</html>
