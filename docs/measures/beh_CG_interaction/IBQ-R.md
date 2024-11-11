@@ -45,7 +45,6 @@ As mentioned above, in addition to the overall *Surgency, Negative Affect and Ef
 ## Quality Control & Known Issues    
 QC procedures included examining the range of the child’s age to ensure that it falls within 3 to 18 months; examining missingness; generating summary statistics and visualizations for item-level frequencies, age, and scores; and using Calculate Cronbach's Alpha for reliability. A common error noted during QC was that scoring was not accurately applied to observations with missing responses and incorrect administration ages. No potential issues were flagged by subject matter experts.
 
-
 <details class="collapsible references">
   <summary class="references">References</summary>
  <ul> 

@@ -80,7 +80,7 @@
 
 Implementation parameters consistent across all pregnancy health measures include **Spanish Translation** (*Created*), **Child Specific/Unspecific Form** (*Unspecific*), and **Respondent** (*Pregnant Person*).
 
-### Details & Known Issues
+## Details & Known Issues
 **Pregnancy Health**      
 This measures gravidity and parity, height and weight, pregnancy intentions, use of assisted reproductive technology, start of prenatal care, prenatal vitamin or aspirin use, secondhand smoke. No potential issues were noted by subject matter experts.
 
