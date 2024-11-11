@@ -1,4 +1,73 @@
-body {
+/* Specs for headers */ 
+h1 {
+    font-size: 2em; /* Largest header */
+    margin: 2 0 5px;
+    font-weight: normal;
+    border-bottom: 2px solid #7cceb3; /* Optional underline */
+    padding-bottom: 5px;
+  }
+
+h2 {
+font-size: 1.5em; /* Largest header */
+margin: 40px 0 5px; /* Adds 40px space above, 0px left/right, 5px below */
+font-weight: normal;
+border-bottom: 2px solid #7cceb3; /* Optional underline */
+padding-bottom: 5px;
+}
+
+/* General collapsible styling */
+.collapsible.references {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  details.references {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 1;
+    border-radius: 5px;
+  }
+  summary.references {
+    font-size: 1.5em;
+    margin: 40px 0 5px;
+    font-weight: normal;
+    cursor: pointer;
+    border-bottom: 2px solid #7cceb3; /* Optional underline */
+  }
+  details.references summary.references {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+
+
+/* Specs for general collapsible sections */ 
+.collapsible {
+    background-color: #7cceb399;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  details {
+    background-color: #7cceb366;
+    padding: 10px;
+    margin: 10px 1;
+    border-radius: 5px;
+  }
+  summary {
+    font-size: 16px;
+    cursor: pointer;
+    border-bottom: none
+  }
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+ /* Trying to set background color */ 
+  body {
     background-color: #7cceb3;
   }
   
