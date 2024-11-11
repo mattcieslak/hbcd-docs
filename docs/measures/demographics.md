@@ -268,6 +268,8 @@ Demographic information is crucial for understanding the child’s environment a
 
 ### Quality Control & Known Issues
 QC was performed by monitoring the data dashboard for variable missingness and data consistency. The only common issue noted was high missingness for income, although this is in line with expectations. Subject matter experts flagged the following as a potential issue with this measure: RA reports show that some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g. options did not capture identity) and occupation (i.e. imperfect option for job type and number of hours). 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
