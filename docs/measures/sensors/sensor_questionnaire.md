@@ -1,16 +1,15 @@
 # Infant Sensor Questionnaire
-**Full Name**: Daily survey about infant heart rate sensor and infant leg movement sensors.   
+**Full Name**: Daily survey about infant heart rate sensor and infant leg movement sensors   
 **Acronym/Brief Name**: Infant Sensor Questionnaire  
 **Construct**: motor behavior, physical activity, sleep   
-   
-The questionnaire was sent once per day for 3 days while the infant was wearing the heart rate sensor and infant leg movement sensors to obtain information about context of the sensor recordings. Please see [Pini et al. 2024](https://doi.org/10.1016/j.dcn.2024.101446) for a full description of this measure. Briefly, the Infant Sensor Questionnaire survey, developed by the working group, was automatically sent to primary caregivers after 24, 48, and 72 hours of sensor recording. The survey covered the preceding 24-hour period, asking if the sensors were worn for most of the time and gathering information about the infant's daily activities (e.g. whether the period was typical for the infant; estimates of how much they napped and slept; time spent in car seat, swing, or other restraining device; time spent in a moving car, stroller, or being carried; and whether their legs were swaddled during naps and sleep).
 
+The Infant Sensor Questionnaire, developed by the HBCD Workgroup, was sent daily over 3 days while the infant wore heart rate and leg movement sensors to capture context for the recordings. Sent automatically to primary caregivers at 24, 48, and 72 hours, the survey covered the preceding 24 hours, asking if sensors were worn consistently and gathering information on daily activities (e.g., typicality of the day; nap and sleep duration; time spent in car seat, swing, or other restraining device; time in a moving car or stroller; and leg swaddling during sleep). See [Pini et al. 2024](https://doi.org/10.1016/j.dcn.2024.101446) for a full description of this measure. 
 
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
 <br>
-<p><strong>Method of Administration</strong>: Surveys were sent automatically to caregivers via their preferred method of contact (email or text message) marked by the RA at visit
+<p><strong>Method of Administration</strong>: Surveys were sent automatically to caregivers via their preferred method of contact (email or text message) marked by the RA at visit <br />
 <strong>REDCap Form Name</strong>: sens_ch_rcpt <br />
 <strong>Pilot Data Dictionary</strong>: nt_ch_sens_i_qtn_1, nt_ch_sens_i_qtn_2, nt_ch_sens_i_qtn_3 <br />
 <strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />

@@ -2,8 +2,9 @@
 **Full Name**: Infant leg movement data collected by wearable sensors.   
 **Construct**: motor behavior, physical activity, sleep   
 
-Wearable sensor data (accelerometer and gyroscope) were collected continuously across 72 hours from infants ankles to estimate how frequently and how vigorously an infant was moving and when the infant was asleep. Axivity AX6 sensors were placed on the infant's right and left ankles to record leg movements. Caregivers were advised to follow their usual routines but to remove the sensors if the infant went into water (e.g., a bathtub or pool) and replace them afterward. Before starting the 72-hour recording, each sensor was calibrated by capturing 10 seconds of data on each of its six flat surfaces. The sensors were set to continuously record accelerometer data (acceleration range of ±16 g) and gyroscope data (angular velocity range of ±2000 dps) at 25 samples per second. This data allows us to estimate the frequency and intensity of the infant's leg movements, including periods of sedentary, light, moderate-to-vigorous activity, or sleep. Please see [Pini et al. 2024](https://doi.org/10.1016/j.dcn.2024.101446) for a full description of this measure.   
+Wearable sensor data (accelerometer and gyroscope) were collected continuously over 72 hours from sensors placed on infants’ right and left ankles to estimate movement frequency, intensity, and sleep periods. Caregivers followed normal routines, removing sensors only for water exposure (e.g., baths) and replacing them afterward. Each sensor (Axivity AX6) was calibrated by recording 10 seconds on each of its six flat surfaces before data collection. Sensors recorded accelerometer (±16 g) and gyroscope (±2000 dps) data at 25 Hz, enabling estimates of sedentary, light, moderate-to-vigorous activity, and sleep. See [Pini et al. 2024](https://doi.org/10.1016/j.dcn.2024.101446) for a full measure description.
 
+<p>
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
@@ -11,6 +12,7 @@ Wearable sensor data (accelerometer and gyroscope) were collected continuously a
 <p><strong>Method of Administration</strong>: RA placed sensors on child at visit, sensors then worn while 72 hours of data were collected across typical activities in the natural environment. <br />
 <strong>Visits</strong>: V02 (0-1 month) and V03 (3-8 months) </p>
 </details>
+</p>
 
 <details>
 <summary>References</summary>
