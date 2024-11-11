@@ -18,8 +18,9 @@ This instrument involves a series of questionnaires that assess parental concern
 <strong>Visits</strong>: Visit 3 (3-9 months), Visit 4, Visit 5 (10-17 months), Visit 6, Visit 7 (16-31 months), Visit 8 <br />
 <strong>Estimated length of time for completion</strong>: 3-10 minutes</p>
 </details>
+<br>
 
-### Non-Parental Childcare Arrangement Scoring Procedure
+<p style="font-size: 1em; margin: 0 0 5px;"><u>Non-Parental Childcare Arrangement Scoring Procedure</u></p>
 Total days per week and total hours per day were calculated for up to 10 non-parental childcare arrangements (Daycare, With Babysitter, With other family members outside of the household, and Other non-parental childcare arrangement).The language environment for each non-parental childcare arrangement was described based on the percentage of Spanish vs Enlgish spoken in the environment:
 
 | Child's Language Environment | % Spanish/English Spoken |
