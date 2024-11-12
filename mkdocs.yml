@@ -17,7 +17,7 @@ nav:
   - HOW TO ACCESS DATA: data_access.md
   - DUC PROCESS: duc_process.md
   - FAQS: faq.md
-  - REPORT ISSUE: reportissue.md
+  - Report Issues: reportissue.md
   - RESPONSIBLE DATA USE: resp_data_use.md
   - DATA DICTIONARY EXPLORER: datadictionary.md
   - Release Notes:
@@ -79,7 +79,7 @@ nav:
           - Pipeline Software Standards: processing/standards.md
           - External Processing Documentation: processing/processing.md
   - Change Log: 
-      - Pending Updates: changelog/pending.md
+      - Pending & Upcoming Updates: changelog/pending.md
       - Version History: 
           - Beta Release 5/V1.4: changelog/versions/v1.4.md
           - Beta Release 4/V1.3: changelog/versions/v1.3.md

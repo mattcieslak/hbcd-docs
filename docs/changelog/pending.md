@@ -1,11 +1,11 @@
-# Upcoming/Pending Updates
+# Pending & Upcoming Updates
 
-**Pending Field filters:**
+## Pending Field filters
 
 * Brain Rating associated fields  
 * Open text fields (Custom per instrument. Check on a case by case basis)  
 
-**Upcoming**
+## Upcoming
 
 * Change '_i_' to '__' in Data Dictionary  
 * Gestational Age at Administration'  
@@ -13,7 +13,7 @@
 * scans.tsv file – MRI -  'Candidate Age at Administration' based on jittered DoB in ‘Years’ with three decimal point precision   
 * scans.tsv file – EEG - 'Candidate Age at Administration' based on jittered DoB in ‘Years’ with three decimal point precision   
   
-**Logs**
+## Logs
 
 The following logs are generated for double-checking purposes (Logs are not shared nor embedded within the data dump structure):
 
