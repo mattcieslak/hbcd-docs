@@ -26,10 +26,10 @@ Below is additional information on the files and file contents provided for each
 
 <p>
 <details>
-<summary>Demographics files (<code>phenotype/sed_basic_demographics</code>)</summary>
+<summary>Demographics files (<i>phenotype/sed_basic_demographics</i>)</summary>
 <ul>
 <br>
-<i>These files contain demographics information including:</i>
+These files contain demographics information including:
     <li>Gestational age at birth</li>
     <li>Sex</li>
     <li>Recruitment site</li>
@@ -39,7 +39,7 @@ Below is additional information on the files and file contents provided for each
         <ul>
             <li>Self reported use (TLFB): any flag raised for SU</li>
             <li>Biospecimen: any result returning a flag for SU</li>
-            <li>Health V2 instrument (‘pex_bm_healthv2_inf’): field “007”, option 1 (NOWS - Neonatal Opioid Withdrawal Syndrome) or 5 (FAS - Fetal Alcohol Syndrome) selected</li>
+            <li>Health V2 instrument (<i>pex_bm_healthv2_inf</i>): field “007”, option 1 (NOWS - Neonatal Opioid Withdrawal Syndrome) or 5 (FAS - Fetal Alcohol Syndrome) selected</li>
         </ul>
     </li>
 </ul>
@@ -47,7 +47,7 @@ Below is additional information on the files and file contents provided for each
 </p>
 
 <details>
-<summary>Biosample Urine Result files (<code>phenotype/biosample_urine</code>)</summary>
+<summary>Biosample Urine Result files (<i>phenotype/biosample_urine</i>)</summary>
 <ul>
 <br>
 <i>Regarding biosample urine result files:</i>
@@ -59,7 +59,7 @@ Below is additional information on the files and file contents provided for each
 
 <p>
 <details>
-<summary>Visit data files (<code>phenotype/visit_data</code>)</summary>
+<summary>Visit data files (<i>phenotype/visit_data</i>)</summary>
 <ul>
 <br>
 <i>These files contain participant visit data including:</i>
@@ -80,12 +80,12 @@ Below is additional information on the files and file contents provided for each
 </p>
 
 <details>
-<summary>Instrument data files (<code>phenotype/instrument_name</code>)</summary>
+<summary>Instrument data files (<i>phenotype/instrument_name</i>)</summary>
 <ul>
 <br>
 <i>The following files are provided for each instrument:</i>
-    <li><code><instrument_name>.tsv</code>: Data Table containing all instrument values for the participants</li>
-    <li><code><instrument_name>.json</code>: Data Dictionary describing all instrument fields except those in the exclusion lists provided below</li>
+    <li><i><instrument_name>.tsv</i>: Data Table containing all instrument values for the participants</li>
+    <li><i><instrument_name>.json</i>: Data Dictionary describing all instrument fields except those in the exclusion lists provided below</li>
 </ul>
 </details><br>
 
@@ -97,7 +97,7 @@ Below is a list of static elements (i.e. precisely identified hard-coded element
 <details>
 <summary>Static Element Exclusions</summary>
 <ul>
-<br><i>Excluded Instruments</i>:
+<br><b>Excluded Instruments</b>:
     <li>Biosensor Receipt Form ('sens_ch_rcpt')</li>
     <li>EEG Acquisition Form ('eeg_ch_chkl')</li>
     <li>EEG Acquisition Form Reattempt - 1 ('eeg_ch_chkl_1')</li>
@@ -115,7 +115,7 @@ Below is a list of static elements (i.e. precisely identified hard-coded element
     <li>TLFB (Timeline Follow Back) Summary Parser ('pex_ch_tlfb')</li>
     <li>Transitions in Care Questionnaire ('sed_cg_tic')</li>
 
-<br><i>Excluded Instrument Fields (mostly metadata fields)</i>:
+<br><b>Excluded Instrument Fields (mostly metadata fields)</b>:
     <li>Date of Administration (‘date_taken’)</li>
     <li>Examiner (‘Examiner’)</li>
     <li>Timestamps ('timestamp', ‘timestamp_start', 'timestamp_stop', 'timestamp_start_tmp', 'timestamp_redcap_locked', 'dtt')</li>
@@ -129,12 +129,22 @@ Below is a list of static elements (i.e. precisely identified hard-coded element
 <summary>Dynamic Element Exclusions</summary>
 </p>
 <ul>
+<b>Participant Filters:</b>
     <li>No brain rating or brain rating noted “abnormal” are not selected</li>
     <li>Only active participants and sessions are selected</li>
     <li>Participants from Data Coordination Center (DCC) and University of Florida (UFL) sites are not selected</li>
     <li>Only participants with PSCIDs starting with “CH” are selected (excluding all test participants e.g. QI, YI, XI, PI)</li>
-    <li>Participants having REDCap instruments not filled out by the exact “redcap” examiner will be excluded from the result (i.e. possible modification of data between REDCap and LORIS, or data entered directly into LORIS)</li>
+
+<br>
+<b>Visit Filters:</b>
     <li>For Beta Data Release, the process considers only data noted with launchpad complete status from before 2024-07-01 (YYYY-MM-DD)</li>
+
+<br>
+<b>Domain Filters:</b>
+    <li>BioSpecimens</li>
+    <li>Geocoding data</li>
+    <li>Transition in Care</li>
+    <li>REDCap surveys filled out directly in LORIS (Identified based on LORIS 'Examiner' field not set to 'REDCap')</li>
 </ul>
 </details>
 
@@ -163,35 +173,3 @@ Below is a list of static elements (i.e. precisely identified hard-coded element
 </ul>
 </details><br>
 </p>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>REFERENCES</title>
-  <style>
-    .collapsible {
-      background-color: #7cceb399;
-      padding: 10px;
-      margin: 10px 0;
-      border-radius: 5px;
-    }
-    details {
-      background-color: #7cceb366;
-      padding: 10px;
-      margin: 10px 1;
-      border-radius: 5px;
-    }
-    summary {
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-  </style>
-</html>

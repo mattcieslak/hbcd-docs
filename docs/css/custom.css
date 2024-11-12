@@ -51,7 +51,7 @@ h3 {
 
 /* Specs for general collapsible sections */ 
 .collapsible {
-    background-color: #24AE70;
+    background-color: #24AE7066;
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
@@ -71,7 +71,14 @@ h3 {
     color: #007BFF;
     text-decoration: none;
   }
-  
+  /* Ensure <code> elements inside collapsible sections match the background and text color */
+  details code {
+    background-color: #24AE7066;;
+    color: inherit; /* Inherit text color from parent */
+    padding: 2px 4px;
+    border-radius: 3px; /* Optional: adjust to match the style */
+    font-family: monospace; /* Ensures consistent code font */
+  }
 
 
 
