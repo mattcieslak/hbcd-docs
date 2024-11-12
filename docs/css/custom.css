@@ -3,7 +3,7 @@ h1 {
     font-size: 2em; /* Largest header */
     margin: 2 0 5px;
     font-weight: normal;
-    border-bottom: 2px solid #7cceb3; /* Optional underline */
+    border-bottom: 2px solid #24AE70; /* Optional underline */
     padding-bottom: 5px;
   }
 
@@ -11,7 +11,7 @@ h2 {
 font-size: 1.5em; /* Largest header */
 margin: 40px 0 5px; /* Adds 40px space above, 0px left/right, 5px below */
 font-weight: normal;
-border-bottom: 2px solid #7cceb3; /* Optional underline */
+border-bottom: 2px solid #24AE70; /* Optional underline */
 padding-bottom: 5px;
 }    
 
@@ -19,7 +19,7 @@ h3 {
   font-size: 1.2em; /* Largest header */
   margin: 40px 0 0; /* Adds 40px space above, 0px left/right, 5px below */
   font-weight: normal;
-  border-bottom: 2px solid #7cceb3; /* Optional underline */
+  border-bottom: 2px solid #24AE70; /* Optional underline */
   padding-bottom: 5px;
   }    
 
@@ -41,7 +41,7 @@ h3 {
     margin: 40px 0 5px;
     font-weight: normal;
     cursor: pointer;
-    border-bottom: 2px solid #7cceb3; /* Optional underline */
+    border-bottom: 2px solid #24AE70; /* Optional underline */
   }
   details.references summary.references {
     font-size: 1.5em;
@@ -51,13 +51,13 @@ h3 {
 
 /* Specs for general collapsible sections */ 
 .collapsible {
-    background-color: #7cceb399;
+    background-color: #24AE70;
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
   }
   details {
-    background-color: #7cceb366;
+    background-color: #24AE7066;
     padding: 10px;
     margin: 10px 1;
     border-radius: 5px;
