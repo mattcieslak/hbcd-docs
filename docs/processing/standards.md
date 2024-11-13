@@ -7,15 +7,15 @@ At minimum, equivalent standards to the Bronze badge in the rating system are re
 
 ## Documentation 
 ### NMIND Documentation Checklist
-*  Landing page (e.g., GitHub README, website) provides a link to documentation and brief description of what program does
-*  Documentation is up to date with version of software
-*  Typical intended usage is described
-*  An example of its usage is shown
-*  Document functions intended to be used by users (i.e., public function docstring / help coverage ≥ 10%)
-*  Description of required input parameters for user-facing functions with reasonable description of inputs (i.e., "NIfTI of brain mask in MNI" vs. "An image file")
-*  Description of output(s)
-*  User installation instructions available
-*  Dependencies listed (i.e., external and within-language requirements)
+<input type="checkbox" [name] [value] [checked] [disabled]> Landing page (e.g., GitHub README, website) has provides a link to documentation and brief description of what program does<br>
+<input type="checkbox" [name] [value] [checked] [disabled]> Documentation is up to date with version of software<br>
+<input type="checkbox" [name] [value] [checked] [disabled]>  Typical intended usage is described<br>
+<input type="checkbox" [name] [value] [checked] [disabled]>  An example of its usage is shown<br>
+<input type="checkbox" [name] [value] [checked] [disabled]>  Document functions intended for users (i.e., public function docstring/help coverage ≥ 10%)<br>
+<input type="checkbox" [name] [value] [checked] [disabled]>  Description of required input parameters for user-facing functions with reasonable description of inputs (i.e., "NIfTI of brain mask in MNI" vs. "An image file")<br>
+<input type="checkbox" [name] [value] [checked] [disabled]>  Description of output(s)<br>
+<input type="checkbox" [name] [value] [checked] [disabled]>  User installation instructions available<br>
+<input type="checkbox" [name] [value] [checked] [disabled]>  Dependencies listed (i.e., external and within-language requirements)<br>
 
 ### Webpage For Documentation
 In addition to the general guidelines provided by the checklist, each pipeline is required to have living documentation made available via a web page using utilities such as [ReadtheDocs](https://about.readthedocs.com/?ref=readthedocs.com), [GitHub Pages](https://pages.github.com/?(null)), [Wiki](https://support.microsoft.com/en-us/office/create-and-edit-a-wiki-dc64f9c2-d1a2-44b5-ac59-b9d535551a32), etc. This allows for information to stay up-to-date as compared to a publication and also is easier to navigate than a simple GitHub README given the depth of information typically required for image processing pipelines. 
@@ -24,13 +24,13 @@ We recommended using the [fMRIPrep ReadtheDocs](https://fmriprep.org/en/stable/)
 
 ## Infrastructure
 ### NMIND Infrastructure Checklist
--  Code is open source  
--  Package is under version control  
--  Readme is present  
--  License is present (see more details in following section)  
--  Issues tracking is enabled (i.e., either through GitHub or external site)  
--  Digital Object Identifier (DOI) points to latest version (e.g., Zenodo)  
--  All documented installation instructions can be successfully followed
+<input type="checkbox" [name] [value] [checked] [disabled]> Code is open source<br>
+<input type="checkbox" [name] [value] [checked] [disabled]> Package is under version control<br>
+<input type="checkbox" [name] [value] [checked] [disabled]> Readme is present<br>
+<input type="checkbox" [name] [value] [checked] [disabled]> License is present (see more details in following section)<br>
+<input type="checkbox" [name] [value] [checked] [disabled]> Issues tracking is enabled (i.e., either through GitHub or external site)<br>
+<input type="checkbox" [name] [value] [checked] [disabled]> Digital Object Identifier (DOI) points to latest version (e.g., Zenodo)<br>
+<input type="checkbox" [name] [value] [checked] [disabled]> All documented installation instructions can be successfully followed<br>
 
 ### Licensing and Obtaining a DOI
 All included software require a [license](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) and also a DOI for software publication. Internal pipelines to HBCD might be leveraged for release data prior to publication. For pipelines without an associated scientific article yet that can be cited, developers obtained a DOI by self-publishing on [Zenodo](https://cdnis-brain.readthedocs.io/zenodo/). Software provided for HBCD releases from non-HBCD PIs will be required to be peer reviewed and published along with the DOI. All software is required to run on BIDS input data or currently available HBCD derivatives as provided in the most current HBCD release. 
@@ -43,7 +43,7 @@ Developers may also wish to decide on a standard release cycle as well as specia
 ## Testing Ability
 
 ### NMIND Testing Checklist
--  Provide / generate / point to test data**  
--  Provide instructions for users to run tests that include instructions for evaluation for correct behavior
+<input type="checkbox" [name] [value] [checked] [disabled]> Provide / generate / point to test data**<br>
+<input type="checkbox" [name] [value] [checked] [disabled]> Provide instructions for users to run tests and evaluate for correct behavior
 
 **Note that standards for testing ability may not be relevant to or high-priority for all processing pipelines used by HBCD. Additionally, depending on how specialized a given application is for HBCD, making test data openly available that is representative of the workflow is likely not possible. 
