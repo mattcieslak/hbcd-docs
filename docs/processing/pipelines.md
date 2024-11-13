@@ -1,19 +1,60 @@
 # Processing Pipelines
 The following pipelines were used for HBCD data processing: for more details, visit the pipeline webpages linked below as well as the [Tool Details Overview](https://hbcd-cbrain-processing.readthedocs.io/latest/tool_details.html) section of the [HBCD Processing webpage](https://hbcd-cbrain-processing.readthedocs.io/latest/index.html).
 
-**Magnetic Resonance Imaging (MRI)**    
-- [MRIQC](https://mriqc.readthedocs.io/en/latest/): automated extraction of image quality metrics from structural (T1w and T2w) and functional MRI data  
-- [BIBSNet](https://bibsnet.readthedocs.io/en/latest/): deep learning model for brain segmentation
-- [infant-fMRIPrep/fMRIPrep](https://nibabies.readthedocs.io/en/latest/): structural and functional MRI preprocessing pipeline   
-- [XCP-D](https://xcp-d.readthedocs.io/en/latest/): functional MRI post-processing and noise regression pipeline  
-- [QSIPrep](https://qsiprep.readthedocs.io/en/latest/) and [QSIRecon](https://qsirecon.readthedocs.io/en/latest/): diffusion-weighted MRI (dMRI) data processing pipelines  
-- [SyMRI](https://hbcd-symri-postproc.readthedocs.io/en/latest/index.html): minimal post-processing for synthetic images generated from SyMRI tools using QALAS acquisition
+### Magnetic Resonance Imaging (MRI)
+<ul style="list-style-type: none; padding: 0; font-family: Arial, sans-serif;">
+  <li style="margin-bottom: 10px;">
+    <a href="https://mriqc.readthedocs.io/en/latest/" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
+      MRIQC
+    </a>: automated extraction of image quality metrics from structural and functional MRI data
+  </li>
+  <li style="margin-bottom: 10px;">
+    <a href="https://bibsnet.readthedocs.io/en/latest/" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
+      BIBSNet
+    </a>: deep learning model for brain segmentation
+  </li>
+  <li style="margin-bottom: 10px;">
+    <a href="https://nibabies.readthedocs.io/en/latest/" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
+      infant-fMRIPrep/fMRIPrep
+    </a>: structural and functional MRI preprocessing pipeline
+  </li>
+  <li style="margin-bottom: 10px;">
+    <a href="https://xcp-d.readthedocs.io/en/latest/" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
+      XCP-D
+    </a>: functional MRI post-processing and noise regression pipeline
+  </li>
+  <li style="margin-bottom: 10px;">
+    <a href="https://qsiprep.readthedocs.io/en/latest/" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
+      QSIPrep
+    </a> and 
+    <a href="https://qsirecon.readthedocs.io/en/latest/" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
+      QSIRecon
+    </a>: diffusion-weighted MRI (dMRI) data processing pipelines
+  </li>
+  <li style="margin-bottom: 10px;">
+    <a href="https://hbcd-symri-postproc.readthedocs.io/en/latest/index.html" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
+      SyMRI
+    </a>: minimal post-processing for SyMRI synthetic images derived from QALAS acquisition
+  </li>
+</ul>
 
-**Electroencephalogram (EEG)**
-- [HBCD-MADE](https://docs-hbcd-made.readthedocs.io/en/latest/): Maryland Analysis of Developmental EEG (MADE) pipeline adapted for HBCD data
+### Electroencephalogram (EEG)
+<p style="list-style-type: none; padding: 0; font-family: Arial, sans-serif;">
+    <a href="https://docs-hbcd-made.readthedocs.io/en/latest/" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
+      HBCD-MADE
+    </a>: Maryland Analysis of Developmental EEG (MADE) pipeline adapted for HBCD
+</p>
 
-**Magnetic Resonance Spectroscopy (MRS)**
-- [OSPREY](https://osprey-bids.readthedocs.io/en/latest/index.html): MRS data processing pipeline
+### Magnetic Resonance Spectroscopy (MRS)       
+<p style="list-style-type: none; padding: 0; font-family: Arial, sans-serif;">
+    <a href="https://osprey-bids.readthedocs.io/en/latest/index.html" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
+      OSPREY
+    </a>: MRS data processing pipeline
+</p>
 
-**Biosensor Data**
-- [AXIVITY](https://hbcd-motion-postproc.readthedocs.io/en/latest/): leg movement data processing
+### Biosensor Data      
+<p style="list-style-type: none; padding: 0; font-family: Arial, sans-serif;">
+    <a href="https://hbcd-motion-postproc.readthedocs.io/en/latest/" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
+      AXIVITY
+    </a>: leg movement sensor data processing
+</p>
