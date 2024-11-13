@@ -1,7 +1,7 @@
 # Imaging Data Curation & BIDS Conversion
 
 ## BIDS Conversion
-DICOM images are converted using a [custom version](https://github.com/rordenlab/dcm2niix/tree/c5caaa9f858b704b61d3ff4a7989282922dd712e) of the [dcm2niix](https://github.com/rordenlab/dcm2niix) tool customized for HBCD. The resulting data structure is: 
+DICOM images are converted using a [custom version](https://github.com/rordenlab/dcm2niix/tree/c5caaa9f858b704b61d3ff4a7989282922dd712e) of the [dcm2niix](https://github.com/rordenlab/dcm2niix) tool customized for HBCD. The resulting data structure is as follows. Below we will expand on the file contents of each modality folder within the session folder. 
 
 ```
 assembly_bids/ 
@@ -11,7 +11,17 @@ assembly_bids/
 |   |__ sub-<label>_sessions.tsv
 |   |__ sub-<label>_sessions.json
 |   |__ ses-<label>/
-|       |
+|       |__ anat/
+|       |__ dwi/
+|       |__ fmap/
+|       |__ func/
+|       |__ sub-<label>_ses-<label>_scans.tsv
+|       |__ sub-<label>_ses-<label>_scans.json
+```
+
+### Anatomical
+```
+...
 |       |__ anat/
 |       |   |__ sub-<label>_ses-<label>_run-<label>_T1w.nii.gz 
 |       |   |__ sub-<label>_ses-<label>_run-<label>_T1w.json
@@ -21,13 +31,22 @@ assembly_bids/
 |       |   |__ sub-<label>_ses-<label>_acq-<mrsLocAx/mrsLocCor>_run-<label>_T2w.json
 |       |   |__ sub-<label>_ses-<label>_run-<label>_inv-<label>_QALAS.nii.gz
 |       |   |__ sub-<label>_ses-<label>_run-<label>_inv-<label>_QALAS.json
-|       |
+```
+Anatomical files include T1- and T2-weighted MRI images, MRS localizer files (`acq-mrsLocAx` and `acq-mrsLocCor` indicate axial and coronal localizers, respectively), and Quantitative MRI QALAS files.
+
+### Diffusion
+```
+...
 |       |__ dwi/
 |       |   |__ sub-<label>_ses-<label>_dir-AP_run-<label>_dwi.nii.gz
 |       |   |__ sub-<label>_ses-<label>_dir-AP_run-<label>_dwi.json
 |       |   |__ sub-<label>_ses-<label>_dir-PA_run-<label>_dwi.nii.gz
 |       |   |__ sub-<label>_ses-<label>_dir-PA_run-<label>_dwi.json
-|       |
+```
+
+### Functional & EPI Fieldmaps
+```
+...
 |       |__ fmap/
 |       |   |__ sub-<label>_ses-<label>_dir-AP_run-<label>_epi.nii.gz
 |       |   |__ sub-<label>_ses-<label>_dir-AP_run-<label>_epi.json
@@ -37,9 +56,6 @@ assembly_bids/
 |       |__ func/
 |       |   |__ sub-<label>_ses-<label>_task-rest_dir-PA_run-<label>_bold.nii.gz
 |       |   |__ sub-<label>_ses-<label>_task-rest_dir-PA_run-<label>_bold.json
-|       |   
-|       |__ sub-<label>_ses-<label>_scans.tsv
-|       |__ sub-<label>_ses-<label>_scans.json
 ```
 
 ### B1 Fieldmaps
@@ -101,48 +117,48 @@ In some cases, <i>dcm2niix</i> conversion led to missing or incorrectly configur
 
 <details>
 <summary><b>Quantitative MRI</b></summary><br>
-Depending on the scanner manufacturer, QALAS conversion produced either five 3D NIfTI files or a single 4D NIfTI file with five volumes. To standardize the output, all QALAS series were converted into five separate NIfTI files, each corresponding to a different inversion time (labeled using the <i>inv-&lt;label&gt;</i> BIDS entity). The associated JSON sidecar was then updated with the following modifications:
-<ul>
-<br>
-<i>InversionTime</i> values were hard-coded in the QALAS files indicated as follows:
-  <li><i>inv-0</i> file: hard-coded to 0</li>
-  <li><i>inv-1</i> file: hard-coded to 0.1</li>
-  <li><i>inv-2</i> file: hard-coded to 1</li>
-  <li><i>inv-3</i> file: hard-coded to 1.9</li>
-  <li><i>inv-4</i> file: hard-coded to 2.7</li>
-<br>
-<i>T2Prep</i> value hard-coded to 0.1 in the <i>inv-0</i> QALAS file
-</ul>
+Depending on the scanner manufacturer, <i>dcm2niix</i> conversion for QALAS produced either five 3D NIfTI files or a single 4D NIfTI file with five volumes (as well as missing JSON header information). To standardize the output, all <i>dcm2niix</i>-derived QALAS series were converted into five separate NIfTI files, each corresponding to a different inversion time (labeled using the <i>inv-&lt;label&gt;</i> BIDS entity). The associated JSON sidecar was then updated with the following modifications:
+
+Hard-coded InversionTime values (sec) for QALAS files of each manufacturer:
+<table dir="ltr" border="1" cellspacing="0" cellpadding="0" data-sheets-root="1" data-sheets-baot="1"><colgroup><col width="72" /><col width="59" /><col width="70" /><col width="68" /></colgroup>
+<tbody>
+<tr>
+<th>QALAS file</th>
+<th>Siemens</th>
+<th>GE</th>
+<th>Philips</th>
+</tr>
+<tr>
+<td>inv-0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>inv-1</td>
+<td>0.1</td>
+<td>0.119300</td>
+<td>0.115000</td>
+</tr>
+<tr>
+<td>inv-2</td>
+<td>1</td>
+<td>1.0191834</td>
+<td>1.010522</td>
+</tr>
+<tr>
+<td>inv-3</td>
+<td>1.9</td>
+<td>1.919068</td>
+<td>1.906045</td>
+</tr>
+<tr>
+<td>inv-4</td>
+<td>2.8</td>
+<td>2.818952</td>
+<td>2.801567</td>
+</tr>
+</tbody>
+</table>
+
 </details><br>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>REFERENCES</title>
-  <style>
-    .collapsible {
-      background-color: #7cceb399;
-      padding: 10px;
-      margin: 10px 0;
-      border-radius: 5px;
-    }
-    details {
-      background-color: #7cceb366;
-      padding: 10px;
-      margin: 10px 1;
-      border-radius: 5px;
-    }
-    summary {
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-  </style>
-</html>
