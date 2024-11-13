@@ -75,9 +75,8 @@ nav:
           - Motion Data: datacuration/motion.md
           - Phenotypes: datacuration/phenotypes.md
       - Data Processing: 
-          - Pipelines: processing/pipelines.md
+          - Pipelines & Processing: processing/pipelines.md
           - Pipeline Software Standards: processing/standards.md
-          - External Processing Documentation: processing/processing.md
   - Change Log: 
       - Pending & Upcoming Updates: changelog/pending.md
       - Version History: 
