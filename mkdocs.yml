@@ -3,6 +3,9 @@ site_name: HBCD Data Release
 theme:
   name: readthedocs
 
+extra_javascript:
+  - js/extra.js
+
 extra_css:
   - css/custom.css
 
