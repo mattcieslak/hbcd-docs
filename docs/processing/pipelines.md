@@ -1,5 +1,5 @@
 # Processing Pipelines
-The following pipelines were used for HBCD data processing: for more details, visit the pipeline webpages linked below as well as the [Tool Details Overview](https://hbcd-cbrain-processing.readthedocs.io/latest/tool_details.html) section of the [HBCD Processing webpage](https://hbcd-cbrain-processing.readthedocs.io/latest/index.html).
+The following pipelines were used for HBCD data processing. **For full documentation on how each pipeline was used for HBCD processing, please visit the external [HBCD Processing](https://hbcd-cbrain-processing.readthedocs.io/latest/) page.** 
 
 ### Magnetic Resonance Imaging (MRI)
 <ul style="list-style-type: none; padding: 0; font-family: Arial, sans-serif;">

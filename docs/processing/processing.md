@@ -1,3 +1,6 @@
+# Processing Pipelines
+
 <script type="text/javascript">
-    window.location.href = "https://hbcd-cbrain-processing.readthedocs.io/latest/";
+    window.open("https://hbcd-cbrain-processing.readthedocs.io/latest/", "_blank");
 </script>
+
