@@ -1,7 +1,7 @@
 # Imaging Data Curation & BIDS Conversion
 
 ## BIDS Conversion
-DICOM images are converted using a [custom version](https://github.com/rordenlab/dcm2niix/tree/c5caaa9f858b704b61d3ff4a7989282922dd712e) of the [dcm2niix](https://github.com/rordenlab/dcm2niix) tool customized for HBCD. The resulting data structure is as follows. Below we will expand on the file contents of each modality folder within the session folder. 
+With the exception of [MRS](#mr-spectroscopy), raw image files are converted to BIDS standard formatting using an [HBCD-customized version](https://github.com/rordenlab/dcm2niix/tree/c5caaa9f858b704b61d3ff4a7989282922dd712e) of the [dcm2niix](https://github.com/rordenlab/dcm2niix) tool. The resulting data structure relevant to imaging data is as follows. Below we expand on the file contents of each modality folder within the session folder: 
 
 ```
 assembly_bids/ 
@@ -23,6 +23,7 @@ assembly_bids/
 Anatomical files include T1- and T2-weighted MRI images, MRS localizer files (`acq-mrsLocAx` and `acq-mrsLocCor` indicate axial and coronal localizers, respectively), and Quantitative MRI QALAS files:
 ```
 ...
+|   |__ ses-<label>/
 |       |__ anat/
 |       |   |__ sub-<label>_ses-<label>_run-<label>_T1w.nii.gz 
 |       |   |__ sub-<label>_ses-<label>_run-<label>_T1w.json
@@ -35,9 +36,10 @@ Anatomical files include T1- and T2-weighted MRI images, MRS localizer files (`a
 ```
 
 ### Diffusion
-Diffusion files include dwi acquired in AP and PA directions:
+Diffusion files include DWI images acquired in AP (`dir-AP`) and PA (`dir-PA`) phase encoding directions:
 ```
 ...
+|   |__ ses-<label>/
 |       |__ dwi/
 |       |   |__ sub-<label>_ses-<label>_dir-AP_run-<label>_dwi.nii.gz
 |       |   |__ sub-<label>_ses-<label>_dir-AP_run-<label>_dwi.json
@@ -46,9 +48,10 @@ Diffusion files include dwi acquired in AP and PA directions:
 ```
 
 ### Functional & EPI Fieldmaps
-Functional files include BOLD functional runs under `func/` and EPI fieldmaps acquired in AP and PA directions under `fmap/`:
+Functional files include BOLD functional runs under `func/` and EPI fieldmaps acquired acquired in AP (`dir-AP`) and PA (`dir-PA`) phase encoding directions under `fmap/`:
 ```
 ...
+|   |__ ses-<label>/
 |       |__ fmap/
 |       |   |__ sub-<label>_ses-<label>_dir-AP_run-<label>_epi.nii.gz
 |       |   |__ sub-<label>_ses-<label>_dir-AP_run-<label>_epi.json
@@ -60,19 +63,25 @@ Functional files include BOLD functional runs under `func/` and EPI fieldmaps ac
 |       |   |__ sub-<label>_ses-<label>_task-rest_dir-PA_run-<label>_bold.json
 ```
 
-### B1 Fieldmaps
-Siemens, GE, and Philips will include additional files under `fmap/` due to acquisition of B1 fieldmaps, which were converted following the BIDS specification for quantitative MRI (see BIDS specific notes for [TB1TFL and TB1RFM](https://bids-specification.readthedocs.io/en/stable/appendices/qmri.html#tb1tfl-and-tb1rfm-specific-notes) and [TB1AFI](https://bids-specification.readthedocs.io/en/stable/appendices/qmri.html#tb1afi-specific-notes)). The Siemens label `acq-<anat/fmap>` denotes the anatomical (like) image and scaled flip angle map and the GE and Philips label `acq-tr<1/2>` denotes the first and second TR image.
+### Additional B1 Fieldmaps for Siemens, GE, and Philips
+Siemens, GE, and Philips will include additional files under `fmap/` due to acquisition of B1 fieldmaps, which were converted following the BIDS specification for quantitative MRI (see BIDS specific notes for [TB1TFL and TB1RFM](https://bids-specification.readthedocs.io/en/stable/appendices/qmri.html#tb1tfl-and-tb1rfm-specific-notes) and [TB1AFI](https://bids-specification.readthedocs.io/en/stable/appendices/qmri.html#tb1afi-specific-notes)). 
+
+**Siemens** (`acq-<anat/fmap>` denotes the anatomical (like) image and scaled flip angle map):
 ```
 ...
 |   |__ ses-<label>/
 |       |__ fmap/
-|           |
-|     SIEMENS ONLY:
 |           |__ sub-<label>_ses-<label>_acq-anat_run-<label>_TB1TFL.nii.gz
 |           |__ sub-<label>_ses-<label>_acq-anat_run-<label>_TB1TFL.json
 |           |__ sub-<label>_ses-<label>_acq-fmap_run-<label>_TB1TFL.nii.gz
 |           |__ sub-<label>_ses-<label>_acq-fmap_run-<label>_TB1TFL.json
-|           |
+```
+<br>
+**GE and Philips** (`acq-tr<1/2>` denotes the first and second TR image):
+```
+...
+|   |__ ses-<label>/
+|       |__ fmap/
 |     GE/PHILIPS ONLY:
 |           |__ sub-<label>_ses-<label>_acq-tr1_run-<label>_TB1AFI.nii.gz 
 |           |__ sub-<label>_ses-<label>_acq-tr1_run-<label>_TB1AFI.json 
@@ -81,7 +90,7 @@ Siemens, GE, and Philips will include additional files under `fmap/` due to acqu
 ```
 
 ### MR Spectroscopy
-For MRS, vendor-specific raw data formats (Siemens .dat; Philips data/list; GE P-file) were converted to BIDS using [spec2nii v0.7.0](https://github.com/wtclarke/spec2nii). Output files include metabolite and water reference (`*_<svs/ref>.nii.gz`) data aqcuired via short-echo-time (TE = 35 ms) and HERCULES (spectral-edited, TE = 80 ms) (`acq-<shortTE/hercules>`). The JSON sidecar files include the dimensions of the NIfTI-MRS data array, holding different coil elements in dimension 5 and different transients in dimension 6.
+For MRS, vendor-specific raw data formats (Siemens `.dat`; Philips data/list; GE P-file) were converted to BIDS using [spec2nii v0.7.0](https://github.com/wtclarke/spec2nii). Output files include metabolite and water reference (`*_<svs/ref>.nii.gz`) data aqcuired via short-echo-time (TE = 35 ms) and HERCULES (spectral-edited, TE = 80 ms) (`acq-<shortTE/hercules>`). The JSON sidecar files include the dimensions of the NIfTI-MRS data array, holding different coil elements in dimension 5 and different transients in dimension 6.
 ```
 ...
 |       |__ mrs/
@@ -123,12 +132,13 @@ Depending on the scanner manufacturer, <i>dcm2niix</i> conversion for QALAS prod
 <br>
 <br>
 
-1.  <i>T2Prep</i> field of <i>inv-0</i> QALAS file hard-coded to the following for the indicated manufactuer: 0.10 (Siemens), 0.09 (GE), and 0.10 (Philips)
+1.  <i>T2Prep</i> field of <i>inv-0</i> QALAS file hard-coded to 0.10 (Siemens), 0.09 (GE), and 0.10 (Philips)
 
 <br>
 <br>
 
-2.  <i>InversionTime</i> values (sec) for QALAS files hard-coded as follows for each manufacturer:</b>
+<p>2.  <i>InversionTime</i> values (sec) for QALAS files hard-coded as follows for each manufacturer:</b></p>
+
 <table dir="ltr" border="1" cellspacing="0" cellpadding="0" data-sheets-root="1" data-sheets-baot="1"><colgroup><col width="72" /><col width="59" /><col width="70" /><col width="68" /></colgroup>
 <tbody>
 <tr>
