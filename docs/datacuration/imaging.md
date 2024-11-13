@@ -20,6 +20,7 @@ assembly_bids/
 ```
 
 ### Anatomical
+Anatomical files include T1- and T2-weighted MRI images, MRS localizer files (`acq-mrsLocAx` and `acq-mrsLocCor` indicate axial and coronal localizers, respectively), and Quantitative MRI QALAS files:
 ```
 ...
 |       |__ anat/
@@ -32,9 +33,9 @@ assembly_bids/
 |       |   |__ sub-<label>_ses-<label>_run-<label>_inv-<label>_QALAS.nii.gz
 |       |   |__ sub-<label>_ses-<label>_run-<label>_inv-<label>_QALAS.json
 ```
-Anatomical files include T1- and T2-weighted MRI images, MRS localizer files (`acq-mrsLocAx` and `acq-mrsLocCor` indicate axial and coronal localizers, respectively), and Quantitative MRI QALAS files.
 
 ### Diffusion
+Diffusion files include dwi acquired in AP and PA directions:
 ```
 ...
 |       |__ dwi/
@@ -45,6 +46,7 @@ Anatomical files include T1- and T2-weighted MRI images, MRS localizer files (`a
 ```
 
 ### Functional & EPI Fieldmaps
+Functional files include BOLD functional runs under `func/` and EPI fieldmaps acquired in AP and PA directions under `fmap/`:
 ```
 ...
 |       |__ fmap/
@@ -82,7 +84,6 @@ Siemens, GE, and Philips will include additional files under `fmap/` due to acqu
 For MRS, vendor-specific raw data formats (Siemens .dat; Philips data/list; GE P-file) were converted to BIDS using [spec2nii v0.7.0](https://github.com/wtclarke/spec2nii). Output files include metabolite and water reference (`*_<svs/ref>.nii.gz`) data aqcuired via short-echo-time (TE = 35 ms) and HERCULES (spectral-edited, TE = 80 ms) (`acq-<shortTE/hercules>`). The JSON sidecar files include the dimensions of the NIfTI-MRS data array, holding different coil elements in dimension 5 and different transients in dimension 6.
 ```
 ...
-|   |__ ses-<label>/
 |       |__ mrs/
 |       |   |__ sub-<label>_ses-<label>_acq-shortTE_run-<label>_svs.nii.gz
 |       |   |__ sub-<label>_ses-<label>_acq-shortTE_run-<label>_svs.json
@@ -117,9 +118,17 @@ In some cases, <i>dcm2niix</i> conversion led to missing or incorrectly configur
 
 <details>
 <summary><b>Quantitative MRI</b></summary><br>
-Depending on the scanner manufacturer, <i>dcm2niix</i> conversion for QALAS produced either five 3D NIfTI files or a single 4D NIfTI file with five volumes (as well as missing JSON header information). To standardize the output, all <i>dcm2niix</i>-derived QALAS series were converted into five separate NIfTI files, each corresponding to a different inversion time (labeled using the <i>inv-&lt;label&gt;</i> BIDS entity). The associated JSON sidecar was then updated with the following modifications:
+Depending on the scanner manufacturer, <i>dcm2niix</i> conversion for QALAS produced either five 3D NIfTI files or a single 4D NIfTI file with five volumes (as well as missing JSON header information). To standardize the output, all <i>dcm2niix</i>-derived QALAS series were converted into five separate NIfTI files, each corresponding to a different inversion time (labeled using the <i>inv-&lt;label&gt;</i> BIDS entity). The associated JSON sidecar was then updated with the following:
 
-Hard-coded InversionTime values (sec) for QALAS files of each manufacturer:
+<br>
+<br>
+
+1.  <i>T2Prep</i> field of <i>inv-0</i> QALAS file hard-coded to the following for the indicated manufactuer: 0.10 (Siemens), 0.09 (GE), and 0.10 (Philips)
+
+<br>
+<br>
+
+2.  <i>InversionTime</i> values (sec) for QALAS files hard-coded as follows for each manufacturer:</b>
 <table dir="ltr" border="1" cellspacing="0" cellpadding="0" data-sheets-root="1" data-sheets-baot="1"><colgroup><col width="72" /><col width="59" /><col width="70" /><col width="68" /></colgroup>
 <tbody>
 <tr>
@@ -160,5 +169,4 @@ Hard-coded InversionTime values (sec) for QALAS files of each manufacturer:
 </tr>
 </tbody>
 </table>
-
 </details><br>
