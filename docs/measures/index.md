@@ -2,7 +2,7 @@
 
 In this section we provide a brief overview of each data measure provided in the data release, including, where applicable, details of implementation and data collection, scoring procedures, quality control procedures and known issues, and references.
 
-For measures that include surveys, all surveys were translated to Spanish for HBCD by BURG. The visits where measures are administered are noted for each section. The corresponding ages of the infant/child for each visit are:
+For measures that include surveys, all surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). The visits where measures are administered are noted for each section. The corresponding ages of the infant/child for each visit are:
 >>>
 Visit 1 (V01): Prenatal <br>
 Visit 2 (V02): 0-1 months <br>
