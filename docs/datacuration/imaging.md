@@ -1,5 +1,4 @@
 # Imaging Data Curation & BIDS Conversion
-
 ## BIDS Conversion
 With the exception of [MRS](#mr-spectroscopy), raw image files are converted to BIDS standard formatting using an [HBCD-customized version](https://github.com/rordenlab/dcm2niix/tree/c5caaa9f858b704b61d3ff4a7989282922dd712e) of the [dcm2niix](https://github.com/rordenlab/dcm2niix) tool. The resulting data structure relevant to imaging data is as follows. Below we expand on the file contents of each modality folder within the session folder: 
 
@@ -48,7 +47,7 @@ Diffusion files include DWI images acquired in AP (`dir-AP`) and PA (`dir-PA`) p
 ```
 
 ### Functional & EPI Fieldmaps
-Functional files include BOLD functional runs under `func/` and EPI fieldmaps acquired acquired in AP (`dir-AP`) and PA (`dir-PA`) phase encoding directions under `fmap/`:
+Functional files include BOLD functional resting state images under `func/` and EPI fieldmaps acquired acquired in AP (`dir-AP`) and PA (`dir-PA`) phase encoding directions under `fmap/`:
 ```
 ...
 |   |__ ses-<label>/
@@ -139,44 +138,47 @@ Depending on the scanner manufacturer, <i>dcm2niix</i> conversion for QALAS prod
 
 <p>2.  <i>InversionTime</i> values (sec) for QALAS files hard-coded as follows for each manufacturer:</b></p>
 
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0" data-sheets-root="1" data-sheets-baot="1"><colgroup><col width="72" /><col width="59" /><col width="70" /><col width="68" /></colgroup>
-<tbody>
-<tr>
-<th>QALAS file</th>
-<th>Siemens</th>
-<th>GE</th>
-<th>Philips</th>
-</tr>
-<tr>
-<td>inv-0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-</tr>
-<tr>
-<td>inv-1</td>
-<td>0.1</td>
-<td>0.119300</td>
-<td>0.115000</td>
-</tr>
-<tr>
-<td>inv-2</td>
-<td>1</td>
-<td>1.0191834</td>
-<td>1.010522</td>
-</tr>
-<tr>
-<td>inv-3</td>
-<td>1.9</td>
-<td>1.919068</td>
-<td>1.906045</td>
-</tr>
-<tr>
-<td>inv-4</td>
-<td>2.8</td>
-<td>2.818952</td>
-<td>2.801567</td>
-</tr>
-</tbody>
+<table>
+  <tr>
+  <th width="100">QALAS file</th>
+  <th width="100">Siemens</th>
+  <th width="100">GE</th>
+  <th>Philips</th>
+  </tr>
+  <tbody>
+    <tr>
+    <td>inv-0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    </tr>
+    <tr>
+    <td>inv-1</td>
+    <td>0.1</td>
+    <td>0.119300</td>
+    <td>0.115000</td>
+    </tr>
+    <tr>
+    <td>inv-2</td>
+    <td>1</td>
+    <td>1.0191834</td>
+    <td>1.010522</td>
+    </tr>
+    <tr>
+    <td>inv-3</td>
+    <td>1.9</td>
+    <td>1.919068</td>
+    <td>1.906045</td>
+    </tr>
+    <tr>
+    <td>inv-4</td>
+    <td>2.8</td>
+    <td>2.818952</td>
+    <td>2.801567</td>
+    </tr>
+  </tbody>
 </table>
 </details><br>
+
+
+
