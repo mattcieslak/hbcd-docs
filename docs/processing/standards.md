@@ -42,4 +42,4 @@ In addition to basic version control on GitHub, developers should tag new releas
 <input type="checkbox" [name] [value] [checked] [disabled]> Provide / generate / point to test data**<br>
 <input type="checkbox" [name] [value] [checked] [disabled]> Provide instructions for users to run tests and evaluate for correct behavior
 
-**Standards for testing may not be applicable for all HBCD processing pipelines. For example, depending on how specialized a given application is for HBCD, openly sharing representative test data for the workflow may not be feasible.
+<i>**Standards for testing may not be applicable for all HBCD processing pipelines. For example, depending on how specialized a given application is for HBCD, openly sharing representative test data for the workflow may not be feasible.</i>
