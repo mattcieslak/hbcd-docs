@@ -29,35 +29,3 @@ In future publications, authors should note that this measure is a combination o
 
 ## Quality Control & Known Issues 
 Response distributions were reviewed for outliers and no common issues were identified. No potential issues were flagged by subject matter experts.
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>REFERENCES</title>
-  <style>
-    .collapsible {
-      background-color: #7cceb399;
-      padding: 10px;
-      margin: 10px 0;
-      border-radius: 5px;
-    }
-    details {
-      background-color: #7cceb366;
-      padding: 10px;
-      margin: 10px 1;
-      border-radius: 5px;
-    }
-    summary {
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-  </style>
-</html>
