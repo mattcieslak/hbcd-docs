@@ -88,7 +88,7 @@ nav:
           - Beta Release 1/V1.0: changelog/versions/v1.0.md
   - Internal Documentation (temp):
         - Overview: internal/overview.md
-        - Reporting Issues: internal/reportissues.md
+        - Reporting Issues (Internal): internal/reportissues.md
         - Review Beta Data Release Site: internal/beta_release_site_review.md
 
   
