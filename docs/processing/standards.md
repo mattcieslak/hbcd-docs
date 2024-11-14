@@ -1,9 +1,9 @@
 # Processing and Analytic Software Standards
-HBCD pipeline developers and Workgroups, along with community developers, wishing to include their tools as part of the HBCD release environment are provided with the followng guidelines to ensure standardization of HBCD software and documentation. These guidelines were developed based on principles and utilities developed by [NMIND](https://www.nmind.org/about) to foster reproducibility and standardization of tools within the field of neuroimaging ([Kiar et. al 2023](https://www.nature.com/articles/s41562-023-01647-0)). This includes the [NMIND Coding Standards Checklist](https://www.nmind.org/standards-checklist/), a rating system to assess the quality of documentation, infrastructure, and testing ability of neuroimaging software. 
+HBCD pipeline developers, Workgroups, and community contributors who wish to integrate their tools into the HBCD release environment are expected to follow these guidelines to ensure standardization of HBCD software and documentation. These guidelines are rooted in principles and utilities developed by [NMIND](https://www.nmind.org/about) aimed at promoting reproducibility and standardization in neuroimaging tools ([Kiar et. al 2023](https://www.nature.com/articles/s41562-023-01647-0)). Among these is the [NMIND Coding Standards Checklist](https://www.nmind.org/standards-checklist/), a comprehensive framework for evaluating the quality of a tool's documentation, infrastructure, and testing capabilities.
 
-Developers need to complete the checklist and open a pull request in the [proceedings repository](https://github.com/nmind/proceedings) (with the exported JSON associated with the tool) for external review. Issues or feature requests for this utility can be posted as an issue to the NMIND [GitHub repository](https://github.com/nmind/standards-checklist)! 
+To participate, developers must complete the checklist and submit a pull request to the [proceedings repository](https://github.com/nmind/proceedings), including the tool's exported JSON file for external review. Any issues or feature requests related to this utility should be reported as issues in the NMIND [GitHub repository](https://github.com/nmind/standards-checklist). 
 
-At minimum, equivalent standards to the Bronze badge in the rating system are required. Items not relevant can be ignored/circumvented. For example, providing software dependencies is not as critical because all HBCD software is required to be containerized. 
+At a minimum, tools must meet the standards equivalent to the Bronze badge in the rating system. Developers may bypass checklist items that are not applicable—for example, listing software dependencies is less critical since all HBCD software must be containerized.
 
 ## Documentation 
 ### NMIND Documentation Checklist
@@ -18,9 +18,7 @@ At minimum, equivalent standards to the Bronze badge in the rating system are re
 <input type="checkbox" [name] [value] [checked] [disabled]>  Dependencies listed (i.e., external and within-language requirements)<br>
 
 ### Webpage For Documentation
-In addition to the general guidelines provided by the checklist, each pipeline is required to have living documentation made available via a web page using utilities such as [ReadtheDocs](https://about.readthedocs.com/?ref=readthedocs.com), [GitHub Pages](https://pages.github.com/?(null)), [Wiki](https://support.microsoft.com/en-us/office/create-and-edit-a-wiki-dc64f9c2-d1a2-44b5-ac59-b9d535551a32), etc. This allows for information to stay up-to-date as compared to a publication and also is easier to navigate than a simple GitHub README given the depth of information typically required for image processing pipelines. 
-
-We recommended using the [fMRIPrep ReadtheDocs](https://fmriprep.org/en/stable/) as a guide for overall organization and what level of detail each section should ideally include. 
+In addition to the general guidelines outlined in the checklist, each pipeline must maintain living documentation accessible through a dedicated webpage. This ensures the information remains up-to-date, offering a more dynamic and easily navigable resource compared to static publications or standard GitHub README files. Given the complexity and depth of information typically required for image processing pipelines, a webpage provides a more effective platform for organizing and presenting the documentation. Developers can refer to the [fMRIPrep ReadtheDocs](https://fmriprep.org/en/stable/) as a guide for overall organization and what level of detail each section should ideally include. 
 
 ## Infrastructure
 ### NMIND Infrastructure Checklist
@@ -33,12 +31,10 @@ We recommended using the [fMRIPrep ReadtheDocs](https://fmriprep.org/en/stable/)
 <input type="checkbox" [name] [value] [checked] [disabled]> All documented installation instructions can be successfully followed<br>
 
 ### Licensing and Obtaining a DOI
-All included software require a [license](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) and also a DOI for software publication. Internal pipelines to HBCD might be leveraged for release data prior to publication. For pipelines without an associated scientific article yet that can be cited, developers obtained a DOI by self-publishing on [Zenodo](https://cdnis-brain.readthedocs.io/zenodo/). Software provided for HBCD releases from non-HBCD PIs will be required to be peer reviewed and published along with the DOI. All software is required to run on BIDS input data or currently available HBCD derivatives as provided in the most current HBCD release. 
+All included software must have a [license](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) and a DOI for publication as internal HBCD pipelines may be used for data releases prior to publication. For pipelines without a citable scientific article, developers can obtain a DOI by self-publishing on [Zenodo](https://cdnis-brain.readthedocs.io/zenodo/). Software from non-HBCD PIs included in HBCD releases must undergo NMIND peer review and be published with a DOI. Additionally, all software must be compatible with BIDS input data or the latest HBCD derivatives provided in the current release. The pipeline webpage should include a description of how to properly cite the pipeline (see [example](https://fmriprep.org/en/stable/#citation)).
 
 ### Versioning and New Release Policies
-Beyond basic version control in GitHub, developers are instructed to tag new releases that are associated with specific versions of the repository whenever a large update (or large number of updates) has been made. The new tagged release should also include a change log that carefully documents the differences between the new and prior version.
-
-Developers may also wish to decide on a standard release cycle as well as special cases/parameters which warrant a new release (e.g. a serious bug fix that needs to be implemented in version ASAP). Ideally there would be documentation around which versions are expected to receive long-term support vs versions that will be deprecated and the timeline for deprecation.
+In addition to basic version control on GitHub, developers should tag new releases when significant updates or multiple changes are made. Each tagged release must include a changelog detailing the differences from the previous version. Developers are encouraged to establish a standard release cycle and define criteria for special releases, such as urgent bug fixes. Documentation should specify which versions will receive long-term support, which will be deprecated, and the timeline for deprecation.
 
 ## Testing Ability
 
@@ -46,4 +42,4 @@ Developers may also wish to decide on a standard release cycle as well as specia
 <input type="checkbox" [name] [value] [checked] [disabled]> Provide / generate / point to test data**<br>
 <input type="checkbox" [name] [value] [checked] [disabled]> Provide instructions for users to run tests and evaluate for correct behavior
 
-**Note that standards for testing ability may not be relevant to or high-priority for all processing pipelines used by HBCD. Additionally, depending on how specialized a given application is for HBCD, making test data openly available that is representative of the workflow is likely not possible. 
+**Standards for testing may not be applicable for all HBCD processing pipelines. For example, depending on how specialized a given application is for HBCD, openly sharing representative test data for the workflow may not be feasible.
