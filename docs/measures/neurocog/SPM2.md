@@ -1,6 +1,6 @@
 # SPM-2
-**Full Name**: Sensory Processing Measure – Infant/Toddler
-**Acronym/Brief Name**: SPM-2
+**Full Name**: Sensory Processing Measure – Infant/Toddler    
+**Acronym/Brief Name**: SPM-2   
 **Construct**: Sensory processing
 
 The SPM-2 is designed to assess whether a child’s nervous system integrates visual, auditory, tactile, olfactory, gustatory, vestibular, and proprioceptive sensory information from the body and environment efficiently and effectively.  Effective sensory processing contributes to the development of emotion regulation, motor skills, and social relatedness. Difficulties in the integration of sensory information can hinder the development of these skills and higher-level functions such as learning to plan and organize behaviors. The sensory systems serve as foundation for increasingly more complex behaviors and are critical to development.

@@ -34,74 +34,74 @@ nav:
   - RESPONSIBLE DATA USE: resp_data_use.md
   - DATA DICTIONARY EXPLORER: datadictionary.md
   - Release Notes:
-      - "Data Measures & Quality Control":
-          - Overview: measures/index.md
-          - Demographics: measures/demographics.md
-          - "Social & Environmental Determinants":
-              - Neighborhood Safety: measures/socenv_determinants/neighborhood_safety.md
-              - Discrimination: measures/socenv_determinants/discrimination.md
-              - PACES: measures/socenv_determinants/PACES.md
-              - PROMIS: measures/socenv_determinants/PROMIS.md
-              - Baby's First Years: measures/socenv_determinants/bfy.md
-              - eHITS: measures/socenv_determinants/eHITS.md
-          - "Neurocognition & Language": 
-              - MLDS: measures/neurocog/MLDS.md    
-              - SPM-2: measures/neurocog/SPM2.md         
-          - Electroencephalogram (EEG): 
-              - Overview: measures/eeg/overview.md
-              - Video Resting State: measures/eeg/video_rs.md
-              - Faces Task: measures/eeg/faces_task.md
-              - Auditory Mismatch Negativity Task: measures/eeg/aud_mm.md
-              - Visual Evoked Potential Task: measures/eeg/vis_ep_task.md
-          - Magnetic Resonance Imaging (MRI):
-              - Overview: measures/mri/overview.md
-              - Structural MRI: measures/mri/smri.md
-              - Functional MRI: measures/mri/fmri.md
-              - Diffusion MRI: measures/mri/dmri.md
-              - Quantitative MRI: measures/mri/qalas.md
-              - Magnetic Resonance Spectroscopy: measures/mri/mrs.md
-          - "Novel Technologies & Wearable Sensors": 
-              - Wearable Sensors: measures/sensors/wearable_sensors.md
-              - Infant Sensor Questionnaire: measures/sensors/sensor_questionnaire.md
-          - Physical Health: measures/physicalhealth.md
-          - "Behavior & Caregiver-Child Interaction": 
-              - IBQ-R (VSF)+BI: measures/beh_CG_interaction/IBQ-R.md
-              - MAPS-TL: measures/beh_CG_interaction/MAPS-TL.md
-              - ecPROMIS: measures/beh_CG_interaction/ePROMIS.md
-          - "Pregnancy & Exposure": 
-              - Pregnancy Health Measures (7): measures/pregexp/preghealth_all.md
-              - Infant Health: measures/pregexp/infanthealth.md
-              - "Personal & Family Psychiatric History": measures/pregexp/psych_history.md
-              - Substance Use Measures (4): measures/pregexp/substanceuse_all.md
-              - Mental Health: measures/pregexp/mentalhealth.md
-              - DSM5 PTSD/short stress scale: measures/pregexp/NSESSS.md
-              - EPDS: measures/pregexp/EPDS.md
-      - "MRI Protocols": 
-          - Overview: mriprotocols/overview.md
-          - Siemens: mriprotocols/siemens.md
-          - GE: mriprotocols/ge.md
-          - Philips: mriprotocols/philips.md
-      - BIDS Dataset:
-          - Overview: datacuration/bids.md
-          - Imaging: datacuration/imaging.md
-          - EEG: datacuration/eeg.md
-          - Motion Data: datacuration/motion.md
-          - Phenotypes: datacuration/phenotypes.md
-      - Data Processing: 
-          - Pipelines & Processing: processing/pipelines.md
-          - Pipeline Software Standards: processing/standards.md
-  - Change Log: 
-      - Pending & Upcoming Updates: changelog/pending.md
-      - Version History: 
-          - Beta Release 5/V1.4: changelog/versions/v1.4.md
-          - Beta Release 4/V1.3: changelog/versions/v1.3.md
-          - Beta Release 3/V1.2: changelog/versions/v1.2.md
-          - Beta Release 2/V1.1: changelog/versions/v1.1.md
-          - Beta Release 1/V1.0: changelog/versions/v1.0.md
-  - Internal Documentation (temp):
-        - Overview: internal/overview.md
-        - WG Report Issues: internal/reportissues.md
-        - Review Beta Data Release Site: internal/beta_release_site_review.md
+    - "Data Measures & Quality Control":
+        - Overview: measures/index.md
+        - "Behavior & Caregiver-Child Interaction": 
+            - ecPROMIS: measures/beh_CG_interaction/ePROMIS.md  
+            - IBQ-R (VSF)+BI: measures/beh_CG_interaction/IBQ-R.md
+            - MAPS-TL: measures/beh_CG_interaction/MAPS-TL.md        
+        - Demographics: measures/demographics.md
+        - Electroencephalogram (EEG): 
+            - Overview: measures/eeg/overview.md
+            - Faces Task: measures/eeg/faces_task.md
+            - Auditory Mismatch Negativity Task: measures/eeg/aud_mm.md              
+            - Video Resting State: measures/eeg/video_rs.md
+            - Visual Evoked Potential Task: measures/eeg/vis_ep_task.md
+        - Magnetic Resonance Imaging (MRI):
+            - Overview: measures/mri/overview.md
+            - Structural MRI: measures/mri/smri.md
+            - Functional MRI: measures/mri/fmri.md
+            - Diffusion MRI: measures/mri/dmri.md
+            - Quantitative MRI: measures/mri/qalas.md
+            - Magnetic Resonance Spectroscopy: measures/mri/mrs.md  
+        - "Neurocognition & Language": 
+            - MLDS: measures/neurocog/MLDS.md    
+            - SPM-2: measures/neurocog/SPM2.md      
+        - "Novel Technologies & Wearable Sensors": 
+            - Wearable Sensors: measures/sensors/wearable_sensors.md
+            - Infant Sensor Questionnaire: measures/sensors/sensor_questionnaire.md                          
+        - Physical Health: measures/physicalhealth.md
+        - "Pregnancy & Exposure": 
+            - "Personal & Family Psychiatric History": measures/pregexp/psych_history.md
+            - Pregnancy Health Measures: measures/pregexp/preghealth_all.md
+            - Infant Health-V2: measures/pregexp/infanthealth.md
+            - Substance Use Measures: measures/pregexp/substanceuse_all.md
+            - Mental Health (APA 1/2): measures/pregexp/mentalhealth.md
+            - DSM5 PTSD/Acute Stress: measures/pregexp/NSESSS.md
+            - Postnatal Depression (EPDS): measures/pregexp/EPDS.md
+        - "Social & Environmental Determinants":
+            - Baby's First Years: measures/socenv_determinants/bfy.md
+            - Discrimination: measures/socenv_determinants/discrimination.md 
+            - Intimate Partner Violence (eHITS): measures/socenv_determinants/eHITS.md               
+            - Neighborhood Safety: measures/socenv_determinants/neighborhood_safety.md  
+            - PROMIS: measures/socenv_determinants/PROMIS.md
+            - PACES: measures/socenv_determinants/PACES.md
+    - "MRI Protocols": 
+        - Overview: mriprotocols/overview.md
+        - Siemens: mriprotocols/siemens.md
+        - GE: mriprotocols/ge.md
+        - Philips: mriprotocols/philips.md
+    - BIDS Dataset:
+        - Overview: datacuration/bids.md
+        - Imaging: datacuration/imaging.md
+        - EEG: datacuration/eeg.md
+        - Motion Data: datacuration/motion.md
+        - Phenotypes: datacuration/phenotypes.md
+    - Data Processing: 
+        - Pipelines & Processing: processing/pipelines.md
+        - Pipeline Software Standards: processing/standards.md
+    - Change Log: 
+        - Pending & Upcoming Updates: changelog/pending.md
+        - Version History: 
+            - Beta Release 5/V1.4: changelog/versions/v1.4.md
+            - Beta Release 4/V1.3: changelog/versions/v1.3.md
+            - Beta Release 3/V1.2: changelog/versions/v1.2.md
+            - Beta Release 2/V1.1: changelog/versions/v1.1.md
+            - Beta Release 1/V1.0: changelog/versions/v1.0.md
+    - Internal Documentation (temp):
+            - Overview: internal/overview.md
+            - WG Report Issues: internal/reportissues.md
+            - Review Beta Data Release Site: internal/beta_release_site_review.md
 
   
 
