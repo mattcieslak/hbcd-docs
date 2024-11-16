@@ -13,120 +13,9 @@
 <strong>Visits</strong>: V01, V02 <br />
 <strong>Estimated length of time for completion</strong>: 5 minutes</p>
 </details>
+<br>
 
-## Quality Control & Known Issues
-QC procedures involved examining assay ranges and categorical versus continuous measures. No common issues were identified from QC.
-
-One potential issue flagged by subject matter experts is that the nail processing workflow was re-developed and implemented on July 1, 2024. The revised workflow considers the amounts of specimen available and offers the opportunity for additional confirmation tests in case of low sample quantity. It uses the remnants of the ELISA extract for confirmation saving an additional 20 mg of nail sample. Specimens are sorted by weight. An additional 20 mg of specimen is required for each LCMSMS confirmation, and if additional specimen is not available, the remnant of ELISA extract is used for confirmation (Figure 1). 
-
-#### Figure 1. Schematic for nail processing
-<img src="Fig1_nails.png" width="100%" height="auto">
-
-- Specimens that contain at least 20 mg of nail are screened using ELISA with subsequent LCMSMS confirmation for presumptive positives. An additional 20 mg of specimen is required for each LCMSMS confirmation, and if additional specimen is not available, the remnant of ELISA extract is used for confirmation.
-- Specimens containing between 10 and 20 mg of nail go directly to LCMSMS for EtG, which is the only test conducted. 
-- Specimens containing 30 mg or more sample, both 14-panel test and EtG are conducted.
-- Nail weights and test ordered (custom 14 panel test; EtG only; cancelled) are noted in data dictionary (Table 1).
-
-<details>
-  <summary>Table 1. Sample data dictionary nail assays</summary>
-  <br>
-  <table class="docutils">
-    <thead>
-      <tr>
-		<th>Variable</th>
-		<th>Description</th>
-		<th>Form</th>
-		<th>Options</th>
-	   </tr>
-	</thead>
-	<tbody>
-	<tr>
-		<td>Specimen_ID</td>
-		<td>Specimen ID</td>
-		<td>String</td>
-		<td>String</td>
-	</tr>
-	<tr>
-		<td>PSCID</td>
-		<td>Participant ID</td>
-		<td>String</td>
-		<td>String</td>
-	</tr>
-	<tr>
-		<td>Visit_time_point</td>
-		<td>Visit time point</td>
-		<td>Categorical</td>
-		<td>1: visit 1<br />2: visit 2</td>
-	</tr>
-	<tr>
-		<td>Nail_weight</td>
-		<td style="width: 180px; word-wrap: break-word; white-space: normal;">Weight of nails available to assay</td>
-		<td>Continuous</td>
-		<td>nail weight (grams)</td>
-	</tr>
-	<tr>
-		<td>Nail_type</td>
-		<td>Type of nails assayed</td>
-		<td>Categorical</td>
-		<td>1: fingernail<br />2: toenail<br />3: both<br />4: unknown</td>
-	</tr>
-	<tr>
-		<td>test_ordered_n</td>
-		<td>Test ordered</td>
-		<td>Categorical</td>
-		<td style="width: 180px; word-wrap: break-word; white-space: normal;">1: custom 14 panel test<br />2: Only enough to run EtG<br />3: Canceled because we could not run anything (no results generated)</td>
-	</tr>
-	<tr>
-		<td>c_any_specimen_n</td>
-		<td style="width: 180px; word-wrap: break-word; white-space: normal;">Specimen level result (positive for any analyte in confirmatory tests)</td>
-		<td>Categorical</td>
-		<td>1: positive<br />0: negative<br />3: QNS</td>
-	</tr>
-	<tr>
-		<td>c_any_stim_n</td>
-		<td style="width: 180px; word-wrap: break-word; white-space: normal;">Any stimulants in nails (based on confirmatory results for amphetamine, methamptheamine, MDM, MDA, MDEA)</td>
-		<td>Categorical</td>
-		<td>1: positive<br />0: negative<br />3: QNS</td>
-	</tr>
-	<tr>
-		<td>s_amp_n</td>
-		<td style="width: 180px; word-wrap: break-word; white-space: normal;">Screening test in nails: amphetamine/MDA dual test (amp/mamp)</td>
-		<td>Categorical</td>
-		<td>1: positive<br />0: negative<br />3: QNS</td>
-	</tr>
-	<tr>
-		<td>s_mamp_n</td>
-		<td style="width: 180px; word-wrap: break-word; white-space: normal;">Screening test in nails: methamphetamine/MDMA dual test (amp/mamp)</td>
-		<td>Categorical</td>
-		<td>1: positive<br />0: negative<br />3: QNS</td>
-	</tr>
-	<tr>
-		<td>c_amp_n_cat</td>
-		<td style="width: 180px; word-wrap: break-word; white-space: normal;">Confirmatory test in nails: amphetamine (categorical) (amp/mamp)</td>
-		<td>Categorical</td>
-		<td>1: positive<br />0: negative<br />3: QNS<br />4: screen negative</td>
-	</tr>
-	<tr>
-		<td>c_amp_n</td>
-		<td style="width: 180px; word-wrap: break-word; white-space: normal;">Confirmatory test in nails: amphetamine (amp/mamp)</td>
-		<td>Continuous</td>
-		<td>concentration value; -999</td>
-	</tr>
-</tbody>
-</table>
-</details>
-
-
-## Additional Information
-
-Substances that were tested by USDTL, excluding those cancelled due to insufficient quality or quantity, followed these rules:
-
-- If any substance analyte (e.g. Amphetamine (c_amp_n)) confirmatory test is positive based on predefined thresholds (Table 2), the class-level (c_any_stim_n) and sample-level (c_any_specimen_n) are also positive (value =1). 
-- Otherwise, if all substance analyte confirmatory tests are negative (e.g., c_nic_n and c_ cot_n, values = 0) then class-level (e.g., c_nictotine_u) are negative (value =0). If all classes are negative (value = 0), then sample-level (e.g., c_any_specimen_n) are negative (value = 0). 
-- Finally, if there was not enough sample for any substance analyte confirmatory tests the test is coded quantity not sufficient (QNS; value = 3) and the class-level, and sample-level values are also QNS (value = 3)
-- Continuous variables should be interpreted with caution based on the limits of quantification (LOQs) in Table 2. 
-- All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in Table 3.
-
+Substances that were tested by USDTL, excluding those cancelled due to insufficient quality or quantity, followed these rules: Based on the predefined threshold outlined in **Table 2**, a confirmatory test result for any substance analyte of positive (e.g. Amphetamine (c_amp_n)), negative (e.g. c_nic_n and c_ cot_n, values = 0), and invalid (i.e. not enough sample for any substance analyte confirmatory tests: QNS; value = 3) results in corresponding scores of 1, 0, and 3 for class-level (e.g., c_nictotine_u) and sample-level (c_any_specimen_n) (all classes must be negative [0] for sample-level to be assigned negative [0]). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3**. Continuous variables should be interpreted with caution based on the limits of quantification (LOQs) in **Table 2**.
 
 <details>
   <summary>Table 2. Nail Assay Thresholds </summary>
@@ -694,6 +583,107 @@ Substances that were tested by USDTL, excluding those cancelled due to insuffici
 </table>
 </details>
 
+## Quality Control & Known Issues
+QC procedures involved examining assay ranges and categorical versus continuous measures. No common issues were identified from QC.
+
+One potential issue flagged by subject matter experts is that the nail processing workflow was re-developed and implemented on July 1, 2024. The revised workflow considers the amounts of specimen available and offers the opportunity for additional confirmation tests in case of low sample quantity. It uses the remnants of the ELISA extract for confirmation saving an additional 20 mg of nail sample. Specimens are sorted by weight. An additional 20 mg of specimen is required for each LCMSMS confirmation, and if additional specimen is not available, the remnant of ELISA extract is used for confirmation (Figure 1). 
+
+#### Figure 1. Schematic for nail processing
+<img src="Fig1_nails.png" width="100%" height="auto">
+
+- Specimens that contain at least 20 mg of nail are screened using ELISA with subsequent LCMSMS confirmation for presumptive positives. An additional 20 mg of specimen is required for each LCMSMS confirmation, and if additional specimen is not available, the remnant of ELISA extract is used for confirmation.
+- Specimens containing between 10 and 20 mg of nail go directly to LCMSMS for EtG, which is the only test conducted. 
+- Specimens containing 30 mg or more sample, both 14-panel test and EtG are conducted.
+- Nail weights and test ordered (custom 14 panel test; EtG only; cancelled) are noted in data dictionary (Table 1).
+
+<details>
+  <summary>Table 1. Sample data dictionary nail assays</summary>
+  <br>
+  <table class="docutils">
+    <thead>
+      <tr>
+		<th>Variable</th>
+		<th>Description</th>
+		<th>Form</th>
+		<th>Options</th>
+	   </tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>Specimen_ID</td>
+		<td>Specimen ID</td>
+		<td>String</td>
+		<td>String</td>
+	</tr>
+	<tr>
+		<td>PSCID</td>
+		<td>Participant ID</td>
+		<td>String</td>
+		<td>String</td>
+	</tr>
+	<tr>
+		<td>Visit_time_point</td>
+		<td>Visit time point</td>
+		<td>Categorical</td>
+		<td>1: visit 1<br />2: visit 2</td>
+	</tr>
+	<tr>
+		<td>Nail_weight</td>
+		<td style="width: 180px; word-wrap: break-word; white-space: normal;">Weight of nails available to assay</td>
+		<td>Continuous</td>
+		<td>nail weight (grams)</td>
+	</tr>
+	<tr>
+		<td>Nail_type</td>
+		<td>Type of nails assayed</td>
+		<td>Categorical</td>
+		<td>1: fingernail<br />2: toenail<br />3: both<br />4: unknown</td>
+	</tr>
+	<tr>
+		<td>test_ordered_n</td>
+		<td>Test ordered</td>
+		<td>Categorical</td>
+		<td style="width: 180px; word-wrap: break-word; white-space: normal;">1: custom 14 panel test<br />2: Only enough to run EtG<br />3: Canceled because we could not run anything (no results generated)</td>
+	</tr>
+	<tr>
+		<td>c_any_specimen_n</td>
+		<td style="width: 180px; word-wrap: break-word; white-space: normal;">Specimen level result (positive for any analyte in confirmatory tests)</td>
+		<td>Categorical</td>
+		<td>1: positive<br />0: negative<br />3: QNS</td>
+	</tr>
+	<tr>
+		<td>c_any_stim_n</td>
+		<td style="width: 180px; word-wrap: break-word; white-space: normal;">Any stimulants in nails (based on confirmatory results for amphetamine, methamptheamine, MDM, MDA, MDEA)</td>
+		<td>Categorical</td>
+		<td>1: positive<br />0: negative<br />3: QNS</td>
+	</tr>
+	<tr>
+		<td>s_amp_n</td>
+		<td style="width: 180px; word-wrap: break-word; white-space: normal;">Screening test in nails: amphetamine/MDA dual test (amp/mamp)</td>
+		<td>Categorical</td>
+		<td>1: positive<br />0: negative<br />3: QNS</td>
+	</tr>
+	<tr>
+		<td>s_mamp_n</td>
+		<td style="width: 180px; word-wrap: break-word; white-space: normal;">Screening test in nails: methamphetamine/MDMA dual test (amp/mamp)</td>
+		<td>Categorical</td>
+		<td>1: positive<br />0: negative<br />3: QNS</td>
+	</tr>
+	<tr>
+		<td>c_amp_n_cat</td>
+		<td style="width: 180px; word-wrap: break-word; white-space: normal;">Confirmatory test in nails: amphetamine (categorical) (amp/mamp)</td>
+		<td>Categorical</td>
+		<td>1: positive<br />0: negative<br />3: QNS<br />4: screen negative</td>
+	</tr>
+	<tr>
+		<td>c_amp_n</td>
+		<td style="width: 180px; word-wrap: break-word; white-space: normal;">Confirmatory test in nails: amphetamine (amp/mamp)</td>
+		<td>Continuous</td>
+		<td>concentration value; -999</td>
+	</tr>
+</tbody>
+</table>
+</details>
 
 <details class="collapsible references">
   <summary class="references">References</summary>

@@ -14,7 +14,6 @@
 </details>
 <br>
 
-
 Based on the predefined threshold outlined in **Table 2**, a confirmatory test result for any substance analyte of positive (e.g. Amphetamine (c_amp_u)), negative (e.g., c_ethglu_u and c_ ethsyl_u, values = 0), and invalid results in corresponding scores of 1, 0, and 3 for class-level (c_any_stim_u) and sample-level (c_any_specimen_u) (all classes must be negative [0] for sample-level to be assigned negative [0]). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3** and a sample data dictionary is shown in **Table 4**. Continuous variables should be interpreted with caution based on the limits of quantification (LOQs) in **Table 2**. 
 
 <details>
