@@ -39,7 +39,10 @@ nav:
         - "Behavior & Caregiver-Child Interaction": 
             - ecPROMIS: measures/beh_CG_interaction/ePROMIS.md  
             - IBQ-R (VSF)+BI: measures/beh_CG_interaction/IBQ-R.md
-            - MAPS-TL: measures/beh_CG_interaction/MAPS-TL.md        
+            - MAPS-TL: measures/beh_CG_interaction/MAPS-TL.md    
+        - Biospecimens: 
+            - Nails: measures/biospecimens/nails.md 
+            - Urine: measures/biospecimens/urine.md    
         - Demographics: measures/demographics.md
         - Electroencephalogram (EEG): 
             - Overview: measures/eeg/overview.md
