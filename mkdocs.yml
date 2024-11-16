@@ -41,6 +41,7 @@ nav:
             - IBQ-R (VSF)+BI: measures/beh_CG_interaction/IBQ-R.md
             - MAPS-TL: measures/beh_CG_interaction/MAPS-TL.md    
         - Biospecimens: 
+            - Blood: measures/biospecimens/blood.md
             - Nails: measures/biospecimens/nails.md 
             - Urine: measures/biospecimens/urine.md    
         - Demographics: measures/demographics.md

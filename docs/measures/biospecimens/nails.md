@@ -20,7 +20,7 @@ QC procedures involved examining assay ranges and categorical versus continuous 
 One potential issue flagged by subject matter experts is that the nail processing workflow was re-developed and implemented on July 1, 2024. The revised workflow considers the amounts of specimen available and offers the opportunity for additional confirmation tests in case of low sample quantity. It uses the remnants of the ELISA extract for confirmation saving an additional 20 mg of nail sample. Specimens are sorted by weight. An additional 20 mg of specimen is required for each LCMSMS confirmation, and if additional specimen is not available, the remnant of ELISA extract is used for confirmation (Figure 1). 
 
 #### Figure 1. Schematic for nail processing
-<img src="Fig1_nails.png" width="75%" height="auto">
+<img src="Fig1_nails.png" width="100%" height="auto">
 
 - Specimens that contain at least 20 mg of nail are screened using ELISA with subsequent LCMSMS confirmation for presumptive positives. An additional 20 mg of specimen is required for each LCMSMS confirmation, and if additional specimen is not available, the remnant of ELISA extract is used for confirmation.
 - Specimens containing between 10 and 20 mg of nail go directly to LCMSMS for EtG, which is the only test conducted. 
@@ -474,6 +474,224 @@ Substances that were tested by USDTL, excluding those cancelled due to insuffici
 </tbody>
 </table>
 <i>LOD: limit of detection; LOQ: limit of quantification: Cutoff concentration used to categorize metabolite as positive/negative</i>
+</details>
+
+
+<details>
+  <summary>Table 3. Mapping from Class to Screening Tests and Confirmatory Tests for Nails</summary>
+  <br>
+  <table class="docutils">
+    <thead>
+      <tr>
+		<th>Class</th>
+		<th>Screening test</th>
+		<th>Confirmatory Test<br />(reflexes from positive screening test)/th>
+	   </tr>
+	</thead>
+	<tbody>
+	<tr>
+	<tr>
+		<td colspan="1" rowspan="9">
+			<div>Stimulant <br /> (c_any_stim_n)</div>
+		</td>
+		<td colspan="1" rowspan="5">
+			<div>amp/mamp <br /> (s_amp_n, s_mamp_n)</div>
+		</td>
+		<td>Amphetamine (c_amp_n)</td>
+	</tr>
+	<tr>
+		<td>Methamphetamine (c_meth_n)</td>
+	</tr>
+	<tr>
+		<td>MDMA (c_mdma_n)</td>
+	</tr>
+	<tr>
+		<td>MDA (c_mda_n)</td>
+	</tr>
+	<tr>
+		<td>MDEA (c_mdea_n)</td>
+	</tr>
+	<tr>
+		<td colspan="1" rowspan="4">
+			<div>coc <br /> (s_coc_n)</div>
+		</td>
+		<td>Cocaine (c_coc_n)</td>
+	</tr>
+	<tr>
+		<td>Cocaethylene (c_cocae_n)</td>
+	</tr>
+	<tr>
+		<td>Benzoylecgonine (c_ben_n)</td>
+	</tr>
+	<tr>
+		<td>Norcocaine (c_ncoc_n)</td>
+	</tr>
+	<tr>
+		<td>Cannabinoid<br />(c_any_cannabinoid_n)</td>
+		<td>thc <br /> (s_thc_n)</td>
+		<td>Carboxy-delta-9-THC (c_delta-9-THC_n)</td>
+	</tr>
+	<tr>
+		<td colspan="1" rowspan="5">
+			<div>Barbiturate <br /> (c_any_barb_n)</div>
+		</td>
+		<td colspan="1" rowspan="5">
+			<div>bar <br /> (s_bar_n)</div>
+		</td>
+		<td>Amobarbital (c_amobarb_n)</td>
+	</tr>
+	<tr>
+		<td>Secobarbital (c_secobarb_n)</td>
+	</tr>
+	<tr>
+		<td>Pentobarbital (c_pentobarb_n)</td>
+	</tr>
+	<tr>
+		<td>Phenobarbital (c_phenobarb_n)</td>
+	</tr>
+	<tr>
+		<td>Butalbital (c_butalbital_n)</td>
+	</tr>
+	<tr>
+		<td colspan="1" rowspan="6">
+			<div>Benzodiazepine<br />(c_any_benzo_n)</div>
+		</td>
+		<td colspan="1" rowspan="6">
+			<div>benz <br /> (s_benz_n)</div>
+		</td>
+		<td>Diazepam (c_diaz_n)</td>
+	</tr>
+	<tr>
+		<td>Oxazepam (c_oxaz_n)</td>
+	</tr>
+	<tr>
+		<td>Nordiazepam (c_nord_n)</td>
+	</tr>
+	<tr>
+		<td>Temazepam (c_tema_n)</td>
+	</tr>
+	<tr>
+		<td>Midazolam (c_mida_n)</td>
+	</tr>
+	<tr>
+		<td>Alprazolam (c_alpa_n)</td>
+	</tr>
+	<tr>
+		<td colspan="1" rowspan="21">
+			<div>Opioids<br /> (c_any_opioid_n)</div>
+		</td>
+		<td colspan="1" rowspan="6">
+			<div>opi <br /> (s_opi_n)</div>
+		</td>
+		<td>Codeine (c_cod_n)</td>
+	</tr>
+	<tr>
+		<td>Morphine (c_mor_n)</td>
+	</tr>
+	<tr>
+		<td>MAM (c_mam_n)</td>
+	</tr>
+	<tr>
+		<td>Hydrocodone (c_hydroc_n)</td>
+	</tr>
+	<tr>
+		<td>Norhydrocodone (c_norh_n)</td>
+	</tr>
+	<tr>
+		<td>Hydromorphone (c_hydrom_n)</td>
+	</tr>
+	<tr>
+		<td colspan="1" rowspan="2">
+			<div>mtd <br /> (s_mtd_n)</div>
+		</td>
+		<td>Methadone (c_mtd_n)</td>
+	</tr>
+	<tr>
+		<td>EDDP (c_eddp_n)</td>
+	</tr>
+	<tr>
+		<td colspan="1" rowspan="3">
+			<div>oxyc <br /> (s_oxyc_n)</div>
+		</td>
+		<td>Oxycodone (c_oxyc_n)</td>
+	</tr>
+	<tr>
+		<td>Noroxycodone (c_noxyc_n)</td>
+	</tr>
+	<tr>
+		<td>Oxymorphone (c_oxym_n)</td>
+	</tr>
+	<tr>
+		<td>tram <br /> (s_tram_n)</td>
+		<td>Tramadol (c_tram_n)</td>
+	</tr>
+	<tr>
+		<td colspan="1" rowspan="4">
+			<div>fent <br /> (s_fent_n)</div>
+		</td>
+		<td>Fentanyl (c_fent_n)</td>
+	</tr>
+	<tr>
+		<td>Norfentanyl (c_nfent_n)</td>
+	</tr>
+	<tr>
+		<td>Acetylfentanyl (c_acfent_n)</td>
+	</tr>
+	<tr>
+		<td>ActlNorfentanyl (c_acnfent_n)</td>
+	</tr>
+	<tr>
+		<td colspan="1" rowspan="3">
+			<div>suf <br /> (s_suf_n)</div>
+		</td>
+		<td>Alfentanil (c_afent_n)</td>
+	</tr>
+	<tr>
+		<td>Sufentanil (c_suf_u)</td>
+	</tr>
+	<tr>
+		<td>Norsufentanil (c_nsuf_n)</td>
+	</tr>
+	<tr>
+		<td colspan="1" rowspan="2">
+			<div>bup <br /> (s_bup_n)</div>
+		</td>
+		<td>Buprenorphine (c_bup_n)</td>
+	</tr>
+	<tr>
+		<td>Norbuprenorpine (c_nbup_n)</td>
+	</tr>
+	<tr>
+		<td colspan="1" rowspan="2">
+			<div>dissociative anesthetic<br />(c_disanesth_n)</div>
+		</td>
+		<td colspan="1" rowspan="2">
+			<div>ket <br /> (s_ket_n)</div>
+		</td>
+		<td>Ketamine (c_ket_n)</td>
+	</tr>
+	<tr>
+		<td>Norketamine (c_nket_n)</td>
+	</tr>
+	<tr>
+		<td colspan="1" rowspan="2">
+			<div>Nicotine <br /> (c_nicotine_n)</div>
+		</td>
+		<td colspan="1" rowspan="2">
+			<div>cot <br /> (s_cot_n)</div>
+		</td>
+		<td>Nicotine (c_nic_n)</td>
+	</tr>
+	<tr>
+		<td>Cotinine (c_cot_n)</td>
+	</tr>
+	<tr>
+		<td>Ethanol <br /> (c_ethanol_n)</td>
+		<td>&nbsp;</td>
+		<td>ethyl glucuronide (c_etoh_n)</td>
+	</tr>
+</tbody>
+</table>
 </details>
 
 
