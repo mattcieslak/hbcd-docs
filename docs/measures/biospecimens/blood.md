@@ -12,27 +12,16 @@
 <strong>Visits</strong>: V01 <br />
 <strong>Estimated length of time for completion</strong>: 5 minutes</p>
 </details>
+<br>
 
-
-## Quality Control & Known Issues
-QC procedures involved examining assay ranges and categorical versus continuous measures. No common issues were identified from QC. No potential issues were flagged by subject matter experts.
-
-## Additional Information
-Processing of Blood Spot Cards consists of preparing 3x 1/8” punches of dried blood spot followed by extraction using an organic solvent. Detection of PETH in the extract is accomplished with a single pass using LCMSMS, as shown in [Figure 1](#figure-1-blood-processing). 
+Processing of Blood Spot Cards consists of preparing 3x 1/8” punches of dried blood spot followed by extraction using an organic solvent. Detection of PETH in the extract is accomplished with a single pass using LCMSMS ([Figure 1](#figure-1-blood-processing)):
 
 #### Figure 1. Blood Processing
 <img src="Fig1_blood.png" width="100%" height="auto">
 
 <br>
 
-<u>The PEth assay followed these rules:</u>
-
-- Confirmation-only testing.
-- If the PEth test is positive (c_peth_b_cat): the sample-level (c_any_specimen_b) is also positive (= 1).
-- If the PEth test is negative (= 0): the sample-level (c_any_specimen_b) is negative (= 0).
-- If the PEth test is canceled (= 3): the sample-level (c_any_specimen_b) is also canceled (= 3), as detailed in the sample data dictionary in [Table 2](#table-2-sample-data-dictionary-for-blood-peth).
-
-Continuous variables should be interpreted with caution based on the limits of quantification (LOQs) in [Table 1](#table-1-blood-assay-thresholds-peth). Class-level groupings for analyte screening and confirmatory tests are summarized in [Table 3](#table-3-mapping-from-class-to-screeners-and-confirmatory-tests-for-peth).
+The PEth assay followed these rules: as detailed in the sample data dictionary in [Table 2](#table-2-sample-data-dictionary-for-blood-peth), positive, negative, and canceled PEth tests result in corresponding scores of 1, 0, and 3 for sample-level (c_any_specimen_b). Continuous variables should be interpreted with caution based on the limits of quantification (LOQs) in [Table 1](#table-1-blood-assay-thresholds-peth). Class-level groupings for analyte screening and confirmatory tests are summarized in [Table 3](#table-3-mapping-from-class-to-screeners-and-confirmatory-tests-for-peth).
 
 #### Table 1. Blood Assay Thresholds PEth
 <table dir="ltr" border="1" cellspacing="0" cellpadding="0" data-sheets-root="1" data-sheets-baot="1"><colgroup><col width="151" /><col width="96" /><col width="100" /><col width="108" /><col width="134" /></colgroup>
@@ -124,3 +113,6 @@ Continuous variables should be interpreted with caution based on the limits of q
 </tbody>
 </table>
 
+
+## Quality Control & Known Issues
+QC procedures involved examining assay ranges and categorical versus continuous measures. No common issues were identified from QC. No potential issues were flagged by subject matter experts.

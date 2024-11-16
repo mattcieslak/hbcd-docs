@@ -12,32 +12,10 @@
 <strong>Visits</strong>: V01 <br />
 <strong>Estimated length of time for completion</strong>: 5 minutes</p>
 </details>
-
-## Quality Control & Known Issues
-QC procedures involved examining assay ranges and categorical versus continuous measures. No common issues were identified from QC.
-
-One potential issue flagged by subject matter experts that researchers should be aware of regards the validity of urine specimens, determined with creatinine, pH, and nitrite measurements on the chemistry analyzer ([Table 1](#table-1-urine-validity-creatininespecific-gravity-decision-grid), [Figure 1](#figure-1-urine-processing-schematic)). Specimens with low creatinine results are confirmed with a specific gravity determination using a refractometer. The laboratory procedure involves repeating a creatinine analysis if the measured concentration of creatine is below 20 mg/dL to verify that there was no issue (sample switch, air bubble in a line on the instrument, etc.) with the first analysis. 
-
-For the purposes of the data release, only the initial creatinine results will be released. When specimens were determined to be dilute, substituted, adulterated, or otherwise insufficient, *all assays* were noted as ‘3; invalid.’ Creatinine and specific gravity values are provided for researchers who wish to adjust analyses for urinary concentration related to continuously measured substance values or use different thresholds. 
-
-#### Figure 1. Urine processing schematic
-<img src="images/Fig1_biospec_urine.png" width="75%" height="auto">
-<br>
-<br>
 <br>
 
-#### Table 1. Urine Validity (Creatinine/Specific Gravity) Decision Grid
-<img src="images/Table1_biospec_urine.png" width="75%" height="auto">
 
-## Additional Information
-Final results for each substance followed these rules:
-
-- If the confirmatory test for any substance analyte (e.g. Amphetamine (c_amp_u)) is positive based on predefined thresholds (**Table 2**), the class-level (c_any_stim_u) and sample-level (c_any_specimen_u) are also positive (value =1). 
-- Otherwise, if the  substance analyte confirmatory tests are negative (e.g., c_ethglu_u and c_ ethsyl_u, values = 0) then class-level (e.g., c_etgeia_u) are negative (value =0). If all classes are negative (value = 0), then sample-level (e.g., c_any_specimen_u) are negative (value = 0). 
-- Finally, if any substance analyte confirmatory tests are invalid (value = 3) then that class-level, and sample-level values are also invalid (value = 3)
-- All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3**.
-- Sample data dictionary is shown in **Table 4**.
-- Continuous variables should be interpreted with caution based on the limits of quantification (LOQs) in **Table 2**. 
+Based on the predefined threshold outlined in **Table 2**, a confirmatory test result for any substance analyte of positive (e.g. Amphetamine (c_amp_u)), negative (e.g., c_ethglu_u and c_ ethsyl_u, values = 0), and invalid results in corresponding scores of 1, 0, and 3 for class-level (c_any_stim_u) and sample-level (c_any_specimen_u) (all classes must be negative [0] for sample-level to be assigned negative [0]). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3** and a sample data dictionary is shown in **Table 4**. Continuous variables should be interpreted with caution based on the limits of quantification (LOQs) in **Table 2**. 
 
 <details>
   <summary>Table 2. Urine Assay Thresholds for Analytes</summary>
@@ -769,5 +747,20 @@ Final results for each substance followed these rules:
 </table>
 </details>
 
+## Quality Control & Known Issues
+QC procedures involved examining assay ranges and categorical versus continuous measures. No common issues were identified from QC.
+
+One potential issue flagged by subject matter experts that researchers should be aware of regards the validity of urine specimens, determined with creatinine, pH, and nitrite measurements on the chemistry analyzer ([Table 1](#table-1-urine-validity-creatininespecific-gravity-decision-grid), [Figure 1](#figure-1-urine-processing-schematic)). Specimens with low creatinine results are confirmed with a specific gravity determination using a refractometer. The laboratory procedure involves repeating a creatinine analysis if the measured concentration of creatine is below 20 mg/dL to verify that there was no issue (sample switch, air bubble in a line on the instrument, etc.) with the first analysis. 
+
+For the purposes of the data release, only the initial creatinine results will be released. When specimens were determined to be dilute, substituted, adulterated, or otherwise insufficient, *all assays* were noted as ‘3; invalid.’ Creatinine and specific gravity values are provided for researchers who wish to adjust analyses for urinary concentration related to continuously measured substance values or use different thresholds. 
+
+#### Figure 1. Urine processing schematic
+<img src="images/Fig1_biospec_urine.png" width="75%" height="auto">
 <br>
+<br>
+<br>
+
+#### Table 1. Urine Validity (Creatinine/Specific Gravity) Decision Grid
+<img src="images/Table1_biospec_urine.png" width="75%" height="auto">
+
 <br>
