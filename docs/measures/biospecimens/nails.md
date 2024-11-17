@@ -3,7 +3,6 @@
 **Construct**: Toxicology screen, fingernails and toenails     
 **Description**: Results of toxicology assays in nails collected at V1 and V2
 
-
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
@@ -15,7 +14,8 @@
 </details>
 <br>
 
-Substances that were tested by USDTL, excluding those cancelled due to insufficient quality or quantity, followed these rules: Based on the predefined threshold outlined in **Table 2**, a confirmatory test result for any substance analyte of positive (e.g. Amphetamine (c_amp_n)), negative (e.g. c_nic_n and c_ cot_n, values = 0), and invalid (i.e. not enough sample for any substance analyte confirmatory tests: QNS; value = 3) results in corresponding scores of 1, 0, and 3 for class-level (e.g., c_nictotine_u) and sample-level (c_any_specimen_n) (all classes must be negative [0] for sample-level to be assigned negative [0]). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3**. Continuous variables should be interpreted with caution based on the limits of quantification (LOQs) in **Table 2**.
+Substances that were tested by USDTL, excluding those cancelled due to insufficient quality or quantity, followed these rules: 
+Based on the predefined threshold outlined in **Table 2**, a confirmatory test result for any substance analyte of positive (e.g. Amphetamine (c_amp_n)), negative (e.g. c_nic_n and c_ cot_n, values = 0), and invalid (i.e. not enough sample for any substance analyte confirmatory tests: QNS; value = 3) results in corresponding scores of 1, 0, and 3 for class-level (e.g., c_nictotine_u) and sample-level (c_any_specimen_n) (all classes must be negative [0] for sample-level to be assigned negative [0]). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3**. Continuous variables should be interpreted with caution based on the limits of quantification (LOQs) in **Table 2**.
 
 <details>
   <summary>Table 2. Nail Assay Thresholds </summary>
