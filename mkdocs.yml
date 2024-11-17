@@ -56,7 +56,7 @@ nav:
             - Structural MRI: measures/mri/smri.md
             - Functional MRI: measures/mri/fmri.md
             - Diffusion MRI: measures/mri/dmri.md
-            - Quantitative MRI: measures/mri/qalas.md
+            - Quantitative MRI: measures/mri/quant.md
             - Magnetic Resonance Spectroscopy: measures/mri/mrs.md  
         - "Neurocognition & Language": 
             - MLDS: measures/neurocog/MLDS.md    
