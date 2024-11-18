@@ -5,7 +5,7 @@
 
 The nail processing workflow was re-developed and implemented on July 1, 2024 to consider the amount of specimen available and offer the opportunity for additional confirmation tests in case of low sample quantity. Specimens are sorted by weight and screened following the workflow outlined in **Figure 1**. Specimens that contain at least 20 mg of nail are screened using ELISA with subsequent LCMSMS confirmation for presumptive positives, each confirmation of which requires an additional 20 mg. In the updated workflow, if additional specimen is not available for LCMSMS confirmation, the remnant of ELISA extract is instead used for confirmation. Nail weights and test ordered (custom 14 panel test; EtG only; cancelled) are noted in the sample-data dictionary below (**Table 2**).
 
-**Figure 1. Schematic for nail processing**
+##### Figure 1. Schematic for nail processing
 <img src="Fig1_nails.png" width="100%" height="auto">
 
 <details>
