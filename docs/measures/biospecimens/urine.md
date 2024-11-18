@@ -12,14 +12,13 @@
 <strong>Visits</strong>: V01 <br />
 <strong>Estimated length of time for completion</strong>: 5 minutes</p>
 </details>
-<br>
 
-Based on the predefined threshold outlined in **Table 2**, a confirmatory test result for any substance analyte of positive (e.g. Amphetamine (c_amp_u)), negative (e.g., c_ethglu_u and c_ ethsyl_u, values = 0), and invalid results in corresponding scores of 1, 0, and 3 for class-level (c_any_stim_u) and sample-level (c_any_specimen_u) (all classes must be negative [0] for sample-level to be assigned negative [0]). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3** and a sample data dictionary is shown in **Table 4**. Continuous variables should be interpreted with caution based on the limits of quantification (LOQs) in **Table 2**. 
+## Assay
+Based on the predefined threshold outlined in **Table 1**, a confirmatory test result for any substance analyte (e.g. `Amphetamine (c_amp_u)`) was determined to be positive, negative, or invalid (**Table 2**). Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs). The class-level (e.g. `c_etgeia_u`) and sample-level (e.g. `c_any_specimen_u`) are correspondingly scored as positive (value =1), negative (value =0), and invalid (value = 3). If all classes are negative (value = 0), then sample-levels are negative (value = 0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3**. 
 
 <details>
-  <summary>Table 2. Urine Assay Thresholds for Analytes</summary>
+  <summary>Table 1. Urine Assay Thresholds for Analytes</summary>
   <table class="docutils">
-  <br>
     <thead>
       <tr>
         <th>Analyte</th>
@@ -420,6 +419,71 @@ Based on the predefined threshold outlined in **Table 2**, a confirmatory test r
 </details>
 
 <details>
+  <summary>Table 2. Sample Data Dictionary from Urine Assays</summary>
+  <table class="docutils">
+  <br>
+    <thead>
+      <tr>
+		<th>Variable</th>
+		<th>Description</th>
+		<th>Form</th>
+		<th>Options</th>
+	   </tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>Specimen_ID</td>
+		<td>Specimen ID</td>
+		<td>String</td>
+		<td>string</td>
+	</tr>
+	<tr>
+		<td>PSCID</td>
+		<td>Participant ID</td>
+		<td>String</td>
+		<td>string</td>
+	</tr>
+	<tr>
+		<td>Visit_time_point</td>
+		<td>Visit time point</td>
+		<td>Categorical</td>
+		<td>1: visit 1<br />2: visit 2</td>
+	</tr>
+	<tr>
+		<td>c_any_specimen_u</td>
+		<td style="width: 200px; word-wrap: break-word; white-space: normal;">Specimen level result (positive for any analyte in confirmatory tests)</td>
+		<td>Categorical</td>
+		<td>1: positive<br />0: negative<br />3: invalid</td>
+	</tr>
+	<tr>
+		<td>c_any_stim_u</td>
+		<td style="width: 200px; word-wrap: break-word; white-space: normal;">Any stimulants in urine (based on confirmatory results for amphetamine, methamphetamine, MDM, MDA, MDEA, benzoylecgonine)</td>
+		<td>Categorical</td>
+		<td>1: positive<br />0: negative<br />3: invalid</td>
+	</tr>
+	<tr>
+		<td>s_amp_u</td>
+		<td style="width: 200px; word-wrap: break-word; white-space: normal;">Screening test in urine: amphetamines (amp)</td>
+		<td>Categorical</td>
+		<td>1: positive<br />0: negative<br />3: invalid</td>
+	</tr>
+	<tr>
+		<td>c_amp_u_cat</td>
+		<td style="width: 200px; word-wrap: break-word; white-space: normal;">Confirmatory test in urine: amphetamine (categorical) (amp)</td>
+		<td>Categorical</td>
+		<td>1: positive<br />0: negative<br />3: cancelled<br />4: screen negative</td>
+	</tr>
+	<tr>
+		<td>c_amp_u</td>
+		<td style="width: 200px; word-wrap: break-word; white-space: normal;">Confirmatory test in urine: amphetamine (amp)</td>
+		<td>Continuous</td>
+		<td>concentration value; -999</td>
+	</tr>
+</tbody>
+</table>
+</details>
+
+<details>
   <summary>Table 3. Mapping From Class to Screening Tests and Confirmatory Tests for Urine Assays</summary>
   <table class="docutils">
   <br>
@@ -681,75 +745,11 @@ Based on the predefined threshold outlined in **Table 2**, a confirmatory test r
 </table>
 </details>
 
-<details>
-  <summary>Table 4. Sample Data Dictionary from Urine Assays</summary>
-  <table class="docutils">
-  <br>
-    <thead>
-      <tr>
-		<th>Variable</th>
-		<th>Description</th>
-		<th>Form</th>
-		<th>Options</th>
-	   </tr>
-	</thead>
-	<tbody>
-	<tr>
-		<td>Specimen_ID</td>
-		<td>Specimen ID</td>
-		<td>String</td>
-		<td>string</td>
-	</tr>
-	<tr>
-		<td>PSCID</td>
-		<td>Participant ID</td>
-		<td>String</td>
-		<td>string</td>
-	</tr>
-	<tr>
-		<td>Visit_time_point</td>
-		<td>Visit time point</td>
-		<td>Categorical</td>
-		<td>1: visit 1<br />2: visit 2</td>
-	</tr>
-	<tr>
-		<td>c_any_specimen_u</td>
-		<td style="width: 200px; word-wrap: break-word; white-space: normal;">Specimen level result (positive for any analyte in confirmatory tests)</td>
-		<td>Categorical</td>
-		<td>1: positive<br />0: negative<br />3: invalid</td>
-	</tr>
-	<tr>
-		<td>c_any_stim_u</td>
-		<td style="width: 200px; word-wrap: break-word; white-space: normal;">Any stimulants in urine (based on confirmatory results for amphetamine, methamphetamine, MDM, MDA, MDEA, benzoylecgonine)</td>
-		<td>Categorical</td>
-		<td>1: positive<br />0: negative<br />3: invalid</td>
-	</tr>
-	<tr>
-		<td>s_amp_u</td>
-		<td style="width: 200px; word-wrap: break-word; white-space: normal;">Screening test in urine: amphetamines (amp)</td>
-		<td>Categorical</td>
-		<td>1: positive<br />0: negative<br />3: invalid</td>
-	</tr>
-	<tr>
-		<td>c_amp_u_cat</td>
-		<td style="width: 200px; word-wrap: break-word; white-space: normal;">Confirmatory test in urine: amphetamine (categorical) (amp)</td>
-		<td>Categorical</td>
-		<td>1: positive<br />0: negative<br />3: cancelled<br />4: screen negative</td>
-	</tr>
-	<tr>
-		<td>c_amp_u</td>
-		<td style="width: 200px; word-wrap: break-word; white-space: normal;">Confirmatory test in urine: amphetamine (amp)</td>
-		<td>Continuous</td>
-		<td>concentration value; -999</td>
-	</tr>
-</tbody>
-</table>
-</details>
 
 ## Quality Control & Known Issues
 QC procedures involved examining assay ranges and categorical versus continuous measures. No common issues were identified from QC.
 
-One potential issue flagged by subject matter experts that researchers should be aware of regards the validity of urine specimens, determined with creatinine, pH, and nitrite measurements on the chemistry analyzer ([Table 1](#table-1-urine-validity-creatininespecific-gravity-decision-grid), [Figure 1](#figure-1-urine-processing-schematic)). Specimens with low creatinine results are confirmed with a specific gravity determination using a refractometer. The laboratory procedure involves repeating a creatinine analysis if the measured concentration of creatine is below 20 mg/dL to verify that there was no issue (sample switch, air bubble in a line on the instrument, etc.) with the first analysis. 
+One potential issue flagged by subject matter experts that researchers should be aware of regards the validity of urine specimens, determined with creatinine, pH, and nitrite measurements on the chemistry analyzer ([Table 4](#table-4-urine-validity-creatininespecific-gravity-decision-grid), [Figure 1](#figure-1-urine-processing-schematic)). Specimens with low creatinine results are confirmed with a specific gravity determination using a refractometer. The laboratory procedure involves repeating a creatinine analysis if the measured concentration of creatine is below 20 mg/dL to verify that there was no issue (sample switch, air bubble in a line on the instrument, etc.) with the first analysis. 
 
 For the purposes of the data release, only the initial creatinine results will be released. When specimens were determined to be dilute, substituted, adulterated, or otherwise insufficient, *all assays* were noted as ‘3; invalid.’ Creatinine and specific gravity values are provided for researchers who wish to adjust analyses for urinary concentration related to continuously measured substance values or use different thresholds. 
 
@@ -759,7 +759,7 @@ For the purposes of the data release, only the initial creatinine results will b
 <br>
 <br>
 
-#### Table 1. Urine Validity (Creatinine/Specific Gravity) Decision Grid
+#### Table 4. Urine Validity (Creatinine/Specific Gravity) Decision Grid
 <img src="images/Table1_biospec_urine.png" width="75%" height="auto">
 
 <br>

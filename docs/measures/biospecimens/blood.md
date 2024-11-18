@@ -3,6 +3,13 @@
 **Construct**: Toxicology screen, blood        
 **Description**:  Results of toxicology assays in dried blood spots collected at V1
 
+Processing of Blood Spot Cards consists of preparing 3x 1/8” punches of dried blood spot followed by extraction using an organic solvent. Detection of PETH in the extract is accomplished with a single pass using LCMSMS (Figure 1):
+
+**Figure 1. Blood Processing**
+<img src="Fig1_blood.png" width="100%" height="auto">
+
+<br>
+
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
@@ -12,28 +19,24 @@
 <strong>Visits</strong>: V01 <br />
 <strong>Estimated length of time for completion</strong>: 5 minutes</p>
 </details>
-<br>
 
-Processing of Blood Spot Cards consists of preparing 3x 1/8” punches of dried blood spot followed by extraction using an organic solvent. Detection of PETH in the extract is accomplished with a single pass using LCMSMS ([Figure 1](#figure-1-blood-processing)):
+## PEth Assay
+PEth assays are confirmation-only testing. Test results were determined to be positive (`c_peth_b_cat`), negative (value = 0), or canceled (value = 3) according to the thresholds outlined in **Table 1** (note that continuous variables should be interpreted with caution based on the limits of quantification (LOQs)). The sample-level (`c_any_specimen_b`) was correspondingly scored as positive (value = 1), negative (value = 0), and cancelled (value = 3) (**Table 2**). Class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3**.
 
-#### Figure 1. Blood Processing
-<img src="Fig1_blood.png" width="100%" height="auto">
-
-<br>
-
-The PEth assay followed these rules: as detailed in the sample data dictionary in [Table 2](#table-2-sample-data-dictionary-for-blood-peth), positive, negative, and canceled PEth tests result in corresponding scores of 1, 0, and 3 for sample-level (c_any_specimen_b). Continuous variables should be interpreted with caution based on the limits of quantification (LOQs) in [Table 1](#table-1-blood-assay-thresholds-peth). Class-level groupings for analyte screening and confirmatory tests are summarized in [Table 3](#table-3-mapping-from-class-to-screeners-and-confirmatory-tests-for-peth).
-
-#### Table 1. Blood Assay Thresholds PEth
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0" data-sheets-root="1" data-sheets-baot="1"><colgroup><col width="151" /><col width="96" /><col width="100" /><col width="108" /><col width="134" /></colgroup>
-<tbody>
-	<tr>
-		<td>Analyte</td>
-		<td>LOD (ng/mL)</td>
-		<td>LOQ (ng/mL)</td>
-		<td>Cutoff (ng/mL)</td>
-		<td>Detection Window</td>
-	</tr>
-	<tr>
+<details>
+  <summary>Table 1. Blood Assay Thresholds PEth</summary>
+  <table class="docutils">
+  <br>
+    <thead>
+      <tr>
+        <th>Analyte</th>
+        <th>LOD (ng/mL)</th>
+        <th>LOQ (ng/mL)</th>
+        <th>Cutoff (ng/mL)</th>
+        <th>Detection Window</th>
+      </tr>
+    </thead>
+    <tbody>
 		<td>Phosphatidylethanol</td>
 		<td>4</td>
 		<td>8</td>
@@ -42,17 +45,21 @@ The PEth assay followed these rules: as detailed in the sample data dictionary i
 	</tr>
 </tbody>
 </table>
+</details>
 
-
-#### Table 2. Sample Data Dictionary for Blood PEth
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0" data-sheets-root="1" data-sheets-baot="1"><colgroup><col width="151" /><col width="228" /><col width="88" /><col width="260" /></colgroup>
-<tbody>
-	<tr>
-		<td>Variable</td>
-		<td>Description</td>
-		<td>Form</td>
-		<td>Options</td>
-	</tr>
+<details>
+  <summary>Table 2. Sample-Data Dictionary for Blood PEth</summary>
+  <table class="docutils">
+  <br>
+    <thead>
+      <tr>
+        <th>Variable</th>
+        <th>Description</th>
+        <th>Form</th>
+        <th>Options</th>
+      </tr>
+    </thead>
+    <tbody>
 	<tr>
 		<td>Specimen_ID</td>
 		<td>Specimen ID</td>
@@ -97,21 +104,27 @@ The PEth assay followed these rules: as detailed in the sample data dictionary i
 	</tr>
 </tbody>
 </table>
+</details>
 
 
-#### Table 3. Mapping from Class to Screeners and Confirmatory Tests for PEth
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0" data-sheets-root="1" data-sheets-baot="1"><colgroup><col width="151" /><col width="96" /><col width="100" /><col width="108" /><col width="134" /></colgroup>
-<tbody>
-	<tr>
-		<td>Class</td>
-		<td>Confirmatory (only) Test</td>
-	</tr>
+<details>
+  <summary>Table 3. Mapping from Class to Screeners and Confirmatory Tests for PEth</summary>
+  <table class="docutils"><colgroup><col width="25%"/><col width="50%"/></colgroup>
+  <br>
+    <thead>
+      <tr>
+        <th>Class</th>
+        <th>Confirmatory (only) Test</th>
+      </tr>
+    </thead>
+    <tbody>
 	<tr>
 		<td>Ethanol (c_ethanol_b)</td>
 		<td>20phsphtdetbsp (c_peth_b_cat)</td>
 	</tr>
 </tbody>
 </table>
+</details>
 
 
 ## Quality Control & Known Issues
