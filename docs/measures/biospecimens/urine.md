@@ -14,7 +14,7 @@
 </details>
 
 ## Assay
-Based on the predefined threshold outlined in **Table 1**, a confirmatory test result for any substance analyte (e.g. `Amphetamine (c_amp_u)`) was determined to be positive, negative, or invalid (**Table 2**). Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs). The class-level (e.g. `c_etgeia_u`) and sample-level (e.g. `c_any_specimen_u`) are correspondingly scored as positive (value =1), negative (value =0), and invalid (value = 3). If all classes are negative (value = 0), then sample-levels are negative (value = 0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3**. 
+Based on the predefined thresholds outlined in **Table 1**, a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid (**Table 2**). Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs). The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are correspondingly scored as positive (1), negative (0), and invalid (3). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3**. 
 
 <details>
   <summary>Table 1. Urine Assay Thresholds for Analytes</summary>
@@ -69,7 +69,7 @@ Based on the predefined threshold outlined in **Table 1**, a confirmatory test r
 		<td>3</td>
 		<td>7.5</td>
 		<td>15</td>
-		<td>2-5 days for casual use;<br />10-14 for chronic use</td>
+		<td style="width: 200px; word-wrap: break-word; white-space: normal;">2-5 days for casual use; 10-14 for chronic use</td>
 	</tr>
 	<tr>
 		<td>Carboxy-delta-8-THC</td>
@@ -367,7 +367,7 @@ Based on the predefined threshold outlined in **Table 1**, a confirmatory test r
 	</tr>
 </tbody>
   <br>
-  <table class="docutils">
+  <table class="docutils" style="width: 100%;">
     <thead>
       <tr>
         <th>Analyte</th>
@@ -485,13 +485,13 @@ Based on the predefined threshold outlined in **Table 1**, a confirmatory test r
 
 <details>
   <summary>Table 3. Mapping From Class to Screening Tests and Confirmatory Tests for Urine Assays</summary>
-  <table class="docutils">
+  <table class="docutils" style="width: 100%;">
   <br>
     <thead>
       <tr>
         <th>Class</th>
         <th>Screening Test</th>
-        <th>Confirmatory Test<br />(reflexes from positive screening test)</th>
+        <th>Confirmatory Test (reflexes from positive screening)</th>
       </tr>
     </thead>
     <tbody>
@@ -703,7 +703,7 @@ Based on the predefined threshold outlined in **Table 1**, a confirmatory test r
 		<td colspan="1" rowspan="2">
 			<div>etgeia <br /> (s_etgeia_u)</div>
 		</td>
-		<td>EthylGluc-0100 (c_ethglu_u0</td>
+		<td>EthylGluc-0100 (c_ethglu_u0)</td>
 	</tr>
 	<tr>
 		<td>EthylSul-100 (c_ethsyl_u)</td>
@@ -715,7 +715,7 @@ Based on the predefined threshold outlined in **Table 1**, a confirmatory test r
 		<td colspan="1" rowspan="2">
 			<div>zol <br /> (s_zol_u)</div>
 		</td>
-		<td>Zolpidem (c_zol_u0</td>
+		<td>Zolpidem (c_zol_u0)</td>
 	</tr>
 	<tr>
 		<td>Zolpidem CA (c_zolc_u)</td>
@@ -749,17 +749,10 @@ Based on the predefined threshold outlined in **Table 1**, a confirmatory test r
 ## Quality Control & Known Issues
 QC procedures involved examining assay ranges and categorical versus continuous measures. No common issues were identified from QC.
 
-One potential issue flagged by subject matter experts that researchers should be aware of regards the validity of urine specimens, determined with creatinine, pH, and nitrite measurements on the chemistry analyzer ([Table 4](#table-4-urine-validity-creatininespecific-gravity-decision-grid), [Figure 1](#figure-1-urine-processing-schematic)). Specimens with low creatinine results are confirmed with a specific gravity determination using a refractometer. The laboratory procedure involves repeating a creatinine analysis if the measured concentration of creatine is below 20 mg/dL to verify that there was no issue (sample switch, air bubble in a line on the instrument, etc.) with the first analysis. 
+Subject matter experts have highlighted one potential issue regarding creatinine results included in the data release. For context, urine specimen validation is determined based on creatinine, pH, and nitrite measurements (**Figure 1**). Specimens with low creatinine (<20 mg/dL) are confirmed using specific gravity via refractometer, and the creatinine analysis is repeated to rule out issues with the first analysis (e.g. sample mix-ups, air bubble in a line on the instrument, etc.). All assays are marked as invalid for specimens identified as dilute, substituted, adulterated, or otherwise insufficient. However, for data release, only the initial creatinine results are reported. Creatinine and specific gravity values are therefore provided for researchers who wish to adjust for urinary concentration in continuous measures or apply different thresholds
 
-For the purposes of the data release, only the initial creatinine results will be released. When specimens were determined to be dilute, substituted, adulterated, or otherwise insufficient, *all assays* were noted as ‘3; invalid.’ Creatinine and specific gravity values are provided for researchers who wish to adjust analyses for urinary concentration related to continuously measured substance values or use different thresholds. 
+**Figure 1. Urine Processing Schematic**
+<img src="Fig1_biospec_urine.png" width="75%" height="auto">
 
-#### Figure 1. Urine processing schematic
-<img src="images/Fig1_biospec_urine.png" width="75%" height="auto">
-<br>
-<br>
-<br>
-
-#### Table 4. Urine Validity (Creatinine/Specific Gravity) Decision Grid
-<img src="images/Table1_biospec_urine.png" width="75%" height="auto">
-
-<br>
+**Table 4. Urine Validity (Creatinine/Specific Gravity) Decision Grid**
+<img src="Table1_biospec_urine.png" width="75%" height="auto">

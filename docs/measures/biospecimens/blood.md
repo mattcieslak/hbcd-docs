@@ -3,7 +3,7 @@
 **Construct**: Toxicology screen, blood        
 **Description**:  Results of toxicology assays in dried blood spots collected at V1
 
-Processing of Blood Spot Cards consists of preparing 3x 1/8” punches of dried blood spot followed by extraction using an organic solvent. Detection of PETH in the extract is accomplished with a single pass using LCMSMS (Figure 1):
+Processing of Blood Spot Cards consists of preparing three 1/8” punches of dried blood spot followed by extraction using an organic solvent. Detection of PETH in the extract is accomplished with a single pass using LCMSMS (**Figure 1**):
 
 **Figure 1. Blood Processing**
 <img src="Fig1_blood.png" width="100%" height="auto">
@@ -21,7 +21,7 @@ Processing of Blood Spot Cards consists of preparing 3x 1/8” punches of dried 
 </details>
 
 ## PEth Assay
-PEth assays are confirmation-only testing. Test results were determined to be positive (`c_peth_b_cat`), negative (value = 0), or canceled (value = 3) according to the thresholds outlined in **Table 1** (note that continuous variables should be interpreted with caution based on the limits of quantification (LOQs)). The sample-level (`c_any_specimen_b`) was correspondingly scored as positive (value = 1), negative (value = 0), and cancelled (value = 3) (**Table 2**). Class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3**.
+PEth assays are confirmation-only testing. Test results were determined to be positive (*c_peth_b_cat*), negative, or canceled according to the thresholds outlined in **Table 1** (note that continuous variables should be interpreted with caution based on the limits of quantification, LOQs). The sample-level (*c_any_specimen_b*) was correspondingly scored as positive (1), negative (0), and canceled (3) (**Table 2**). Class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3**.
 
 <details>
   <summary>Table 1. Blood Assay Thresholds PEth</summary>
