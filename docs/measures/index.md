@@ -17,7 +17,7 @@ Visit 9 (V09): 32-46 months <br>
 <ul>
 <li>BEHAVIOR & CAREGIVER-CHILD INTERACTION
 <ul>
-<li><a href="beh_CG_interaction/ePROMIS">ecPROMIS</a></li>
+<li><a href="beh_CG_interaction/ecPROMIS">ecPROMIS</a></li>
 <li><a href="beh_CG_interaction/IBQ-R">IBQ-R (VSF)+BI</a></li>
 <li><a href="beh_CG_interaction/MAPS-TL">MAPS-TL</a></li></ul>
 </li>

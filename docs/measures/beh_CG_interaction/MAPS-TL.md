@@ -25,8 +25,6 @@ Measure instructions and individuals items that reference gendered pronouns (‘
 ## Quality Control & Known Issues 
 QC procedures included examining the range of the child’s age to ensure that it falls within 3 to 9 months; examining missingness; calculate sum scores and means applying our prorated scoring rule; generating summary statistics and visualizations for item-level frequencies, age, and scores; and using Calculate Cronbach's Alpha for reliability. 
 
-Common QC issues included incorrect ages and prorated scoring not being applied to observations with missing responses. Subject matter experts noted the missingness rule not being correctly implemented, leading to incorrect scores. Measure administration has a strict age cutoff. Age auto-generation needs to be fixed so that QC can ensure the measure is being administered to correct target population.
-
 <details class="collapsible references">
   <summary class="references">References</summary>
  <ul>

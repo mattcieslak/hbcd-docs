@@ -37,7 +37,7 @@ nav:
     - "Data Measures & Quality Control":
         - Overview: measures/index.md
         - "Behavior & Caregiver-Child Interaction": 
-            - ecPROMIS: measures/beh_CG_interaction/ePROMIS.md  
+            - ecPROMIS: measures/beh_CG_interaction/ecPROMIS.md  
             - IBQ-R (VSF)+BI: measures/beh_CG_interaction/IBQ-R.md
             - MAPS-TL: measures/beh_CG_interaction/MAPS-TL.md    
         - Biospecimens: 
