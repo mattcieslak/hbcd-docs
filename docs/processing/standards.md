@@ -25,9 +25,9 @@ In addition to the general guidelines outlined in the checklist, we require that
 <input type="checkbox"> Code is open source<br>
 <input type="checkbox"> Package is under version control<br>
 <input type="checkbox"> Readme is present<br>
-<input type="checkbox"> License is present (see details below)<br>
+<input type="checkbox"> License is present (*see details below*)<br>
 <input type="checkbox"> Issues tracking is enabled (i.e., either through GitHub or external site)<br>
-<input type="checkbox"> Digital Object Identifier (DOI) points to latest version (e.g., Zenodo)<br>
+<input type="checkbox"> Digital Object Identifier (DOI) points to latest version (e.g., Zenodo) (*see details below*)<br>
 <input type="checkbox"> All documented installation instructions can be successfully followed<br>
 
 ### Licensing and Obtaining a DOI
