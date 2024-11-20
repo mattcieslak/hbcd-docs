@@ -39,7 +39,7 @@ Quality control revealed that issues were generally rare and most data were deem
 </details>
 </p>
 
-No issues were flagged by subject matter experts, but users should note that accelerometer sensor timestamps can drift over time. Although right and left leg sensors start recording simultaneously with the same sampling rate and duration, exact time alignment cannot be assumed. By our estimates, Axivity AX6 sensors recording at 25 samples/sec diverge from one another by a couple of secondsover 72 hours, with the magnitude of this discrepancy increasing over time. Furthermore, offsets differed between sensors, necessitating a calibration procedure to correct for these differences (Oh et al., 2024).
+No issues were flagged by subject matter experts, but users should note that accelerometer sensor timestamps can drift over time. Although right and left leg sensors start recording simultaneously with the same sampling rate and duration, exact time alignment cannot be assumed. By our estimates, Axivity AX6 sensors recording at 25 samples/sec diverge from one another by a couple of seconds over 72 hours, with the magnitude of this discrepancy increasing over time. Furthermore, offsets differed between sensors, necessitating a calibration procedure to correct for these differences ([Oh et al., 2024](https://doi.org/10.3390/s24175736)).
 
 <details class="collapsible references">
   <summary class="references">References</summary>
