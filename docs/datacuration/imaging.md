@@ -44,10 +44,8 @@ Diffusion files include DWI runs (`*_dwi.nii.gz`) and single-band reference file
 |       |   |__ sub-<label>_ses-<label>_dir-<AP/PA>_run-<label>_dwi.bvec
 |       |   |__ sub-<label>_ses-<label>_dir-<AP/PA>_run-<label>_dwi.nii.gz
 |       |   |__ sub-<label>_ses-<label>_dir-<AP/PA>_run-<label>_dwi.json
-|       |   |__ sub-<label>_ses-<label>_dir-<AP/PA>_run-<label>_sbref.bval
-|       |   |__ sub-<label>_ses-<label>_dir-<AP/PA>_run-<label>_sbref.bvec
-|       |   |__ sub-<label>_ses-<label>_dir-<AP/PA>_run-<label>_sbref.nii.gz
 |       |   |__ sub-<label>_ses-<label>_dir-<AP/PA>_run-<label>_sbref.json
+|       |   |__ sub-<label>_ses-<label>_dir-<AP/PA>_run-<label>_sbref.nii.gz
 ```
 
 ### Functional & EPI Fieldmaps
