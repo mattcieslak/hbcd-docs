@@ -8,7 +8,7 @@ At a minimum, tools must meet the standards equivalent to the Bronze badge in th
 ## Documentation 
 ### NMIND Documentation Checklist
 <input type="checkbox"> Landing page provides a link to documentation and brief description of what program does<br>
-<input type="checkbox"> Documentation is up to date with version of software (see [DOI requirement](#note-please-remember-to-add-the-zenodo-doi-badge-to-the-landing-page-of-your-website-this-will-additionally-fulfill-the-documentation-checklist-item-documentation-is-up-to-date-with-version-of-software-see-example-of-zenodo-badge-and-associated-zenodo-publicated-displayed-on-the-nibabies-webpage) for details)<br>
+<input type="checkbox"> Documentation is up to date with version of software (see [Obtaining a DOI](#obtaining-a-doi) Note for details)<br>
 <input type="checkbox"> Typical intended usage is described<br>
 <input type="checkbox"> An example of its usage is shown<br>
 <input type="checkbox"> Document functions intended for users (i.e., public function docstring/help coverage ≥ 10%)<br>
@@ -36,7 +36,7 @@ Per the checklist above, we require HBCD pipeline software to include a license.
 ### Obtaining a DOI
 HBCD software must additionally include a DOI for publication that points to the latest software version. We recommend that developers obtain a DOI by self-publishing on [Zenodo](https://cdnis-brain.readthedocs.io/zenodo/), which generates a top-level DOI as well as a per-version DOI attached to each release. Note that this should be done even if you have published a scientific article about your tool so that the software version can be properly cited. The pipeline webpage should include a description of how to properly cite the pipeline (see [example](https://fmriprep.org/en/stable/#citation)). 
 
-###### NOTE: Please remember to add the Zenodo DOI badge to the landing page of your website. This will additionally fulfill the Documentation checklist item *"Documentation is up to date with version of software*" (see example of Zenodo badge and associated Zenodo publication on the [Nibabies webpage](https://nibabies.readthedocs.io/en/latest/))
+**NOTE:** Please remember to add the Zenodo DOI badge to the landing page of your website. This will additionally fulfill the Documentation checklist item *"Documentation is up to date with version of software*" (see example of Zenodo badge and associated Zenodo publication on the [Nibabies webpage](https://nibabies.readthedocs.io/en/latest/))
 
 ### Containerization & BIDS Compatibility 
 To ensure data processing and analytic reproducibility, all HBCD pipelines must follow general [BIDS-App guidelines](https://bids-apps.neuroimaging.io/). This includes being containerized to as well as compatibility with BIDS standard input data, i.e. the latest HBCD derivatives provided in the current release. 
