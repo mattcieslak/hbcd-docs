@@ -8,14 +8,14 @@ At a minimum, tools must meet the standards equivalent to the Bronze badge in th
 ## Documentation 
 ### NMIND Documentation Checklist
 <input type="checkbox"> Landing page provides a link to documentation and brief description of what program does<br>
-<input type="checkbox"> Documentation is up to date with version of software<br>
-<input type="checkbox">  Typical intended usage is described<br>
-<input type="checkbox">  An example of its usage is shown<br>
-<input type="checkbox">  Document functions intended for users (i.e., public function docstring/help coverage ≥ 10%)<br>
-<input type="checkbox">  Reasonable description of required inputs (i.e., "NIfTI of brain mask in MNI" vs. "An image file")<br>
-<input type="checkbox">  Description of output(s)<br>
-<input type="checkbox">  User installation instructions available<br>
-<input type="checkbox">  Dependencies listed (i.e. external and within-language requirements)<br>
+<input type="checkbox"> Documentation is up to date with version of software (see [DOI requirement](#note-please-remember-to-add-the-zenodo-doi-badge-to-the-landing-page-of-your-website-this-will-additionally-fulfill-the-documentation-checklist-item-documentation-is-up-to-date-with-version-of-software-see-example-of-zenodo-badge-and-associated-zenodo-publicated-displayed-on-the-nibabies-webpage) for details)<br>
+<input type="checkbox"> Typical intended usage is described<br>
+<input type="checkbox"> An example of its usage is shown<br>
+<input type="checkbox"> Document functions intended for users (i.e., public function docstring/help coverage ≥ 10%)<br>
+<input type="checkbox"> Reasonable description of required inputs (i.e., "NIfTI of brain mask in MNI" vs. "An image file")<br>
+<input type="checkbox"> Description of output(s)<br>
+<input type="checkbox"> User installation instructions available<br>
+<input type="checkbox"> Dependencies listed (i.e. external and within-language requirements)<br>
 
 ### Webpage For Documentation
 In addition to the general guidelines outlined in the checklist, we require that HBCD pipelines maintain living documentation accessible through a dedicated webpage. This ensures the information remains up-to-date, offering a more dynamic and easily navigable resource compared to static publications or standard GitHub README files. Given the complexity and depth of information typically required for image processing pipelines, a webpage provides a more effective platform for organizing and presenting the documentation. Developers can refer to the [fMRIPrep ReadtheDocs](https://fmriprep.org/en/stable/) as a guide for overall organization and what level of detail each section should ideally include. 
@@ -30,10 +30,13 @@ In addition to the general guidelines outlined in the checklist, we require that
 <input type="checkbox"> Digital Object Identifier (DOI) points to latest version (e.g., Zenodo) (*see details below*)<br>
 <input type="checkbox"> All documented installation instructions can be successfully followed<br>
 
-### Licensing and Obtaining a DOI
+### Licensing
 Per the checklist above, we require HBCD pipeline software to include a license. Remember that source code for HBCD pipelines are required to be open source; common permissive license options include [Apache-2.0 License 2.0](https://github.com/DCAN-Labs/hbcd-docs/community/license/new?branch=main&filename=LICENSE&template=apache-2.0), [MIT License](https://github.com/DCAN-Labs/hbcd-docs/community/license/new?branch=main&filename=LICENSE&template=mit), and the [BSD-3-Clause license](https://github.com/DCAN-Labs/hbcd-docs/community/license/new?branch=main&filename=LICENSE&template=bsd-3-clause). Visit GitHub's documentation on [Licensing a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) and [Adding a license to a repository](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) for more information. 
 
+### Obtaining a DOI
 HBCD software must additionally include a DOI for publication that points to the latest software version. We recommend that developers obtain a DOI by self-publishing on [Zenodo](https://cdnis-brain.readthedocs.io/zenodo/), which generates a top-level DOI as well as a per-version DOI attached to each release. Note that this should be done even if you have published a scientific article about your tool so that the software version can be properly cited. The pipeline webpage should include a description of how to properly cite the pipeline (see [example](https://fmriprep.org/en/stable/#citation)). 
+
+###### NOTE: Please remember to add the Zenodo DOI badge to the landing page of your website. This will additionally fulfill the Documentation checklist item *"Documentation is up to date with version of software*" (see example of Zenodo badge and associated Zenodo publication on the [Nibabies webpage](https://nibabies.readthedocs.io/en/latest/))
 
 ### Containerization & BIDS Compatibility 
 To ensure data processing and analytic reproducibility, all HBCD pipelines must follow general [BIDS-App guidelines](https://bids-apps.neuroimaging.io/). This includes being containerized to as well as compatibility with BIDS standard input data, i.e. the latest HBCD derivatives provided in the current release. 
